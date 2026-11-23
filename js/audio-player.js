@@ -42,9 +42,13 @@ export class AudioPlayer {
 
   notify() {
     if (typeof this.onStateChange === 'function') {
+      const activeSeg = this.activeSegments[this.currentSegmentIndex] || null;
       this.onStateChange({
         isPlaying: this.isPlaying,
-        playbackRate: this.playbackRate
+        playbackRate: this.playbackRate,
+        currentSegment: activeSeg,
+        currentSegmentIndex: this.currentSegmentIndex,
+        totalSegments: this.activeSegments.length
       });
     }
   }

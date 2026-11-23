@@ -6950,6 +6950,1126 @@
       "output": "audio/chapter-02/ch02-bnk-x16-c.mp3"
     },
     {
+      "id": "CH02-BNK-H01-S1",
+      "text": "Why hasn't the shipment arrived?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h01-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H01-S2",
+      "text": "It was held up at customs.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h01-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H01-S3",
+      "text": "The shipping rates went up.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h01-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H01-S4",
+      "text": "Yes, it arrived at noon.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h01-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H02-S1",
+      "text": "Who approved the travel request?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h02-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H02-S2",
+      "text": "The request form is online.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h02-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H02-S3",
+      "text": "Mr. Banks signed off on it.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h02-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H02-S4",
+      "text": "About three days ago.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h02-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H03-S1",
+      "text": "Where do I submit my expense report?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h03-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H03-S2",
+      "text": "By the end of the month.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h03-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H03-S3",
+      "text": "The reports are very detailed.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h03-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H03-S4",
+      "text": "You can drop it off at Rita's desk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h03-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H04-S1",
+      "text": "Would it be possible to reschedule the demo?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h04-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H04-S2",
+      "text": "The demo went well.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h04-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H04-S3",
+      "text": "What day would work for you?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h04-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H04-S4",
+      "text": "I scheduled it.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h04-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H05-S1",
+      "text": "I thought the client was arriving at noon.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h05-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H05-S2",
+      "text": "Her flight landed early.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h05-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H05-S3",
+      "text": "The clients are friendly.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h05-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H05-S4",
+      "text": "At the airport hotel.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h05-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H06-S1",
+      "text": "Aren't you supposed to be on vacation?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h06-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H06-S2",
+      "text": "It's a long vacation.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h06-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H06-S3",
+      "text": "In a vacation rental.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h06-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H06-S4",
+      "text": "I postponed it until next month.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h06-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H07-S1",
+      "text": "How did you hear about the opening?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h07-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H07-S2",
+      "text": "Through a friend in the department.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h07-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H07-S3",
+      "text": "It opens at eight.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h07-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H07-S4",
+      "text": "Very well, thanks.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h07-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H08-S1",
+      "text": "Which of these folders should I take to the meeting?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h08-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H08-S2",
+      "text": "The meeting is on Monday.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h08-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H08-S3",
+      "text": "Whichever has the latest figures.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h08-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H08-S4",
+      "text": "I took the folder yesterday.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h08-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H09-S1",
+      "text": "Do you know whether the café is still serving lunch?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h09-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H09-S2",
+      "text": "At the café on Third Street.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h09-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H09-S3",
+      "text": "The lunch menu changed.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h09-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H09-S4",
+      "text": "Let's walk over and find out.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h09-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H10-S1",
+      "text": "Could we push the call back half an hour?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h10-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H10-S2",
+      "text": "The call was long.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h10-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H10-S3",
+      "text": "Half of the staff.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h10-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H10-S4",
+      "text": "Sure, that gives me time to finish.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h10-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H11-S1",
+      "text": "What's causing the delay on the project?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h11-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H11-S2",
+      "text": "Yes, we delayed it.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h11-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H11-S3",
+      "text": "A few permits are still pending.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h11-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H11-S4",
+      "text": "By the end of the quarter.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h11-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H12-S1",
+      "text": "The auditors are coming tomorrow, aren't they?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h12-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H12-S2",
+      "text": "They audited last year.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h12-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H12-S3",
+      "text": "I thought it was next week.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h12-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H12-S4",
+      "text": "In the main conference room.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h12-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H13-S1",
+      "text": "Who's picking up the clients from the airport?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h13-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H13-S2",
+      "text": "The airport is busy.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h13-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H13-S3",
+      "text": "In the arrivals area.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h13-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H13-S4",
+      "text": "I've arranged a car service.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h13-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H14-S1",
+      "text": "Why don't you check with the warehouse?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h14-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H14-S2",
+      "text": "I tried, but nobody answered.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h14-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H14-S3",
+      "text": "It's a big warehouse.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h14-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H14-S4",
+      "text": "Because it's cheaper.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h14-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H15-S1",
+      "text": "Is the training mandatory?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h15-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H15-S2",
+      "text": "The trainer is excellent.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h15-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H15-S3",
+      "text": "Only for new hires.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h15-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H15-S4",
+      "text": "In the second-floor room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h15-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H16-S1",
+      "text": "How come the website is so slow today?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h16-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H16-S2",
+      "text": "A slow driver.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h16-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H16-S3",
+      "text": "Yes, today is Thursday.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h16-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H16-S4",
+      "text": "Too many people are logged in.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h16-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H17-S1",
+      "text": "Do you know who's in charge of the new account?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h17-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H17-S2",
+      "text": "Mr. Silva, I believe.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h17-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H17-S3",
+      "text": "It's charged to the company card.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h17-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H17-S4",
+      "text": "At the front desk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h17-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H18-S1",
+      "text": "Should I make copies of the agenda?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h18-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H18-S2",
+      "text": "I'd like a cup of coffee, thanks.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h18-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H18-S3",
+      "text": "Everybody has it on their phone already.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h18-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H18-S4",
+      "text": "The agenda is long.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h18-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H19-S1",
+      "text": "We're running out of time.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h19-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H19-S2",
+      "text": "Let's skip the last item.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h19-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H19-S3",
+      "text": "At about four o'clock.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h19-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H19-S4",
+      "text": "I ran in the morning.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h19-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H20-S1",
+      "text": "Would you like to see the menu or the specials?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h20-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H20-S2",
+      "text": "Yes, I'd like to.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h20-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H20-S3",
+      "text": "The menu is printed.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h20-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H20-S4",
+      "text": "I'll hear the specials first.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h20-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H21-S1",
+      "text": "Who forgot to lock the supply room?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h21-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H21-S2",
+      "text": "It's the room on the left.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h21-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H21-S3",
+      "text": "Probably the last person who left.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h21-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H21-S4",
+      "text": "I'll lock it tomorrow.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h21-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H22-S1",
+      "text": "Where was the sales meeting held?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h22-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H22-S2",
+      "text": "It was a productive meeting.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h22-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H22-S3",
+      "text": "They sold more than expected.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h22-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H22-S4",
+      "text": "In the new building downtown.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h22-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H23-S1",
+      "text": "How often should I water these plants?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h23-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H23-S2",
+      "text": "Twice a week should be enough.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h23-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H23-S3",
+      "text": "They're in the lobby.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h23-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H23-S4",
+      "text": "I watered them.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h23-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H24-S1",
+      "text": "Is it too late to register for the workshop?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h24-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H24-S2",
+      "text": "Registration is at the main desk.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h24-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H24-S3",
+      "text": "No, there are still some spots left.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h24-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H24-S4",
+      "text": "It was too early.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h24-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H25-S1",
+      "text": "Did you see the notice about the schedule change?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h25-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H25-S2",
+      "text": "I changed my phone yesterday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h25-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H25-S3",
+      "text": "Yes, I'll be switching to the evening shift.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h25-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H25-S4",
+      "text": "In the break room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h25-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H26-S1",
+      "text": "I'd like to exchange this jacket.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h26-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H26-S2",
+      "text": "Do you have the receipt?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h26-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H26-S3",
+      "text": "A jacket is in the closet.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h26-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H26-S4",
+      "text": "Yes, it's exchanged.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h26-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H27-S1",
+      "text": "Why is the freight elevator out of order?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h27-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H27-S2",
+      "text": "Freight costs are high.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h27-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H27-S3",
+      "text": "On the fourth floor.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h27-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H27-S4",
+      "text": "A repair crew is working on it now.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h27-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H28-S1",
+      "text": "Do you think we should expand the team?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h28-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H28-S2",
+      "text": "Not until we see next quarter's numbers.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h28-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H28-S3",
+      "text": "The team is on the second floor.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h28-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H28-S4",
+      "text": "We expanded last year.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h28-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H29-S1",
+      "text": "When are the interns starting?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h29-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H29-S2",
+      "text": "Interns are paid weekly.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h29-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H29-S3",
+      "text": "The internship program is popular.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h29-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H29-S4",
+      "text": "Orientation is set for the first of the month.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h29-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H30-S1",
+      "text": "Could you recommend a good hotel near the convention center?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h30-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H30-S2",
+      "text": "I recommend the early flight.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h30-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H30-S3",
+      "text": "The one on Oak Street is reasonably priced.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h30-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H30-S4",
+      "text": "The convention was crowded.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h30-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H31-S1",
+      "text": "Haven't we met before?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h31-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H31-S2",
+      "text": "I met him last month.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h31-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H31-S3",
+      "text": "Yes, at last year's trade fair.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h31-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H31-S4",
+      "text": "Before the meeting.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h31-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H32-S1",
+      "text": "What's the deadline for submitting proposals?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h32-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H32-S2",
+      "text": "Submit them by e-mail.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h32-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H32-S3",
+      "text": "About forty pages.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h32-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H32-S4",
+      "text": "It's been extended to the twentieth.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h32-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H33-S1",
+      "text": "Do you want me to book a table for dinner?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h33-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H33-S2",
+      "text": "The table is made of oak.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h33-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H33-S3",
+      "text": "Let's wait to see how late the meeting runs.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h33-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H33-S4",
+      "text": "Dinner was delicious.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h33-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H34-S1",
+      "text": "Does this bus go to the stadium?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h34-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H34-S2",
+      "text": "Take the number twelve instead.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h34-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H34-S3",
+      "text": "The stadium was full.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h34-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H34-S4",
+      "text": "Yes, I'll bus tables.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h34-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H35-S1",
+      "text": "Why was the budget revised?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h35-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H35-S2",
+      "text": "A revised edition.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h35-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H35-S3",
+      "text": "By the end of June.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h35-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H35-S4",
+      "text": "A new project came up.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h35-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H36-S1",
+      "text": "Our computers have been running slowly.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h36-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H36-S2",
+      "text": "The IT staff is upgrading the system tonight.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h36-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H36-S3",
+      "text": "Slowly but surely.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h36-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H36-S4",
+      "text": "Yes, I computed it.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h36-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H37-S1",
+      "text": "Would you prefer to pay now or when you check out?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h37-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H37-S2",
+      "text": "Checking out was easy.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h37-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H37-S3",
+      "text": "I'll settle up at checkout.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h37-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H37-S4",
+      "text": "Yes, I'd prefer a room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h37-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H38-S1",
+      "text": "Can I leave these samples with you?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h38-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H38-S2",
+      "text": "I'll have a look at them this afternoon.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h38-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H38-S3",
+      "text": "The sample sale ends today.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h38-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H38-S4",
+      "text": "At the sample counter.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h38-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H39-S1",
+      "text": "What's the problem with the printer?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h39-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H39-S2",
+      "text": "I'd like a print of this.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h39-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H39-S3",
+      "text": "In the supply closet.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h39-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H39-S4",
+      "text": "It keeps jamming.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h39-c.mp3"
+    },
+    {
+      "id": "CH02-BNK-H40-S1",
+      "text": "Did you remember to send the invitations?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h40-q.mp3"
+    },
+    {
+      "id": "CH02-BNK-H40-S2",
+      "text": "The invitation was beautiful.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h40-a.mp3"
+    },
+    {
+      "id": "CH02-BNK-H40-S3",
+      "text": "Everything is going out this afternoon.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h40-b.mp3"
+    },
+    {
+      "id": "CH02-BNK-H40-S4",
+      "text": "Remember to bring a jacket.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-bnk-h40-c.mp3"
+    },
+    {
       "id": "CH02-FINAL-Q01-S1",
       "text": "A man is carrying a monitor up some stairs.",
       "voice": "us-female-01",

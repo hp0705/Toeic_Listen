@@ -1050,6 +1050,42 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.quiz-options.audio-only-choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.75rem 0;
+}
+
+.quiz-options.audio-only-choices .quiz-option-btn {
+  flex: 1 1 80px;
+  max-width: 140px;
+  justify-content: center;
+  padding: 1.1rem;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.audio-status-pill {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  display: inline-block;
+  animation: fadeIn 0.2s ease-in;
+}
+
+.quiz-option-btn.playing-now {
+  border-color: #2563eb !important;
+  background: #eff6ff !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35) !important;
+  transform: translateY(-2px);
+}
+
 .quiz-option-btn {
   background: #ffffff;
   border: 2px solid var(--border-color);

@@ -68,6 +68,7 @@ def determine_skill_group(part, tags, lesson_id):
         if "L07" in lesson_id: return "part2_indirect_requests"
         if "L08" in lesson_id: return "part2_statements_indirect"
         if "L09" in lesson_id: return "part2_paraphrase_traps"
+        if "L10" in lesson_id: return "part2_advanced_indirect"
         return "part2_traps_and_strategies"
 
 def parse_options_and_reasons(options_raw, explanation):
@@ -370,6 +371,7 @@ def main():
                     for letter in ["A", "B", "C", "D"]:
                         if letter in opts:
                             segments.append({
+                                "choiceId": letter,
                                 "text": opts[letter],
                                 "voice": "us-female-01" if "F" in header_line else "us-male-01",
                                 "file": f"audio/chapter-02/{qid.lower()}-{letter.lower()}.mp3",
@@ -405,6 +407,7 @@ def main():
 
                     segments = [
                         {
+                            "choiceId": None,
                             "text": q_text,
                             "voice": "us-female-01" if "F" in header_line.split('→')[0] else "us-male-01",
                             "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
@@ -414,6 +417,7 @@ def main():
                     for letter in ["A", "B", "C"]:
                         if letter in opts:
                             segments.append({
+                                "choiceId": letter,
                                 "text": opts[letter],
                                 "voice": "us-male-01" if "M" in header_line else "us-female-01",
                                 "file": f"audio/chapter-02/{qid.lower()}-{letter.lower()}.mp3",
@@ -482,6 +486,7 @@ def main():
                         segments = []
                         for ltr in ["A", "B", "C", "D"]:
                             segments.append({
+                                "choiceId": ltr,
                                 "text": opts[ltr],
                                 "voice": "us-female-01" if int(item_code[-1]) % 2 == 1 else "us-male-01",
                                 "file": f"audio/chapter-02/{qid.lower()}-{ltr.lower()}.mp3",
@@ -548,6 +553,7 @@ def main():
 
                         segments = [
                             {
+                                "choiceId": None,
                                 "text": q_text,
                                 "voice": "us-female-01" if int(item_code[-1]) % 2 == 1 else "us-male-01",
                                 "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
@@ -556,6 +562,7 @@ def main():
                         ]
                         for ltr in ["A", "B", "C"]:
                             segments.append({
+                                "choiceId": ltr,
                                 "text": opts[ltr],
                                 "voice": "us-male-01" if int(item_code[-1]) % 2 == 1 else "us-female-01",
                                 "file": f"audio/chapter-02/{qid.lower()}-{ltr.lower()}.mp3",
@@ -599,6 +606,112 @@ def main():
             }
         })
 
+    # 2.5. Parse Section E (Part 2 độ khó gần đề thật, 40 câu H01-H40) -> CH02-L10
+    print("Parsing Section E: Part 2 độ khó gần đề thật (H01-H40)...")
+    p_sec_e = bank_text.find("# PHẦN E")
+    if p_sec_e != -1:
+        sec_e_chunk = bank_text[p_sec_e:]
+        sec_e_qids = []
+        for line in sec_e_chunk.split('\n'):
+            line = line.strip()
+            if not line.startswith('|') or 'ID' in line or '---' in line:
+                continue
+            cols = [c.strip() for c in line.split('|')[1:-1]]
+            if len(cols) >= 6 and re.match(r'H\d+', cols[0]):
+                item_code = cols[0]
+                q_text = cols[1]
+                opt_a = cols[2]
+                opt_b = cols[3]
+                opt_c = cols[4]
+                correct_ans = cols[5]
+
+                qid = f"CH02-BNK-{item_code}"
+                sec_e_qids.append(qid)
+
+                opts = {}
+                wrong_reasons = {}
+                for ltr, raw_opt in [("A", opt_a), ("B", opt_b), ("C", opt_c)]:
+                    m_code = re.search(r'`([A-Z0-9_-]+)`', raw_opt)
+                    clean_opt = re.sub(r'`[^`]+`', '', raw_opt).strip()
+                    opts[ltr] = clean_opt
+                    if ltr != correct_ans:
+                        if m_code:
+                            code = m_code.group(1)
+                            wrong_reasons[ltr] = f"[{code}] {DISTRACTOR_MAP.get(code, 'Phản hồi không phù hợp với câu hỏi.')}"
+                        else:
+                            wrong_reasons[ltr] = f"Lựa chọn {ltr} không phù hợp với logic câu hỏi."
+
+                num = int(item_code[1:])
+                segments = [
+                    {
+                        "choiceId": None,
+                        "text": q_text,
+                        "voice": "us-female-01" if num % 2 == 1 else "us-male-01",
+                        "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
+                        "pauseAfterMs": 1500
+                    }
+                ]
+                for ltr in ["A", "B", "C"]:
+                    segments.append({
+                        "choiceId": ltr,
+                        "text": opts[ltr],
+                        "voice": "us-male-01" if num % 2 == 1 else "us-female-01",
+                        "file": f"audio/chapter-02/{qid.lower()}-{ltr.lower()}.mp3",
+                        "pauseAfterMs": 1000
+                    })
+
+                all_questions.append({
+                    "id": qid,
+                    "groupId": None,
+                    "chapterId": "CH02",
+                    "lessonId": "CH02-L10",
+                    "part": 2,
+                    "taskType": "part2_response",
+                    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất (Part 2 — Độ khó gần đề thật):",
+                    "optionsVisibleBeforeAnswer": False,
+                    "image": None,
+                    "audioSegments": segments,
+                    "options": opts,
+                    "correctAnswer": correct_ans,
+                    "transcript": f"{q_text} / (A) {opts['A']} / (B) {opts['B']} / (C) {opts['C']}",
+                    "translation": "",
+                    "explanation": f"Lựa chọn ({correct_ans}) là phản hồi tự nhiên và chính xác nhất cho câu hỏi: '{q_text}'.",
+                    "wrongReasons": wrong_reasons,
+                    "skillTags": ["part2_bank", "advanced", "indirect_response", "trap_avoidance"],
+                    "skillGroup": "part2_advanced_indirect",
+                    "difficulty": 3,
+                    "revision": 2
+                })
+
+        lessons_data.append({
+            "lessonId": "CH02-L10",
+            "title": "Part 2 độ khó gần đề thật — Trả lời gián tiếp & Phản xạ bẫy",
+            "objectives": [
+                "Luyện tập 40 câu hỏi Part 2 độ khó cao với câu trả lời gián tiếp, thông tin mới và phản câu hỏi.",
+                "Loại trừ triệt để bẫy lặp từ (REP), bẫy cùng chủ đề (REL), sai thì (TNS) và bẫy Yes/No (YNA).",
+                "Đạt tối thiểu 30/40 câu (75%) ở tốc độ chuẩn 1.0x để sẵn sàng cho bài thi TOEIC thật."
+            ],
+            "teachingBlocks": [
+                {
+                    "type": "concept",
+                    "title": "Chiến lược xử lý Part 2 độ khó cao trong đề thi thật",
+                    "content": "Trong đề thi TOEIC thật, các câu Part 2 nâng cao thường không trả lời trực tiếp mà dùng câu trả lời gián tiếp, phản câu hỏi hoặc giải pháp thay thế. Các phương án sai thường cố tình lặp lại từ trong câu hỏi hoặc dùng từ cùng chủ đề để đánh lừa người học."
+                },
+                {
+                    "type": "tip",
+                    "title": "3 nguyên tắc vàng khi nghe Part 2 nâng cao",
+                    "content": "1. Cảnh giác với bẫy lặp từ: Nếu câu trả lời lặp lại nguyên si từ nghe thấy trong câu hỏi, khả năng cao là bẫy (REP).\n2. Tuyệt đối không chọn Yes/No khi câu hỏi bắt đầu bằng Wh- (Who, Where, When, Why, How, What).\n3. Nghe trọn vẹn cả 3 phương án (A), (B), (C) trước khi đưa ra quyết định."
+                }
+            ],
+            "dictations": [],
+            "questionIds": sec_e_qids,
+            "passRule": {
+                "minCorrect": 30,
+                "total": len(sec_e_qids),
+                "percentage": round((30 / len(sec_e_qids)) * 100, 1)
+            }
+        })
+
     # 3. Parse Final Test (25 questions from CHAPTER_02_CONTENT.md)
     print("Parsing Final Test CH02-FINAL...")
     p_final = content_text.find("# KIỂM TRA CUỐI CHƯƠNG 2")
@@ -630,6 +743,7 @@ def main():
             for letter in ["A", "B", "C", "D"]:
                 if letter in opts:
                     segments.append({
+                        "choiceId": letter,
                         "text": opts[letter],
                         "voice": "us-female-01" if "F" in f_header else "us-male-01",
                         "file": f"audio/chapter-02/{qid.lower()}-{letter.lower()}.mp3",
@@ -665,6 +779,7 @@ def main():
 
             segments = [
                 {
+                    "choiceId": None,
                     "text": q_text,
                     "voice": "us-female-01" if "F" in f_header.split('→')[0] else "us-male-01",
                     "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
@@ -674,6 +789,7 @@ def main():
             for letter in ["A", "B", "C"]:
                 if letter in opts:
                     segments.append({
+                        "choiceId": letter,
                         "text": opts[letter],
                         "voice": "us-male-01" if "M" in f_header else "us-female-01",
                         "file": f"audio/chapter-02/{qid.lower()}-{letter.lower()}.mp3",

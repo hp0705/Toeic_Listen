@@ -280,3 +280,59 @@ Mục đích: sau khi dùng hết 165 câu, app hoặc người soạn có thể
 4. Vị trí đáp án đúng trải đều, và runtime xáo thêm.
 5. Không dùng đề ETS, không dùng từ ngữ chép từ sách thương mại.
 6. Người soạn đọc lại 100% câu sinh ra trước khi đưa vào app (câu AI sinh dễ có hai đáp án cùng đúng).
+
+---
+
+# PHẦN E — PART 2 ĐỘ KHÓ GẦN ĐỀ THẬT (40 câu, H01–H40)
+
+**Đặc điểm của nhóm này** (khác các bảng B1–B5):
+- Đáp án đúng **ít khi lặp từ khóa** của câu hỏi; thường là thông tin mới, phản câu hỏi hoặc trả lời gián tiếp.
+- Đáp án sai **gần chủ đề hơn**, nên không thể loại chỉ bằng "sai loại thông tin".
+- Có nhiều câu phủ định, câu trần thuật và câu hỏi gợi ý.
+
+Dùng sau khi người học đạt các bảng B1–B5. Chỉ số gợi ý: đúng ≥ 75% ở 1.0x thì mới coi là sẵn sàng cho Part 2 của đề thật.
+
+| ID | Q | A | B | C | Đ.án |
+|---|---|---|---|---|:-:|
+| H01 | Why hasn't the shipment arrived? | It was held up at customs. | The shipping rates went up. `REP` | Yes, it arrived at noon. `YNA` | A |
+| H02 | Who approved the travel request? | The request form is online. `REP` | Mr. Banks signed off on it. | About three days ago. `WHQ` | B |
+| H03 | Where do I submit my expense report? | By the end of the month. `WHQ` | The reports are very detailed. `REL` | You can drop it off at Rita's desk. | C |
+| H04 | Would it be possible to reschedule the demo? | The demo went well. `TNS` | What day would work for you? | I scheduled it. `REP` | B |
+| H05 | I thought the client was arriving at noon. | Her flight landed early. | The clients are friendly. `REL` | At the airport hotel. `WHQ` | A |
+| H06 | Aren't you supposed to be on vacation? | It's a long vacation. `REP` | In a vacation rental. `REP` | I postponed it until next month. | C |
+| H07 | How did you hear about the opening? | Through a friend in the department. | It opens at eight. `SND` | Very well, thanks. `REL` | A |
+| H08 | Which of these folders should I take to the meeting? | The meeting is on Monday. `REP` | Whichever has the latest figures. | I took the folder yesterday. `TNS` | B |
+| H09 | Do you know whether the café is still serving lunch? | At the café on Third Street. `REP` | The lunch menu changed. `REL` | Let's walk over and find out. | C |
+| H10 | Could we push the call back half an hour? | The call was long. `TNS` | Half of the staff. `REP` | Sure, that gives me time to finish. | C |
+| H11 | What's causing the delay on the project? | Yes, we delayed it. `YNA` | A few permits are still pending. | By the end of the quarter. `WHQ` | B |
+| H12 | The auditors are coming tomorrow, aren't they? | They audited last year. `TNS` | I thought it was next week. | In the main conference room. `WHQ` | B |
+| H13 | Who's picking up the clients from the airport? | The airport is busy. `REP` | In the arrivals area. `WHQ` | I've arranged a car service. | C |
+| H14 | Why don't you check with the warehouse? | I tried, but nobody answered. | It's a big warehouse. `REP` | Because it's cheaper. `WHQ` | A |
+| H15 | Is the training mandatory? | The trainer is excellent. `REL` | Only for new hires. | In the second-floor room. `WHQ` | B |
+| H16 | How come the website is so slow today? | A slow driver. `REP` | Yes, today is Thursday. `REP` | Too many people are logged in. | C |
+| H17 | Do you know who's in charge of the new account? | Mr. Silva, I believe. | It's charged to the company card. `REP` | At the front desk. `WHQ` | A |
+| H18 | Should I make copies of the agenda? | I'd like a cup of coffee, thanks. `SND` | Everybody has it on their phone already. | The agenda is long. `REP` | B |
+| H19 | We're running out of time. | Let's skip the last item. | At about four o'clock. `WHQ` | I ran in the morning. `REP` | A |
+| H20 | Would you like to see the menu or the specials? | Yes, I'd like to. `YNA` | The menu is printed. `REP` | I'll hear the specials first. | C |
+| H21 | Who forgot to lock the supply room? | It's the room on the left. `REP` | Probably the last person who left. | I'll lock it tomorrow. `TNS` | B |
+| H22 | Where was the sales meeting held? | It was a productive meeting. `REP` | They sold more than expected. `SND` | In the new building downtown. | C |
+| H23 | How often should I water these plants? | Twice a week should be enough. | They're in the lobby. `WHQ` | I watered them. `TNS` | A |
+| H24 | Is it too late to register for the workshop? | Registration is at the main desk. `REP` | No, there are still some spots left. | It was too early. `TNS` | B |
+| H25 | Did you see the notice about the schedule change? | I changed my phone yesterday. `REP` | Yes, I'll be switching to the evening shift. | In the break room. `WHQ` | B |
+| H26 | I'd like to exchange this jacket. | Do you have the receipt? | A jacket is in the closet. `REP` | Yes, it's exchanged. `YNA` | A |
+| H27 | Why is the freight elevator out of order? | Freight costs are high. `REP` | On the fourth floor. `WHQ` | A repair crew is working on it now. | C |
+| H28 | Do you think we should expand the team? | Not until we see next quarter's numbers. | The team is on the second floor. `REP` | We expanded last year. `TNS` | A |
+| H29 | When are the interns starting? | Interns are paid weekly. `REL` | The internship program is popular. `REL` | Orientation is set for the first of the month. | C |
+| H30 | Could you recommend a good hotel near the convention center? | I recommend the early flight. `REP` | The one on Oak Street is reasonably priced. | The convention was crowded. `TNS` | B |
+| H31 | Haven't we met before? | I met him last month. `PER` | Yes, at last year's trade fair. | Before the meeting. `REP` | B |
+| H32 | What's the deadline for submitting proposals? | Submit them by e-mail. `REP` | About forty pages. `WHQ` | It's been extended to the twentieth. | C |
+| H33 | Do you want me to book a table for dinner? | The table is made of oak. `REP` | Let's wait to see how late the meeting runs. | Dinner was delicious. `TNS` | B |
+| H34 | Does this bus go to the stadium? | Take the number twelve instead. | The stadium was full. `TNS` | Yes, I'll bus tables. `SND` | A |
+| H35 | Why was the budget revised? | A revised edition. `REP` | By the end of June. `WHQ` | A new project came up. | C |
+| H36 | Our computers have been running slowly. | The IT staff is upgrading the system tonight. | Slowly but surely. `REP` | Yes, I computed it. `SND` | A |
+| H37 | Would you prefer to pay now or when you check out? | Checking out was easy. `REP` | I'll settle up at checkout. | Yes, I'd prefer a room. `YNA` | B |
+| H38 | Can I leave these samples with you? | I'll have a look at them this afternoon. | The sample sale ends today. `REL` | At the sample counter. `WHQ` | A |
+| H39 | What's the problem with the printer? | I'd like a print of this. `REP` | In the supply closet. `WHQ` | It keeps jamming. | C |
+| H40 | Did you remember to send the invitations? | The invitation was beautiful. `TNS` | Everything is going out this afternoon. | Remember to bring a jacket. `REP` | B |
+
+**Lưu ý về chất lượng:** một vài câu trong bảng này (ví dụ H09, H14, H25, H33) dùng đáp án gián tiếp mà người đọc khác có thể thấy hai lựa chọn đều chấp nhận được. Người soạn nên đọc lại và thử với một vài người học thật trước khi đưa vào chế độ **Thi**. Nếu nhiều người chọn cùng một đáp án "sai", rất có thể câu đó mơ hồ và cần sửa.

@@ -80,7 +80,12 @@ export class QuizController {
       // Create new run
       const optionOrders = {};
       for (const q of this.questions) {
-        if (q.options) {
+        if (q.taskType === 'dictation') {
+          optionOrders[q.id] = ['ANSWER'];
+        } else if (q.part === 1 || q.part === 2 || q.optionsVisibleBeforeAnswer === false) {
+          // Part 1 & Part 2: Giữ đúng thứ tự A, B, C, (D) để nút bấm khớp 100% với băng ghi âm phát ra
+          optionOrders[q.id] = q.options ? Object.keys(q.options) : ['A', 'B', 'C', 'D'];
+        } else if (q.options) {
           const originalKeys = Object.keys(q.options);
           optionOrders[q.id] = this.shuffle(originalKeys);
         } else {
@@ -279,7 +284,49 @@ export class QuizController {
     const playBtn = document.createElement('button');
     playBtn.className = 'btn-play';
     playBtn.innerHTML = `<span>▶ Phát Audio</span>`;
+
+    const statusPill = document.createElement('div');
+    statusPill.className = 'audio-status-pill';
+    statusPill.style.display = 'none';
+
+    audioPlayer.onStateChange = (state) => {
+      if (state.isPlaying) {
+        playBtn.classList.add('playing');
+        playBtn.innerHTML = `<span>⏹ Dừng Audio</span>`;
+        if (state.currentSegment) {
+          statusPill.style.display = 'inline-block';
+          if (state.currentSegment.choiceId) {
+            statusPill.textContent = `🎧 Đang đọc lựa chọn (${state.currentSegment.choiceId})...`;
+            card.querySelectorAll('.quiz-option-btn').forEach(b => {
+              if (b.dataset.choiceId === state.currentSegment.choiceId) {
+                b.classList.add('playing-now');
+              } else {
+                b.classList.remove('playing-now');
+              }
+            });
+          } else {
+            statusPill.textContent = `🎧 Đang đọc câu hỏi...`;
+            card.querySelectorAll('.quiz-option-btn').forEach(b => b.classList.remove('playing-now'));
+          }
+        }
+      } else {
+        playBtn.classList.remove('playing');
+        playBtn.innerHTML = `<span>▶ Phát Audio</span>`;
+        card.querySelectorAll('.quiz-option-btn').forEach(b => b.classList.remove('playing-now'));
+        if (statusPill.style.display !== 'none') {
+          statusPill.textContent = `✅ Đã nghe xong. Hãy chọn đáp án!`;
+          setTimeout(() => {
+            if (!audioPlayer.isPlaying) statusPill.style.display = 'none';
+          }, 3500);
+        }
+      }
+    };
+
     playBtn.onclick = () => {
+      if (audioPlayer.isPlaying) {
+        audioPlayer.stop();
+        return;
+      }
       if (q.audioSegments && q.audioSegments.length > 0) {
         audioPlayer.playSegments(q.audioSegments, order);
       } else if (q.groupId) {
@@ -290,6 +337,7 @@ export class QuizController {
       }
     };
     playerBox.appendChild(playBtn);
+    playerBox.appendChild(statusPill);
 
     // Speed controls for Learn mode
     if (this.mode === 'learn') {
@@ -404,14 +452,15 @@ export class QuizController {
     } else {
       // MULTIPLE CHOICE OPTIONS
       const optionsWrap = document.createElement('div');
-      optionsWrap.className = 'quiz-options';
+      const showOptionText = q.optionsVisibleBeforeAnswer || isAnswered || (this.mode === 'test' && this.submitted);
+      optionsWrap.className = `quiz-options ${!showOptionText ? 'audio-only-choices' : ''}`;
 
       const labels = ['A', 'B', 'C', 'D'];
-      const showOptionText = q.optionsVisibleBeforeAnswer || isAnswered || (this.mode === 'test' && this.submitted);
 
       order.forEach((optKey, idx) => {
         const optBtn = document.createElement('button');
         optBtn.className = 'quiz-option-btn';
+        optBtn.dataset.choiceId = optKey;
 
         const label = labels[idx];
         const optText = q.options ? q.options[optKey] : '';
