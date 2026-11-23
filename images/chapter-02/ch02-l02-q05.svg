@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="patio" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#skyBg)"/>
+  <!-- Patio / Outdoor cafe ground -->
+  <rect y="240" width="600" height="160" fill="url(#patio)"/>
+  <!-- Patio tile lines -->
+  <line x1="0" y1="280" x2="600" y2="280" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="0" y1="330" x2="600" y2="330" stroke="#94a3b8" stroke-width="1"/>
+  <!-- Background cafe building facade -->
+  <rect x="0" y="60" width="600" height="180" fill="#f8fafc"/>
+  <rect x="40" y="90" width="140" height="110" fill="#38bdf8" opacity="0.3" stroke="#64748b" stroke-width="2"/>
+  <rect x="420" y="90" width="140" height="110" fill="#38bdf8" opacity="0.3" stroke="#64748b" stroke-width="2"/>
+  <rect x="230" y="80" width="140" height="160" fill="#475569"/>
+  <!-- Left Table & Umbrella -->
+  <polygon points="150,80 70,150 230,150" fill="#ea580c"/>
+  <line x1="150" y1="150" x2="150" y2="290" stroke="#334155" stroke-width="6"/>
+  <!-- Round table -->
+  <ellipse cx="150" cy="270" rx="45" ry="14" fill="#64748b"/>
+  <!-- Empty chairs -->
+  <rect x="85" y="245" width="20" height="45" fill="#475569" rx="2"/>
+  <rect x="195" y="245" width="20" height="45" fill="#475569" rx="2"/>
+  <!-- Right Table & Umbrella -->
+  <polygon points="450,80 370,150 530,150" fill="#2563eb"/>
+  <line x1="450" y1="150" x2="450" y2="290" stroke="#334155" stroke-width="6"/>
+  <!-- Round table -->
+  <ellipse cx="450" cy="270" rx="45" ry="14" fill="#64748b"/>
+  <!-- Empty chairs -->
+  <rect x="385" y="245" width="20" height="45" fill="#475569" rx="2"/>
+  <rect x="495" y="245" width="20" height="45" fill="#475569" rx="2"/>
+  <!-- Label bar -->
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L02-Q05: Outdoor cafe seating with opened umbrellas, no people</text>
+</svg>

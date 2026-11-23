@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="labBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="bench" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#labBg)"/>
+  <rect y="310" width="600" height="90" fill="#cbd5e1"/>
+  <!-- Laboratory Bench -->
+  <rect x="80" y="240" width="440" height="100" fill="url(#bench)" rx="4"/>
+  <!-- Lab shelf with test tubes/flasks -->
+  <rect x="100" y="80" width="220" height="12" fill="#64748b" rx="2"/>
+  <rect x="120" y="55" width="18" height="25" fill="#38bdf8" opacity="0.8" rx="2"/>
+  <rect x="150" y="50" width="22" height="30" fill="#a855f7" opacity="0.8" rx="2"/>
+  <rect x="185" y="58" width="16" height="22" fill="#10b981" opacity="0.8" rx="2"/>
+  <!-- Microscope -->
+  <rect x="230" y="225" width="60" height="16" fill="#1e293b" rx="3"/>
+  <rect x="250" y="165" width="16" height="60" fill="#334155"/>
+  <path d="M 245 160 L 275 140 L 265 125 L 235 145 Z" fill="#0f172a"/>
+  <circle cx="270" cy="130" r="8" fill="#38bdf8"/>
+  <rect x="235" y="195" width="30" height="6" fill="#0f172a"/>
+  <!-- Scientist standing, leaning slightly forward -->
+  <rect x="330" y="240" width="22" height="90" fill="#1e293b"/>
+  <rect x="365" y="240" width="22" height="90" fill="#1e293b"/>
+  <!-- White lab coat -->
+  <path d="M 320 160 L 390 160 L 405 270 L 310 270 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Head with safety goggles -->
+  <circle cx="340" cy="130" r="22" fill="#fed7aa"/>
+  <rect x="325" y="125" width="22" height="8" rx="3" fill="#0284c7" opacity="0.9"/>
+  <!-- Arm reaching toward microscope adjustment knob -->
+  <path d="M 330 180 Q 295 200 270 205" stroke="#ffffff" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="270" cy="205" r="7" fill="#fed7aa"/>
+  <!-- Label bar -->
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L01-Q05: Scientist in lab coat looking through microscope</text>
+</svg>

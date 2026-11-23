@@ -2260,1152 +2260,2034 @@
       "output": "audio/chapter-01/ch01-final-b14-c.mp3"
     },
     {
-      "id": "CH02-L01-Q01-S1",
-      "text": "A woman is examining a document.",
+      "id": "CH02-L04-D1",
+      "text": "Could you tell me where the personnel office is?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-l04-q01.mp3"
+    },
+    {
+      "id": "CH02-L04-D2",
+      "text": "Did you send the invoice to the supplier?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q02.mp3"
+    },
+    {
+      "id": "CH02-L04-D3",
+      "text": "What time does the bank close on Fridays?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q03.mp3"
+    },
+    {
+      "id": "CH02-L04-D4",
+      "text": "Would you mind forwarding this message?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q04.mp3"
+    },
+    {
+      "id": "CH02-L04-D5",
+      "text": "I asked him to check it out yesterday.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q05.mp3"
+    },
+    {
+      "id": "CH02-L04-D6",
+      "text": "We need to move the meeting to three thirty.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q06.mp3"
+    },
+    {
+      "id": "CH02-L04-D7",
+      "text": "The delivery has been put off until the thirteenth.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q07.mp3"
+    },
+    {
+      "id": "CH02-L04-D8",
+      "text": "How much are the monthly passes? Fifty dollars.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q08.mp3"
+    },
+    {
+      "id": "CH02-L04-D9",
+      "text": "She'll be back at a quarter to nine.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q09.mp3"
+    },
+    {
+      "id": "CH02-L04-D10",
+      "text": "I can't make it to the workshop on Thursday.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l04-q10.mp3"
+    },
+    {
+      "id": "CH02-L01-Q01-S1",
+      "text": "A man is repairing a printer.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l01-q01-a.mp3"
     },
     {
       "id": "CH02-L01-Q01-S2",
-      "text": "A woman is watering some plants.",
-      "voice": "us-female-01",
+      "text": "A man is using a copier.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-l01-q01-b.mp3"
     },
     {
       "id": "CH02-L01-Q01-S3",
-      "text": "A woman is moving a bookshelf.",
-      "voice": "us-female-01",
+      "text": "A man is stapling some pages.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-l01-q01-c.mp3"
     },
     {
       "id": "CH02-L01-Q01-S4",
-      "text": "A woman is opening a window.",
-      "voice": "us-female-01",
+      "text": "A man is collecting mail from a box.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q01-04.mp3"
+      "output": "audio/chapter-02/ch02-l01-q01-d.mp3"
     },
     {
       "id": "CH02-L01-Q02-S1",
-      "text": "Two employees are repairing a vehicle.",
+      "text": "They are signing a form.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q02-01.mp3"
+      "output": "audio/chapter-02/ch02-l01-q02-a.mp3"
     },
     {
       "id": "CH02-L01-Q02-S2",
-      "text": "One employee is pointing at a screen.",
+      "text": "They are hanging a picture.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q02-02.mp3"
+      "output": "audio/chapter-02/ch02-l01-q02-b.mp3"
     },
     {
       "id": "CH02-L01-Q02-S3",
-      "text": "The employees are leaving the building.",
+      "text": "They are walking down some stairs.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q02-03.mp3"
+      "output": "audio/chapter-02/ch02-l01-q02-c.mp3"
     },
     {
       "id": "CH02-L01-Q02-S4",
-      "text": "A customer is paying at a counter.",
+      "text": "They are shaking hands.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q02-04.mp3"
+      "output": "audio/chapter-02/ch02-l01-q02-d.mp3"
     },
     {
       "id": "CH02-L01-Q03-S1",
-      "text": "A man is pushing a cart.",
-      "voice": "us-female-01",
+      "text": "A woman is looking at a building.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q03-01.mp3"
+      "output": "audio/chapter-02/ch02-l01-q03-a.mp3"
     },
     {
       "id": "CH02-L01-Q03-S2",
-      "text": "A man is painting a wall.",
-      "voice": "us-female-01",
+      "text": "A woman is climbing a ladder.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q03-02.mp3"
+      "output": "audio/chapter-02/ch02-l01-q03-b.mp3"
     },
     {
       "id": "CH02-L01-Q03-S3",
-      "text": "A man is sitting at a desk.",
-      "voice": "us-female-01",
+      "text": "A woman is driving a crane.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q03-03.mp3"
+      "output": "audio/chapter-02/ch02-l01-q03-c.mp3"
     },
     {
       "id": "CH02-L01-Q03-S4",
-      "text": "A man is washing a car.",
-      "voice": "us-female-01",
+      "text": "A woman is handing out hard hats.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q03-04.mp3"
+      "output": "audio/chapter-02/ch02-l01-q03-d.mp3"
     },
     {
       "id": "CH02-L01-Q04-S1",
-      "text": "Several people are attending a meeting.",
+      "text": "Customers are seated at tables.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q04-01.mp3"
+      "output": "audio/chapter-02/ch02-l01-q04-a.mp3"
     },
     {
       "id": "CH02-L01-Q04-S2",
-      "text": "Several people are waiting for a bus.",
+      "text": "A server is wiping the counter.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q04-02.mp3"
+      "output": "audio/chapter-02/ch02-l01-q04-b.mp3"
     },
     {
       "id": "CH02-L01-Q04-S3",
-      "text": "Several people are exercising outdoors.",
+      "text": "A server is handing a cup to a customer.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q04-03.mp3"
+      "output": "audio/chapter-02/ch02-l01-q04-c.mp3"
     },
     {
       "id": "CH02-L01-Q04-S4",
-      "text": "Several people are loading luggage.",
+      "text": "Customers are reading a menu outside.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l01-q04-04.mp3"
+      "output": "audio/chapter-02/ch02-l01-q04-d.mp3"
+    },
+    {
+      "id": "CH02-L01-Q05-S1",
+      "text": "A man is writing on a whiteboard.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l01-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L01-Q05-S2",
+      "text": "A man is looking into a microscope.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l01-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L01-Q05-S3",
+      "text": "A man is pouring a drink.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l01-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L01-Q05-S4",
+      "text": "A man is putting on safety glasses.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l01-q05-d.mp3"
     },
     {
       "id": "CH02-L02-Q01-S1",
-      "text": "A suitcase is beside a bench.",
-      "voice": "us-female-01",
+      "text": "Some bicycles are being repaired.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-l02-q01-a.mp3"
     },
     {
       "id": "CH02-L02-Q01-S2",
-      "text": "A suitcase is under a vehicle.",
-      "voice": "us-female-01",
+      "text": "A bicycle is propped against a fence.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-l02-q01-b.mp3"
     },
     {
       "id": "CH02-L02-Q01-S3",
-      "text": "A suitcase is on a counter.",
-      "voice": "us-female-01",
+      "text": "Some bicycles are parked in a rack.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-l02-q01-c.mp3"
     },
     {
       "id": "CH02-L02-Q01-S4",
-      "text": "A suitcase is being carried upstairs.",
-      "voice": "us-female-01",
+      "text": "A bicycle is chained to a lamppost.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q01-04.mp3"
+      "output": "audio/chapter-02/ch02-l02-q01-d.mp3"
     },
     {
       "id": "CH02-L02-Q02-S1",
-      "text": "A lamp is on the table.",
+      "text": "A plant is positioned between two armchairs.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q02-01.mp3"
+      "output": "audio/chapter-02/ch02-l02-q02-a.mp3"
     },
     {
       "id": "CH02-L02-Q02-S2",
-      "text": "A lamp is underneath the table.",
+      "text": "Armchairs are stacked against a wall.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q02-02.mp3"
+      "output": "audio/chapter-02/ch02-l02-q02-b.mp3"
     },
     {
       "id": "CH02-L02-Q02-S3",
-      "text": "A lamp is hanging from the ceiling.",
+      "text": "A rug is rolled up near the entrance.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q02-03.mp3"
+      "output": "audio/chapter-02/ch02-l02-q02-c.mp3"
     },
     {
       "id": "CH02-L02-Q02-S4",
-      "text": "A lamp is next to the door.",
+      "text": "A plant is hanging above a reception desk.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q02-04.mp3"
+      "output": "audio/chapter-02/ch02-l02-q02-d.mp3"
     },
     {
       "id": "CH02-L02-Q03-S1",
-      "text": "The chairs are arranged along the wall.",
+      "text": "A laptop is on the floor.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q03-01.mp3"
+      "output": "audio/chapter-02/ch02-l02-q03-a.mp3"
     },
     {
       "id": "CH02-L02-Q03-S2",
-      "text": "The chairs are stacked on a truck.",
+      "text": "A mug is under a keyboard.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q03-02.mp3"
+      "output": "audio/chapter-02/ch02-l02-q03-b.mp3"
     },
     {
       "id": "CH02-L02-Q03-S3",
-      "text": "The chairs are hanging from the ceiling.",
+      "text": "Some blinds are being lowered.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q03-03.mp3"
+      "output": "audio/chapter-02/ch02-l02-q03-c.mp3"
     },
     {
       "id": "CH02-L02-Q03-S4",
-      "text": "The chairs are placed in the kitchen.",
+      "text": "A mug is beside a laptop.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q03-04.mp3"
+      "output": "audio/chapter-02/ch02-l02-q03-d.mp3"
     },
     {
       "id": "CH02-L02-Q04-S1",
-      "text": "The reception desk is across from the elevators.",
-      "voice": "us-female-01",
+      "text": "Boxes are being carried down a hall.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q04-01.mp3"
+      "output": "audio/chapter-02/ch02-l02-q04-a.mp3"
     },
     {
       "id": "CH02-L02-Q04-S2",
-      "text": "The reception desk is behind the elevators.",
-      "voice": "us-female-01",
+      "text": "Some boxes are stored on shelves.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q04-02.mp3"
+      "output": "audio/chapter-02/ch02-l02-q04-b.mp3"
     },
     {
       "id": "CH02-L02-Q04-S3",
-      "text": "The reception desk is inside an elevator.",
-      "voice": "us-female-01",
+      "text": "A ladder is lying across a doorway.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q04-03.mp3"
+      "output": "audio/chapter-02/ch02-l02-q04-c.mp3"
     },
     {
       "id": "CH02-L02-Q04-S4",
-      "text": "The reception desk is next to a staircase outside.",
-      "voice": "us-female-01",
+      "text": "Some shelves are being assembled.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l02-q04-04.mp3"
+      "output": "audio/chapter-02/ch02-l02-q04-d.mp3"
+    },
+    {
+      "id": "CH02-L02-Q05-S1",
+      "text": "Umbrellas are set up over some tables.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l02-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L02-Q05-S2",
+      "text": "Customers are lining up at a kiosk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l02-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L02-Q05-S3",
+      "text": "A waiter is wiping the tables.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l02-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L02-Q05-S4",
+      "text": "Tables are stacked inside a shop.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l02-q05-d.mp3"
     },
     {
       "id": "CH02-L03-Q01-S1",
-      "text": "The chairs are being arranged in rows.",
+      "text": "A fence has been torn down.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-l03-q01-a.mp3"
     },
     {
       "id": "CH02-L03-Q01-S2",
-      "text": "The chairs are being delivered to a house.",
+      "text": "Workers are climbing over a fence.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-l03-q01-b.mp3"
     },
     {
       "id": "CH02-L03-Q01-S3",
-      "text": "The chairs have been removed from the room.",
+      "text": "A fence is covered with posters.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-l03-q01-c.mp3"
     },
     {
       "id": "CH02-L03-Q01-S4",
-      "text": "The chairs are covered with plastic sheets.",
+      "text": "A fence is being painted.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q01-04.mp3"
+      "output": "audio/chapter-02/ch02-l03-q01-d.mp3"
     },
     {
       "id": "CH02-L03-Q02-S1",
-      "text": "The windows have been cleaned.",
-      "voice": "us-female-01",
+      "text": "A waiter is clearing the plates.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q02-01.mp3"
+      "output": "audio/chapter-02/ch02-l03-q02-a.mp3"
     },
     {
       "id": "CH02-L03-Q02-S2",
-      "text": "The windows are being replaced.",
-      "voice": "us-female-01",
+      "text": "Some tables have been set for a meal.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q02-02.mp3"
+      "output": "audio/chapter-02/ch02-l03-q02-b.mp3"
     },
     {
       "id": "CH02-L03-Q02-S3",
-      "text": "The windows are covered with posters.",
-      "voice": "us-female-01",
+      "text": "Diners are being seated.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q02-03.mp3"
+      "output": "audio/chapter-02/ch02-l03-q02-c.mp3"
     },
     {
       "id": "CH02-L03-Q02-S4",
-      "text": "The windows are being opened by a worker.",
-      "voice": "us-female-01",
+      "text": "A menu is being printed.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q02-04.mp3"
+      "output": "audio/chapter-02/ch02-l03-q02-d.mp3"
     },
     {
       "id": "CH02-L03-Q03-S1",
-      "text": "The packages are stacked near the doorway.",
+      "text": "A man is signing a contract.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q03-01.mp3"
+      "output": "audio/chapter-02/ch02-l03-q03-a.mp3"
     },
     {
       "id": "CH02-L03-Q03-S2",
-      "text": "The packages are being loaded onto a plane.",
+      "text": "A man is knocking on a door.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q03-02.mp3"
+      "output": "audio/chapter-02/ch02-l03-q03-b.mp3"
     },
     {
       "id": "CH02-L03-Q03-S3",
-      "text": "A worker is opening the packages.",
+      "text": "A man is holding a folder.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q03-03.mp3"
+      "output": "audio/chapter-02/ch02-l03-q03-c.mp3"
     },
     {
       "id": "CH02-L03-Q03-S4",
-      "text": "The packages are floating above the floor.",
+      "text": "A man is interviewing a candidate.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q03-04.mp3"
+      "output": "audio/chapter-02/ch02-l03-q03-d.mp3"
     },
     {
       "id": "CH02-L03-Q04-S1",
-      "text": "A man is inspecting a bicycle.",
-      "voice": "us-female-01",
+      "text": "A crate is being unloaded from a truck.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q04-01.mp3"
+      "output": "audio/chapter-02/ch02-l03-q04-a.mp3"
     },
     {
       "id": "CH02-L03-Q04-S2",
-      "text": "A man is purchasing a new bicycle.",
-      "voice": "us-female-01",
+      "text": "A truck is being washed.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q04-02.mp3"
+      "output": "audio/chapter-02/ch02-l03-q04-b.mp3"
     },
     {
       "id": "CH02-L03-Q04-S3",
-      "text": "A man is riding a bicycle along a road.",
-      "voice": "us-female-01",
+      "text": "A crate has been loaded onto a truck.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q04-03.mp3"
+      "output": "audio/chapter-02/ch02-l03-q04-c.mp3"
     },
     {
       "id": "CH02-L03-Q04-S4",
-      "text": "A man is washing a motorcycle.",
-      "voice": "us-female-01",
+      "text": "Boxes are piled on a sidewalk.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l03-q04-04.mp3"
+      "output": "audio/chapter-02/ch02-l03-q04-d.mp3"
     },
     {
-      "id": "CH02-L04-Q01-S1",
-      "text": "",
+      "id": "CH02-L03-Q05-S1",
+      "text": "Some lamps are being installed by a worker.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-l03-q05-a.mp3"
     },
     {
-      "id": "CH02-L04-Q01-S2",
-      "text": "It's next to the main reception desk.",
+      "id": "CH02-L03-Q05-S2",
+      "text": "Some lamps are placed on a counter.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-l03-q05-b.mp3"
     },
     {
-      "id": "CH02-L04-Q01-S3",
-      "text": "At four fifteen.",
+      "id": "CH02-L03-Q05-S3",
+      "text": "Some lamps are suspended from a ceiling.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-l03-q05-c.mp3"
     },
     {
-      "id": "CH02-L04-Q01-S4",
-      "text": "Mr. Lewis will attend.",
+      "id": "CH02-L03-Q05-S4",
+      "text": "A ceiling is being repaired.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q01-04.mp3"
-    },
-    {
-      "id": "CH02-L04-Q02-S1",
-      "text": "",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q02-01.mp3"
-    },
-    {
-      "id": "CH02-L04-Q02-S2",
-      "text": "In about half an hour.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q02-02.mp3"
-    },
-    {
-      "id": "CH02-L04-Q02-S3",
-      "text": "On the second floor.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q02-03.mp3"
-    },
-    {
-      "id": "CH02-L04-Q02-S4",
-      "text": "The maintenance team is experienced.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q02-04.mp3"
-    },
-    {
-      "id": "CH02-L04-Q03-S1",
-      "text": "",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q03-01.mp3"
-    },
-    {
-      "id": "CH02-L04-Q03-S2",
-      "text": "Not at all. I'll close it.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q03-02.mp3"
-    },
-    {
-      "id": "CH02-L04-Q03-S3",
-      "text": "The conference starts at noon.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q03-03.mp3"
-    },
-    {
-      "id": "CH02-L04-Q03-S4",
-      "text": "The door is made of glass.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q03-04.mp3"
-    },
-    {
-      "id": "CH02-L04-Q04-S1",
-      "text": "",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q04-01.mp3"
-    },
-    {
-      "id": "CH02-L04-Q04-S2",
-      "text": "That would be convenient.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q04-02.mp3"
-    },
-    {
-      "id": "CH02-L04-Q04-S3",
-      "text": "The airport is quite large.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q04-03.mp3"
-    },
-    {
-      "id": "CH02-L04-Q04-S4",
-      "text": "At terminal three.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q04-04.mp3"
-    },
-    {
-      "id": "CH02-L04-Q05-S1",
-      "text": "",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q05-01.mp3"
-    },
-    {
-      "id": "CH02-L04-Q05-S2",
-      "text": "I'd love to. Thank you.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q05-02.mp3"
-    },
-    {
-      "id": "CH02-L04-Q05-S3",
-      "text": "The lunch menu is on the table.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q05-03.mp3"
-    },
-    {
-      "id": "CH02-L04-Q05-S4",
-      "text": "At twelve thirty yesterday.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q05-04.mp3"
-    },
-    {
-      "id": "CH02-L04-Q06-S1",
-      "text": "",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q06-01.mp3"
-    },
-    {
-      "id": "CH02-L04-Q06-S2",
-      "text": "That's a sensible idea.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q06-02.mp3"
-    },
-    {
-      "id": "CH02-L04-Q06-S3",
-      "text": "The contract is in the blue folder.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q06-03.mp3"
-    },
-    {
-      "id": "CH02-L04-Q06-S4",
-      "text": "The signing ceremony is on Monday.",
-      "voice": "us-female-01",
-      "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l04-q06-04.mp3"
+      "output": "audio/chapter-02/ch02-l03-q05-d.mp3"
     },
     {
       "id": "CH02-L05-Q01-S1",
-      "text": "",
+      "text": "Who's organizing the training session?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q01-q.mp3"
     },
     {
       "id": "CH02-L05-Q01-S2",
-      "text": "He's free at two o'clock.",
-      "voice": "us-female-01",
+      "text": "At the training center.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q01-a.mp3"
     },
     {
       "id": "CH02-L05-Q01-S3",
-      "text": "He bought lunch yesterday.",
-      "voice": "us-female-01",
+      "text": "Ms. Ortega is.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q01-b.mp3"
     },
     {
       "id": "CH02-L05-Q01-S4",
-      "text": "The meeting room is upstairs.",
-      "voice": "us-female-01",
+      "text": "It was very helpful.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q01-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q01-c.mp3"
     },
     {
       "id": "CH02-L05-Q02-S1",
-      "text": "",
+      "text": "Where can I find the shipping labels?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q02-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q02-q.mp3"
     },
     {
       "id": "CH02-L05-Q02-S2",
-      "text": "Yes, it's been put off until next week.",
-      "voice": "us-female-01",
+      "text": "Next Thursday.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q02-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q02-a.mp3"
     },
     {
       "id": "CH02-L05-Q02-S3",
-      "text": "The workshop room is clean.",
-      "voice": "us-female-01",
+      "text": "Yes, I labeled them.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q02-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q02-b.mp3"
     },
     {
       "id": "CH02-L05-Q02-S4",
-      "text": "We need more chairs.",
-      "voice": "us-female-01",
+      "text": "Check the supply closet.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q02-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q02-c.mp3"
     },
     {
       "id": "CH02-L05-Q03-S1",
-      "text": "",
+      "text": "What time does the bank close on Fridays?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q03-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q03-q.mp3"
     },
     {
       "id": "CH02-L05-Q03-S2",
-      "text": "It starts at nine tomorrow.",
-      "voice": "us-female-01",
+      "text": "At five thirty.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q03-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q03-a.mp3"
     },
     {
       "id": "CH02-L05-Q03-S3",
-      "text": "The new employees are friendly.",
-      "voice": "us-female-01",
+      "text": "It's on Main Street.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q03-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q03-b.mp3"
     },
     {
       "id": "CH02-L05-Q03-S4",
-      "text": "In the training department.",
-      "voice": "us-female-01",
+      "text": "I closed the account.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q03-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q03-c.mp3"
     },
     {
       "id": "CH02-L05-Q04-S1",
-      "text": "",
+      "text": "Why was the tour postponed?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q04-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q04-q.mp3"
     },
     {
       "id": "CH02-L05-Q04-S2",
-      "text": "It's priced at eighty dollars.",
-      "voice": "us-female-01",
+      "text": "Around ten people.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q04-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q04-a.mp3"
     },
     {
       "id": "CH02-L05-Q04-S3",
-      "text": "The parking garage is behind the hotel.",
-      "voice": "us-female-01",
+      "text": "The guide is ill.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q04-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q04-b.mp3"
     },
     {
       "id": "CH02-L05-Q04-S4",
-      "text": "For one month only.",
-      "voice": "us-female-01",
+      "text": "To the post office.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q04-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q04-c.mp3"
     },
     {
       "id": "CH02-L05-Q05-S1",
-      "text": "",
+      "text": "How often do you inspect the equipment?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q05-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q05-q.mp3"
     },
     {
       "id": "CH02-L05-Q05-S2",
-      "text": "We can use the room next door instead.",
-      "voice": "us-female-01",
+      "text": "Yes, I did inspect it.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q05-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q05-a.mp3"
     },
     {
       "id": "CH02-L05-Q05-S3",
-      "text": "The conference begins at ten.",
-      "voice": "us-female-01",
+      "text": "About three hundred dollars.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q05-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q05-b.mp3"
     },
     {
       "id": "CH02-L05-Q05-S4",
-      "text": "I printed the conference agenda.",
-      "voice": "us-female-01",
+      "text": "Once a week.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q05-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q05-c.mp3"
     },
     {
       "id": "CH02-L05-Q06-S1",
-      "text": "",
+      "text": "Which printer is out of toner?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q06-01.mp3"
+      "output": "audio/chapter-02/ch02-l05-q06-q.mp3"
     },
     {
       "id": "CH02-L05-Q06-S2",
-      "text": "The one that offered the lowest price.",
-      "voice": "us-female-01",
+      "text": "The one near the entrance.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q06-02.mp3"
+      "output": "audio/chapter-02/ch02-l05-q06-a.mp3"
     },
     {
       "id": "CH02-L05-Q06-S3",
-      "text": "Before the end of the month.",
-      "voice": "us-female-01",
+      "text": "I'll print it later.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q06-03.mp3"
+      "output": "audio/chapter-02/ch02-l05-q06-b.mp3"
     },
     {
       "id": "CH02-L05-Q06-S4",
-      "text": "We contacted the vendor yesterday.",
-      "voice": "us-female-01",
+      "text": "On Tuesday morning.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q06-04.mp3"
+      "output": "audio/chapter-02/ch02-l05-q06-c.mp3"
     },
     {
-      "id": "CH02-L05-Q07-S1",
-      "text": "",
+      "id": "CH02-L06-Q01-S1",
+      "text": "Did you finish the sales report?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q07-01.mp3"
+      "output": "audio/chapter-02/ch02-l06-q01-q.mp3"
     },
     {
-      "id": "CH02-L05-Q07-S2",
-      "text": "I'll call the supplier for an update.",
-      "voice": "us-female-01",
+      "id": "CH02-L06-Q01-S2",
+      "text": "The sales team is upstairs.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q07-02.mp3"
+      "output": "audio/chapter-02/ch02-l06-q01-a.mp3"
     },
     {
-      "id": "CH02-L05-Q07-S3",
-      "text": "The delivery driver is wearing a uniform.",
-      "voice": "us-female-01",
+      "id": "CH02-L06-Q01-S3",
+      "text": "It's a short report.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q07-03.mp3"
+      "output": "audio/chapter-02/ch02-l06-q01-b.mp3"
     },
     {
-      "id": "CH02-L05-Q07-S4",
-      "text": "The package is very light.",
-      "voice": "us-female-01",
+      "id": "CH02-L06-Q01-S4",
+      "text": "Almost—I'm just checking the figures.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q07-04.mp3"
+      "output": "audio/chapter-02/ch02-l06-q01-c.mp3"
     },
     {
-      "id": "CH02-L05-Q08-S1",
-      "text": "",
+      "id": "CH02-L06-Q02-S1",
+      "text": "You're attending the seminar, aren't you?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q08-01.mp3"
+      "output": "audio/chapter-02/ch02-l06-q02-q.mp3"
     },
     {
-      "id": "CH02-L05-Q08-S2",
-      "text": "Working from home would be easier.",
-      "voice": "us-female-01",
+      "id": "CH02-L06-Q02-S2",
+      "text": "Yes, I registered last week.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q08-02.mp3"
+      "output": "audio/chapter-02/ch02-l06-q02-a.mp3"
     },
     {
-      "id": "CH02-L05-Q08-S3",
-      "text": "The office closes at six.",
-      "voice": "us-female-01",
+      "id": "CH02-L06-Q02-S3",
+      "text": "It starts at noon.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q08-03.mp3"
+      "output": "audio/chapter-02/ch02-l06-q02-b.mp3"
     },
     {
-      "id": "CH02-L05-Q08-S4",
-      "text": "Tomorrow's forecast is sunny.",
+      "id": "CH02-L06-Q02-S4",
+      "text": "The seminar was excellent.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q02-c.mp3"
+    },
+    {
+      "id": "CH02-L06-Q03-S1",
+      "text": "Isn't the copier working?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-l05-q08-04.mp3"
+      "output": "audio/chapter-02/ch02-l06-q03-q.mp3"
+    },
+    {
+      "id": "CH02-L06-Q03-S2",
+      "text": "I'd like two copies.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q03-a.mp3"
+    },
+    {
+      "id": "CH02-L06-Q03-S3",
+      "text": "No, a technician is on the way.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q03-b.mp3"
+    },
+    {
+      "id": "CH02-L06-Q03-S4",
+      "text": "In the supply room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q03-c.mp3"
+    },
+    {
+      "id": "CH02-L06-Q04-S1",
+      "text": "Would you prefer the window seat or the aisle seat?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q04-q.mp3"
+    },
+    {
+      "id": "CH02-L06-Q04-S2",
+      "text": "The aisle, please.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q04-a.mp3"
+    },
+    {
+      "id": "CH02-L06-Q04-S3",
+      "text": "I preferred the movie.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q04-b.mp3"
+    },
+    {
+      "id": "CH02-L06-Q04-S4",
+      "text": "Yes, I'd prefer that.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q04-c.mp3"
+    },
+    {
+      "id": "CH02-L06-Q05-S1",
+      "text": "Can you work this Saturday?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q05-q.mp3"
+    },
+    {
+      "id": "CH02-L06-Q05-S2",
+      "text": "Yes, it was a great weekend.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L06-Q05-S3",
+      "text": "At the Saturday market.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L06-Q05-S4",
+      "text": "Let me check my schedule.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L06-Q06-S1",
+      "text": "Haven't you submitted the application yet?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q06-q.mp3"
+    },
+    {
+      "id": "CH02-L06-Q06-S2",
+      "text": "On the application form.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q06-a.mp3"
+    },
+    {
+      "id": "CH02-L06-Q06-S3",
+      "text": "I'm submitting it today.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q06-b.mp3"
+    },
+    {
+      "id": "CH02-L06-Q06-S4",
+      "text": "Yes, a very strong applicant.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l06-q06-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q01-S1",
+      "text": "Could you tell me how to get to the conference hall?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q01-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q01-S2",
+      "text": "Take the elevator to the second floor.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q01-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q01-S3",
+      "text": "Yes, it was a big conference.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q01-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q01-S4",
+      "text": "About two hundred guests.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q01-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q02-S1",
+      "text": "Would you like me to carry that for you?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q02-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q02-S2",
+      "text": "I carried it yesterday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q02-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q02-S3",
+      "text": "In the trunk of the car.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q02-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q02-S4",
+      "text": "Thanks, that would help.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q02-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q03-S1",
+      "text": "Why don't we take a short break?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q03-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q03-S2",
+      "text": "The break was only ten minutes.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q03-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q03-S3",
+      "text": "Good idea—I need some coffee.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q03-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q03-S4",
+      "text": "Because it's far.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q03-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q04-S1",
+      "text": "Do you mind if I open the window?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q04-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q04-S2",
+      "text": "Yes, it opens at nine.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q04-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q04-S3",
+      "text": "At the front of the room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q04-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q04-S4",
+      "text": "Go ahead—it's warm in here.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q04-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q05-S1",
+      "text": "Could I borrow your stapler for a moment?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q05-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q05-S2",
+      "text": "Sure, it's on my desk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q05-S3",
+      "text": "I borrowed it last month.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q05-S4",
+      "text": "It's a stable job.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L07-Q06-S1",
+      "text": "Shall we go over the budget figures together?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q06-q.mp3"
+    },
+    {
+      "id": "CH02-L07-Q06-S2",
+      "text": "The figures are in the folder.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q06-a.mp3"
+    },
+    {
+      "id": "CH02-L07-Q06-S3",
+      "text": "Yes, let's do that after lunch.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q06-b.mp3"
+    },
+    {
+      "id": "CH02-L07-Q06-S4",
+      "text": "The budget was approved.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l07-q06-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q01-S1",
+      "text": "I can't find my access card.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q01-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q01-S2",
+      "text": "It's accessible to everyone.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q01-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q01-S3",
+      "text": "Did you check the lost-and-found box?",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q01-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q01-S4",
+      "text": "It's due on Friday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q01-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q02-S1",
+      "text": "The projector isn't working again.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q02-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q02-S2",
+      "text": "I'll ask IT to take a look.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q02-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q02-S3",
+      "text": "Yes, a good project.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q02-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q02-S4",
+      "text": "The movie was long.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q02-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q03-S1",
+      "text": "We're almost out of coffee.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q03-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q03-S2",
+      "text": "I'm out of town.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q03-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q03-S3",
+      "text": "Yes, I drank coffee.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q03-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q03-S4",
+      "text": "I'll pick some up on my way in.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q03-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q04-S1",
+      "text": "I thought the deadline was tomorrow.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q04-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q04-S2",
+      "text": "In the Dallas office.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q04-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q04-S3",
+      "text": "It was extended until Friday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q04-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q04-S4",
+      "text": "I'll be on vacation tomorrow.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q04-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q05-S1",
+      "text": "Where did Ms. Park go?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q05-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q05-S2",
+      "text": "At two o'clock.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q05-S3",
+      "text": "She parked in the garage.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q05-S4",
+      "text": "Ask the receptionist—she might know.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L08-Q06-S1",
+      "text": "How was the client meeting?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q06-q.mp3"
+    },
+    {
+      "id": "CH02-L08-Q06-S2",
+      "text": "It went better than expected.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q06-a.mp3"
+    },
+    {
+      "id": "CH02-L08-Q06-S3",
+      "text": "At the main office.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q06-b.mp3"
+    },
+    {
+      "id": "CH02-L08-Q06-S4",
+      "text": "Next Monday at ten.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l08-q06-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q01-S1",
+      "text": "Have you purchased the tickets?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q01-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q01-S2",
+      "text": "The tickets are expensive.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q01-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q01-S3",
+      "text": "She's a ticket agent.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q01-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q01-S4",
+      "text": "Yes, I bought them online.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q01-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q02-S1",
+      "text": "Is the manager in the building?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q02-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q02-S2",
+      "text": "It's a tall building.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q02-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q02-S3",
+      "text": "She's out until two.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q02-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q02-S4",
+      "text": "At the front desk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q02-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q03-S1",
+      "text": "Can you reserve a table for six?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q03-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q03-S2",
+      "text": "I'll book one for seven o'clock.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q03-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q03-S3",
+      "text": "The reserve tank is full.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q03-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q03-S4",
+      "text": "Six people attended.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q03-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q04-S1",
+      "text": "Will the renovation be completed by June?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q04-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q04-S2",
+      "text": "In the lobby area.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q04-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q04-S3",
+      "text": "I renovated the kitchen.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q04-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q04-S4",
+      "text": "They should finish in May.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q04-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q05-S1",
+      "text": "How much will the repairs cost?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q05-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q05-S2",
+      "text": "The repair shop closes at six.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q05-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q05-S3",
+      "text": "It'll come to about four hundred dollars.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q05-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q05-S4",
+      "text": "By next Friday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q05-c.mp3"
+    },
+    {
+      "id": "CH02-L09-Q06-S1",
+      "text": "Is Mr. Kim still working here?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q06-q.mp3"
+    },
+    {
+      "id": "CH02-L09-Q06-S2",
+      "text": "No, he left the company last spring.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q06-a.mp3"
+    },
+    {
+      "id": "CH02-L09-Q06-S3",
+      "text": "Yes, I'll work late.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q06-b.mp3"
+    },
+    {
+      "id": "CH02-L09-Q06-S4",
+      "text": "At the Kim brothers' shop.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-l09-q06-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q01-S1",
-      "text": "A worker is placing folders on a shelf.",
+      "text": "A man is carrying a monitor up some stairs.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q01-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q01-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q01-S2",
-      "text": "A worker is removing a tire from a car.",
+      "text": "A monitor is being delivered to a customer.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q01-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q01-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q01-S3",
-      "text": "A worker is cleaning a window.",
+      "text": "A man is turning off the lights.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q01-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q01-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q01-S4",
-      "text": "A worker is carrying a ladder outside.",
+      "text": "A man is adjusting a monitor.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q01-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q01-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q02-S1",
-      "text": "A bicycle is leaning against a fence.",
+      "text": "Some plants are lined up along a walkway.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q02-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q02-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q02-S2",
-      "text": "A bicycle is inside a storage cabinet.",
+      "text": "Some plants are being watered by a gardener.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q02-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q02-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q02-S3",
-      "text": "A bicycle is being loaded onto a boat.",
+      "text": "A building is being constructed.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q02-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q02-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q02-S4",
-      "text": "A bicycle is hanging from a ceiling.",
+      "text": "Some plants are hanging over a bridge.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q02-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q02-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q03-S1",
-      "text": "A server is carrying a tray.",
+      "text": "They are setting up a projector.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q03-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q03-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q03-S2",
-      "text": "A server is washing a floor.",
+      "text": "They are signing a document.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q03-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q03-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q03-S3",
-      "text": "A server is repairing a chair.",
+      "text": "One of them is pointing at a tablet.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q03-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q03-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q03-S4",
-      "text": "A server is reading a newspaper.",
+      "text": "They are shaking hands.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q03-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q03-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q04-S1",
-      "text": "Several boxes are stored beneath a table.",
+      "text": "A woman is hanging up her coat.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q04-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q04-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q04-S2",
-      "text": "Several boxes are spread across the road.",
+      "text": "A woman is holding an umbrella.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q04-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q04-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q04-S3",
-      "text": "Several boxes are being painted.",
+      "text": "A woman is opening a door.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q04-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q04-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q04-S4",
-      "text": "Several boxes are hanging from a wall.",
+      "text": "A woman is buying a coat.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q04-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q04-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q05-S1",
-      "text": "A truck is parked outside a warehouse.",
+      "text": "A forklift is lifting a box.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q05-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q05-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q05-S2",
-      "text": "A truck is driving through a tunnel.",
+      "text": "A forklift is parked next to some boxes.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q05-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q05-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q05-S3",
-      "text": "A truck is being washed in a garage.",
+      "text": "Workers are unloading a truck.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q05-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q05-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q05-S4",
-      "text": "A truck is parked inside a restaurant.",
+      "text": "Some boxes are being wrapped.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q05-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q05-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q06-S1",
-      "text": "A technician is inspecting a copier.",
+      "text": "A man is taking a book from a shelf.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q06-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q06-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q06-S2",
-      "text": "A technician is ordering lunch.",
+      "text": "A man is returning a book at the counter.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q06-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q06-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q06-S3",
-      "text": "A technician is greeting passengers.",
+      "text": "A man is climbing a ladder.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q06-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q06-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q06-S4",
-      "text": "A technician is moving a sofa.",
+      "text": "Some shelves are being moved.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q06-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q06-d.mp3"
     },
     {
       "id": "CH02-FINAL-Q07-S1",
-      "text": "",
+      "text": "Who left this package on my desk?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q07-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q07-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q07-S2",
-      "text": "In the top drawer of the cabinet.",
-      "voice": "us-female-01",
+      "text": "On the second shelf.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q07-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q07-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q07-S3",
-      "text": "At around five o'clock.",
-      "voice": "us-female-01",
+      "text": "I think it was the courier.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q07-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q07-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q07-S4",
-      "text": "The keys are made of metal.",
-      "voice": "us-female-01",
+      "text": "The desk is new.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q07-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q07-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q08-S1",
-      "text": "",
+      "text": "When is the next shuttle to the airport?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q08-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q08-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q08-S2",
-      "text": "Not at all. I'll send it now.",
-      "voice": "us-female-01",
+      "text": "Terminal two.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q08-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q08-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q08-S3",
-      "text": "The team meeting is tomorrow.",
-      "voice": "us-female-01",
+      "text": "Yes, I'll take it.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q08-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q08-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q08-S4",
-      "text": "The message is quite short.",
-      "voice": "us-female-01",
+      "text": "In about ten minutes.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q08-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q08-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q09-S1",
-      "text": "",
+      "text": "Where should I put the new brochures?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q09-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q09-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q09-S2",
-      "text": "Yes, it arrived this morning.",
-      "voice": "us-female-01",
+      "text": "On the table by the entrance.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q09-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q09-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q09-S3",
-      "text": "The supplier is based overseas.",
-      "voice": "us-female-01",
+      "text": "They're printed in color.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q09-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q09-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q09-S4",
-      "text": "At the purchasing department.",
-      "voice": "us-female-01",
+      "text": "Brochure design is Tom's job.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q09-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q09-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q10-S1",
-      "text": "",
+      "text": "Do you want the report printed or sent by e-mail?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q10-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q10-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q10-S2",
-      "text": "That would give us more time.",
-      "voice": "us-female-01",
+      "text": "It was printed yesterday.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q10-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q10-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q10-S3",
-      "text": "The flight attendant is helpful.",
-      "voice": "us-female-01",
+      "text": "No, I don't.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q10-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q10-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q10-S4",
-      "text": "At gate number eight.",
-      "voice": "us-female-01",
+      "text": "E-mail is fine.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q10-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q10-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q11-S1",
-      "text": "",
+      "text": "Aren't you going to the trade show?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q11-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q11-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q11-S2",
-      "text": "She's available after two.",
-      "voice": "us-female-01",
+      "text": "I showed him the way.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q11-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q11-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q11-S3",
-      "text": "The supervisor's office is upstairs.",
-      "voice": "us-female-01",
+      "text": "No, I have to meet a client that day.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q11-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q11-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q11-S4",
-      "text": "The afternoon session was canceled.",
-      "voice": "us-female-01",
+      "text": "Next to the convention center.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q11-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q11-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q12-S1",
-      "text": "",
+      "text": "Could you help me move these chairs?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q12-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q12-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q12-S2",
-      "text": "Early next week.",
-      "voice": "us-female-01",
+      "text": "Sure, which room?",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q12-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q12-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q12-S3",
-      "text": "On the second computer.",
-      "voice": "us-female-01",
+      "text": "They're comfortable chairs.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q12-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q12-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q12-S4",
-      "text": "The software is easy to use.",
-      "voice": "us-female-01",
+      "text": "Yes, I moved last year.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q12-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q12-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q13-S1",
-      "text": "",
+      "text": "Why don't you try the new Italian restaurant?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q13-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q13-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q13-S2",
-      "text": "We should reserve another room.",
-      "voice": "us-female-01",
+      "text": "Because I was late.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q13-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q13-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q13-S3",
-      "text": "The meeting lasted an hour.",
-      "voice": "us-female-01",
+      "text": "I'm trying a new job.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q13-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q13-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q13-S4",
-      "text": "I met the painter yesterday.",
-      "voice": "us-female-01",
+      "text": "I will—do you have its address?",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q13-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q13-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q14-S1",
-      "text": "",
+      "text": "The elevator is out of service.",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q14-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q14-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q14-S2",
-      "text": "The updated version with the new figures.",
-      "voice": "us-female-01",
+      "text": "Then let's use the stairs.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q14-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q14-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q14-S3",
-      "text": "At the visitor entrance.",
-      "voice": "us-female-01",
+      "text": "I served lunch.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q14-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q14-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q14-S4",
-      "text": "It took about twenty minutes.",
-      "voice": "us-female-01",
+      "text": "Yes, it's the third floor.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q14-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q14-c.mp3"
     },
     {
       "id": "CH02-FINAL-Q15-S1",
-      "text": "",
+      "text": "How long have you worked here?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q15-01.mp3"
+      "output": "audio/chapter-02/ch02-final-q15-q.mp3"
     },
     {
       "id": "CH02-FINAL-Q15-S2",
-      "text": "Yes, it has been canceled because of the storm.",
-      "voice": "us-female-01",
+      "text": "About five kilometers.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q15-02.mp3"
+      "output": "audio/chapter-02/ch02-final-q15-a.mp3"
     },
     {
       "id": "CH02-FINAL-Q15-S3",
-      "text": "The concert begins at seven.",
-      "voice": "us-female-01",
+      "text": "Since 2019.",
+      "voice": "us-male-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q15-03.mp3"
+      "output": "audio/chapter-02/ch02-final-q15-b.mp3"
     },
     {
       "id": "CH02-FINAL-Q15-S4",
-      "text": "The outdoor stage is very large.",
+      "text": "By bus, usually.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q15-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q16-S1",
+      "text": "Is it all right if I leave early today?",
       "voice": "us-female-01",
       "speed": 1.0,
-      "output": "audio/chapter-02/ch02-final-q15-04.mp3"
+      "output": "audio/chapter-02/ch02-final-q16-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q16-S2",
+      "text": "Yes, it's right here.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q16-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q16-S3",
+      "text": "At about five.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q16-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q16-S4",
+      "text": "Just finish the report first.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q16-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q17-S1",
+      "text": "What did the client think of the proposal?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q17-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q17-S2",
+      "text": "She asked for a few changes.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q17-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q17-S3",
+      "text": "In the conference room.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q17-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q17-S4",
+      "text": "I think so too.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q17-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q18-S1",
+      "text": "Would you mind turning down the music?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q18-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q18-S2",
+      "text": "It's playing at nine.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q18-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q18-S3",
+      "text": "Sorry, I'll turn it down.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q18-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q18-S4",
+      "text": "The turn is on the left.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q18-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q19-S1",
+      "text": "Who's going to present the quarterly figures?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q19-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q19-S2",
+      "text": "In the main hall.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q19-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q19-S3",
+      "text": "Quarter past four.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q19-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q19-S4",
+      "text": "Ms. Alvarez volunteered.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q19-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q20-S1",
+      "text": "Do you know how much the conference registration is?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q20-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q20-S2",
+      "text": "It's one hundred fifty dollars.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q20-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q20-S3",
+      "text": "In the registry office.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q20-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q20-S4",
+      "text": "The conference was long.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q20-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q21-S1",
+      "text": "We should hire another designer.",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q21-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q21-S2",
+      "text": "It's a nice design.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q21-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q21-S3",
+      "text": "Let's check whether the budget allows it.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q21-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q21-S4",
+      "text": "I hired him last month.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q21-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q22-S1",
+      "text": "Which seat is yours?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q22-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q22-S2",
+      "text": "At the front desk.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q22-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q22-S3",
+      "text": "Yes, I sat there.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q22-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q22-S4",
+      "text": "The one by the window.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q22-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q23-S1",
+      "text": "Has the new employee started yet?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q23-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q23-S2",
+      "text": "She begins on Monday.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q23-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q23-S3",
+      "text": "It's a new office.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q23-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q23-S4",
+      "text": "About fifty employees.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q23-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q24-S1",
+      "text": "Where's the nearest copy center?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q24-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q24-S2",
+      "text": "I'd like some coffee.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q24-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q24-S3",
+      "text": "There's one around the corner.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q24-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q24-S4",
+      "text": "Yes, I'll copy them.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q24-c.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q25-S1",
+      "text": "Why is the lobby so crowded?",
+      "voice": "us-female-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q25-q.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q25-S2",
+      "text": "It's on the first floor.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q25-a.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q25-S3",
+      "text": "I lobbied for it.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q25-b.mp3"
+    },
+    {
+      "id": "CH02-FINAL-Q25-S4",
+      "text": "There's a job fair this morning.",
+      "voice": "us-male-01",
+      "speed": 1.0,
+      "output": "audio/chapter-02/ch02-final-q25-c.mp3"
     },
     {
       "id": "CH03-L01-G01",

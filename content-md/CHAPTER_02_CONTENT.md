@@ -1,884 +1,1145 @@
-# GIÁO TRÌNH TOEIC LISTENING — CHƯƠNG 2
+# GIÁO TRÌNH TOEIC LISTENING — CHƯƠNG 2 (BẢN 2.0 — NÂNG CẤP)
 
-**Mã chương:** CH02  
-**Tên chương:** Part 1 và Part 2 mở rộng — mô tả ảnh, vị trí, câu hỏi gián tiếp và phản hồi tự nhiên  
-**Phiên bản nội dung:** 1.0  
-**Điều kiện mở khóa:** hoàn thành Chương 1 và đạt ít nhất 80% bài kiểm tra Chương 1.  
-**Thời lượng gợi ý:** 8–12 buổi, mỗi buổi 25–40 phút.
+**Mã chương:** CH02
+**Tên chương:** Part 1 và Part 2 — nghe thật: mô tả ảnh, âm thanh thực tế, câu hỏi – phản hồi
+**Phiên bản nội dung:** 2.0 (thay thế hoàn toàn 1.0)
+**Điều kiện mở khóa:** hoàn thành Chương 1 và đạt ≥ 80% bài kiểm tra Chương 1.
+**Thời lượng gợi ý:** 14–20 buổi, mỗi buổi 30–45 phút.
+**Mục tiêu điểm:** nền cho mốc Listening 300. Với Part 1 + Part 2 (31/100 câu Listening), mục tiêu của chương là **≥ 5/6 Part 1 và ≥ 18/25 Part 2** ở tốc độ thật. Mức quy đổi sang điểm thay đổi theo từng đề, nên dùng con số này làm mục tiêu luyện tập chứ không phải cam kết điểm.
 
-> Đây là nội dung do giáo trình biên soạn mới. Các tình huống và câu hỏi mô phỏng kỹ năng TOEIC, không phải đề ETS chính thức và không chép nguyên văn sách thương mại.
+> Nội dung do giáo trình tự biên soạn: mô phỏng kỹ năng và dạng bẫy của TOEIC, không phải đề ETS chính thức, không chép sách thương mại.
 
 ---
 
-## Mục tiêu Chương 2
+## 0. Triết lý chương: "học xong là nghe được"
 
-Sau chương này, bạn cần:
+Bản 1.0 chỉ dạy **biết đáp án**. Bản 2.0 dạy **nghe được**, gồm 4 lớp:
 
-1. Nghe mô tả người đang làm gì trong Part 1.
-2. Phân biệt chủ động và bị động trong câu mô tả ảnh.
-3. Nghe vị trí, đồ vật, trạng thái và quan hệ không gian.
-4. Tránh suy diễn điều không có trong hình hoặc audio.
-5. Xử lý câu hỏi gián tiếp, lời đề nghị, yêu cầu, lời mời và lựa chọn.
-6. Nhận ra paraphrase cơ bản: cùng ý nhưng dùng từ khác.
-7. Làm bài Part 1/2 mới ở tốc độ bình thường.
+1. **Âm thanh:** giải mã nối âm, âm yếu, đuôi -ed/-s, số và giờ. Đây là lý do người học "biết từ mà vẫn không nghe ra".
+2. **Nhận dạng nhanh:** xác định loại câu hỏi từ 2–3 từ đầu.
+3. **Chiến thuật loại trừ:** biết từng loại bẫy và thấy trước chúng.
+4. **Vòng sửa lỗi:** mỗi câu sai được gắn **mã lỗi** cụ thể và sinh bài luyện lại đúng điểm sai đó.
 
-## Bản đồ chương
+**Quy tắc vàng:** một bài chỉ được tính là "đã nắm" khi người học nghe lại **không transcript** ở tốc độ 1.0x và đúng, **sau ít nhất 24 giờ**, không phải chỉ đúng ngay sau khi đọc giải thích.
 
-| Bài | Nội dung | Kỹ năng |
+---
+
+## 1. Chuẩn âm thanh cho web app (giao cho người code)
+
+| Hạng mục | Quy định |
+|---|---|
+| Giọng | Luân phiên **Mỹ, Anh, Úc, Canada**, nam và nữ, như thực tế bài thi. Mỗi item gắn `accent` và `gender`. |
+| Part 1 | Mỗi lựa chọn là **một file audio riêng**, chỉ đọc nội dung câu, **không đọc chữ A/B/C/D** (khớp bài thi: người nghe tự đếm thứ tự). Khoảng nghỉ giữa các câu 0.8–1.2 s. |
+| Part 2 | Câu hỏi/câu trần thuật là một file; ba phản hồi là ba file riêng. Mỗi phản hồi nên do **giọng khác** với người hỏi. Khoảng nghỉ giữa các phần khoảng 1 s. |
+| Nghe một lần | Chế độ **Thi** chỉ phát một lần, không tua. Chế độ **Học** cho nghe lại, chậm 0.85x, hiện transcript. |
+| Tốc độ | Điểm khởi đầu để **hiệu chỉnh**: khoảng **140–160 từ/phút** cho câu Part 2 tự nhiên. Con số này chưa phải thông số chính thức của ETS. Người làm audio cần so với một đề ETS thật rồi chỉnh. Tránh giọng TTS đều đều: cần có ngắt nhịp, trọng âm và ngữ điệu hỏi/khẳng định rõ. |
+| Chất lượng | Không đọc chậm từng chữ. Giữ nối âm và âm yếu tự nhiên (xem Bài 4). Nếu TTS không tạo được nối âm, ghi chú vào item để thu/chọn giọng khác. |
+| Xáo đáp án | Vị trí đáp án đúng **phải xáo ở runtime**. Bảng đáp án trong file này chỉ là đáp án gốc. Vì mỗi lựa chọn là một file audio riêng, xáo chỉ là thay đổi thứ tự phát. |
+
+---
+
+## 2. Cấu trúc dữ liệu một câu hỏi (cho người code)
+
+Mọi câu MCQ trong chương dùng khung sau. Trường `distractor_code` là **nền tảng của chẩn đoán**.
+
+```
+id: CH02-L01-Q01
+part: 1 | 2
+accent: US-F | UK-M | AU-F | CA-M ...
+difficulty: 1-3
+image_brief: (Part 1) mô tả ảnh cho Gemini vẽ SVG, không chữ, không logo
+visible_facts: (Part 1) những gì chắc chắn thấy trong ảnh
+options: [{key, audio_text, correct, distractor_code, why_wrong_vi}]
+explanation_vi
+skill_tags: [...]
+repair_drill: mã bài sửa lỗi (xem mục 3)
+```
+
+**Cách chẩn đoán khi người học sai:** app biết người học chọn lựa chọn nào, nên biết ngay mã bẫy họ rơi vào. Quy tắc đơn giản: sai ≥ 2 lần cùng một `distractor_code` → hiện chẩn đoán, và sinh bài luyện lại đúng mã đó (mục 3).
+
+**Về câu hỏi "có thể gửi đáp án cho AI phân tích không":** có thể. Gửi `{item, lựa chọn của người học, thời gian làm, số lần nghe lại, 20 lỗi gần nhất}` đến AI để nhận xét sâu bằng tiếng Việt. Lưu ý: không đặt API key ở trình duyệt, phải qua một backend nhỏ (proxy) và có giới hạn số lần gọi. Phần chẩn đoán theo mã lỗi ở đây **chạy được hoàn toàn không cần AI**; AI chỉ là lớp bổ sung.
+
+---
+
+## 3. Hệ thống mã lỗi và bài sửa lỗi
+
+### 3.1. Mã bẫy ở Part 1
+
+| Mã | Tên bẫy | Biểu hiện | Bài sửa (repair) |
+|---|---|---|---|
+| P1-ACT | Sai hành động | Đúng người/vật nhưng động từ khác hình | R1: nhận diện động từ từ ảnh |
+| P1-ABS | Vật/người không có trong ảnh | Nhắc đến thứ không thấy | R2: danh sách "có thấy / không thấy" |
+| P1-LOC | Sai vị trí | Nhầm beside/behind/under/on… | R3: giới từ vị trí |
+| P1-PRG | Sai thể/trạng thái | Nhầm wearing/putting on; is being V3 / has been V3 / is V3 | R4: thể và trạng thái |
+| P1-INF | Suy diễn quá mức | Thêm nghề nghiệp, mục đích, thời gian | R5: chỉ chọn điều nhìn thấy |
+| P1-OPP | Sai chiều/ngược | load/unload, open/close | R6: cặp động từ đối lập |
+| P1-SND | Nhầm âm tương tự | Nghe giống nhưng khác từ | R7: cặp âm gần nhau |
+
+### 3.2. Mã bẫy ở Part 2
+
+| Mã | Tên bẫy | Biểu hiện | Bài sửa |
+|---|---|---|---|
+| P2-WHQ | Sai loại câu hỏi | Trả lời giờ cho câu hỏi nơi chốn… | R8: nhận loại câu hỏi từ 3 từ đầu |
+| P2-REP | Lặp từ | Từ trong đáp án trùng từ trong câu hỏi | R9: "bẫy lặp từ" |
+| P2-SND | Nhầm âm | copy/coffee, sale/sail… | R7 |
+| P2-YNA | Yes/No cho câu hỏi WH | "Where…?" → "Yes, …" | R8 |
+| P2-TNS | Sai thì | Hỏi tương lai, đáp quá khứ | R10: thì và mốc thời gian |
+| P2-PER | Sai chủ thể | Hỏi "you", đáp về "he" vô lý | R11: chủ thể và đại từ |
+| P2-REL | Liên quan chủ đề nhưng không trả lời | Cùng chủ đề, sai chức năng | R12: "trả lời đúng chức năng" |
+| P2-ASS | Liên tưởng | doctor → hospital… | R12 |
+
+### 3.3. Mã lỗi nghe (nguyên nhân, không phải bẫy)
+
+Khi người học sai và **nghe lại với transcript thì hiểu**, đó là lỗi nghe, không phải lỗi hiểu nghĩa.
+
+| Mã | Ý nghĩa | Bài sửa |
 |---|---|---|
-| CH02-L01 | Part 1: người và hành động | present continuous, action verbs |
-| CH02-L02 | Part 1: vị trí và đồ vật | prepositions, object/location |
-| CH02-L03 | Part 1: bị động và distractors | passive voice, supported detail |
-| CH02-L04 | Part 2: câu hỏi gián tiếp và giao tiếp | indirect questions, requests, offers |
-| CH02-L05 | Part 2: paraphrase và phản hồi tự nhiên | paraphrase, statement response, preference |
-| CH02-FINAL | Kiểm tra tổng kết | 15 câu mới, Part 1 + Part 2 |
+| L-REDUCE | Không giải mã được nối âm/âm yếu | Dictation Bài 4 |
+| L-NUM | Nhầm số, giờ, giá | Drill số Bài 4 |
+| L-FIRST | Bỏ lỡ 2–3 từ đầu | Drill "3 từ đầu" Bài 5 |
+| L-ENDING | Không nghe đuôi -ed/-s | Drill đuôi Bài 4 |
+| L-ACCENT | Chỉ nghe được một giọng | Nghe trộn giọng |
+| L-MEMORY | Nghe đúng câu hỏi nhưng quên khi tới đáp án C | Luyện nhắc lại mô hình trong đầu (Bài 5) |
+
+### 3.4. Quy trình vòng sửa lỗi
+
+1. Câu sai → ghi vào **Mistake Book** kèm mã lỗi, ngày, giọng.
+2. Ngay lập tức: nghe lại ở 0.85x với transcript → **dictation** câu sai → **shadowing** 3 lần.
+3. Sinh **3 câu mới cùng mã lỗi**, độ khó bằng hoặc thấp hơn. Cần 3/3 đúng mới qua bài sửa.
+4. Ôn lại sau **1 ngày, 3 ngày, 7 ngày** ở 1.0x, không transcript. Đúng cả ba lần thì mã lỗi đó được "đóng".
+5. Nếu cùng một mã sai 3 buổi liền → khuyến nghị quay lại bài học chứa mã đó, đọc lại lý thuyết, rồi mới làm tiếp.
+
+---
+
+## 4. Bản đồ chương
+
+| Bài | Nội dung | Kỹ năng chính |
+|---|---|---|
+| L01 | Part 1: người và hành động | present continuous, wearing/putting on, động từ hành động |
+| L02 | Part 1: vị trí, đồ vật, ảnh không người | giới từ vị trí, bẫy "không có người" |
+| L03 | Part 1: bị động, trạng thái, bẫy suy diễn | is being V3 / has been V3 / is V3, supported detail |
+| L04 | **Nghe thật:** nối âm, âm yếu, đuôi, số và giờ, giọng Anh/Úc | dictation, minimal pairs, number drills |
+| L05 | Part 2: nhận loại câu hỏi WH trong 3 từ đầu | WH, bẫy lặp từ và bẫy âm |
+| L06 | Part 2: Yes/No, tag, phủ định, lựa chọn | trả lời gián tiếp, "Yes/No" không phải lúc nào cũng có mặt |
+| L07 | Part 2: câu hỏi gián tiếp, yêu cầu, lời đề nghị, gợi ý | chức năng giao tiếp |
+| L08 | Part 2: câu trần thuật và câu trả lời gián tiếp | statement, "I don't know", chuyển hướng |
+| L09 | Part 2: paraphrase và bản đồ bẫy tổng hợp | paraphrase, loại trừ |
+| FINAL | Kiểm tra tổng kết | 25 câu mới: Part 1 (6) + Part 2 (19) |
 
 ---
 
 # BÀI 1 — PART 1: NGƯỜI VÀ HÀNH ĐỘNG
 
 ## Mục tiêu
+- Nhìn ảnh và **dự đoán trước** 3–4 từ có thể xuất hiện.
+- Nghe động từ chính và `be + V-ing`.
+- Phân biệt **đang làm** và **đã/sẽ làm**; **mặc/đeo** và **đang mặc vào**.
 
-- Nhận ra người trong ảnh đang làm gì.
-- Nghe động từ hành động và dạng `be + V-ing`.
-- Phân biệt hành động đang diễn ra với hành động không có trong ảnh.
+## 1.1. Quy trình 5 giây trước khi audio chạy
 
-## 1.1. Cách nghe Part 1
+Trong Part 1 bạn có vài giây nhìn ảnh. Làm đúng ba bước:
 
-Trong Part 1, bạn nhìn một bức ảnh và nghe bốn câu mô tả. Chọn câu mô tả đúng nhất. Tập trung vào:
+1. **Ai/cái gì là trung tâm?** (một người, nhiều người, không có người).
+2. **Hành động hay trạng thái?** Có người đang làm gì không? Nếu không có người thì là trạng thái vật.
+3. **Đoán trước 3 từ:** ví dụ ảnh người đứng cạnh máy photocopy → *copier, paper, use*.
 
-- Ai xuất hiện? a man, a woman, two workers, a customer.
-- Họ đang làm gì? carrying, examining, arranging, talking.
-- Vật gì được nhắc đến? a box, a document, a cart, a machine.
-- Hành động có thật trong ảnh không?
+Khi nghe: đánh dấu mỗi lựa chọn **✓ / ✗ / ?** trong đầu. Chỉ chọn câu **hoàn toàn đúng**. Một từ sai trong câu là loại.
 
-Không chọn câu chỉ vì một từ trong câu giống vật thể trong hình. Cả hành động và quan hệ phải phù hợp.
+## 1.2. Quy tắc cốt lõi: câu đúng phải đúng 100%
 
-## 1.2. Động từ hành động hay gặp
+Một câu như *"A man is repairing a printer"* sai dù ảnh có đúng một người đàn ông và đúng một cái máy, vì động từ không khớp. Đây là bẫy phổ biến nhất của Part 1 (**P1-ACT**).
 
-| Động từ/cụm | Nghĩa |
+## 1.3. Cặp dễ nhầm (hành động và trạng thái)
+
+| Đúng khi ảnh cho thấy | Sai khi |
 |---|---|
-| carry a box | mang một cái hộp |
-| arrange the chairs | sắp xếp ghế |
-| examine a document | xem xét tài liệu |
-| operate a machine | vận hành máy |
-| load a truck | chất hàng lên xe tải |
-| speak with a customer | nói chuyện với khách |
-| point at a screen | chỉ vào màn hình |
-| clean a table | lau bàn |
-| hold a folder | cầm một tập hồ sơ |
-| adjust a chair | điều chỉnh ghế |
+| She **is wearing** a coat. (đang mặc sẵn) | She **is putting on** a coat. (đang trong động tác mặc vào) |
+| He **is holding** a folder. | He **is picking up** a folder. |
+| They **are standing** in line. | They **are standing up**. |
+| She **is looking at** a screen. | She **is repairing** a screen. |
+| He **is using** a copier. | He **is fixing** a copier. |
 
-## 1.3. Cấu trúc mô tả đang diễn ra
+Với ảnh một người đứng yên, câu có `wearing / holding / standing / sitting` thường an toàn hơn câu mô tả động tác chuyển tiếp như `putting on / picking up`.
 
-`A woman is examining a document.`  
-Một phụ nữ đang xem xét tài liệu.
-
-`Two workers are loading boxes onto a truck.`  
-Hai công nhân đang chất các thùng hàng lên xe tải.
-
-Chủ ngữ số ít thường đi với `is`; chủ ngữ số nhiều thường đi với `are` trong cấu trúc hiện tại tiếp diễn.
-
-## 1.4. Bài tập Part 1
-
-**Hướng dẫn tạo ảnh:** Các ảnh dưới đây là mô tả để Gemini tạo hình minh họa SVG đơn giản, không chữ, không logo, không cần tìm ảnh trên Internet. Mỗi ảnh phải rõ hành động chính và dùng làm asset local.
-
-### Câu 1 — CH02-L01-Q01
-
-**Image brief:** Một nhân viên nữ đứng cạnh bàn, cầm một tờ giấy và nhìn chăm chú vào tờ giấy. Trên bàn có một máy tính và một chồng tài liệu.
-
-**Audio statements (phát lần lượt, không đọc chữ A/B/C/D):**
-
-- A: A woman is examining a document.
-- B: A woman is watering some plants.
-- C: A woman is moving a bookshelf.
-- D: A woman is opening a window.
-
-**Đáp án:** A.  
-**Giải thích:** Người phụ nữ đang xem một tài liệu.  
-**Distractors:** B không có cây đang được tưới; C không có kệ sách đang được di chuyển; D không có hành động mở cửa sổ.  
-**Tags:** `part1_person_action`, `present_continuous`.
-
-### Câu 2 — CH02-L01-Q02
-
-**Image brief:** Hai nhân viên mặc trang phục công sở đang đứng cạnh một màn hình lớn; một người chỉ vào biểu đồ trên màn hình, người kia nhìn theo.
-
-**Audio statements:**
-
-- A: Two employees are repairing a vehicle.
-- B: One employee is pointing at a screen.
-- C: The employees are leaving the building.
-- D: A customer is paying at a counter.
-
-**Đáp án:** B.  
-**Giải thích:** Một nhân viên đang chỉ vào màn hình.  
-**Distractors:** A nói về sửa xe; C nói họ rời tòa nhà; D nói về khách thanh toán, đều không khớp ảnh.  
-**Tags:** `part1_person_action`, `point_at`.
-
-### Câu 3 — CH02-L01-Q03
-
-**Image brief:** Một người đàn ông đẩy xe đẩy có nhiều thùng carton trong hành lang kho hàng.
-
-**Audio statements:**
-
-- A: A man is pushing a cart.
-- B: A man is painting a wall.
-- C: A man is sitting at a desk.
-- D: A man is washing a car.
-
-**Đáp án:** A.  
-**Giải thích:** Hành động chính là đẩy xe đẩy.  
-**Distractors:** B, C, D mô tả hành động khác không xuất hiện.  
-**Tags:** `part1_person_action`, `push_pull`.
-
-### Câu 4 — CH02-L01-Q04
-
-**Image brief:** Ba người ngồi quanh bàn họp; một người đang nói và hai người còn lại nhìn về phía người đó.
-
-**Audio statements:**
-
-- A: Several people are attending a meeting.
-- B: Several people are waiting for a bus.
-- C: Several people are exercising outdoors.
-- D: Several people are loading luggage.
-
-**Đáp án:** A.  
-**Giải thích:** Những người này đang tham gia một cuộc họp.  
-**Distractors:** B, C, D không đúng bối cảnh và hành động trong ảnh.  
-**Tags:** `part1_group_action`, `meeting_vocabulary`.
-
-### Tự kiểm tra Bài 1
-
-Bạn đạt khi đúng ít nhất 3/4 câu và xác định đúng động từ chính trong mỗi câu: examining, pointing, pushing, attending.
-
----
-
-# BÀI 2 — PART 1: VỊ TRÍ, ĐỒ VẬT VÀ QUAN HỆ KHÔNG GIAN
-
-## Mục tiêu
-
-- Nhận ra vị trí tương đối của đồ vật.
-- Nghe giới từ chỉ vị trí.
-- Không nhầm vật ở gần, ở trên, ở dưới, bên cạnh hoặc phía sau.
-
-## 2.1. Từ chỉ vị trí quan trọng
+## 1.4. Động từ hành động hay gặp
 
 | Cụm | Nghĩa |
 |---|---|
-| next to / beside | bên cạnh |
-| in front of | phía trước |
-| behind | phía sau |
-| on top of | ở trên |
-| underneath / under | ở dưới |
-| across from | đối diện |
-| near | gần |
-| along the wall | dọc theo bức tường |
-| at the corner | ở góc |
-| in the center of | ở chính giữa |
+| examine / inspect / check | xem xét, kiểm tra |
+| operate / use a machine | vận hành, dùng máy |
+| load / unload a truck | chất / dỡ hàng |
+| arrange / organize | sắp xếp |
+| point at / gesture toward | chỉ vào |
+| hand / pass | đưa, chuyển cho |
+| lean over / bend over | cúi người |
+| push / pull a cart | đẩy / kéo xe |
+| shake hands | bắt tay |
+| reach for | với tay lấy |
 
-## 2.2. Cẩn thận với từ chỉ vị trí
+## 1.5. Bài luyện Part 1
 
-`The chair is beside the desk.` khác `The chair is behind the desk.`
+> Mỗi ảnh: không chữ, không logo; hành động chính phải rõ.
 
-`A lamp is on the table.` khác `A lamp is under the table.`
+#### CH02-L01-Q01 · US-M · ★1
+**Ảnh:** Một người đàn ông đứng cạnh máy photocopy, đang đặt xấp giấy vào khay.
+**Visible:** một người, máy photocopy, xấp giấy. **Không thấy:** máy in đang bị tháo ra, hộp thư.
+- A. A man is repairing a printer. `P1-ACT`
+- B. A man is using a copier. ✓
+- C. A man is stapling some pages. `P1-ACT`
+- D. A man is collecting mail from a box. `P1-ABS`
 
-Khi nhìn ảnh, hãy xác định vị trí trước; khi nghe, đối chiếu đúng giới từ.
+**Giải thích:** Hành động là dùng máy photocopy. A chỉ đúng "người + máy", sai động từ. D thêm vật không có.
+**Skill:** `use/operate`, `P1-ACT`.
 
-## 2.3. Bài tập Part 1
+#### CH02-L01-Q02 · UK-F · ★1
+**Ảnh:** Hai phụ nữ mặc đồ công sở bắt tay nhau qua bàn; trên bàn có vài tờ giấy.
+**Visible:** hai người, bắt tay, bàn, giấy. **Không thấy:** bút ký, tòa nhà bên ngoài.
+- A. They are signing a form. `P1-INF`
+- B. They are hanging a picture. `P1-ACT`
+- C. They are walking down some stairs. `P1-ACT`
+- D. They are shaking hands. ✓
 
-### Câu 1 — CH02-L02-Q01
+**Giải thích:** "Signing" là suy diễn từ giấy trên bàn, nhưng ảnh không cho thấy ai cầm bút.
+**Skill:** `shake hands`, `P1-INF`.
 
-**Image brief:** Một chiếc vali đặt cạnh ghế dài trong sảnh sân bay; phía sau là cửa sổ lớn.
+#### CH02-L01-Q03 · AU-M · ★2
+**Ảnh:** Một người đội mũ bảo hộ, mặc áo phản quang, cầm bảng kẹp giấy, ngẩng nhìn một tòa nhà đang xây.
+**Visible:** mũ bảo hộ, áo phản quang, bảng kẹp giấy, tòa nhà đang xây. **Không thấy:** thang, cần cẩu đang chạy.
+- A. A woman is looking at a building. ✓
+- B. A woman is climbing a ladder. `P1-ACT`
+- C. A woman is driving a crane. `P1-ACT`
+- D. A woman is handing out hard hats. `P1-ACT`
 
-**Audio statements:**
-- A: A suitcase is beside a bench.
-- B: A suitcase is under a vehicle.
-- C: A suitcase is on a counter.
-- D: A suitcase is being carried upstairs.
+**Giải thích:** Câu đúng chỉ mô tả hành động nhìn thấy được. Nghe hard hat dễ kéo sang D.
+**Skill:** `look at`, `P1-ACT`.
 
-**Đáp án:** A.  
-**Giải thích:** Vali nằm cạnh ghế dài. `beside` = bên cạnh.  
-**Distractors:** B nói dưới phương tiện; C nói trên quầy; D nói đang được mang lên cầu thang.  
-**Tags:** `part1_position`, `preposition_beside`.
+#### CH02-L01-Q04 · CA-F · ★2
+**Ảnh:** Quầy cà phê; nhân viên đưa một ly cho khách; phía sau có vài người xếp hàng.
+**Visible:** nhân viên, ly, khách, hàng người. **Không thấy:** bàn ngồi, thực đơn ngoài trời.
+- A. Customers are seated at tables. `P1-LOC`
+- B. A server is wiping the counter. `P1-ACT`
+- C. A server is handing a cup to a customer. ✓
+- D. Customers are reading a menu outside. `P1-LOC`
 
-### Câu 2 — CH02-L02-Q02
+**Giải thích:** Hành động chính là đưa ly (`hand`).
+**Skill:** `hand/pass`, `P1-LOC`.
 
-**Image brief:** Một chiếc đèn bàn đặt trên mặt bàn gỗ; bên dưới bàn có một thùng giấy.
+#### CH02-L01-Q05 · US-F · ★3
+**Ảnh:** Một người đàn ông mặc áo choàng phòng thí nghiệm, **đã đeo** kính bảo hộ, đang nhìn vào kính hiển vi.
+**Visible:** áo choàng, kính bảo hộ (đã đeo), kính hiển vi. **Không thấy:** bảng viết, đồ uống.
+- A. A man is writing on a whiteboard. `P1-ACT`
+- B. A man is looking into a microscope. ✓
+- C. A man is pouring a drink. `P1-ACT`
+- D. A man is putting on safety glasses. `P1-PRG`
 
-**Audio statements:**
-- A: A lamp is on the table.
-- B: A lamp is underneath the table.
-- C: A lamp is hanging from the ceiling.
-- D: A lamp is next to the door.
+**Giải thích:** Kính đã được đeo sẵn, nên `putting on` (đang trong động tác đeo vào) sai. Đây là bẫy `wearing` vs `putting on`.
+**Skill:** `wearing vs putting on`, `P1-PRG`.
 
-**Đáp án:** A.  
-**Giải thích:** Đèn nằm trên mặt bàn.  
-**Distractors:** B nhầm với thùng giấy dưới bàn; C và D không khớp.  
-**Tags:** `part1_position`, `preposition_on`.
+### Tự kiểm tra Bài 1
+Đạt khi đúng **≥ 4/5** và nói được lý do loại từng câu sai bằng đúng mã (ACT / ABS / INF / PRG).
 
-### Câu 3 — CH02-L02-Q03
+---
 
-**Image brief:** Một hàng ghế được xếp dọc theo bức tường trong phòng chờ.
+# BÀI 2 — PART 1: VỊ TRÍ, ĐỒ VẬT VÀ ẢNH KHÔNG CÓ NGƯỜI
 
-**Audio statements:**
-- A: The chairs are arranged along the wall.
-- B: The chairs are stacked on a truck.
-- C: The chairs are hanging from the ceiling.
-- D: The chairs are placed in the kitchen.
+## Mục tiêu
+- Nghe đúng giới từ vị trí.
+- Xử lý ảnh **không có người**: câu đúng thường mô tả vật và vị trí, **không** có hành động của người.
 
-**Đáp án:** A.  
-**Giải thích:** Ghế được xếp dọc theo tường.  
-**Distractors:** B, C, D mô tả vị trí hoặc hành động không đúng.  
-**Tags:** `part1_position`, `along_the_wall`.
+## 2.1. Giới từ vị trí
 
-### Câu 4 — CH02-L02-Q04
+| Cụm | Nghĩa | Cẩn thận |
+|---|---|---|
+| beside / next to | bên cạnh | khác `behind` |
+| in front of | phía trước | khác `behind` |
+| behind | phía sau | |
+| on / on top of | ở trên (tiếp xúc) | khác `above` (cao hơn, không chạm) |
+| underneath / beneath / under | ở dưới | |
+| between | ở giữa hai vật | |
+| across from / opposite | đối diện | |
+| along | dọc theo | |
+| lean against | dựa vào | |
+| be positioned / be placed / be set | được đặt | |
 
-**Image brief:** Một quầy tiếp tân nằm đối diện cửa thang máy; trên quầy có một chậu cây nhỏ.
+## 2.2. Bẫy "ảnh không người"
 
-**Audio statements:**
-- A: The reception desk is across from the elevators.
-- B: The reception desk is behind the elevators.
-- C: The reception desk is inside an elevator.
-- D: The reception desk is next to a staircase outside.
+Nếu ảnh không có người, các lựa chọn như *"A worker is carrying…", "Customers are lining up…"* là sai ngay (**P1-ABS**). Hãy ưu tiên câu mô tả vật: *"Chairs are lined up…", "A lamp is positioned…"*.
 
-**Đáp án:** A.  
-**Giải thích:** Quầy tiếp tân nằm đối diện thang máy.  
-**Distractors:** B là phía sau; C nói bên trong thang máy; D nói cạnh cầu thang ngoài trời.  
-**Tags:** `part1_position`, `across_from`.
+Ảnh không người vẫn có thể có `is being V3` nếu có dấu hiệu hành động đang diễn ra. Nếu ảnh không có dấu hiệu, câu `being V3` thường sai.
+
+## 2.3. Bài luyện Part 1
+
+#### CH02-L02-Q01 · UK-M · ★1
+**Ảnh:** Một dãy xe đạp đỗ trong giá để xe, trước một tòa nhà gạch; không có người.
+**Visible:** xe đạp, giá để xe, tòa nhà gạch. **Không thấy:** người, xích khóa vào cột đèn.
+- A. Some bicycles are being repaired. `P1-INF`
+- B. A bicycle is propped against a fence. `P1-LOC`
+- C. Some bicycles are parked in a rack. ✓
+- D. A bicycle is chained to a lamppost. `P1-ABS`
+
+**Giải thích:** Xe đạp nằm trong giá để xe. A suy diễn "đang sửa".
+**Skill:** `be parked`, `P1-INF`.
+
+#### CH02-L02-Q02 · US-F · ★1
+**Ảnh:** Sảnh khách sạn: một chậu cây đặt giữa hai chiếc ghế bành; có thảm bên dưới.
+**Visible:** chậu cây, hai ghế bành, thảm. **Không thấy:** người, quầy lễ tân, thảm cuộn.
+- A. A plant is positioned between two armchairs. ✓
+- B. Armchairs are stacked against a wall. `P1-LOC`
+- C. A rug is rolled up near the entrance. `P1-ABS`
+- D. A plant is hanging above a reception desk. `P1-LOC`
+
+**Giải thích:** `between` = ở giữa hai vật.
+**Skill:** `between`, `P1-LOC`.
+
+#### CH02-L02-Q03 · AU-F · ★2
+**Ảnh:** Một laptop và một cốc cà phê trên bàn gỗ; cốc ở bên phải laptop; sau bàn là cửa sổ có rèm.
+**Visible:** laptop, cốc, bàn, cửa sổ có rèm. **Không thấy:** người đang kéo rèm.
+- A. A laptop is on the floor. `P1-LOC`
+- B. A mug is under a keyboard. `P1-LOC`
+- C. Some blinds are being lowered. `P1-PRG`
+- D. A mug is beside a laptop. ✓
+
+**Giải thích:** `beside` = bên cạnh. C dùng `being lowered` nhưng không có người hay dấu hiệu đang kéo rèm.
+**Skill:** `beside`, `P1-PRG`.
+
+#### CH02-L02-Q04 · CA-M · ★2
+**Ảnh:** Phòng kho: các kệ dọc tường, hộp đặt trên kệ; một cái thang dựa ở cuối kệ; không có người.
+**Visible:** kệ, hộp trên kệ, thang dựa tường. **Không thấy:** người mang hộp.
+- A. Boxes are being carried down a hall. `P1-PRG`
+- B. Some boxes are stored on shelves. ✓
+- C. A ladder is lying across a doorway. `P1-LOC`
+- D. Some shelves are being assembled. `P1-PRG`
+
+**Giải thích:** Hộp nằm trên kệ. Hai câu `being + V3` sai vì không có người làm.
+**Skill:** `be stored`, `P1-PRG`.
+
+#### CH02-L02-Q05 · US-M · ★3
+**Ảnh:** Khu bàn ngoài trời của quán cà phê, có ô che; không có người.
+**Visible:** bàn, ô che, vỉa hè. **Không thấy:** khách, nhân viên, kiosk.
+- A. Umbrellas are set up over some tables. ✓
+- B. Customers are lining up at a kiosk. `P1-ABS`
+- C. A waiter is wiping the tables. `P1-ABS`
+- D. Tables are stacked inside a shop. `P1-LOC`
+
+**Giải thích:** Ảnh không người → loại mọi câu có người. Câu đúng mô tả ô che và bàn.
+**Skill:** `no-people image`, `P1-ABS`.
 
 ### Tự kiểm tra Bài 2
-
-Bạn đạt khi đúng ít nhất 3/4 câu và phân biệt được beside, under, along, across from.
+Đạt khi **≥ 4/5** và nhận ra được ngay câu nào đang "bịa người".
 
 ---
 
-# BÀI 3 — PART 1: CÂU BỊ ĐỘNG VÀ BẪY SUY DIỄN
+# BÀI 3 — PART 1: BỊ ĐỘNG, TRẠNG THÁI VÀ BẪY SUY DIỄN
 
 ## Mục tiêu
+- Phân biệt `is being V3`, `has/have been V3`, `is/are V3`.
+- Không chọn câu thêm thông tin mà ảnh không xác nhận.
 
-- Nhận ra mô tả bị động thường gặp trong ảnh.
-- Phân biệt vật đang được làm gì với người đang làm gì.
-- Không chọn mô tả thêm thông tin không thể xác nhận từ ảnh.
+## 3.1. Ba cấu trúc bị động và dấu hiệu trong ảnh
 
-## 3.1. Cấu trúc bị động thường gặp
+| Cấu trúc | Ý nghĩa | Dấu hiệu trong ảnh |
+|---|---|---|
+| `is/are being + V3` | đang được làm | thấy **người đang tác động** lên vật |
+| `has/have been + V3` | đã xong, thấy kết quả | vật ở trạng thái hoàn tất, thường không có người |
+| `is/are + V3` | trạng thái | vật đang ở vị trí/trạng thái (stacked, parked, displayed) |
 
-- `The chairs are being arranged.` — Ghế đang được sắp xếp.
-- `The windows have been cleaned.` — Cửa sổ đã được lau.
-- `A road is being repaired.` — Con đường đang được sửa.
-- `The packages are stacked near the door.` — Các kiện hàng được xếp gần cửa.
+Ví dụ: ảnh thấy công nhân cầm cọ sơn hàng rào → *The fence is being painted.* Ảnh thấy hàng rào đã sơn xong, không người → *The fence has been painted.*
 
-Gợi ý:
+## 3.2. Bẫy suy diễn (P1-INF)
 
-- `is/are being + V3` thường mô tả hành động đang được thực hiện.
-- `has/have been + V3` thường nói việc đã hoàn thành hoặc trạng thái kết quả.
-- `is/are + V3` có thể mô tả trạng thái hoặc hành động bị động tùy ngữ cảnh.
+Ảnh một người cầm hồ sơ trước cửa văn phòng. Bạn **không** thể kết luận: *ký hợp đồng, đi phỏng vấn, làm luật sư*. Quy tắc: nếu bạn phải "đoán" để biến câu thành đúng, đó là câu sai.
 
-## 3.2. Bẫy suy diễn
+## 3.3. Cặp đối lập (P1-OPP)
 
-Không tự suy luận nghề nghiệp, mục đích hoặc thời gian nếu ảnh không cho thấy.
+load ↔ unload · open ↔ close · enter ↔ exit · lift ↔ lower · put on ↔ take off. Nghe kỹ tiền tố/động từ chính.
 
-Ví dụ: ảnh có người cầm một tập hồ sơ. Không thể kết luận người đó là luật sư, sắp ký hợp đồng hoặc đang đi phỏng vấn nếu không có bằng chứng.
+## 3.4. Bài luyện Part 1
 
-Chọn câu mô tả điều nhìn thấy được, không chọn câu nghe có vẻ hợp lý nhưng thêm thông tin.
+#### CH02-L03-Q01 · UK-F · ★1
+**Ảnh:** Hai công nhân dùng cọ sơn một hàng rào gỗ thành màu trắng.
+**Visible:** công nhân, cọ, hàng rào đang sơn dở.
+- A. A fence has been torn down. `P1-INF`
+- B. Workers are climbing over a fence. `P1-ACT`
+- C. A fence is covered with posters. `P1-ABS`
+- D. A fence is being painted. ✓
 
-## 3.3. Bài tập Part 1
+**Giải thích:** Thấy người đang sơn → `is being painted`.
+**Skill:** `is being V3`.
 
-### Câu 1 — CH02-L03-Q01
+#### CH02-L03-Q02 · AU-M · ★2
+**Ảnh:** Các bàn trong nhà hàng đã bày sẵn đĩa, ly, khăn gấp; không có người.
+**Visible:** bàn, đĩa, ly, khăn. **Không thấy:** người phục vụ, khách.
+- A. A waiter is clearing the plates. `P1-ABS`
+- B. Some tables have been set for a meal. ✓
+- C. Diners are being seated. `P1-ABS`
+- D. A menu is being printed. `P1-ABS`
 
-**Image brief:** Một nhân viên đang xếp các chiếc ghế thành hàng trong phòng hội nghị.
+**Giải thích:** Không người + trạng thái hoàn tất → `have been set`.
+**Skill:** `has/have been V3`.
 
-**Audio statements:**
-- A: The chairs are being arranged in rows.
-- B: The chairs are being delivered to a house.
-- C: The chairs have been removed from the room.
-- D: The chairs are covered with plastic sheets.
+#### CH02-L03-Q03 · US-F · ★3
+**Ảnh:** Một người đàn ông cầm một tập hồ sơ, đứng trước cánh cửa văn phòng đóng, nhìn đồng hồ đeo tay.
+**Visible:** tập hồ sơ, cửa đóng, đồng hồ. **Không thấy:** người khác, tay đang gõ cửa, bút ký.
+- A. A man is signing a contract. `P1-INF`
+- B. A man is knocking on a door. `P1-ACT`
+- C. A man is holding a folder. ✓
+- D. A man is interviewing a candidate. `P1-INF`
 
-**Đáp án:** A.  
-**Giải thích:** Ghế đang được sắp thành hàng; `are being arranged` là cấu trúc bị động tiếp diễn.  
-**Distractors:** B, C, D thêm hành động/trạng thái không có trong ảnh.  
-**Tags:** `part1_passive`, `being_v3`.
+**Giải thích:** Chỉ "cầm hồ sơ" là xác nhận được. Mọi câu về mục đích đều suy diễn.
+**Skill:** `P1-INF`.
 
-### Câu 2 — CH02-L03-Q02
+#### CH02-L03-Q04 · UK-M · ★2
+**Ảnh:** Xe tải mở cửa sau; hai công nhân đang nâng một thùng hàng xuống khỏi xe.
+**Visible:** xe tải, thùng, hai công nhân, thùng đang được chuyển xuống. **Không thấy:** vỉa hè đầy hộp.
+- A. A crate is being unloaded from a truck. ✓
+- B. A truck is being washed. `P1-ACT`
+- C. A crate has been loaded onto a truck. `P1-OPP`
+- D. Boxes are piled on a sidewalk. `P1-ABS`
 
-**Image brief:** Các cửa sổ kính lớn của một tòa nhà sạch, phản chiếu bầu trời; không có công nhân lau kính trong ảnh.
+**Giải thích:** `unload` ≠ `load`. Chú ý tiền tố **un-**.
+**Skill:** `load/unload`, `P1-OPP`.
 
-**Audio statements:**
-- A: The windows have been cleaned.
-- B: The windows are being replaced.
-- C: The windows are covered with posters.
-- D: The windows are being opened by a worker.
+#### CH02-L03-Q05 · CA-F · ★3
+**Ảnh:** Nhiều đèn treo thả từ trần cao trong một sảnh; không có người.
+**Visible:** đèn treo, trần cao, sảnh. **Không thấy:** người lắp đèn, thang.
+- A. Some lamps are being installed by a worker. `P1-ABS`
+- B. Some lamps are placed on a counter. `P1-LOC`
+- C. Some lamps are suspended from a ceiling. ✓
+- D. A ceiling is being repaired. `P1-INF`
 
-**Đáp án:** A.  
-**Giải thích:** Ảnh cho thấy cửa sổ sạch; mô tả kết quả đã được lau phù hợp nhất.  
-**Distractors:** B, C, D mô tả thay thế, dán poster hoặc có người mở cửa sổ mà ảnh không cho thấy.  
-**Tags:** `part1_passive`, `present_perfect_passive`.
-
-### Câu 3 — CH02-L03-Q03
-
-**Image brief:** Các thùng hàng được xếp thành chồng gần cửa kho; không có nhân viên trong khung hình.
-
-**Audio statements:**
-- A: The packages are stacked near the doorway.
-- B: The packages are being loaded onto a plane.
-- C: A worker is opening the packages.
-- D: The packages are floating above the floor.
-
-**Đáp án:** A.  
-**Giải thích:** Có thể xác nhận vị trí và trạng thái các thùng hàng.  
-**Distractors:** B/C thêm hành động không thấy; D vô lý và không đúng hình.  
-**Tags:** `part1_object_state`, `supported_detail`.
-
-### Câu 4 — CH02-L03-Q04
-
-**Image brief:** Một người đàn ông đứng cạnh một chiếc xe đạp, tay đang kiểm tra bánh trước bằng dụng cụ nhỏ.
-
-**Audio statements:**
-- A: A man is inspecting a bicycle.
-- B: A man is purchasing a new bicycle.
-- C: A man is riding a bicycle along a road.
-- D: A man is washing a motorcycle.
-
-**Đáp án:** A.  
-**Giải thích:** Hành động nhìn thấy là kiểm tra xe đạp.  
-**Distractors:** B suy diễn giao dịch mua; C sai vì người không cưỡi xe; D nhầm loại phương tiện và hành động.  
-**Tags:** `part1_supported_detail`, `action_verb`.
+**Giải thích:** `suspended from` = treo từ. Không người → loại câu `being`.
+**Skill:** `be suspended`, `P1-PRG`.
 
 ### Tự kiểm tra Bài 3
-
-Bạn đạt khi đúng ít nhất 3/4 câu và phân biệt được câu đang mô tả hành động, trạng thái hay suy diễn không có căn cứ.
+Đạt khi **≥ 4/5** và gọi đúng tên mã của từng câu sai.
 
 ---
 
-# BÀI 4 — PART 2: CÂU HỎI GIÁN TIẾP, YÊU CẦU VÀ LỜI ĐỀ NGHỊ
+# BÀI 4 — NGHE THẬT: ÂM THANH, NỐI ÂM, SỐ VÀ GIỌNG
+
+> Đây là bài quan trọng nhất của chương. Nhiều người sai ở Part 2 không phải vì thiếu từ mà vì **không giải mã được âm**.
 
 ## Mục tiêu
+- Giải mã nối âm và âm yếu trong câu hỏi thật.
+- Nghe được đuôi -ed, -s; số, giờ và giá tiền.
+- Quen giọng Anh, Úc, Canada ngoài giọng Mỹ.
 
-- Nhận ra câu hỏi gián tiếp vẫn mang loại câu hỏi gốc.
-- Nhận diện yêu cầu lịch sự bằng Could you/Would you mind.
-- Phản hồi phù hợp với lời đề nghị, lời mời hoặc gợi ý.
+## 4.1. Nối âm (linking)
 
-## 4.1. Câu hỏi gián tiếp
-
-Ví dụ:
-
-`Could you tell me where the nearest bank is?`  
-Bạn có thể cho tôi biết ngân hàng gần nhất ở đâu không?
-
-Câu hỏi chính vẫn là `where`, nên câu trả lời nên cung cấp địa điểm.
-
-`Do you know when the next train leaves?`  
-Bạn có biết chuyến tàu tiếp theo khởi hành khi nào không?
-
-Câu trả lời nên có thời gian.
-
-## 4.2. Yêu cầu lịch sự
-
-| Mẫu câu | Ý định | Phản hồi có thể phù hợp |
+| Viết | Nghe giống như | Ghi chú |
 |---|---|---|
-| Could you send me the file? | nhờ gửi file | Certainly. |
-| Would you mind opening the window? | nhờ mở cửa sổ | Not at all. |
-| Can you check this invoice? | nhờ kiểm tra | I'll take a look. |
-| Would you please call the supplier? | nhờ gọi nhà cung cấp | Of course. |
+| Could you | "couldja" | /d/ + /j/ → /dʒ/ |
+| Did you | "didja" | |
+| Would you mind | "wouldja mind" | |
+| What time is it? | "whattimeizit" | nối liên tục |
+| Check it out | "checkitout" | phụ âm cuối nối vào nguyên âm sau |
+| Turn it off | "turnitoff" | |
+| An apple | "anapple" | |
 
-Lưu ý: `Would you mind...?` thường được đáp bằng `Not at all` hoặc `No problem` để thể hiện không phiền làm việc đó.
+## 4.2. Âm yếu (weak forms) và các từ chức năng
 
-## 4.3. Đề nghị, lời mời và gợi ý
+Từ chức năng thường đọc yếu, nuốt nguyên âm. **Nội dung ý nghĩa nằm ở từ có trọng âm.**
 
-- `Why don't we ...?` thường là gợi ý.
-- `Would you like to ...?` thường là lời mời/đề nghị.
-- `How about ...?` thường đưa ra gợi ý.
-- `Let's ...` là lời rủ/gợi ý cùng làm.
+| Từ | Dạng yếu thường gặp |
+|---|---|
+| can | /kən/ (rất yếu) |
+| can't | /kænt/ (rõ, dài hơn trong giọng Mỹ; /kɑːnt/ trong giọng Anh) |
+| to | /tə/ |
+| for | /fər/ |
+| and | /ən/ |
+| of | /əv/ hoặc /ə/ |
+| have | /əv/ (should've) |
+| was | /wəz/ |
+| do you | "dyou" hoặc "juh" |
 
-## 4.4. Bài luyện Part 2
+**Cặp nguy hiểm:** `can` vs `can't`. Người học Mỹ thường nghe `can't` nhờ nguyên âm dài hơn và có /t/ cuối nhẹ. Trong câu, hãy nghe **ngữ cảnh** và trọng âm.
 
-### Câu 1 — CH02-L04-Q01
+## 4.3. Đuôi -ed và -s
 
-**Question:** Could you tell me where the personnel office is?  
-**Responses:**
-- A: It's next to the main reception desk.
-- B: At four fifteen.
-- C: Mr. Lewis will attend.
+Đuôi quyết định thì (quá khứ/hiện tại) và số ít/nhiều. Người học hay "không nghe thấy" nên chọn sai.
 
-**Đáp án:** A.  
-**Giải thích:** Câu hỏi gián tiếp có `where`, cần địa điểm.  
-**Sai vì:** B là thời gian; C là người.  
-**Tags:** `indirect_question`, `where_response`.
+| Cặp | Khác biệt |
+|---|---|
+| work / worked | /wɜːrk/ vs /wɜːrkt/ |
+| ask / asked | /æsk/ vs /æskt/ |
+| need / needed | /niːd/ vs /niːdɪd/ (thêm âm tiết) |
+| order / orders | thêm /z/ cuối |
 
-### Câu 2 — CH02-L04-Q02
+## 4.4. Số và giờ
 
-**Question:** Do you know when the maintenance team will arrive?  
-**Responses:**
-- A: In about half an hour.
-- B: On the second floor.
-- C: The maintenance team is experienced.
+- **Cặp -teen / -ty:** 13/30, 14/40, 15/50, 16/60, 17/70, 18/80, 19/90. Trọng âm rơi vào **-teen** (thir-TEEN) và vào âm đầu của **-ty** (THIR-ty).
+- **Giờ:** *two fifteen = a quarter past two = two fifteen*; *half past* = :30; *a quarter to* = :45 trước giờ kế.
+- **Giá:** *fifteen dollars* vs *fifty dollars*; *two ninety-nine* = 2.99.
 
-**Đáp án:** A.  
-**Giải thích:** `when` hỏi thời gian; `in about half an hour` là khoảng thời gian đến.  
-**Sai vì:** B là địa điểm; C mô tả đội bảo trì.  
-**Tags:** `indirect_question`, `when_response`, `time_expression`.
+## 4.5. Giọng Anh, Úc, Canada (những gì cần quen)
 
-### Câu 3 — CH02-L04-Q03
+| Từ/hiện tượng | Giọng Mỹ | Giọng khác |
+|---|---|---|
+| schedule | /ˈskedʒuːl/ | Anh: /ˈʃedjuːl/ |
+| can't | /kænt/ | Anh/Úc: /kɑːnt/ |
+| water/better | âm /t/ giữa từ có thể thành "d nhẹ" | Anh: /t/ rõ hơn |
+| Từ vựng | elevator, apartment, gas, line | lift, flat, petrol, queue |
+| Úc | | nguyên âm /eɪ/ có thể nghe gần /aɪ/ ở một số giọng (ví dụ *today*) |
 
-**Question:** Would you mind closing the conference room door?  
-**Responses:**
-- A: Not at all. I'll close it.
-- B: The conference starts at noon.
-- C: The door is made of glass.
+Mục đích không phải bắt chước giọng, mà để **không bị bất ngờ** khi đề đổi giọng.
 
-**Đáp án:** A.  
-**Giải thích:** `Would you mind...?` là lời nhờ lịch sự; A thể hiện không phiền và sẽ làm.  
-**Sai vì:** B là thời gian; C mô tả cánh cửa.  
-**Tags:** `polite_request`, `would_you_mind`.
+## 4.6. Drill A — Dictation (nghe và chép)
 
-### Câu 4 — CH02-L04-Q04
+Quy trình: nghe tối đa **3 lần** ở 1.0x, chép lại, rồi đối chiếu. Mỗi lỗi ghi mã `L-REDUCE`, `L-NUM` hoặc `L-ENDING`.
 
-**Question:** How about taking a taxi to the airport?  
-**Responses:**
-- A: That would be convenient.
-- B: The airport is quite large.
-- C: At terminal three.
+| # | Audio (đáp án chép) | Chú ý |
+|---|---|---|
+| D1 | Could you tell me where the personnel office is? | couldja |
+| D2 | Did you send the invoice to the supplier? | didja, to |
+| D3 | What time does the bank close on Fridays? | whattime, closes |
+| D4 | Would you mind forwarding this message? | wouldja |
+| D5 | I asked him to check it out yesterday. | asked, checkitout |
+| D6 | We need to move the meeting to three thirty. | to, three thirty |
+| D7 | The delivery has been put off until the thirteenth. | thirteenth |
+| D8 | How much are the monthly passes? Fifty dollars. | much are, fifty |
+| D9 | She'll be back at a quarter to nine. | a quarter to |
+| D10 | I can't make it to the workshop on Thursday. | can't |
 
-**Đáp án:** A.  
-**Giải thích:** `How about...?` đưa ra gợi ý; A phản hồi ý kiến về gợi ý đó.  
-**Sai vì:** B mô tả sân bay; C là địa điểm, không phản hồi đề xuất đi taxi.  
-**Tags:** `suggestion_response`, `how_about`.
+## 4.7. Drill B — Cặp âm gần nhau (minimal pairs)
 
-### Câu 5 — CH02-L04-Q05
+Audio phát **một từ**, người học chọn từ nghe được. Ghi mã `P1-SND` hoặc `P2-SND` khi sai.
 
-**Question:** Would you like to join us for lunch?  
-**Responses:**
-- A: I'd love to. Thank you.
-- B: The lunch menu is on the table.
-- C: At twelve thirty yesterday.
+| Nhóm | Cặp |
+|---|---|
+| Nguyên âm | sheet / seat · live / leave · cheap / chip · full / fool |
+| Phụ âm | light / right · pen / pan · work / walk · lunch / launch |
+| Tương tự trong bẫy TOEIC | copy / coffee · board / bored · sale / sail · fair / fare |
+| Từ đồng âm/gần | weather / whether · accept / except · advice / advise · later / latter |
+| Số | 13 / 30 · 14 / 40 · 15 / 50 · 18 / 80 |
 
-**Đáp án:** A.  
-**Giải thích:** Đây là lời mời; A chấp nhận một cách tự nhiên.  
-**Sai vì:** B nói về thực đơn; C là mốc thời gian không phù hợp.  
-**Tags:** `invitation_response`, `would_you_like`.
+## 4.8. Drill C — Số và giờ
 
-### Câu 6 — CH02-L04-Q06
+Audio phát một cụm, người học chọn con số/giờ đúng:
 
-**Question:** Why don't we review the contract before signing it?  
-**Responses:**
-- A: That's a sensible idea.
-- B: The contract is in the blue folder.
-- C: The signing ceremony is on Monday.
+- *"The workshop starts at four fifteen."* → 4:15 hay 4:50?
+- *"It costs thirty dollars."* → $13 hay $30?
+- *"We're meeting on the fifteenth."* → 15 hay 50?
+- *"A quarter to three."* → 2:45 hay 3:15?
 
-**Đáp án:** A.  
-**Giải thích:** `Why don't we...?` là lời đề nghị cùng làm; A đồng tình.  
-**Sai vì:** B và C liên quan đến hợp đồng nhưng không phản hồi đề xuất.  
-**Tags:** `suggestion_response`, `contract_vocabulary`.
+Yêu cầu: **≥ 9/10** ở mỗi bộ drill 10 câu.
+
+## 4.9. Drill D — Shadowing
+
+1. Nghe câu ở 0.85x, đọc to **đồng thời** sau audio khoảng nửa giây.
+2. Lặp 3 lần, tăng lên 1.0x ở lần cuối.
+3. Chú ý bắt chước **nhịp và nối âm**, không chỉ phát âm từng từ.
 
 ### Tự kiểm tra Bài 4
-
-Bạn đạt khi đúng ít nhất 5/6 câu và phân biệt được câu hỏi gián tiếp, yêu cầu và lời mời/gợi ý.
+Đạt khi: Dictation ≥ **8/10 câu chép đúng toàn bộ**, minimal pairs ≥ **85%**, drill số ≥ **9/10**. Nếu chưa đạt, quay lại 4.1–4.4 và làm bộ drill mới.
 
 ---
 
-# BÀI 5 — PART 2: PARAPHRASE VÀ PHẢN HỒI TỰ NHIÊN
+# BÀI 5 — PART 2: NHẬN LOẠI CÂU HỎI TRONG 3 TỪ ĐẦU (WH)
 
 ## Mục tiêu
+- Nghe ra từ để hỏi (**who, what, when, where, why, how, which**) từ 2–3 từ đầu.
+- Dự đoán loại thông tin đáp án.
+- Loại ngay bẫy lặp từ và bẫy âm.
 
-- Nhận ra câu trả lời có thể dùng từ khác nhưng cùng nghĩa.
-- Không đòi hỏi đáp án phải lặp từ trong câu hỏi.
-- Xử lý câu trần thuật và câu hỏi lựa chọn.
+## 5.1. Bản đồ WH → loại đáp án
 
-## 5.1. Paraphrase là gì?
+| Từ hỏi | Hỏi về | Đáp án thường là |
+|---|---|---|
+| Who | người | tên, chức vụ, "the new manager", "Ms. Ortega" |
+| What | vật/việc | danh từ, mô tả, sự việc |
+| When / What time | thời gian | thời điểm, khoảng thời gian, "next week" |
+| Where | nơi chốn | địa điểm, "on the shelf", "next to…" |
+| Why | lý do | because…, to + V, "the guide is ill" |
+| How | cách thức | phương tiện, cách làm |
+| How much/many/long/often | số lượng/thời lượng/tần suất | số, "twice a week" |
+| Which | lựa chọn | "the one…", "the red folder" |
 
-Paraphrase là diễn đạt cùng ý bằng từ/cấu trúc khác.
+Lưu ý: **How often** = tần suất (*once a week*); **How long** = bao lâu hoặc từ khi nào (*since 2019*, *two hours*).
 
-| Câu hỏi / từ trong audio | Cách diễn đạt lại có thể gặp |
-|---|---|
-| purchase | buy |
-| postpone | put off |
-| be available | be free |
-| begin | start |
-| complete | finish |
-| cost | be priced at |
-| reserve | book |
-| approximately | about |
+## 5.2. Drill "3 từ đầu" (chữa L-FIRST)
 
-Ví dụ:
+Audio chỉ phát **3 từ đầu** của câu hỏi. Người học chọn loại câu hỏi và loại đáp án. Ví dụ: *"Where can I…"* → nơi chốn; *"Who's in charge…"* → người; *"How often do…"* → tần suất.
 
-**Question:** Is Ms. Chen available this afternoon?  
-**Response:** She's free after two.
+## 5.3. Cách xử lý ba phản hồi
 
-`available` và `free` có thể cùng nghĩa là rảnh trong ngữ cảnh này.
+1. Nghe câu hỏi → **ghi nhớ loại thông tin** (ví dụ: "thời gian").
+2. Với mỗi phản hồi: ✓ / ✗ / ?
+3. Loại ngay: phản hồi **sai loại thông tin** (**P2-WHQ**), phản hồi bắt đầu bằng **Yes/No** cho câu WH (**P2-YNA**), phản hồi **lặp từ** dùng nghĩa khác (**P2-REP**).
 
-## 5.2. Câu trần thuật cần phản hồi theo ngữ cảnh
+## 5.4. Bài luyện Part 2 (WH)
 
-Part 2 không chỉ có câu hỏi. Có thể nghe câu thông báo hoặc nhận xét:
+#### CH02-L05-Q01 · US-F → UK-M · ★1
+**Q:** Who's organizing the training session?
+- A. At the training center. `P2-WHQ`
+- B. Ms. Ortega is. ✓
+- C. It was very helpful. `P2-TNS`
 
-`The copier is out of paper.`  
-Phản hồi phù hợp có thể là: `I'll refill it.`
+**Giải thích:** Who → người.
 
-`Our flight has been postponed.`  
-Phản hồi phù hợp có thể là: `I hope it won't be delayed too long.`
+#### CH02-L05-Q02 · AU-M → US-F · ★1
+**Q:** Where can I find the shipping labels?
+- A. Next Thursday. `P2-WHQ`
+- B. Yes, I labeled them. `P2-YNA`
+- C. Check the supply closet. ✓
 
-## 5.3. Bài luyện Part 2
+**Giải thích:** Where → nơi chốn. B còn dính bẫy âm *label/labels*.
 
-### Câu 1 — CH02-L05-Q01
+#### CH02-L05-Q03 · CA-F → UK-M · ★1
+**Q:** What time does the bank close on Fridays?
+- A. At five thirty. ✓
+- B. It's on Main Street. `P2-WHQ`
+- C. I closed the account. `P2-SND`
 
-**Question:** Is Mr. Davis available after lunch?  
-**Responses:**
-- A: He's free at two o'clock.
-- B: He bought lunch yesterday.
-- C: The meeting room is upstairs.
+**Giải thích:** What time → giờ. C bẫy lặp gốc từ *close/closed*.
 
-**Đáp án:** A.  
-**Giải thích:** `available` được paraphrase bằng `free`; A trả lời thời gian rảnh.  
-**Sai vì:** B có từ lunch nhưng không trả lời ông Davis có rảnh không; C là địa điểm.  
-**Tags:** `paraphrase_available_free`, `part2`.
+#### CH02-L05-Q04 · UK-F → US-M · ★2
+**Q:** Why was the tour postponed?
+- A. Around ten people. `P2-WHQ`
+- B. The guide is ill. ✓
+- C. To the post office. `P2-SND`
 
-### Câu 2 — CH02-L05-Q02
+**Giải thích:** Why → lý do. C là bẫy âm *post-poned / post office*.
 
-**Question:** Has the workshop been postponed?  
-**Responses:**
-- A: Yes, it's been put off until next week.
-- B: The workshop room is clean.
-- C: We need more chairs.
+#### CH02-L05-Q05 · US-M → AU-F · ★2
+**Q:** How often do you inspect the equipment?
+- A. Yes, I did inspect it. `P2-YNA`
+- B. About three hundred dollars. `P2-WHQ`
+- C. Once a week. ✓
 
-**Đáp án:** A.  
-**Giải thích:** `postponed` được diễn đạt lại bằng `put off`; A trả lời Yes và cho biết thời điểm mới.  
-**Sai vì:** B và C chỉ liên quan đến workshop nhưng không trả lời việc có bị hoãn hay không.  
-**Tags:** `paraphrase_postpone_put_off`, `yes_no_question`.
+**Giải thích:** How often → tần suất.
 
-### Câu 3 — CH02-L05-Q03
+#### CH02-L05-Q06 · CA-M → US-F · ★3
+**Q:** Which printer is out of toner?
+- A. The one near the entrance. ✓
+- B. I'll print it later. `P2-REP`
+- C. On Tuesday morning. `P2-WHQ`
 
-**Question:** When does the orientation begin?  
-**Responses:**
-- A: It starts at nine tomorrow.
-- B: The new employees are friendly.
-- C: In the training department.
-
-**Đáp án:** A.  
-**Giải thích:** `begin` được paraphrase bằng `start`; câu hỏi When cần thời gian.  
-**Sai vì:** B mô tả người; C là phòng ban.  
-**Tags:** `paraphrase_begin_start`, `when_response`.
-
-### Câu 4 — CH02-L05-Q04
-
-**Question:** How much is the monthly parking pass?  
-**Responses:**
-- A: It's priced at eighty dollars.
-- B: The parking garage is behind the hotel.
-- C: For one month only.
-
-**Đáp án:** A.  
-**Giải thích:** `How much` hỏi giá; `priced at` diễn đạt giá bán/giá tiền.  
-**Sai vì:** B là địa điểm; C nói thời hạn.  
-**Tags:** `paraphrase_cost_price`, `money`.
-
-### Câu 5 — CH02-L05-Q05
-
-**Question:** The conference room is already occupied.  
-**Responses:**
-- A: We can use the room next door instead.
-- B: The conference begins at ten.
-- C: I printed the conference agenda.
-
-**Đáp án:** A.  
-**Giải thích:** `occupied` nghĩa là đang có người sử dụng; A đưa ra giải pháp thay thế hợp lý.  
-**Sai vì:** B và C nhắc lại chủ đề conference nhưng không xử lý tình huống.  
-**Tags:** `statement_response`, `contextual_response`.
-
-### Câu 6 — CH02-L05-Q06
-
-**Question:** Which vendor should we contact first?  
-**Responses:**
-- A: The one that offered the lowest price.
-- B: Before the end of the month.
-- C: We contacted the vendor yesterday.
-
-**Đáp án:** A.  
-**Giải thích:** Which hỏi lựa chọn cụ thể; A xác định nhà cung cấp theo tiêu chí giá.  
-**Sai vì:** B là thời gian; C kể việc đã làm nhưng không chọn vendor nào.  
-**Tags:** `which_question`, `choice_response`.
-
-### Câu 7 — CH02-L05-Q07
-
-**Question:** The delivery hasn't arrived yet.  
-**Responses:**
-- A: I'll call the supplier for an update.
-- B: The delivery driver is wearing a uniform.
-- C: The package is very light.
-
-**Đáp án:** A.  
-**Giải thích:** Đây là câu trần thuật nêu vấn đề; phản hồi phù hợp là hành động kiểm tra tình trạng giao hàng.  
-**Sai vì:** B và C mô tả người/vật, không giải quyết vấn đề.  
-**Tags:** `statement_response`, `problem_solution`.
-
-### Câu 8 — CH02-L05-Q08
-
-**Question:** Would you rather work from home or from the office tomorrow?  
-**Responses:**
-- A: Working from home would be easier.
-- B: The office closes at six.
-- C: Tomorrow's forecast is sunny.
-
-**Đáp án:** A.  
-**Giải thích:** `Would you rather A or B?` yêu cầu nêu lựa chọn/ưu tiên.  
-**Sai vì:** B là giờ đóng cửa; C nói thời tiết, không nêu lựa chọn.  
-**Tags:** `preference_question`, `choice_response`.
+**Giải thích:** Which → chọn trong nhóm, đáp bằng "the one…".
 
 ### Tự kiểm tra Bài 5
+Đạt khi **≥ 5/6**, nhận loại câu hỏi **đúng trong ≤ 3 từ đầu**, và Drill "3 từ đầu" đạt ≥ 90%.
 
-Bạn đạt khi đúng ít nhất 6/8 câu. Hãy chú ý các paraphrase: available/free, postponed/put off, begin/start, cost/priced at.
+---
+
+# BÀI 6 — PART 2: YES/NO, TAG, PHỦ ĐỊNH VÀ LỰA CHỌN
+
+## Mục tiêu
+- Hiểu rằng đáp án Yes/No **không bắt buộc** phải có chữ "Yes/No".
+- Xử lý câu hỏi đuôi, phủ định và câu hỏi lựa chọn (A or B).
+
+## 6.1. Câu trả lời gián tiếp cho Yes/No
+
+Người bản ngữ ít khi chỉ nói "Yes". Các phản hồi đúng thường là:
+- Xác nhận kèm thông tin: *Yes, I registered last week.*
+- Gần như: *Almost—I'm checking the figures.*
+- Hoãn: *Let me check my schedule.*
+- Điều kiện: *Just finish the report first.*
+- Phủ nhận kèm lý do: *No, I have to meet a client that day.*
+
+## 6.2. Câu hỏi đuôi và câu hỏi phủ định
+
+- `You're attending, aren't you?` → trả lời theo **sự thật**: Yes (tôi tham dự) / No (không).
+- `Isn't the copier working?` → **Yes = nó đang chạy, No = nó không chạy**. Hãy nghe phần thông tin sau Yes/No để chắc chắn.
+
+## 6.3. Câu hỏi lựa chọn (A or B)
+
+*Would you prefer the window seat or the aisle seat?* → đáp phải **chọn một**, hoặc "either/neither/both". "Yes" hay "No" không chọn được gì (**P2-YNA**).
+
+## 6.4. Bài luyện Part 2
+
+#### CH02-L06-Q01 · US-M → UK-F · ★2
+**Q:** Did you finish the sales report?
+- A. The sales team is upstairs. `P2-REP`
+- B. It's a short report. `P2-REP`
+- C. Almost—I'm just checking the figures. ✓
+
+**Giải thích:** Đáp án gián tiếp: "gần xong". A và B lặp từ.
+
+#### CH02-L06-Q02 · UK-F → AU-M · ★2
+**Q:** You're attending the seminar, aren't you?
+- A. Yes, I registered last week. ✓
+- B. It starts at noon. `P2-WHQ`
+- C. The seminar was excellent. `P2-TNS`
+
+#### CH02-L06-Q03 · AU-F → CA-M · ★3
+**Q:** Isn't the copier working?
+- A. I'd like two copies. `P2-SND`
+- B. No, a technician is on the way. ✓
+- C. In the supply room. `P2-WHQ`
+
+**Giải thích:** Phủ định: "No" = nó không chạy, rồi nêu hành động xử lý.
+
+#### CH02-L06-Q04 · CA-M → US-F · ★2
+**Q:** Would you prefer the window seat or the aisle seat?
+- A. The aisle, please. ✓
+- B. I preferred the movie. `P2-TNS`
+- C. Yes, I'd prefer that. `P2-YNA`
+
+**Giải thích:** Câu hỏi chọn → phải chọn một.
+
+#### CH02-L06-Q05 · US-F → AU-M · ★3
+**Q:** Can you work this Saturday?
+- A. Yes, it was a great weekend. `P2-TNS`
+- B. At the Saturday market. `P2-WHQ`
+- C. Let me check my schedule. ✓
+
+**Giải thích:** Hoãn trả lời bằng cách xem lịch.
+
+#### CH02-L06-Q06 · UK-M → CA-F · ★3
+**Q:** Haven't you submitted the application yet?
+- A. On the application form. `P2-REP`
+- B. I'm submitting it today. ✓
+- C. Yes, a very strong applicant. `P2-REL`
+
+**Giải thích:** Xác nhận "chưa nộp" và cho biết kế hoạch.
+
+### Tự kiểm tra Bài 6
+Đạt khi **≥ 5/6** và giải thích được vì sao "Yes/No" không xuất hiện mà đáp án vẫn đúng.
+
+---
+
+# BÀI 7 — PART 2: CÂU HỎI GIÁN TIẾP, YÊU CẦU, ĐỀ NGHỊ, GỢI Ý
+
+## Mục tiêu
+- Phản hồi đúng **chức năng giao tiếp** thay vì dịch từng từ.
+- Nhận bẫy `Yes` cho `Do you mind…?` và bẫy `Why don't we…?` khác với `Why…?`.
+
+## 7.1. Câu hỏi gián tiếp
+
+*Could you tell me how to get to…? / Do you know when…? / Do you happen to know where…?*
+→ Loại thông tin theo **từ hỏi nhúng bên trong** (how, when, where…).
+
+## 7.2. Chức năng và phản hồi tự nhiên
+
+| Câu | Chức năng | Phản hồi thường gặp |
+|---|---|---|
+| Could you / Can you / Would you…? | nhờ | Sure. / Certainly. / Of course. / Sorry, I can't. |
+| Would you mind + V-ing? | nhờ lịch sự | **Not at all.** / No problem. |
+| Do you mind if I…? | xin phép | **Go ahead.** / Not at all. / Sorry, I'd rather you didn't. |
+| Would you like (me to)…? | đề nghị/mời | I'd love to. / Thanks, that would help. |
+| Why don't we / How about / Let's / Shall we…? | gợi ý | Good idea. / Sounds good. / That's a sensible idea. |
+
+## 7.3. Hai bẫy lớn
+
+1. **Do you mind / Would you mind … ?** Trả lời "**Yes**" thường nghĩa là *tôi phiền*. Người ra đề thường tránh dùng, nhưng phản hồi có "Yes, it opens at nine" là bẫy âm/lặp.
+2. **Why don't we…?** là gợi ý, **không phải câu hỏi lý do**. Đáp "Because…" là sai (**P2-WHQ**).
+
+## 7.4. Bài luyện Part 2
+
+#### CH02-L07-Q01 · US-M → UK-F · ★1
+**Q:** Could you tell me how to get to the conference hall?
+- A. Take the elevator to the second floor. ✓
+- B. Yes, it was a big conference. `P2-YNA`
+- C. About two hundred guests. `P2-WHQ`
+
+#### CH02-L07-Q02 · UK-F → CA-M · ★1
+**Q:** Would you like me to carry that for you?
+- A. I carried it yesterday. `P2-TNS`
+- B. In the trunk of the car. `P2-WHQ`
+- C. Thanks, that would help. ✓
+
+#### CH02-L07-Q03 · AU-M → US-F · ★2
+**Q:** Why don't we take a short break?
+- A. The break was only ten minutes. `P2-TNS`
+- B. Good idea—I need some coffee. ✓
+- C. Because it's far. `P2-WHQ`
+
+**Giải thích:** `Why don't we` = gợi ý, đáp bằng đồng ý.
+
+#### CH02-L07-Q04 · CA-F → UK-M · ★3
+**Q:** Do you mind if I open the window?
+- A. Yes, it opens at nine. `P2-SND`
+- B. At the front of the room. `P2-WHQ`
+- C. Go ahead—it's warm in here. ✓
+
+**Giải thích:** `Do you mind if I…` → "Go ahead" = tôi không phiền.
+
+#### CH02-L07-Q05 · US-F → AU-M · ★2
+**Q:** Could I borrow your stapler for a moment?
+- A. Sure, it's on my desk. ✓
+- B. I borrowed it last month. `P2-TNS`
+- C. It's a stable job. `P2-SND`
+
+#### CH02-L07-Q06 · UK-M → US-F · ★3
+**Q:** Shall we go over the budget figures together?
+- A. The figures are in the folder. `P2-REL`
+- B. Yes, let's do that after lunch. ✓
+- C. The budget was approved. `P2-TNS`
+
+### Tự kiểm tra Bài 7
+Đạt khi **≥ 5/6** và giải thích được mỗi câu đáp **chức năng giao tiếp** nào.
+
+---
+
+# BÀI 8 — PART 2: CÂU TRẦN THUẬT VÀ CÂU TRẢ LỜI GIÁN TIẾP
+
+## Mục tiêu
+- Phản hồi đúng với một câu **không phải câu hỏi**.
+- Nhận ra câu trả lời "không biết", "hỏi người khác", "xem đã".
+
+## 8.1. Câu trần thuật nêu vấn đề
+
+Khi người nói đưa ra một **vấn đề** (máy hỏng, hết giấy, thiếu hàng), phản hồi tốt thường là **giải pháp** hoặc **câu hỏi làm rõ**:
+
+- *The projector isn't working again.* → *I'll ask IT to take a look.*
+- *We're almost out of coffee.* → *I'll pick some up on my way in.*
+- *I can't find my access card.* → *Did you check the lost-and-found box?*
+
+Phản hồi sai thường: lặp lại từ khóa, mô tả vật, hoặc nói thông tin không liên quan.
+
+## 8.2. Câu trả lời gián tiếp phổ biến
+
+| Kiểu | Ví dụ |
+|---|---|
+| Không biết | *I'm not sure. / I have no idea.* |
+| Chuyển hướng | *Ask the receptionist. / You'd have to check with HR.* |
+| Hoãn | *Let me find out. / I'll get back to you.* |
+| Thông tin mới | *It was extended until Friday.* |
+| Phản câu hỏi | *Did you check the lost-and-found box?* |
+
+Câu trả lời gián tiếp thường là đáp án đúng ở các câu **khó**. Đừng loại chỉ vì không khớp từ.
+
+## 8.3. Bài luyện Part 2
+
+#### CH02-L08-Q01 · US-M → UK-F · ★2
+**Q:** I can't find my access card.
+- A. It's accessible to everyone. `P2-SND`
+- B. Did you check the lost-and-found box? ✓
+- C. It's due on Friday. `P2-REL`
+
+#### CH02-L08-Q02 · UK-F → AU-M · ★1
+**Q:** The projector isn't working again.
+- A. I'll ask IT to take a look. ✓
+- B. Yes, a good project. `P2-SND`
+- C. The movie was long. `P2-REL`
+
+#### CH02-L08-Q03 · AU-F → CA-M · ★2
+**Q:** We're almost out of coffee.
+- A. I'm out of town. `P2-REP`
+- B. Yes, I drank coffee. `P2-TNS`
+- C. I'll pick some up on my way in. ✓
+
+#### CH02-L08-Q04 · CA-M → US-F · ★3
+**Q:** I thought the deadline was tomorrow.
+- A. In the Dallas office. `P2-WHQ`
+- B. It was extended until Friday. ✓
+- C. I'll be on vacation tomorrow. `P2-REP`
+
+**Giải thích:** Thông tin mới điều chỉnh niềm tin của người nói.
+
+#### CH02-L08-Q05 · US-F → UK-M · ★3
+**Q:** Where did Ms. Park go?
+- A. At two o'clock. `P2-WHQ`
+- B. She parked in the garage. `P2-SND`
+- C. Ask the receptionist—she might know. ✓
+
+**Giải thích:** Câu trả lời chuyển hướng hợp lý.
+
+#### CH02-L08-Q06 · UK-M → AU-F · ★2
+**Q:** How was the client meeting?
+- A. It went better than expected. ✓
+- B. At the main office. `P2-WHQ`
+- C. Next Monday at ten. `P2-TNS`
+
+### Tự kiểm tra Bài 8
+Đạt khi **≥ 5/6** và nêu được **kiểu phản hồi** (giải pháp, chuyển hướng, thông tin mới…).
+
+---
+
+# BÀI 9 — PART 2: PARAPHRASE VÀ BẢN ĐỒ BẪY TỔNG HỢP
+
+## Mục tiêu
+- Nhận đáp án đúng khi **không lặp từ**, dùng từ đồng nghĩa.
+- Dùng quy trình loại trừ có hệ thống.
+
+## 9.1. Bảng paraphrase thường gặp
+
+| Từ trong câu hỏi | Có thể xuất hiện trong đáp án |
+|---|---|
+| purchase | buy, bought |
+| postpone | put off, push back |
+| available | free, open |
+| begin | start |
+| complete | finish |
+| cost | be priced at, come to |
+| reserve | book |
+| cancel | call off |
+| approximately | about, around |
+| in the building | in, out (phủ định gián tiếp) |
+
+## 9.2. Quy tắc nghịch lý
+
+Trong Part 2, **đáp án đúng thường ít lặp từ khóa của câu hỏi**; đáp án lặp từ hay là bẫy. Nhưng đừng loại máy móc: hãy kiểm tra **chức năng**.
+
+## 9.3. Quy trình loại trừ 4 bước
+
+1. **Loại thông tin:** câu hỏi cần gì (người, nơi, giờ…)?
+2. Loại phản hồi **sai loại** (`P2-WHQ`, `P2-YNA`).
+3. Loại phản hồi **lặp từ** hoặc **gần âm** (`P2-REP`, `P2-SND`).
+4. Trong phần còn lại, chọn phản hồi **thực sự giải quyết** câu hỏi, kể cả khi nó gián tiếp.
+
+## 9.4. Bài luyện Part 2
+
+#### CH02-L09-Q01 · US-M → UK-F · ★1
+**Q:** Have you purchased the tickets?
+- A. The tickets are expensive. `P2-REP`
+- B. She's a ticket agent. `P2-REL`
+- C. Yes, I bought them online. ✓
+
+**Giải thích:** purchase → bought.
+
+#### CH02-L09-Q02 · UK-F → AU-M · ★3
+**Q:** Is the manager in the building?
+- A. It's a tall building. `P2-REP`
+- B. She's out until two. ✓
+- C. At the front desk. `P2-WHQ`
+
+**Giải thích:** "out" là phủ định gián tiếp.
+
+#### CH02-L09-Q03 · AU-M → CA-F · ★2
+**Q:** Can you reserve a table for six?
+- A. I'll book one for seven o'clock. ✓
+- B. The reserve tank is full. `P2-SND`
+- C. Six people attended. `P2-TNS`
+
+**Giải thích:** reserve → book.
+
+#### CH02-L09-Q04 · CA-F → US-M · ★2
+**Q:** Will the renovation be completed by June?
+- A. In the lobby area. `P2-WHQ`
+- B. I renovated the kitchen. `P2-TNS`
+- C. They should finish in May. ✓
+
+**Giải thích:** completed → finish; "in May" trước June.
+
+#### CH02-L09-Q05 · US-F → UK-M · ★2
+**Q:** How much will the repairs cost?
+- A. The repair shop closes at six. `P2-REP`
+- B. It'll come to about four hundred dollars. ✓
+- C. By next Friday. `P2-WHQ`
+
+**Giải thích:** cost → come to.
+
+#### CH02-L09-Q06 · UK-M → AU-F · ★3
+**Q:** Is Mr. Kim still working here?
+- A. No, he left the company last spring. ✓
+- B. Yes, I'll work late. `P2-REP`
+- C. At the Kim brothers' shop. `P2-REL`
+
+### Tự kiểm tra Bài 9
+Đạt khi **≥ 5/6** và gọi đúng tên bẫy của ít nhất 4 phản hồi sai.
 
 ---
 
 # KIỂM TRA CUỐI CHƯƠNG 2
 
-**Số câu:** 15  
-**Thời gian gợi ý:** 10–15 phút  
-**Điều kiện:** tốc độ 1.0x; không transcript; không xem giải thích trước khi nộp.
+**Số câu:** 25 (Part 1: 6, Part 2: 19) · **Thời gian:** 18–22 phút
+**Điều kiện:** 1.0x, nghe một lần, không transcript, không xem giải thích trước khi nộp.
+**Đạt chương:** ≥ **20/25** và Part 1 ≥ 5/6.
 
-## Part 1 — Câu 1 đến 6
+## Part 1
 
-### Câu 1 — CH02-FINAL-Q01
+#### CH02-FINAL-Q01 · US-M
+**Ảnh:** Một nhân viên chỉnh lại màn hình trên bàn làm việc.
+- A. A man is carrying a monitor up some stairs. `P1-ACT`
+- B. A monitor is being delivered to a customer. `P1-INF`
+- C. A man is turning off the lights. `P1-ACT`
+- D. A man is adjusting a monitor. ✓
 
-**Image brief:** Một nhân viên đang đặt các tập hồ sơ lên giá sách trong văn phòng.
+#### CH02-FINAL-Q02 · UK-F
+**Ảnh:** Một hàng chậu cây dọc lối đi cạnh tòa nhà kính; không có người.
+- A. Some plants are lined up along a walkway. ✓
+- B. Some plants are being watered by a gardener. `P1-ABS`
+- C. A building is being constructed. `P1-INF`
+- D. Some plants are hanging over a bridge. `P1-LOC`
 
-**Audio statements:**
-- A: A worker is placing folders on a shelf.
-- B: A worker is removing a tire from a car.
-- C: A worker is cleaning a window.
-- D: A worker is carrying a ladder outside.
+#### CH02-FINAL-Q03 · AU-M
+**Ảnh:** Hai người ngồi bên bàn xem biểu đồ trên máy tính bảng; một người chỉ vào màn hình.
+- A. They are setting up a projector. `P1-ACT`
+- B. They are signing a document. `P1-ABS`
+- C. One of them is pointing at a tablet. ✓
+- D. They are shaking hands. `P1-ACT`
 
-**Đáp án:** A.  
-**Tags:** `part1_person_action`, `object_action`.
+#### CH02-FINAL-Q04 · CA-F
+**Ảnh:** Một người phụ nữ **đang mặc** áo khoác, cầm ô, đứng cạnh giá treo áo.
+- A. A woman is hanging up her coat. `P1-PRG`
+- B. A woman is holding an umbrella. ✓
+- C. A woman is opening a door. `P1-ACT`
+- D. A woman is buying a coat. `P1-INF`
 
-### Câu 2 — CH02-FINAL-Q02
+#### CH02-FINAL-Q05 · US-F
+**Ảnh:** Hộp chất cạnh bến bốc hàng; một xe nâng đỗ bên cạnh; không có người.
+- A. A forklift is lifting a box. `P1-ABS`
+- B. A forklift is parked next to some boxes. ✓
+- C. Workers are unloading a truck. `P1-ABS`
+- D. Some boxes are being wrapped. `P1-PRG`
 
-**Image brief:** Một chiếc xe đạp dựng cạnh hàng rào kim loại trong công viên.
+#### CH02-FINAL-Q06 · UK-M
+**Ảnh:** Một người đàn ông rút một quyển sách từ kệ cao trong thư viện; không có thang.
+- A. A man is taking a book from a shelf. ✓
+- B. A man is returning a book at the counter. `P1-LOC`
+- C. A man is climbing a ladder. `P1-ABS`
+- D. Some shelves are being moved. `P1-PRG`
 
-**Audio statements:**
-- A: A bicycle is leaning against a fence.
-- B: A bicycle is inside a storage cabinet.
-- C: A bicycle is being loaded onto a boat.
-- D: A bicycle is hanging from a ceiling.
+## Part 2
 
-**Đáp án:** A.  
-**Tags:** `part1_position`, `preposition_against`.
+#### CH02-FINAL-Q07 · US-F → UK-M
+**Q:** Who left this package on my desk?
+- A. On the second shelf. `P2-WHQ`
+- B. I think it was the courier. ✓
+- C. The desk is new. `P2-REP`
 
-### Câu 3 — CH02-FINAL-Q03
+#### CH02-FINAL-Q08 · AU-M → US-F
+**Q:** When is the next shuttle to the airport?
+- A. Terminal two. `P2-WHQ`
+- B. Yes, I'll take it. `P2-YNA`
+- C. In about ten minutes. ✓
 
-**Image brief:** Một người phục vụ đang mang khay có hai cốc nước đến bàn khách.
+#### CH02-FINAL-Q09 · UK-F → CA-M
+**Q:** Where should I put the new brochures?
+- A. On the table by the entrance. ✓
+- B. They're printed in color. `P2-REL`
+- C. Brochure design is Tom's job. `P2-REL`
 
-**Audio statements:**
-- A: A server is carrying a tray.
-- B: A server is washing a floor.
-- C: A server is repairing a chair.
-- D: A server is reading a newspaper.
+#### CH02-FINAL-Q10 · CA-F → US-M
+**Q:** Do you want the report printed or sent by e-mail?
+- A. It was printed yesterday. `P2-TNS`
+- B. No, I don't. `P2-YNA`
+- C. E-mail is fine. ✓
 
-**Đáp án:** A.  
-**Tags:** `part1_person_action`, `carrying`.
+#### CH02-FINAL-Q11 · US-M → AU-F
+**Q:** Aren't you going to the trade show?
+- A. I showed him the way. `P2-SND`
+- B. No, I have to meet a client that day. ✓
+- C. Next to the convention center. `P2-WHQ`
 
-### Câu 4 — CH02-FINAL-Q04
+#### CH02-FINAL-Q12 · UK-M → US-F
+**Q:** Could you help me move these chairs?
+- A. Sure, which room? ✓
+- B. They're comfortable chairs. `P2-REP`
+- C. Yes, I moved last year. `P2-TNS`
 
-**Image brief:** Một số hộp được xếp gọn bên dưới một chiếc bàn dài.
+#### CH02-FINAL-Q13 · AU-F → CA-M
+**Q:** Why don't you try the new Italian restaurant?
+- A. Because I was late. `P2-WHQ`
+- B. I'm trying a new job. `P2-REP`
+- C. I will—do you have its address? ✓
 
-**Audio statements:**
-- A: Several boxes are stored beneath a table.
-- B: Several boxes are spread across the road.
-- C: Several boxes are being painted.
-- D: Several boxes are hanging from a wall.
+#### CH02-FINAL-Q14 · US-F → UK-M
+**Q:** The elevator is out of service.
+- A. Then let's use the stairs. ✓
+- B. I served lunch. `P2-SND`
+- C. Yes, it's the third floor. `P2-REL`
 
-**Đáp án:** A.  
-**Tags:** `part1_position`, `underneath`.
+#### CH02-FINAL-Q15 · CA-M → AU-F
+**Q:** How long have you worked here?
+- A. About five kilometers. `P2-WHQ`
+- B. Since 2019. ✓
+- C. By bus, usually. `P2-WHQ`
 
-### Câu 5 — CH02-FINAL-Q05
+#### CH02-FINAL-Q16 · US-M → UK-F
+**Q:** Is it all right if I leave early today?
+- A. Yes, it's right here. `P2-SND`
+- B. At about five. `P2-WHQ`
+- C. Just finish the report first. ✓
 
-**Image brief:** Một chiếc xe tải đang đậu trước cửa kho, cửa sau xe mở và có thùng hàng bên trong.
+#### CH02-FINAL-Q17 · UK-F → US-M
+**Q:** What did the client think of the proposal?
+- A. She asked for a few changes. ✓
+- B. In the conference room. `P2-WHQ`
+- C. I think so too. `P2-REL`
 
-**Audio statements:**
-- A: A truck is parked outside a warehouse.
-- B: A truck is driving through a tunnel.
-- C: A truck is being washed in a garage.
-- D: A truck is parked inside a restaurant.
+#### CH02-FINAL-Q18 · AU-M → CA-F
+**Q:** Would you mind turning down the music?
+- A. It's playing at nine. `P2-WHQ`
+- B. Sorry, I'll turn it down. ✓
+- C. The turn is on the left. `P2-SND`
 
-**Đáp án:** A.  
-**Tags:** `part1_location`, `vehicle_state`.
+#### CH02-FINAL-Q19 · CA-F → US-F
+**Q:** Who's going to present the quarterly figures?
+- A. In the main hall. `P2-WHQ`
+- B. Quarter past four. `P2-SND`
+- C. Ms. Alvarez volunteered. ✓
 
-### Câu 6 — CH02-FINAL-Q06
+#### CH02-FINAL-Q20 · US-F → UK-M
+**Q:** Do you know how much the conference registration is?
+- A. It's one hundred fifty dollars. ✓
+- B. In the registry office. `P2-SND`
+- C. The conference was long. `P2-TNS`
 
-**Image brief:** Một kỹ thuật viên đang cúi xuống kiểm tra bảng điều khiển của máy photocopy.
+#### CH02-FINAL-Q21 · UK-M → AU-F
+**Q:** We should hire another designer.
+- A. It's a nice design. `P2-REP`
+- B. Let's check whether the budget allows it. ✓
+- C. I hired him last month. `P2-TNS`
 
-**Audio statements:**
-- A: A technician is inspecting a copier.
-- B: A technician is ordering lunch.
-- C: A technician is greeting passengers.
-- D: A technician is moving a sofa.
+#### CH02-FINAL-Q22 · AU-F → US-M
+**Q:** Which seat is yours?
+- A. At the front desk. `P2-WHQ`
+- B. Yes, I sat there. `P2-YNA`
+- C. The one by the window. ✓
 
-**Đáp án:** A.  
-**Tags:** `part1_person_action`, `inspect`.
+#### CH02-FINAL-Q23 · US-M → CA-F
+**Q:** Has the new employee started yet?
+- A. She begins on Monday. ✓
+- B. It's a new office. `P2-REP`
+- C. About fifty employees. `P2-WHQ`
 
-## Part 2 — Câu 7 đến 15
+#### CH02-FINAL-Q24 · CA-M → UK-F
+**Q:** Where's the nearest copy center?
+- A. I'd like some coffee. `P2-SND`
+- B. There's one around the corner. ✓
+- C. Yes, I'll copy them. `P2-YNA`
 
-### Câu 7 — CH02-FINAL-Q07
+#### CH02-FINAL-Q25 · UK-F → AU-M
+**Q:** Why is the lobby so crowded?
+- A. It's on the first floor. `P2-WHQ`
+- B. I lobbied for it. `P2-SND`
+- C. There's a job fair this morning. ✓
 
-**Question:** Do you happen to know where the spare keys are kept?  
-**Responses:**
-- A: In the top drawer of the cabinet.
-- B: At around five o'clock.
-- C: The keys are made of metal.
+## Đáp án gốc (CHỈ dành cho người soạn nội dung)
 
-**Đáp án:** A. `where` hỏi nơi cất.  
-**Tags:** `indirect_question`, `where_response`.
+| Câu | Đ.án | Kỹ năng | Câu | Đ.án | Kỹ năng |
+|---:|:--:|---|---:|:--:|---|
+| 1 | D | Part 1 action | 14 | A | statement → giải pháp |
+| 2 | A | vị trí, không người | 15 | B | How long / since |
+| 3 | C | pointing | 16 | C | xin phép, trả lời điều kiện |
+| 4 | B | wearing vs putting on | 17 | A | What + phản ứng |
+| 5 | B | vật, không người | 18 | B | Would you mind |
+| 6 | A | action | 19 | C | Who |
+| 7 | B | Who | 20 | A | indirect + giá |
+| 8 | C | When | 21 | B | statement → làm rõ |
+| 9 | A | Where | 22 | C | Which |
+| 10 | C | chọn A hay B | 23 | A | paraphrase started/begins |
+| 11 | B | phủ định + lý do | 24 | B | Where + SND copy/coffee |
+| 12 | A | request | 25 | C | Why |
+| 13 | C | suggestion | | | |
 
-### Câu 8 — CH02-FINAL-Q08
+> Bảng trên chỉ là đáp án gốc. **Runtime phải xáo vị trí đáp án**, không được để vị trí đúng cố định.
 
-**Question:** Would you mind forwarding this message to the team?  
-**Responses:**
-- A: Not at all. I'll send it now.
-- B: The team meeting is tomorrow.
-- C: The message is quite short.
+## Chẩn đoán sau Final Test
 
-**Đáp án:** A. Lời nhờ lịch sự; A đồng ý.  
-**Tags:** `would_you_mind`, `request_response`.
+App tổng hợp theo `distractor_code` và mã lỗi nghe:
 
-### Câu 9 — CH02-FINAL-Q09
-
-**Question:** Has the supplier sent the revised quotation?  
-**Responses:**
-- A: Yes, it arrived this morning.
-- B: The supplier is based overseas.
-- C: At the purchasing department.
-
-**Đáp án:** A. Câu hỏi Yes/No về việc đã gửi báo giá chưa.  
-**Tags:** `yes_no_question`, `business_vocabulary`.
-
-### Câu 10 — CH02-FINAL-Q10
-
-**Question:** How about taking the earlier flight?  
-**Responses:**
-- A: That would give us more time.
-- B: The flight attendant is helpful.
-- C: At gate number eight.
-
-**Đáp án:** A. Phản hồi ý kiến đề xuất.  
-**Tags:** `suggestion_response`, `how_about`.
-
-### Câu 11 — CH02-FINAL-Q11
-
-**Question:** Is the supervisor free to meet this afternoon?  
-**Responses:**
-- A: She's available after two.
-- B: The supervisor's office is upstairs.
-- C: The afternoon session was canceled.
-
-**Đáp án:** A. `free` được paraphrase bằng `available`.  
-**Tags:** `paraphrase_free_available`, `time_response`.
-
-### Câu 12 — CH02-FINAL-Q12
-
-**Question:** When will the new software be installed?  
-**Responses:**
-- A: Early next week.
-- B: On the second computer.
-- C: The software is easy to use.
-
-**Đáp án:** A. When hỏi thời gian.  
-**Tags:** `when_response`, `time_expression`.
-
-### Câu 13 — CH02-FINAL-Q13
-
-**Question:** The meeting room is being painted today.  
-**Responses:**
-- A: We should reserve another room.
-- B: The meeting lasted an hour.
-- C: I met the painter yesterday.
-
-**Đáp án:** A. Câu trần thuật nêu tình huống; A đưa ra giải pháp.  
-**Tags:** `statement_response`, `problem_solution`.
-
-### Câu 14 — CH02-FINAL-Q14
-
-**Question:** Which presentation should we show to the visitors?  
-**Responses:**
-- A: The updated version with the new figures.
-- B: At the visitor entrance.
-- C: It took about twenty minutes.
-
-**Đáp án:** A. Which hỏi lựa chọn.  
-**Tags:** `which_question`, `choice_response`.
-
-### Câu 15 — CH02-FINAL-Q15
-
-**Question:** Has the outdoor concert been called off?  
-**Responses:**
-- A: Yes, it has been canceled because of the storm.
-- B: The concert begins at seven.
-- C: The outdoor stage is very large.
-
-**Đáp án:** A. `called off` có nghĩa là hủy; `canceled` là paraphrase.  
-**Tags:** `paraphrase_called_off_canceled`, `yes_no_question`.
-
-## Đáp án tổng kết Chương 2
-
-| Câu | Đáp án | Kỹ năng |
-|---:|:---:|---|
-| 1 | A | Part 1 action |
-| 2 | A | Position |
-| 3 | A | Action verb |
-| 4 | A | Position |
-| 5 | A | Location/state |
-| 6 | A | Action verb |
-| 7 | A | Indirect where |
-| 8 | A | Polite request |
-| 9 | A | Yes/No |
-| 10 | A | Suggestion |
-| 11 | A | Paraphrase available/free |
-| 12 | A | When/time |
-| 13 | A | Statement response |
-| 14 | A | Which/choice |
-| 15 | A | Paraphrase called off/canceled |
-
-**Lưu ý khi đưa vào web:** Hệ thống phải xáo vị trí đáp án đúng trong dữ liệu runtime; bảng trên chỉ là đáp án của bản nội dung gốc. Không để đáp án A luôn đúng khi hiển thị.
-
-**Đạt chương:** ít nhất 12/15 ở tốc độ 1.0x, không xem transcript trước khi trả lời. Nếu chưa đạt, ôn lại skill tag yếu và tạo bài kiểm tra mới cùng cấu trúc.
+| Kết quả | Hành động |
+|---|---|
+| Sai ≥ 2 cùng một mã bẫy | Mở bài sửa lỗi tương ứng (mục 3.1–3.2) |
+| Sai nhiều ở các câu có nối âm/số | Mở drill Bài 4 |
+| Sai ở Part 2 cuối bài (nhiều lựa chọn tạo nhầm trí nhớ) | Luyện L-MEMORY: nhắc lại câu hỏi trong đầu trước khi nghe đáp án A |
+| Đạt ≥ 20/25 và Part 1 ≥ 5/6 | Đánh dấu `CH02_PASS` |
 
 ---
 
-## Danh sách từ vựng Chương 2
+## Từ vựng Chương 2
 
-| Từ/cụm | Nghĩa |
-|---|---|
-| examine | xem xét/kiểm tra |
-| arrange | sắp xếp |
-| point at | chỉ vào |
-| push a cart | đẩy xe đẩy |
-| attend a meeting | tham dự cuộc họp |
-| beside | bên cạnh |
-| underneath | bên dưới |
-| across from | đối diện |
-| along the wall | dọc theo tường |
-| doorway | ô cửa/lối cửa |
-| be stacked | được xếp chồng |
-| be arranged | được sắp xếp |
-| be inspected | được kiểm tra |
-| personnel office | phòng nhân sự |
-| maintenance team | đội bảo trì |
-| supplier | nhà cung cấp |
-| quotation | báo giá |
-| forward a message | chuyển tiếp tin nhắn |
-| revised | đã chỉnh sửa/cập nhật |
-| postpone / put off | hoãn |
-| begin / start | bắt đầu |
-| available / free | rảnh/có sẵn |
-| be priced at | có giá là |
-| occupied | đang có người sử dụng |
-| call off / cancel | hủy |
-| visitor | khách tham quan/khách đến thăm |
-| supervisor | người giám sát/quản lý trực tiếp |
-| installation | sự cài đặt/lắp đặt |
-| spare keys | chìa khóa dự phòng |
+> Từ vựng TOEIC nền tảng đã có sẵn trong ứng dụng. Danh sách này chỉ liệt kê các cụm xuất hiện trong chương, để đối chiếu.
+
+examine/inspect · operate · load/unload · arrange · point at · hand · shake hands · beside · between · underneath · along · lean against · be stacked/stored/suspended · be positioned · postpone/put off · call off/cancel · available/free · reserve/book · complete/finish · be priced at/come to · supervisor · supplier · quotation · revised · registration · quarterly figures · access card · lost-and-found · shuttle · trade show · job fair.
 
 ## Điều kiện hoàn thành Chương 2
 
-1. Hoàn thành 5 bài học.
-2. Đạt ngưỡng từng bài.
-3. Làm Final Test mới ở 1.0x, không transcript.
-4. Đạt ít nhất 12/15.
-5. Các câu sai phải được đưa vào Mistake Book.
-6. Khi đạt, app đánh dấu `CH02_PASS`; Chương 3 chưa mở cho đến khi có nội dung và registry được cập nhật.
+1. Hoàn thành 9 bài và đạt ngưỡng từng bài.
+2. Bài 4 đạt đủ 3 chỉ tiêu (dictation, minimal pairs, số).
+3. Final Test mới ở 1.0x, không transcript, đạt ≥ 20/25 và Part 1 ≥ 5/6.
+4. Mọi câu sai đã vào **Mistake Book**; mỗi mã lỗi có ít nhất 1 vòng sửa lỗi hoàn tất.
+5. Khi đạt, app đánh dấu `CH02_PASS`; Chương 3 chưa mở cho đến khi có nội dung và registry được cập nhật.

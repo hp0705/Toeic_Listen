@@ -16,8 +16,8 @@
     {
       "id": "CH02",
       "file": "chapters/chapter-02.json",
-      "title": "Part 1 & Part 2 mở rộng",
-      "description": "Mô tả tranh, câu hỏi gián tiếp và phản hồi tự nhiên",
+      "title": "Part 1 & Part 2 — nghe thật",
+      "description": "Mô tả ảnh, âm thanh thực tế, phản xạ câu hỏi – phản hồi",
       "unlock": "CH01_PASS"
     },
     {
