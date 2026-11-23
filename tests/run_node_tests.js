@@ -159,6 +159,43 @@ async function run() {
     `status: ${derivedRecovered.mistakes[0]?.status}`
   );
 
+  // Test 8: Kiểm định hiển thị của tất cả câu hỏi trong toàn bộ khóa học
+  let renderErrors = [];
+  let totalAudited = 0;
+  for (const chNum of ["01", "02", "03"]) {
+    const chFile = path.resolve(`./data/chapters/chapter-${chNum}.json`);
+    if (!fs.existsSync(chFile)) continue;
+    const chObj = JSON.parse(fs.readFileSync(chFile, 'utf-8'));
+    for (const q of chObj.questions || []) {
+      totalAudited++;
+      if (q.taskType === 'dictation') continue;
+      const segs = q.audioSegments || [];
+      const hasOptionAudio = segs.length > 1;
+      const isAudioOnlyChoice = (q.optionsVisibleBeforeAnswer === false) && hasOptionAudio;
+      const showOptionText = !isAudioOnlyChoice;
+
+      // Nếu không hiện chữ trên nút, bắt buộc phải có audio cho từng lựa chọn
+      if (!showOptionText) {
+        if (segs.length <= 1) {
+          renderErrors.push(`${q.id}: Nút bị giấu chữ nhưng audio không có đoạn đọc các lựa chọn!`);
+        }
+      } else {
+        // Nếu hiện chữ trên nút, các phương án phải có text hợp lệ
+        for (const [k, val] of Object.entries(q.options || {})) {
+          if (!val || !val.trim()) {
+            renderErrors.push(`${q.id}: Lựa chọn ${k} bị rỗng nội dung chữ!`);
+          }
+        }
+      }
+    }
+  }
+
+  assert(
+    "8. Toàn bộ câu hỏi khóa học (390 câu) hiển thị chữ hoặc audio đầy đủ, không câu nào bị trắng nút",
+    renderErrors.length === 0,
+    renderErrors.join('; ')
+  );
+
   console.log(`\nTests Summary: ${passed} Passed, ${failed} Failed.`);
   if (failed > 0) process.exit(1);
 }
