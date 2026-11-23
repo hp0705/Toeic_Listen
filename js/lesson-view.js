@@ -68,6 +68,51 @@ export class LessonView {
         </div>
       ` : ''}
 
+      <!-- Contrastive Listening / Minimal Pairs Comparisons -->
+      ${lesson.comparisons && lesson.comparisons.length > 0 ? `
+        <div class="card-section comparisons-section">
+          <h2 class="section-title">⚡ Luyện nghe đối chiếu (Minimal Pairs)</h2>
+          <p class="section-sub">Nghe so sánh trực tiếp hai từ/câu để tai nhận biết sự khác biệt tinh tế, tránh bẫy đề thi:</p>
+          
+          ${lesson.comparisons.map(comp => `
+            <div class="comparison-group">
+              <h3 class="comp-group-title">🔍 ${comp.title}</h3>
+              ${comp.tip ? `<div class="comp-group-tip">💡 <strong>Mẹo nghe:</strong> ${comp.tip}</div>` : ''}
+              
+              <div class="comp-pairs-grid">
+                ${comp.pairs.map(p => `
+                  <div class="comp-pair-card">
+                    <div class="pair-side side-a">
+                      <div class="pair-header">
+                        <span class="pair-word">${p.wordA}</span>
+                        <span class="pair-ipa">${p.ipaA || ''}</span>
+                      </div>
+                      <div class="pair-desc">${p.descA}</div>
+                      <button class="btn-play-word btn-play-a" data-text="${p.wordA}">▶ Nghe từ A</button>
+                    </div>
+
+                    <div class="pair-divider">
+                      <button class="btn-play-both" data-text-a="${p.wordA}" data-text-b="${p.wordB}" title="Nghe từ A rồi đến từ B để so sánh">
+                        ▶▶ Nghe A rồi B
+                      </button>
+                    </div>
+
+                    <div class="pair-side side-b">
+                      <div class="pair-header">
+                        <span class="pair-word">${p.wordB}</span>
+                        <span class="pair-ipa">${p.ipaB || ''}</span>
+                      </div>
+                      <div class="pair-desc">${p.descB}</div>
+                      <button class="btn-play-word btn-play-b" data-text="${p.wordB}">▶ Nghe từ B</button>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      ` : ''}
+
       <!-- Vocabulary -->
       ${lesson.vocabulary && lesson.vocabulary.length > 0 ? `
         <div class="card-section vocab-section">
@@ -135,6 +180,22 @@ export class LessonView {
         </div>
       </div>
     `;
+
+    // Comparison audio play handlers
+    el.querySelectorAll('.btn-play-word').forEach(btn => {
+      btn.onclick = () => {
+        const text = btn.dataset.text;
+        audioPlayer.playWord(text);
+      };
+    });
+
+    el.querySelectorAll('.btn-play-both').forEach(btn => {
+      btn.onclick = () => {
+        const textA = btn.dataset.textA;
+        const textB = btn.dataset.textB;
+        audioPlayer.playComparisonPair(textA, textB);
+      };
+    });
 
     // Example audio play handlers
     el.querySelectorAll('.btn-play-sm').forEach(btn => {

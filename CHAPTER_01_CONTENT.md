@@ -2,7 +2,7 @@
 
 **Mã chương:** CH01  
 **Tên chương:** Nền tảng nghe — bắt từ khóa, âm cuối, số và ý câu hỏi  
-**Phiên bản nội dung:** 1.0  
+**Phiên bản nội dung:** 1.1 (Bổ sung phần Luyện nghe đối chiếu / Minimal Pairs)  
 **Đối tượng:** người Việt mới bắt đầu hoặc nghe tiếng Anh còn yếu  
 **Thời lượng gợi ý:** 7–10 buổi, mỗi buổi 20–35 phút  
 **Điều kiện qua chương:** đạt ít nhất 80% bài kiểm tra cuối chương ở tốc độ 1.0x, không xem transcript trước khi trả lời.
@@ -16,24 +16,11 @@
 Mỗi bài học theo sáu bước:
 
 1. Đọc mục tiêu và phần kiến thức tiếng Việt.
-2. Nghe audio ở tốc độ 1.0x, không xem transcript.
-3. Trả lời câu hỏi.
-4. Chỉ xem transcript, dịch và giải thích sau khi trả lời.
-5. Nếu sai, chọn nguyên nhân gần nhất và nghe lại ở 0.85x nếu cần.
-6. Làm câu mới cùng kỹ năng ở 1.0x để kiểm tra đã sửa được lỗi chưa.
-
-Không cần dịch từng từ trong lúc audio đang chạy. Ưu tiên nghe ý chính và thông tin được hỏi.
-
-## Bản đồ chương
-
-| Bài | Nội dung | Kỹ năng |
-|---|---|---|
-| CH01-L01 | Nghe từ mang thông tin chính | Content words, who/what/where/when |
-| CH01-L02 | Âm cuối và dạng rút gọn | Số ít/số nhiều, -ed, contractions |
-| CH01-L03 | Số, giờ, ngày tháng, giá tiền | Number/time recognition |
-| CH01-L04 | Nhận diện từ để hỏi | WH-questions, dự đoán loại đáp án |
-| CH01-L05 | Part 2 cơ bản | Response matching, distractors |
-| CH01-FINAL | Kiểm tra tổng kết | 15 câu mới, tổng hợp 5 kỹ năng |
+2. **Luyện nghe đối chiếu các cặp từ/câu dễ nhầm (Minimal Pairs)**: Nghe từ A trước, nghe từ B sau, rồi nghe liên tiếp hai từ để tai làm quen với sự khác biệt tinh tế.
+3. Nghe audio ở tốc độ 1.0x, không xem transcript.
+4. Trả lời câu hỏi.
+5. Chỉ xem transcript, dịch và giải thích sau khi trả lời.
+6. Nếu sai, chọn nguyên nhân gần nhất và nghe lại ở 0.85x nếu cần.
 
 ---
 
@@ -45,43 +32,38 @@ Sau bài này, bạn có thể:
 
 - Không cố dịch toàn bộ câu trong đầu.
 - Nghe ra danh từ, động từ, tính từ, số và thời gian quan trọng.
-- Trả lời được câu hỏi ai, làm gì, ở đâu, khi nào từ một câu ngắn.
+- Phân biệt nhịp điệu giữa từ mang nội dung (nhấn mạnh) và từ chức năng (đọc lướt).
 
 ## 1.1. Từ mang nội dung và từ chức năng
 
-Trong tiếng Anh nói tự nhiên, từ mang nội dung thường được nhấn rõ hơn. Chúng thường là:
+Trong tiếng Anh nói tự nhiên, người bản xứ không phát âm từng từ với độ lớn bằng nhau. Có hai nhóm từ:
 
-- Danh từ: manager, report, meeting, station.
-- Động từ: send, prepare, cancel, arrive.
-- Tính từ: available, delayed, crowded.
-- Trạng từ/thông tin thời gian: tomorrow, recently, carefully.
-- Số và tên riêng.
+- **Từ mang nội dung (Content words - được đọc to, rõ, nhấn mạnh):**
+  - Danh từ: manager, report, meeting, station.
+  - Động từ chính: send, prepare, cancel, arrive.
+  - Tính từ: available, delayed, crowded.
+  - Trạng từ/thời gian: tomorrow, recently, carefully.
+- **Từ chức năng (Function words - đọc rất nhanh, nhẹ, lướt):**
+  - Giới từ: `to`, `at`, `of`, `in`.
+  - Mạo từ: `a`, `an`, `the`.
+  - Trợ động từ: `can`, `will`, `is`, `are`.
 
-Các từ chức năng như `a`, `the`, `to`, `of`, `and`, `can` thường nhẹ hơn. Bạn vẫn cần hiểu chúng, nhưng khi nghe lần đầu hãy ưu tiên bắt từ mang nội dung.
+## 1.2. So sánh nhịp điệu câu: Rời rạc vs Tự nhiên
 
-Ví dụ:
+| Dạng rời rạc (cách người Việt hay chờ nghe) | Dạng nói tự nhiên trong bài thi TOEIC | Điểm tai cần bắt trúng |
+|---|---|---|
+| The - manager - will - send - the - report - tomorrow | The **MAN**ager will **SEND** the re**PORT** to**MOR**row | manager • send • report • tomorrow |
+| Please - leave - the - documents - at - the - front - desk | Please **LEAVE** the **DOC**uments at the **FRONT DESK** | leave • documents • front desk |
+| The - train - is - delayed - because - of - weather | The **TRAIN** is de**LAYED** because of **WEATH**er | train • delayed • weather |
 
-**The manager will send the report tomorrow.**  
-Người quản lý sẽ gửi báo cáo vào ngày mai.
-
-Hãy bắt bốn ý:
-
-- Ai? `the manager`
-- Làm gì? `send`
-- Cái gì? `the report`
-- Khi nào? `tomorrow`
-
-Bỏ lỡ `the` không làm bạn mất ý chính. Bỏ lỡ `tomorrow` có thể khiến bạn trả lời sai câu hỏi thời gian.
-
-## 1.2. Kỹ thuật nghe 3 điểm
+## 1.3. Kỹ thuật nghe 3 điểm
 
 Sau khi nghe một câu, tự hỏi:
-
 1. **Who/What?** Ai hoặc vật nào được nói đến?
 2. **Action?** Hành động hoặc trạng thái là gì?
 3. **Key detail?** Thời gian, địa điểm, số lượng hoặc lý do nào quan trọng?
 
-## 1.3. Từ vựng nền
+## 1.4. Từ vựng nền
 
 | Từ/cụm | Nghĩa | Cụm thường gặp |
 |---|---|---|
@@ -96,9 +78,7 @@ Sau khi nghe một câu, tự hỏi:
 | department | phòng ban | the sales department |
 | repair | sửa chữa | schedule a repair |
 
-## 1.4. Audio mẫu để tạo giọng đọc
-
-Mỗi dòng là một audio segment độc lập.
+## 1.5. Audio mẫu
 
 | ID | Audio text | Nghĩa cần hiểu |
 |---|---|---|
@@ -107,13 +87,12 @@ Mỗi dòng là một audio segment độc lập.
 | CH01-L01-E03 | The train is delayed because of the weather. | Tàu bị trễ vì thời tiết. |
 | CH01-L01-E04 | The sales department is preparing a new schedule. | Phòng kinh doanh đang chuẩn bị lịch mới. |
 
-## 1.5. Bài luyện
+## 1.6. Bài luyện
 
 ### Câu 1 — CH01-L01-Q01
 
 **Audio:** `The manager will send the report tomorrow.`  
 **Câu hỏi:** Khi nào người quản lý gửi báo cáo?
-
 - A. This afternoon
 - B. Tomorrow
 - C. Next week
@@ -121,15 +100,12 @@ Mỗi dòng là một audio segment độc lập.
 **Đáp án:** B.  
 **Giải thích:** `tomorrow` là mốc thời gian được nói trực tiếp.  
 **Sai vì:** A là chiều nay; C là tuần sau. Cả hai không xuất hiện trong audio.  
-**Transcript:** The manager will send the report tomorrow.  
-**Dịch:** Người quản lý sẽ gửi báo cáo vào ngày mai.  
 **Tags:** `time_expression`, `keyword_listening`.
 
 ### Câu 2 — CH01-L01-Q02
 
 **Audio:** `Please leave the documents at the front desk.`  
 **Câu hỏi:** Nên để tài liệu ở đâu?
-
 - A. At the front desk
 - B. In the meeting room
 - C. On the train
@@ -137,15 +113,12 @@ Mỗi dòng là một audio segment độc lập.
 **Đáp án:** A.  
 **Giải thích:** `at the front desk` là địa điểm.  
 **Sai vì:** B và C là các địa điểm không được nhắc đến.  
-**Transcript:** Please leave the documents at the front desk.  
-**Dịch:** Vui lòng để tài liệu ở quầy lễ tân.  
 **Tags:** `location_expression`, `keyword_listening`.
 
 ### Câu 3 — CH01-L01-Q03
 
 **Audio:** `The train is delayed because of the weather.`  
 **Câu hỏi:** Vì sao tàu bị trễ?
-
 - A. Because of a meeting
 - B. Because of the weather
 - C. Because of a schedule change
@@ -153,15 +126,12 @@ Mỗi dòng là một audio segment độc lập.
 **Đáp án:** B.  
 **Giải thích:** `because of the weather` nêu nguyên nhân.  
 **Sai vì:** A và C là lý do có thể xảy ra trong thực tế nhưng không được nói trong audio.  
-**Transcript:** The train is delayed because of the weather.  
-**Dịch:** Tàu bị trễ do thời tiết.  
 **Tags:** `reason_expression`, `keyword_listening`.
 
 ### Câu 4 — CH01-L01-Q04
 
 **Audio:** `The sales department is preparing a new schedule.`  
 **Câu hỏi:** Bộ phận kinh doanh đang làm gì?
-
 - A. Preparing a new schedule
 - B. Hiring a new manager
 - C. Moving to another office
@@ -169,13 +139,7 @@ Mỗi dòng là một audio segment độc lập.
 **Đáp án:** A.  
 **Giải thích:** Cụm động từ trọng tâm là `is preparing`; vật được chuẩn bị là `a new schedule`.  
 **Sai vì:** B và C không xuất hiện trong câu.  
-**Transcript:** The sales department is preparing a new schedule.  
-**Dịch:** Phòng kinh doanh đang chuẩn bị một lịch trình mới.  
 **Tags:** `main_action`, `keyword_listening`.
-
-### Tự kiểm tra Bài 1
-
-Bạn đạt khi đúng ít nhất 3/4 câu và sau khi nghe có thể tự nói lại được: ai/vật gì, hành động gì, chi tiết nào quan trọng.
 
 ---
 
@@ -184,49 +148,48 @@ Bạn đạt khi đúng ít nhất 3/4 câu và sau khi nghe có thể tự nói
 ## Mục tiêu
 
 - Nhận ra âm cuối có thể đổi nghĩa hoặc số lượng.
-- Phân biệt sơ bộ âm cuối /s/, /z/, /t/, /d/ và /ɪd/.
-- Hiểu các dạng rút gọn thông dụng trong hội thoại.
+- So sánh đối chiếu từ có âm cuối vs không có âm cuối.
+- So sánh đối chiếu dạng đầy đủ vs dạng rút gọn thường gặp trong đề thi.
 
-## 2.1. Âm cuối -s/-es
+## 2.1. So sánh đối chiếu âm cuối: Có âm cuối vs Không có âm cuối
 
-Âm cuối số nhiều có thể được phát âm /s/, /z/ hoặc /ɪz/. Ở mức đầu, hãy chú ý rằng `report` và `reports` không giống nhau; `work` và `works` không giống nhau.
+Người Việt có thói quen "bỏ quên" âm cuối khi nói và nghe tiếng Anh. Trong bài thi TOEIC, việc nghe thiếu âm cuối sẽ khiến bạn nhầm lẫn giữa số ít và số nhiều, hoặc giữa thì hiện tại và quá khứ.
 
-Ví dụ:
+### Bảng cặp từ đối chiếu (Minimal Pairs - Nghe so sánh):
 
-- one book / two books
-- one report / three reports
-- she work**s** in accounting
-- he need**s** a copy
-
-Đừng cố phát âm từng ký hiệu IPA khi đang làm bài. Trước tiên, hãy tập nhận ra khác biệt khi nghe.
-
-## 2.2. Đuôi -ed
-
-| Nhóm âm trước -ed | Cách đọc đuôi | Ví dụ |
+| Từ gốc (Không âm cuối / Hiện tại) | Từ có âm cuối (Số nhiều / Chia thì) | Điểm tai cần chú ý để nhận biết |
 |---|---|---|
-| Âm vô thanh như /k/, /p/, /f/ | /t/ | worked, stopped |
-| Âm hữu thanh hoặc nguyên âm | /d/ | called, opened |
-| Từ kết thúc bằng /t/ hoặc /d/ | /ɪd/ | wanted, needed |
+| **plan** /plæn/ (kế hoạch) | **plans** /plænz/ (nhiều kế hoạch) | `plans` có âm xì rung **/z/** ở đuôi lưỡi. |
+| **work** /wɜːrk/ (làm việc) | **works** /wɜːrks/ (cô ấy làm việc) | `works` có âm gió bật nhẹ **/s/** sau âm /k/. |
+| **need** /niːd/ (cần) | **needs** /niːdz/ (anh ấy cần) | `needs` có âm xì **/z/** kéo dài âm cuối. |
+| **car** /kɑːr/ (một ô tô) | **cars** /kɑːrz/ (nhiều ô tô) | `cars` kết thúc bằng âm xì rung **/z/**. |
+| **price** /praɪs/ (giá cả) | **prize** /praɪz/ (giải thưởng) | `price` có âm xì không rung /s/; `prize` có âm rung thanh quản /z/. |
 
-`worked` thường có một âm tiết; `wanted` có thêm một âm tiết.
+### So sánh đuôi quá khứ -ed:
 
-## 2.3. Dạng rút gọn thường gặp
+| Động từ nguyên thể | Động từ thêm -ed | Cách phát âm đuôi | Điểm khác biệt |
+|---|---|---|---|
+| **miss** /mɪs/ (bỏ lỡ) | **missed** /mɪst/ | Bật âm **/t/** dứt khoát | Miệng ngậm bật hơi /t/ dứt khoát ở cuối. |
+| **call** /kɔːl/ (gọi điện) | **called** /kɔːld/ | Bật âm **/d/** nhẹ | Lưỡi chạm vòm miệng bật âm /d/. |
+| **need** /niːd/ (cần - 1 âm tiết) | **needed** /ˈniː.dɪd/ (đã cần - 2 âm tiết) | Thêm âm tiết **/ɪd/** | Nghe rõ ràng 2 âm tiết "nii - did". |
+| **wait** /weɪt/ (chờ - 1 âm tiết) | **waited** /ˈweɪ.tɪd/ (đã chờ - 2 âm tiết) | Thêm âm tiết **/ɪd/** | Nghe rõ ràng 2 âm tiết "way - tid". |
+| **stop** /stɑːp/ (dừng) | **stopped** /stɑːpt/ | Bật âm **/t/** | Môi mím bật âm /p/ rồi bật tiếp /t/. |
 
-| Dạng rút gọn | Dạng đầy đủ | Nghĩa |
-|---|---|---|
-| I'm | I am | tôi là/đang |
-| we're | we are | chúng tôi là/đang |
-| they're | they are | họ là/đang |
-| don't | do not | không |
-| doesn't | does not | không |
-| can't | cannot | không thể |
-| won't | will not | sẽ không |
-| we've | we have | chúng tôi đã/có |
-| I'll | I will | tôi sẽ |
+## 2.2. So sánh dạng đầy đủ vs Dạng rút gọn (Contractions)
 
-`I'd` có thể là `I would` hoặc `I had`; phải dựa vào phần còn lại của câu.
+Trong đề thi TOEIC, người nói hầu như **không bao giờ** đọc dạng đầy đủ trang trọng mà luôn đọc dạng rút gọn:
 
-## 2.4. Audio mẫu
+| Dạng đầy đủ (Full Form) | Dạng rút gọn (Contraction) | Phiên âm rút gọn | Điểm tai cần chú ý |
+|---|---|---|---|
+| **I have** | **I've** | /aɪv/ | Âm /hæv/ biến mất, chỉ còn âm gió /v/ dính sau "I". |
+| **We have** | **We've** | /wiːv/ | Nghe như một từ đơn kéo dài có âm /v/. |
+| **We will** | **We'll** | /wiːl/ | Lưỡi uốn chạm vòm trên tạo âm /l/. |
+| **They are** | **They're** | /ðer/ | Phát âm giống hệt từ `their` hoặc `there`. |
+| **He is / He has** | **He's** | /hiːz/ | Kết thúc bằng âm xì rung /z/. |
+| **Cannot** | **Can't** | /kænt/ | Âm /t/ bị chặn hơi dứt khoát (khác với `can` đọc nhẹ /kən/). |
+| **Will not** | **Won't** | /woʊnt/ | Nguyên âm đổi thành /oʊ/ có âm chặn /t/ ở cuối. |
+
+## 2.3. Audio mẫu
 
 | ID | Audio text | Điểm cần nghe |
 |---|---|---|
@@ -235,13 +198,11 @@ Ví dụ:
 | CH01-L02-E03 | We've received your order. | `We've` = We have |
 | CH01-L02-E04 | Two reports are on the manager's desk. | `two reports`, số nhiều |
 
-## 2.5. Bài luyện
+## 2.4. Bài luyện
 
 ### Câu 1 — CH01-L02-Q01
-
 **Audio:** `She works in the accounting department.`  
 **Câu hỏi:** Cô ấy làm việc ở bộ phận nào?
-
 - A. Accounting
 - B. Marketing
 - C. Reception
@@ -252,10 +213,8 @@ Ví dụ:
 **Tags:** `final_sound_s`, `department_vocabulary`.
 
 ### Câu 2 — CH01-L02-Q02
-
 **Audio:** `The team finished the project yesterday.`  
 **Câu hỏi:** Nhóm hoàn thành dự án khi nào?
-
 - A. Today
 - B. Yesterday
 - C. Tomorrow
@@ -266,10 +225,8 @@ Ví dụ:
 **Tags:** `ed_ending`, `time_expression`.
 
 ### Câu 3 — CH01-L02-Q03
-
 **Audio:** `We've received your order.`  
 **Câu hỏi:** Câu này có nghĩa gần nhất là gì?
-
 - A. Chúng tôi đã nhận được đơn hàng của bạn.
 - B. Chúng tôi sẽ hủy đơn hàng của bạn.
 - C. Chúng tôi chưa gửi đơn hàng.
@@ -280,10 +237,8 @@ Ví dụ:
 **Tags:** `contraction_weve`, `past_participle`.
 
 ### Câu 4 — CH01-L02-Q04
-
 **Audio:** `Two reports are on the manager's desk.`  
 **Câu hỏi:** Có bao nhiêu báo cáo trên bàn?
-
 - A. One
 - B. Two
 - C. Three
@@ -293,167 +248,157 @@ Ví dụ:
 **Sai vì:** A và C không khớp con số trong audio.  
 **Tags:** `plural_s`, `number_recognition`.
 
-### Tự kiểm tra Bài 2
-
-Bạn đạt khi đúng ít nhất 3/4 câu và giải thích được `works`, `finished`, `we've` có ý nghĩa gì trong câu.
-
 ---
 
 # BÀI 3 — SỐ, GIỜ, NGÀY THÁNG VÀ GIÁ TIỀN
 
 ## Mục tiêu
 
-- Phân biệt các cặp số `-teen` và `-ty`.
-- Nghe giờ theo cách nói số và cách nói tự nhiên.
-- Nhận ra ngày trong tuần, giá và số lượng.
+- Phân biệt các cặp số `-teen` và `-ty` thông qua vị trí trọng âm.
+- Nghe giờ theo cách nói số và cách nói tự nhiên (giờ hơn / giờ kém).
+- Nhận ra ngày trong tuần, giá tiền và số lượng.
 
-## 3.1. Cặp số dễ nhầm
+## 3.1. So sánh bẫy số kinh điển: Đuôi -teen vs Đuôi -ty
 
-| -teen | -ty |
-|---|---|
-| thirteen (13) | thirty (30) |
-| fourteen (14) | forty (40) |
-| fifteen (15) | fifty (50) |
-| sixteen (16) | sixty (60) |
-| seventeen (17) | seventy (70) |
-| eighteen (18) | eighty (80) |
-| nineteen (19) | ninety (90) |
+Đây là một trong những bẫy gây mất điểm nhiều nhất trong TOEIC Listening:
 
-Gợi ý nghe:
-
-- `-teen` thường có trọng âm ở phần cuối.
-- `-ty` thường có trọng âm ở phần đầu.
-- Đừng chỉ dựa vào trọng âm; nghe cả ngữ cảnh và đơn vị đi cùng.
-
-## 3.2. Cách nói giờ
-
-| Cách nói | Giờ |
-|---|---|
-| nine fifteen | 9:15 |
-| nine fifty | 9:50 |
-| half past nine | 9:30 |
-| a quarter past nine | 9:15 |
-| a quarter to ten | 9:45 |
-| ten to six | 5:50 |
-
-## 3.3. Giá tiền và số lượng
-
-- fifteen dollars = $15
-- fifty dollars = $50
-- one hundred fifty dollars = $150
-- twenty-five copies = 25 bản
-- fourteen chairs = 14 ghế
-
-Nghe cả số và đơn vị: dollars, cents, copies, people, each, per person.
-
-## 3.4. Ngày trong tuần
-
-Monday (Thứ Hai), Tuesday (Thứ Ba), Wednesday (Thứ Tư), Thursday (Thứ Năm), Friday (Thứ Sáu), Saturday (Thứ Bảy), Sunday (Chủ Nhật).
-
-`Tuesday` và `Thursday` dễ bị nhầm nếu chỉ nghe thoáng qua. Hãy nghe cả từ và ngữ cảnh lịch trình.
-
-## 3.5. Audio mẫu
-
-| ID | Audio text | Đáp án cần nhận ra |
+| Số đuôi -teen (13–19) | Số đuôi -ty (30–90) | Mẹo nghe phân biệt mấu chốt |
 |---|---|---|
-| CH01-L03-E01 | The meeting starts at nine fifteen. | 9:15 |
-| CH01-L03-E02 | The printer costs fifty dollars. | $50 |
-| CH01-L03-E03 | The delivery will arrive on Thursday. | Thursday |
-| CH01-L03-E04 | We need fourteen chairs for the training room. | 14 |
+| **fourteen** (14) /fɔːrˈtiːn/ | **forty** (40) /ˈfɔːr.ti/ | `-teen`: Trọng âm rơi vào **âm tiết 2**, kéo dài âm /iːn/.<br>`-ty`: Trọng âm rơi vào **âm tiết 1**, âm đuôi /-ti/ đọc cụt và nhẹ (Mỹ thường đọc lướt thành /-di/). |
+| **fifteen** (15) /fɪfˈtiːn/ | **fifty** (50) /ˈfɪf.ti/ | 15 nhấn âm **TEEN**; 50 nhấn âm **FIF**. |
+| **sixteen** (16) /sɪksˈtiːn/ | **sixty** (60) /ˈsɪks.ti/ | 16 nhấn âm **TEEN**; 60 nhấn âm **SIX**. |
+| **seventeen** (17) /ˌsev.ənˈtiːn/ | **seventy** (70) /ˈsev.ən.ti/ | 17 nhấn âm **TEEN**; 70 nhấn âm **SEV**. |
+| **eighteen** (18) /eɪˈtiːn/ | **eighty** (80) /ˈeɪ.ti/ | 18 nhấn âm **TEEN**; 80 nhấn âm **EIGH**. |
+| **nineteen** (19) /naɪnˈtiːn/ | **ninety** (90) /ˈnaɪn.ti/ | 19 nhấn âm **TEEN**; 90 nhấn âm **NINE**. |
+| **thirteen** (13) /θɜːrˈtiːn/ | **thirty** (30) /ˈθɜːr.ti/ | 13 nhấn âm **TEEN**; 30 nhấn âm **THIR**. |
 
-## 3.6. Bài luyện
+## 3.2. So sánh cách nói giờ: Giờ hơn vs Giờ kém
+
+| Mẫu nói | Ý nghĩa | Ví dụ đối chiếu |
+|---|---|---|
+| **quarter past [giờ]** | Giờ hơn 15 phút | `quarter past three` = 3:15 |
+| **quarter to [giờ]** | Giờ kém 15 phút (còn 15 phút nữa đến) | `quarter to three` = 2:45 |
+| **half past [giờ]** | Giờ rưỡi (hơn 30 phút) | `half past three` = 3:30 |
+
+## 3.3. Audio mẫu
+
+| ID | Audio text | Kỹ năng |
+|---|---|---|
+| CH01-L03-E01 | The flight leaves at fourteen thirty. | 14:30 |
+| CH01-L03-E02 | The total cost is forty dollars. | 40, phân biệt 14 |
+| CH01-L03-E03 | We need fifteen computers for the training. | 15, phân biệt 50 |
+| CH01-L03-E04 | The meeting starts at quarter to three. | 2:45 |
+
+## 3.4. Bài luyện
 
 ### Câu 1 — CH01-L03-Q01
+**Audio:** `The total cost is forty dollars.`  
+**Câu hỏi:** Tổng chi phí là bao nhiêu?
+- A. $14
+- B. $40
+- C. $44
 
-**Audio:** `The meeting starts at nine fifteen.`  
-**Câu hỏi:** Cuộc họp bắt đầu lúc nào?
-
-- A. 9:15
-- B. 9:50
-- C. 9:30
-
-**Đáp án:** A.  
-**Giải thích:** `nine fifteen` = 9:15.  
-**Sai vì:** `nine fifty` = 9:50; `half past nine` = 9:30.  
-**Tags:** `time_recognition`, `teen_ty_time`.
+**Đáp án:** B.  
+**Giải thích:** `forty dollars` là 40 đô-la, trọng âm rơi vào âm tiết đầu.  
+**Sai vì:** A là 14; C là 44.  
+**Tags:** `money`, `teen_ty_numbers`.
 
 ### Câu 2 — CH01-L03-Q02
-
-**Audio:** `The printer costs fifty dollars.`  
-**Câu hỏi:** Máy in có giá bao nhiêu?
-
-- A. $15
-- B. $50
-- C. $60
-
-**Đáp án:** B.  
-**Giải thích:** `fifty dollars` = 50 đô la.  
-**Sai vì:** A là fifteen; C là sixty.  
-**Tags:** `teen_ty_numbers`, `money`.
-
-### Câu 3 — CH01-L03-Q03
-
-**Audio:** `The delivery will arrive on Thursday.`  
-**Câu hỏi:** Hàng sẽ đến vào ngày nào?
-
-- A. Tuesday
-- B. Thursday
-- C. Saturday
-
-**Đáp án:** B.  
-**Giải thích:** Từ được nói là `Thursday`.  
-**Sai vì:** Tuesday và Saturday là hai ngày khác.  
-**Tags:** `days_of_week`, `date_recognition`.
-
-### Câu 4 — CH01-L03-Q04
-
-**Audio:** `We need fourteen chairs for the training room.`  
-**Câu hỏi:** Cần bao nhiêu chiếc ghế?
-
-- A. 14
-- B. 40
-- C. 50
+**Audio:** `We need fifteen computers for the training.`  
+**Câu hỏi:** Cần bao nhiêu máy tính cho buổi đào tạo?
+- A. 15
+- B. 50
+- C. 55
 
 **Đáp án:** A.  
-**Giải thích:** `fourteen` = 14; `forty` = 40.  
-**Sai vì:** B nhầm cặp fourteen/forty; C là fifty.  
-**Tags:** `teen_ty_numbers`, `quantity`.
+**Giải thích:** `fifteen` là 15, trọng âm rơi vào âm tiết thứ hai `-teen`.  
+**Sai vì:** B là 50; C là 55.  
+**Tags:** `number_recognition`, `teen_ty_numbers`.
+
+### Câu 3 — CH01-L03-Q03
+**Audio:** `The meeting starts at quarter to three.`  
+**Câu hỏi:** Cuộc họp bắt đầu lúc mấy giờ?
+- A. 2:45
+- B. 3:15
+- C. 3:45
+
+**Đáp án:** A.  
+**Giải thích:** `quarter to three` là 3 giờ kém 15 phút, tức 2:45.  
+**Sai vì:** B là 3:15 (quarter past three); C là 3:45 (quarter to four).  
+**Tags:** `time_recognition`, `quarter_to`.
+
+### Câu 4 — CH01-L03-Q04
+**Audio:** `The shipment will arrive on Thursday afternoon.`  
+**Câu hỏi:** Lô hàng sẽ đến vào ngày nào?
+- A. Tuesday
+- B. Thursday
+- C. Friday
+
+**Đáp án:** B.  
+**Giải thích:** `Thursday` là thứ Năm.  
+**Sai vì:** A là thứ Ba (Tuesday); C là thứ Sáu (Friday).  
+**Tags:** `days_of_week`, `time_expression`.
 
 ### Câu 5 — CH01-L03-Q05
+**Audio:** `The store is open from nine to five.`  
+**Câu hỏi:** Cửa hàng mở cửa trong bao lâu mỗi ngày?
+- A. 6 hours
+- B. 8 hours
+- C. 10 hours
 
-**Audio:** `The tour begins at a quarter to ten.`  
-**Câu hỏi:** Chuyến tham quan bắt đầu lúc nào?
-
-- A. 9:15
-- B. 9:30
-- C. 9:45
-
-**Đáp án:** C.  
-**Giải thích:** `a quarter to ten` là 15 phút trước 10 giờ, tức 9:45.  
-**Sai vì:** A là a quarter past nine; B là half past nine.  
-**Tags:** `time_expression`, `quarter_to`.
-
-### Cách sửa lỗi số
-
-1. Nghe lại ở 1.0x và ghi con số bạn nghe được.
-2. Nghe lại ở 0.85x nếu cần.
-3. Mở transcript để kiểm tra.
-4. Đọc cặp số dễ nhầm thành tiếng ba lần.
-5. Làm một câu mới có số tương tự nhưng ngữ cảnh khác.
-
-### Tự kiểm tra Bài 3
-
-Bạn đạt khi đúng ít nhất 4/5 câu.
+**Đáp án:** B.  
+**Giải thích:** Từ 9:00 đến 17:00 là 8 tiếng (`8 hours`).  
+**Sai vì:** A và C tính sai khoảng thời gian.  
+**Tags:** `duration`, `time_recognition`.
 
 ---
 
-# BÀI 4 — NHẬN DIỆN TỪ ĐỂ HỎI
+# BÀI 4 — NHẬN DIỆN TỪ ĐỂ HỎI DỄ NHẦM
 
 ## Mục tiêu
 
-Nghe từ hỏi sớm để dự đoán loại thông tin cần tìm.
+- Nhận biết các từ hỏi ngay từ âm tiết đầu tiên.
+- **Phân biệt triệt để các cặp từ để hỏi hay nhầm lẫn nhất: Where vs When, Who vs Whose, Why vs How, Which vs What**.
 
-## 4.1. Bảng từ hỏi
+## 4.1. So sánh các cặp từ hỏi dễ nhầm lẫn
+
+### A. Bẫy số 1: WHERE vs WHEN
+
+| Từ hỏi | Phiên âm | Khẩu hình & Luồng hơi nhận biết | Điểm cần tìm trong câu trả lời |
+|---|---|---|---|
+| **Where** | /wer/ | Kết thúc bằng âm mở hoặc âm uốn lưỡi **/r/**, **miệng mở rộng**, không ngậm luồng hơi. | **Địa điểm, nơi chốn** (In the room, At the station, On the desk). |
+| **When** | /wen/ | Kết thúc bằng phụ âm mũi **/n/**, **đầu lưỡi chạm vòm họng ngậm hơi ở mũi**. | **Thời gian, thời điểm** (Tomorrow, At 3 PM, Next week). |
+
+**Mẹo nghe nối âm trong câu hỏi tốc độ cao:**
+- `Where is...` nối âm thành */wer-ɪz/* (nghe âm "r").
+- `When is...` nối âm thành */wen-ɪz/* (nghe rõ âm "n-i").
+
+**Ví dụ đối chiếu:**
+- `Where did you leave the file?` (Bạn để hồ sơ ở đâu?) -> *In the cabinet.*
+- `When did you leave the file?` (Bạn để hồ sơ khi nào?) -> *This morning.*
+
+### B. Cặp WHO vs WHOSE
+
+| Từ hỏi | Phiên âm | Khẩu hình nhận biết | Điểm cần tìm |
+|---|---|---|---|
+| **Who** | /huː/ | Nguyên âm dài **/uː/**, môi tròn, kết thúc mở. | **Người, tên riêng, chức danh** (Mr. Kim, The manager). |
+| **Whose** | /huːz/ | Có âm xì rung **/z/** dứt khoát ở cuối. | **Chủ sở hữu** (It's mine, John's team). |
+
+### C. Cặp WHY vs HOW
+
+| Từ hỏi | Phiên âm | Khẩu hình nhận biết | Điểm cần tìm |
+|---|---|---|---|
+| **Why** | /waɪ/ | Nguyên âm đôi **/aɪ/** (oa-i). | **Lý do, nguyên nhân** (Because..., To attend the meeting). |
+| **How** | /haʊ/ | Nguyên âm đôi **/aʊ/** (ha-o). | **Cách thức, phương tiện, tình trạng** (By train, Very smoothly). |
+
+### D. Cặp WHAT vs WHICH
+
+| Từ hỏi | Phiên âm | Khẩu hình nhận biết | Điểm cần tìm |
+|---|---|---|---|
+| **What** | /wʌt/ | Âm bật **/t/** nhẹ, câu hỏi mở rộng. | Thông tin chung. |
+| **Which** | /wɪtʃ/ | Có âm bật gió **/tʃ/** (ch) ở cuối. | Lựa chọn giữa các phương án đã biết. |
+
+## 4.2. Bảng tổng hợp các từ để hỏi
 
 | Từ hỏi | Cần tìm | Ví dụ |
 |---|---|---|
@@ -468,23 +413,7 @@ Nghe từ hỏi sớm để dự đoán loại thông tin cần tìm.
 | How long | khoảng thời gian | How long will the repair take? |
 | Which | lựa chọn nào | Which train goes downtown? |
 
-## 4.2. Dự đoán trước khi nghe hết
-
-Khi nghe `When`, hãy chờ một mốc thời gian. Khi nghe `Where`, chờ một nơi chốn. Khi nghe `Who`, chờ tên người hoặc chức danh. Đây là dự đoán để tập trung, không phải quy tắc tuyệt đối: một câu trả lời tự nhiên đôi khi có thể gián tiếp.
-
-## 4.3. Câu trả lời tự nhiên không cần lặp từ
-
-**Q:** Where is the conference room?  
-**A:** Down the hall, next to the elevators.
-
-Câu trả lời không lặp `conference room`, nhưng cho biết vị trí.
-
-**Q:** When will the technician arrive?  
-**A:** In about twenty minutes.
-
-Câu trả lời đưa ra khoảng thời gian.
-
-## 4.4. Audio mẫu
+## 4.3. Audio mẫu
 
 | ID | Audio text | Kỹ năng |
 |---|---|---|
@@ -493,10 +422,9 @@ Câu trả lời đưa ra khoảng thời gian.
 | CH01-L04-E03 | Why is the manager absent today? | Why → reason |
 | CH01-L04-E04 | Who will lead the training session? | Who → person |
 
-## 4.5. Bài luyện
+## 4.4. Bài luyện
 
 ### Câu 1 — CH01-L04-Q01
-
 **Audio:** `Where should I put these boxes?`  
 - A. In the storage room.
 - B. At three o'clock.
@@ -508,7 +436,6 @@ Câu trả lời đưa ra khoảng thời gian.
 **Tags:** `question_word_where`, `location_response`.
 
 ### Câu 2 — CH01-L04-Q02
-
 **Audio:** `When does the new employee start?`  
 - A. In the accounting department.
 - B. Next Monday.
@@ -520,44 +447,37 @@ Câu trả lời đưa ra khoảng thời gian.
 **Tags:** `question_word_when`, `time_expression`.
 
 ### Câu 3 — CH01-L04-Q03
+**Audio:** `Why was the flight delayed?`  
+- A. At terminal two.
+- B. Because of the weather.
+- C. Yes, it was on time.
 
-**Audio:** `Why is the manager absent today?`  
-- A. Because he is visiting a client.
-- B. In the main office.
-- C. At eleven thirty.
-
-**Đáp án:** A.  
-**Giải thích:** Why hỏi lý do; `because` giới thiệu nguyên nhân.  
-**Sai vì:** B là địa điểm; C là thời gian.  
+**Đáp án:** B.  
+**Giải thích:** Why hỏi lý do; `because of the weather` nêu lý do.  
+**Sai vì:** A là địa điểm; C mâu thuẫn với câu hỏi.  
 **Tags:** `question_word_why`, `reason_response`.
 
 ### Câu 4 — CH01-L04-Q04
-
 **Audio:** `Who will lead the training session?`  
-- A. In Conference Room A.
-- B. Ms. Garcia will.
-- C. For two hours.
+- A. Next Wednesday.
+- B. In room 204.
+- C. Mr. Tanaka will.
 
-**Đáp án:** B.  
-**Giải thích:** Who cần người thực hiện.  
-**Sai vì:** A là nơi chốn; C là thời lượng.  
+**Đáp án:** C.  
+**Giải thích:** Who hỏi người; `Mr. Tanaka` là tên người.  
+**Sai vì:** A là thời gian; B là phòng học/địa điểm.  
 **Tags:** `question_word_who`, `person_response`.
 
 ### Câu 5 — CH01-L04-Q05
-
-**Audio:** `Could you print these documents for me?`  
-- A. Certainly. I'll do that now.
-- B. They're in the cabinet.
-- C. The printer is new.
+**Audio:** `Could you help me move this table?`  
+- A. Sure, I'd be glad to.
+- B. It's on the second floor.
+- C. No, it's very expensive.
 
 **Đáp án:** A.  
-**Giải thích:** Đây là lời nhờ/yêu cầu. A thể hiện đồng ý thực hiện.  
-**Sai vì:** B nói vị trí tài liệu; C mô tả máy in, không phản hồi yêu cầu.  
-**Tags:** `request_response`, `polite_response`.
-
-### Tự kiểm tra Bài 4
-
-Bạn đạt khi đúng ít nhất 4/5 câu và có thể nói được từ hỏi nào thường dẫn đến người, nơi chốn, thời gian hoặc lý do.
+**Giải thích:** Lời nhờ giúp đỡ; A thể hiện sự đồng ý lịch sự.  
+**Sai vì:** B nói vị trí; C nói về giá tiền, không phản hồi lời nhờ.  
+**Tags:** `polite_request`, `polite_response`.
 
 ---
 
@@ -576,20 +496,9 @@ Bạn đạt khi đúng ít nhất 4/5 câu và có thể nói được từ h�
 3. **Phản hồi máy móc:** câu hỏi là lời đề nghị nhưng đáp án chỉ nói một thông tin không liên quan.
 4. **Thông tin nghe có vẻ hợp lý:** đáp án có thể đúng trong đời thực nhưng không trả lời câu hỏi đang được hỏi.
 
-## 5.2. Cách xử lý nhanh
-
-- Nghe từ đầu câu.
-- Xác định loại câu: hỏi thông tin, hỏi Yes/No, đề nghị, nhờ vả hay câu trần thuật.
-- Dự đoán câu trả lời.
-- Loại đáp án sai loại thông tin.
-- Chọn phản hồi đúng ý, không cần lặp lại từ trong câu hỏi.
-
-## 5.3. Bài luyện Part 2
-
-Mỗi câu audio gồm bốn segment: câu hỏi, đáp án A, đáp án B, đáp án C. Web app phát theo đúng thứ tự; không đọc chữ cái A/B/C thành tiếng.
+## 5.2. Bài luyện Part 2
 
 ### Câu 1 — CH01-L05-Q01
-
 **Audio question:** When will the shipment arrive?  
 **Audio responses:**
 - A: At the loading dock.
@@ -598,168 +507,134 @@ Mỗi câu audio gồm bốn segment: câu hỏi, đáp án A, đáp án B, đá
 
 **Đáp án:** B.  
 **Giải thích:** When hỏi thời gian; tomorrow morning là mốc thời gian.  
-**Sai vì:** A là địa điểm; C mô tả lô hàng, không trả lời lúc nào.  
-**Tags:** `question_word_when`, `time_expression`, `part2`.
+**Tags:** `question_word_when`, `time_response`.
 
 ### Câu 2 — CH01-L05-Q02
-
-**Audio question:** Where can I find the registration form?  
+**Audio question:** Where did you leave the office keys?  
 **Audio responses:**
-- A: On the company website.
-- B: By Friday afternoon.
-- C: The registration fee is low.
+- A: In the top drawer of my desk.
+- B: Yes, I locked the door.
+- C: At five o'clock.
 
 **Đáp án:** A.  
-**Giải thích:** Where hỏi nơi tìm biểu mẫu.  
-**Sai vì:** B là thời gian; C nói về phí đăng ký.  
-**Tags:** `question_word_where`, `location_response`, `part2`.
+**Giải thích:** Where hỏi vị trí; in the top drawer là vị trí.  
+**Tags:** `question_word_where`, `location_response`.
 
 ### Câu 3 — CH01-L05-Q03
-
-**Audio question:** Has the client confirmed the appointment?  
+**Audio question:** Who is in charge of organizing the seminar?  
 **Audio responses:**
-- A: Yes, she called this morning.
-- B: At the downtown branch.
-- C: The appointment book is blue.
+- A: Ms. Gomez from marketing.
+- B: It's about customer service.
+- C: In the main auditorium.
 
 **Đáp án:** A.  
-**Giải thích:** Đây là câu hỏi Yes/No về việc khách đã xác nhận chưa; A trả lời Yes và bổ sung thông tin liên quan.  
-**Sai vì:** B là địa điểm; C mô tả quyển sổ, không xác nhận lịch hẹn.  
-**Tags:** `yes_no_question`, `appointment_vocabulary`, `part2`.
+**Giải thích:** Who hỏi người chịu trách nhiệm.  
+**Tags:** `question_word_who`, `person_response`.
 
 ### Câu 4 — CH01-L05-Q04
-
-**Audio question:** Why don't we move the meeting to Friday?  
+**Audio question:** Why was the budget meeting postponed?  
 **Audio responses:**
-- A: That's a good idea.
-- B: In the conference room.
-- C: At two thirty.
+- A: In conference room B.
+- B: Several team members were sick.
+- C: Yes, I attended it.
 
-**Đáp án:** A.  
-**Giải thích:** `Why don't we... ?` ở đây là lời đề xuất. A chấp nhận đề xuất.  
-**Sai vì:** B là địa điểm; C là thời gian, không phản hồi đề xuất.  
-**Tags:** `suggestion_response`, `part2`.
+**Đáp án:** B.  
+**Giải thích:** Why hỏi nguyên nhân hoãn họp.  
+**Tags:** `question_word_why`, `reason_response`.
 
 ### Câu 5 — CH01-L05-Q05
+**Audio question:** How often does the shuttle bus run?  
+**Audio responses:**
+- A: Every fifteen minutes.
+- B: To the central station.
+- C: About three dollars.
 
+**Đáp án:** A.  
+**Giải thích:** How often hỏi tần suất; every fifteen minutes là 15 phút một chuyến.  
+**Tags:** `frequency_question`, `time_expression`.
+
+### Câu 6 — CH01-L05-Q06
+**Audio question:** Do you know if Mr. Chen has reviewed the contract?  
+**Audio responses:**
+- A: Yes, he signed it this morning.
+- B: The contract is twenty pages long.
+- C: In the legal department.
+
+**Đáp án:** A.  
+**Giải thích:** Câu hỏi Yes/No gián tiếp về việc đã xem hợp đồng chưa.  
+**Tags:** `indirect_yes_no`, `contract_vocabulary`.
+
+### Câu 7 — CH01-L05-Q07
+**Audio question:** Would you like tea or coffee?  
+**Audio responses:**
+- A: Coffee would be great, thanks.
+- B: Yes, I like both.
+- C: In the cafeteria.
+
+**Đáp án:** A.  
+**Giải thích:** Câu hỏi lựa chọn A or B; phản hồi chọn coffee.  
+**Tags:** `choice_response`, `polite_response`.
+
+### Câu 8 — CH01-L05-Q08
+**Audio question:** The printer on the second floor is out of paper.  
+**Audio responses:**
+- A: I'll go get some from the supply room.
+- B: The document has ten pages.
+- C: Yes, it's very fast.
+
+**Đáp án:** A.  
+**Giải thích:** Câu trần thuật nêu vấn đề hết giấy; A đưa ra giải pháp đi lấy thêm giấy.  
+**Tags:** `statement_response`, `problem_solution`.
+
+### Câu 9 — CH01-L05-Q09
+**Audio question:** Which presentation do you want to attend first?  
+**Audio responses:**
+- A: The one about digital marketing.
+- B: It was very interesting.
+- C: At ten thirty.
+
+**Đáp án:** A.  
+**Giải thích:** Which hỏi chọn bài thuyết trình nào.  
+**Tags:** `which_question`, `preference_question`.
+
+### Câu 10 — CH01-L05-Q10
 **Audio question:** How long will the repair take?  
 **Audio responses:**
 - A: About two hours.
-- B: On the second floor.
-- C: The repair technician.
+- B: The technician is very experienced.
+- C: In the basement workshop.
 
 **Đáp án:** A.  
 **Giải thích:** How long hỏi khoảng thời gian.  
-**Sai vì:** B là nơi chốn; C là người.  
-**Tags:** `question_word_how_long`, `duration`, `part2`.
-
-### Câu 6 — CH01-L05-Q06
-
-**Audio question:** Could you tell me who is responsible for the schedule?  
-**Audio responses:**
-- A: Ms. Patel is handling it.
-- B: It starts at nine.
-- C: In the main lobby.
-
-**Đáp án:** A.  
-**Giải thích:** Câu hỏi gián tiếp vẫn hỏi Who, nên cần người phụ trách.  
-**Sai vì:** B là giờ bắt đầu; C là địa điểm.  
-**Tags:** `indirect_question`, `question_word_who`, `part2`.
-
-### Câu 7 — CH01-L05-Q07
-
-**Audio question:** Do you know if the cafeteria is open today?  
-**Audio responses:**
-- A: It closes at three on Sundays.
-- B: The cafeteria is on the first floor.
-- C: Yes, I know the manager.
-
-**Đáp án:** A.  
-**Giải thích:** Đây là câu hỏi gián tiếp về giờ mở cửa. A cung cấp thông tin giờ hoạt động có liên quan.  
-**Sai vì:** B là vị trí; C hiểu nhầm `Do you know` thành câu hỏi về việc có quen người quản lý hay không.  
-**Tags:** `indirect_yes_no`, `business_hours`, `part2`.
-
-### Câu 8 — CH01-L05-Q08
-
-**Audio question:** Which train goes to the airport?  
-**Audio responses:**
-- A: The express train on platform four.
-- B: It takes about thirty minutes.
-- C: The airport is very busy.
-
-**Đáp án:** A.  
-**Giải thích:** Which hỏi lựa chọn cụ thể; A xác định chuyến tàu.  
-**Sai vì:** B là thời lượng; C không xác định chuyến tàu.  
-**Tags:** `which_question`, `transport_vocabulary`, `part2`.
-
-### Câu 9 — CH01-L05-Q09
-
-**Audio question:** The printer isn't working. Could you take a look at it?  
-**Audio responses:**
-- A: Of course. I'll check it now.
-- B: The report is on your desk.
-- C: It was printed yesterday.
-
-**Đáp án:** A.  
-**Giải thích:** Đây là lời nhờ kiểm tra máy in; A đồng ý thực hiện.  
-**Sai vì:** B nói về báo cáo; C nói về một lần in trước đó.  
-**Tags:** `request_response`, `problem_response`, `part2`.
-
-### Câu 10 — CH01-L05-Q10
-
-**Audio question:** How many copies should I prepare?  
-**Audio responses:**
-- A: The copy machine is broken.
-- B: Please make twenty-five.
-- C: Before the meeting.
-
-**Đáp án:** B.  
-**Giải thích:** How many hỏi số lượng; twenty-five là số lượng bản cần chuẩn bị.  
-**Sai vì:** A nói tình trạng máy photocopy; C là thời điểm.  
-**Tags:** `question_word_how_many`, `quantity`, `part2`.
+**Tags:** `question_word_how_long`, `duration`.
 
 ### Câu 11 — CH01-L05-Q11
-
-**Audio question:** Has the new schedule been posted yet?  
+**Audio question:** How about ordering lunch from the Italian place?  
 **Audio responses:**
-- A: Yes, it's on the bulletin board.
-- B: At half past eight.
-- C: The schedule is quite busy.
+- A: Sounds good to me.
+- B: I usually have a sandwich.
+- C: It's about five miles away.
 
 **Đáp án:** A.  
-**Giải thích:** Hỏi lịch mới đã được đăng chưa; A trả lời Yes và cho biết vị trí.  
-**Sai vì:** B chỉ có thời gian; C không trả lời đã đăng hay chưa.  
-**Tags:** `yes_no_question`, `passive_voice`, `part2`.
+**Giải thích:** Lời gợi ý ăn trưa; A đồng ý gợi ý.  
+**Tags:** `suggestion_response`, `how_about`.
 
 ### Câu 12 — CH01-L05-Q12
-
-**Audio question:** Would you prefer the morning or afternoon appointment?  
+**Audio question:** Would you mind sending me the updated schedule?  
 **Audio responses:**
-- A: The morning would be better.
-- B: The appointment is with a dentist.
-- C: At the reception desk.
+- A: Not at all, I'll email it right away.
+- B: The schedule was printed yesterday.
+- C: No, I didn't see the email.
 
 **Đáp án:** A.  
-**Giải thích:** Người nói yêu cầu chọn giữa hai thời điểm; A nêu lựa chọn.  
-**Sai vì:** B nói loại cuộc hẹn; C nói địa điểm.  
-**Tags:** `preference_question`, `time_choice`, `part2`.
-
-### Tự kiểm tra Bài 5
-
-Bạn đạt khi đúng ít nhất 10/12 câu. Nếu sai nhiều câu, xem nhóm lỗi nào lặp lại: từ hỏi, số/thời gian, câu hỏi gián tiếp hay phản hồi đề nghị/yêu cầu.
+**Giải thích:** Lời nhờ "Would you mind...?"; Not at all thể hiện đồng ý gửi ngay.  
+**Tags:** `would_you_mind`, `polite_request`.
 
 ---
 
 # KIỂM TRA CUỐI CHƯƠNG 1
 
-**Số câu:** 15  
-**Thời gian gợi ý:** 8–12 phút  
-**Điều kiện:** audio 1.0x, không xem transcript trước khi trả lời, không mở giải thích trong lúc làm.
-
-Các câu dưới đây là câu mới, không dùng lại nguyên văn câu luyện ở trên.
-
 ## Câu 1 — CH01-FINAL-Q01
-
 **Audio:** The assistant placed the signed forms beside the computer.  
 **Hỏi:** Các biểu mẫu đã ký được đặt ở đâu?
 - A. Beside the computer
@@ -770,128 +645,116 @@ Các câu dưới đây là câu mới, không dùng lại nguyên văn câu luy
 **Tags:** `location_expression`, `keyword_listening`.
 
 ## Câu 2 — CH01-FINAL-Q02
+**Audio:** The sales manager will announce the new product line next Tuesday.  
+**Hỏi:** Khi nào người quản lý bán hàng thông báo dòng sản phẩm mới?
+- A. Next Tuesday
+- B. This afternoon
+- C. In two weeks
 
-**Audio:** The technician repaired both elevators last night.  
-**Hỏi:** Kỹ thuật viên đã sửa bao nhiêu thang máy?
-- A. One
-- B. Two
-- C. Three
-
-**Đáp án:** B. `both` cho biết cả hai.  
-**Tags:** `quantity`, `keyword_listening`.
+**Đáp án:** A. `next Tuesday` là mốc thời gian.  
+**Tags:** `time_expression`, `keyword_listening`.
 
 ## Câu 3 — CH01-FINAL-Q03
+**Audio:** Passengers should proceed to gate fourteen immediately.  
+**Hỏi:** Hành khách nên đi đến cổng số mấy?
+- A. Gate 14
+- B. Gate 40
+- C. Gate 4
 
-**Audio:** Our department needs three additional copies.  
-**Hỏi:** Bộ phận cần thêm bao nhiêu bản?
-- A. Two
-- B. Three
-- C. Thirteen
-
-**Đáp án:** B. `three additional copies`.  
-**Tags:** `number_recognition`, `quantity`.
+**Đáp án:** A. `fourteen` là 14 (nhấn đuôi teen).  
+**Tags:** `number_recognition`, `teen_ty_numbers`.
 
 ## Câu 4 — CH01-FINAL-Q04
+**Audio:** The team works very efficiently under tight deadlines.  
+**Hỏi:** Từ nào thể hiện hành động của nhóm?
+- A. Works
+- B. Walked
+- C. Waits
 
-**Audio:** The visitors arrived shortly after noon.  
-**Hỏi:** Khách đến khi nào?
-- A. Shortly after noon
-- B. Before sunrise
-- C. Late in the evening
-
-**Đáp án:** A. `shortly after noon` là ngay sau buổi trưa.  
-**Tags:** `time_expression`.
+**Đáp án:** A. Nghe rõ âm cuối /s/ trong `works`.  
+**Tags:** `final_sound_s`, `action_verb`.
 
 ## Câu 5 — CH01-FINAL-Q05
+**Audio:** All participants agreed on the revised project timeline.  
+**Hỏi:** Động từ trong câu ở thì nào?
+- A. Quá khứ (agreed)
+- B. Hiện tại (agree)
+- C. Tương lai (will agree)
 
-**Audio:** The store closes at a quarter past six.  
-**Hỏi:** Cửa hàng đóng cửa lúc nào?
-- A. 6:15
-- B. 6:45
-- C. 5:45
-
-**Đáp án:** A. `a quarter past six` = 6:15.  
-**Tags:** `time_recognition`.
+**Đáp án:** A. Nghe âm cuối /d/ trong `agreed`.  
+**Tags:** `ed_ending`, `past_participle`.
 
 ## Câu 6 — CH01-FINAL-Q06
+**Audio:** We've already submitted the budget proposal.  
+**Hỏi:** Cụm "We've" là dạng rút gọn của từ nào?
+- A. We have
+- B. We will
+- C. We are
 
-**Audio:** The director has approved the new budget.  
-**Hỏi:** Ai đã phê duyệt ngân sách mới?
-- A. The director
-- B. The accountant
-- C. The customer
-
-**Đáp án:** A. `the director` là chủ thể.  
-**Tags:** `main_subject`, `keyword_listening`.
+**Đáp án:** A. `We've` = `We have`.  
+**Tags:** `contraction_weve`, `keyword_listening`.
 
 ## Câu 7 — CH01-FINAL-Q07
+**Audio:** The seminar starts at quarter past ten.  
+**Hỏi:** Hội thảo bắt đầu lúc mấy giờ?
+- A. 10:15
+- B. 9:45
+- C. 10:45
 
-**Audio:** We haven't received the updated invoice.  
-**Hỏi:** Ý nào đúng?
-- A. Họ đã nhận hóa đơn cập nhật.
-- B. Họ chưa nhận hóa đơn cập nhật.
-- C. Họ đã thanh toán hóa đơn.
-
-**Đáp án:** B. `haven't received` là chưa nhận được.  
-**Tags:** `contraction`, `negative_meaning`.
+**Đáp án:** A. `quarter past ten` là 10 giờ 15 phút.  
+**Tags:** `time_recognition`, `time_expression`.
 
 ## Câu 8 — CH01-FINAL-Q08
+**Audio:** Over fifty attendees registered for the workshop.  
+**Hỏi:** Có bao nhiêu người tham dự đăng ký?
+- A. 50
+- B. 15
+- C. 55
 
-**Audio question:** Who is conducting the safety inspection?  
-**Responses:**
-- A: Mr. Adams from the maintenance team.
-- B: In the west building.
-- C: At the end of the month.
-
-**Đáp án:** A. Who hỏi người.  
-**Tags:** `question_word_who`, `part2`.
+**Đáp án:** A. `fifty` là 50 (nhấn âm đầu).  
+**Tags:** `teen_ty_numbers`, `number_recognition`.
 
 ## Câu 9 — CH01-FINAL-Q09
+**Audio:** The maintenance inspection is scheduled for Wednesday morning.  
+**Hỏi:** Việc kiểm tra bảo trì được lên lịch vào ngày nào?
+- A. Wednesday
+- B. Thursday
+- C. Tuesday
 
-**Audio question:** Where should the completed applications be sent?  
-**Responses:**
-- A: By the end of the week.
-- B: To the human resources office.
-- C: About twenty applications.
-
-**Đáp án:** B. Where hỏi nơi gửi.  
-**Tags:** `question_word_where`, `part2`.
+**Đáp án:** A. `Wednesday` là thứ Tư.  
+**Tags:** `days_of_week`, `time_expression`.
 
 ## Câu 10 — CH01-FINAL-Q10
+**Audio:** Who is responsible for reserving the conference room?  
+**Hỏi:** Câu hỏi này muốn tìm kiếm thông tin gì?
+- A. Người chịu trách nhiệm
+- B. Địa điểm phòng họp
+- C. Thời gian đặt phòng
 
-**Audio question:** Why was the outdoor event postponed?  
-**Responses:**
-- A: Because of heavy rain.
-- B: At the city park.
-- C: On Saturday morning.
-
-**Đáp án:** A. Why hỏi lý do.  
-**Tags:** `question_word_why`, `part2`.
+**Đáp án:** A. `Who` hỏi người.  
+**Tags:** `question_word_who`, `person_response`.
 
 ## Câu 11 — CH01-FINAL-Q11
+**Audio:** Where should visitors sign in upon arrival?  
+**Hỏi:** Câu hỏi này tìm kiếm thông tin gì?
+- A. Nơi khách ký tên check-in
+- B. Thời gian khách đến
+- C. Tên của người khách
 
-**Audio question:** Could you reserve a table for six people?  
-**Responses:**
-- A: Certainly. What time would you like?
-- B: The table is made of wood.
-- C: Six people work in that office.
-
-**Đáp án:** A. Đây là yêu cầu đặt bàn; A đồng ý và hỏi tiếp thông tin cần thiết.  
-**Tags:** `request_response`, `part2`.
+**Đáp án:** A. `Where` hỏi địa điểm.  
+**Tags:** `question_word_where`, `location_response`.
 
 ## Câu 12 — CH01-FINAL-Q12
+**Audio:** Why was the morning train delayed?  
+**Hỏi:** Câu hỏi này tìm kiếm thông tin gì?
+- A. Lý do tàu bị trễ
+- B. Số lượng hành khách
+- C. Cổng ga khởi hành
 
-**Audio question:** How often does the shuttle bus run?  
-**Responses:**
-- A: Every twenty minutes.
-- B: At the north entrance.
-- C: The bus is blue.
-
-**Đáp án:** A. How often hỏi tần suất.  
-**Tags:** `frequency_question`, `part2`.
+**Đáp án:** A. `Why` hỏi lý do.  
+**Tags:** `question_word_why`, `reason_response`.
 
 ## Câu 13 — CH01-FINAL-Q13
-
 **Audio question:** Do you know whether the library is open on Saturdays?  
 **Responses:**
 - A: Yes, until noon.
@@ -902,88 +765,21 @@ Các câu dưới đây là câu mới, không dùng lại nguyên văn câu luy
 **Tags:** `indirect_yes_no`, `business_hours`, `part2`.
 
 ## Câu 14 — CH01-FINAL-Q14
-
-**Audio question:** Which entrance should the delivery driver use?  
+**Audio question:** When will the new office furniture be delivered?  
 **Responses:**
-- A: The entrance near the parking lot.
-- B: At approximately ten.
-- C: The driver has a package.
+- A: Early tomorrow morning.
+- B: To the fourth floor.
+- C: Two desks and four chairs.
 
-**Đáp án:** A. Which yêu cầu lựa chọn cụ thể.  
-**Tags:** `which_question`, `location_response`, `part2`.
+**Đáp án:** A. `When` hỏi thời gian.  
+**Tags:** `question_word_when`, `time_response`, `part2`.
 
 ## Câu 15 — CH01-FINAL-Q15
-
-**Audio question:** How much does the annual membership cost?  
+**Audio question:** Would you mind reviewing this draft before I send it?  
 **Responses:**
-- A: One hundred twenty dollars.
-- B: For twelve months.
-- C: At the front counter.
+- A: I'd be happy to take a look.
+- B: Yes, I sent it already.
+- C: It's about five pages.
 
-**Đáp án:** A. How much hỏi giá tiền.  
-**Tags:** `money`, `question_word_how_much`, `part2`.
-
-## Đáp án tổng kết
-
-| Câu | Đáp án | Kỹ năng |
-|---:|:---:|---|
-| 1 | A | Location / keyword |
-| 2 | B | Quantity |
-| 3 | B | Number recognition |
-| 4 | A | Time expression |
-| 5 | A | Time recognition |
-| 6 | A | Main subject |
-| 7 | B | Contraction / negative |
-| 8 | A | Who |
-| 9 | B | Where |
-| 10 | A | Why |
-| 11 | A | Request response |
-| 12 | A | Frequency |
-| 13 | A | Indirect yes/no |
-| 14 | A | Which |
-| 15 | A | How much |
-
-**Đạt chương:** ít nhất 12/15 câu (80%), audio 1.0x, không xem transcript trước khi trả lời.  
-**Chưa đạt:** app đề xuất ôn các bài tương ứng với skill tag sai. Làm một bộ kiểm tra lại gồm câu mới, không chỉ làm lại 15 câu cũ.
-
----
-
-## Danh sách từ vựng Chương 1
-
-| Từ/cụm | Nghĩa |
-|---|---|
-| manager | người quản lý |
-| report | báo cáo |
-| document | tài liệu |
-| front desk | quầy lễ tân |
-| delayed | bị trễ |
-| schedule | lịch trình |
-| available | rảnh/có sẵn |
-| shipment | lô hàng |
-| department | phòng ban |
-| repair | sửa chữa |
-| accounting | kế toán |
-| receive | nhận |
-| order | đơn hàng |
-| project | dự án |
-| delivery | việc giao hàng |
-| registration form | mẫu đăng ký |
-| appointment | cuộc hẹn |
-| loading dock | khu vực bốc dỡ hàng |
-| cafeteria | căng-tin |
-| bulletin board | bảng thông báo |
-| express train | tàu tốc hành |
-| copy | bản sao |
-| membership | thẻ/hội viên, tư cách thành viên |
-| postpone | hoãn lại |
-| inspection | cuộc kiểm tra |
-| entrance | lối vào |
-
-## Quy tắc hoàn thành Chương 1
-
-1. Hoàn thành đủ 5 bài học.
-2. Mỗi bài đạt ngưỡng tối thiểu ghi trong bài.
-3. Làm bài Final Test lần đầu hoặc bài kiểm tra tương đương mới.
-4. Đạt ít nhất 12/15 ở 1.0x, không xem transcript trước khi trả lời.
-5. Nếu dưới 12/15, ôn kỹ năng yếu và làm bộ kiểm tra mới.
-6. Khi đạt, app ghi trạng thái `CH01_PASS` và mở khóa Chương 2.
+**Đáp án:** A. Lời nhờ xem bản thảo; A đồng ý giúp đỡ lịch sự.  
+**Tags:** `polite_request`, `polite_response`, `part2`.

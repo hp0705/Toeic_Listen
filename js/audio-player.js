@@ -157,6 +157,20 @@ export class AudioPlayer {
     }
   }
 
+  playWord(text) {
+    this.stop();
+    this.fallbackSpeech(text);
+  }
+
+  playComparisonPair(textA, textB) {
+    this.stop();
+    this.fallbackSpeech(textA, () => {
+      this.turnTimer = setTimeout(() => {
+        this.fallbackSpeech(textB);
+      }, 500);
+    });
+  }
+
   fallbackSpeech(text = "", onDone = null) {
     if (!('speechSynthesis' in window)) {
       if (onDone) onDone();
