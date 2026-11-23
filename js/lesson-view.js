@@ -6,6 +6,77 @@
 
 import { audioPlayer } from './audio-player.js';
 
+function formatMarkdown(content) {
+  if (!content) return '';
+  let html = content;
+
+  // Convert markdown tables
+  html = html.replace(/((?:\|[^\n]+\|\r?\n)+)/g, (tableMatch) => {
+    const lines = tableMatch.trim().split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+    if (lines.length < 2) return tableMatch;
+
+    const parseCells = (line) => {
+      const parts = line.split('|');
+      return parts.slice(1, -1).map(c => c.trim());
+    };
+
+    const headers = parseCells(lines[0]);
+    const rows = lines.slice(2);
+
+    let tbl = '<div class="table-responsive"><table class="vocab-table content-table"><thead><tr>';
+    headers.forEach(h => {
+      tbl += `<th>${h.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</th>`;
+    });
+    tbl += '</tr></thead><tbody>';
+
+    rows.forEach(r => {
+      const cells = parseCells(r);
+      if (cells.length > 0) {
+        tbl += '<tr>';
+        cells.forEach(c => {
+          let cellFormatted = c
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            .replace(/`([^`]+)`/g, '<code>$1</code>');
+          tbl += `<td>${cellFormatted}</td>`;
+        });
+        tbl += '</tr>';
+      }
+    });
+    tbl += '</tbody></table></div>';
+    return tbl;
+  });
+
+  // Convert bold, italic, code
+  html = html
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>');
+
+  // Convert bullet lists
+  html = html.replace(/((?:^[ \t]*[-*][ \t]+[^\n]+\r?\n?)+)/gm, (listMatch) => {
+    const items = listMatch.trim().split(/\r?\n/).map(l => l.replace(/^[ \t]*[-*][ \t]+/, '').trim());
+    return `<ul class="teaching-list">${items.map(it => `<li>${it}</li>`).join('')}</ul>`;
+  });
+
+  // Convert numbered lists
+  html = html.replace(/((?:^[ \t]*\d+\.[ \t]+[^\n]+\r?\n?)+)/gm, (listMatch) => {
+    const items = listMatch.trim().split(/\r?\n/).map(l => l.replace(/^[ \t]*\d+\.[ \t]+/, '').trim());
+    return `<ol class="teaching-list">${items.map(it => `<li>${it}</li>`).join('')}</ol>`;
+  });
+
+  // Convert double newlines to paragraph tags if not inside div/table
+  html = html.split(/\n\n+/).map(p => {
+    const trimmed = p.trim();
+    if (trimmed.startsWith('<div') || trimmed.startsWith('<ul') || trimmed.startsWith('<ol') || trimmed.startsWith('<table')) {
+      return trimmed;
+    }
+    return `<p style="margin: 0.6rem 0; line-height: 1.7;">${trimmed.replace(/\n/g, '<br>')}</p>`;
+  }).join('');
+
+  return html;
+}
+
 export class LessonView {
   constructor(options = {}) {
     this.container = options.container;
@@ -63,7 +134,7 @@ export class LessonView {
           ${lesson.teachingBlocks.map(tb => `
             <div class="teaching-block">
               <h3 class="teaching-title">${tb.title}</h3>
-              <div class="teaching-content">${tb.content.replace(/\n\n/g, '<br><br>')}</div>
+              <div class="teaching-content">${formatMarkdown(tb.content)}</div>
             </div>
           `).join('')}
         </div>
