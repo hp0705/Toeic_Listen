@@ -125,12 +125,31 @@ class App {
     this.router.addRoute('/about', () => this.renderAbout());
   }
 
+  renderDataError(err) {
+    this.contentEl.innerHTML = `
+      <div class="card" style="text-align: center; padding: 40px 20px; max-width: 650px; margin: 40px auto;">
+        <div style="font-size: 3rem; margin-bottom: 12px;">⚠️</div>
+        <h2 style="color: #ef4444; margin-bottom: 12px;">Chưa tải được dữ liệu khóa học TOEIC!</h2>
+        <p style="color: #64748b; margin-bottom: 20px;">Lỗi: <strong>${err.message || err}</strong></p>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; text-align: left; font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px;">
+          <strong style="color: #1e293b;">Hướng dẫn khắc phục:</strong>
+          <ol style="margin-top: 8px; padding-left: 20px; color: #334155;">
+            <li><strong>Chạy máy chủ web cục bộ:</strong> Trình duyệt chặn fetch khi mở file trực tiếp. Hãy chạy file <code>start_server.bat</code> hoặc mở terminal gõ: <code>python -m http.server 8000</code>.</li>
+            <li><strong>Xóa cache trình duyệt:</strong> Nếu bạn từng chạy dự án khác trên localhost:8000, hãy nhấn tổ hợp phím <strong>Ctrl + Shift + R</strong> (hoặc <strong>Ctrl + F5</strong>) để tải mới hoàn toàn.</li>
+          </ol>
+        </div>
+        <button class="btn btn-primary" onclick="window.location.reload()">🔄 Thử tải lại trang</button>
+      </div>
+    `;
+  }
+
   async renderDashboard() {
     this.contentEl.innerHTML = '<div class="loading">Đang tải dữ liệu...</div>';
-    await dataLoader.loadAllChapters();
-    const course = await dataLoader.loadCourse();
-    const state = storage.loadState();
-    const derived = rebuildDerived(state, dataLoader);
+    try {
+      await dataLoader.loadAllChapters();
+      const course = await dataLoader.loadCourse();
+      const state = storage.loadState();
+      const derived = rebuildDerived(state, dataLoader);
 
     const totalPassed = derived.passedLessons.length;
     const totalQuestionsDone = derived.totalAttemptsCount;
@@ -252,14 +271,19 @@ class App {
 
     this.contentEl.innerHTML = '';
     this.contentEl.appendChild(el);
+    } catch (err) {
+      console.error('Render dashboard error:', err);
+      this.renderDataError(err);
+    }
   }
 
   async renderLearningPath() {
     this.contentEl.innerHTML = '<div class="loading">Đang tải lộ trình...</div>';
-    await dataLoader.loadAllChapters();
-    const course = await dataLoader.loadCourse();
-    const state = storage.loadState();
-    const derived = rebuildDerived(state, dataLoader);
+    try {
+      await dataLoader.loadAllChapters();
+      const course = await dataLoader.loadCourse();
+      const state = storage.loadState();
+      const derived = rebuildDerived(state, dataLoader);
 
     const el = document.createElement('div');
     el.className = 'learning-path-view';
@@ -348,6 +372,10 @@ class App {
 
     this.contentEl.innerHTML = '';
     this.contentEl.appendChild(el);
+    } catch (err) {
+      console.error('Render learning path error:', err);
+      this.renderDataError(err);
+    }
   }
 
   async renderAbout() {

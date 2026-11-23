@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Parser for revamped CHAPTER_02_CONTENT.md v2.0
-Builds complete data/chapters/chapter-02.json
+Comprehensive Parser for Chapter 2 v2.0
+Integrates CHAPTER_02_CONTENT.md AND CHAPTER_02_BANK.md
+Builds full data/chapters/chapter-02.json with 230 questions
 """
 
 import os
@@ -9,7 +10,8 @@ import re
 import json
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MD_PATH = os.path.join(ROOT_DIR, "CHAPTER_02_CONTENT.md")
+CONTENT_MD_PATH = os.path.join(ROOT_DIR, "CHAPTER_02_CONTENT.md")
+BANK_MD_PATH = os.path.join(ROOT_DIR, "CHAPTER_02_BANK.md")
 OUT_PATH = os.path.join(ROOT_DIR, "data", "chapters", "chapter-02.json")
 
 DISTRACTOR_MAP = {
@@ -21,6 +23,12 @@ DISTRACTOR_MAP = {
     "P1-INF": "Suy diễn quá mức — Tự suy diễn mục đích, nghề nghiệp hoặc chi tiết không thấy.",
     "P1-OPP": "Sai chiều/ngược — Động từ diễn tả chiều ngược lại với thực tế.",
     "P1-SND": "Nhầm âm tương tự — Nghe giống từ quen nhưng nghĩa hoàn toàn khác.",
+    "ACT": "Sai hành động — Đúng đối tượng nhưng động từ khác hình.",
+    "ABS": "Vật/người không có trong ảnh — Nhắc đến chi tiết không nhìn thấy.",
+    "LOC": "Sai vị trí — Nhầm vị trí hoặc giới từ không gian.",
+    "PRG": "Sai thể/trạng thái — Nhầm hành động đang diễn ra với trạng thái tĩnh.",
+    "INF": "Suy diễn quá mức — Tự suy diễn mục đích, nghề nghiệp hoặc chi tiết không thấy.",
+    "OPP": "Sai chiều/ngược — Động từ diễn tả chiều ngược lại với thực tế.",
     # Part 2
     "P2-WHQ": "Sai loại câu hỏi — Trả lời sai loại thông tin câu hỏi yêu cầu.",
     "P2-REP": "Bẫy lặp từ — Lặp lại từ trong câu hỏi để gây cảm giác quen tai nhưng sai logic.",
@@ -29,7 +37,15 @@ DISTRACTOR_MAP = {
     "P2-TNS": "Sai thì — Sai thì động từ hoặc mốc thời gian so với câu hỏi.",
     "P2-PER": "Sai chủ thể — Nhầm lẫn đại từ hoặc người thực hiện hành động.",
     "P2-REL": "Liên quan chủ đề — Cùng trường từ vựng nhưng không trả lời trọng tâm.",
-    "P2-ASS": "Bẫy liên tưởng — Dùng từ gợi liên tưởng đến ngữ cảnh nhưng sai chức năng."
+    "P2-ASS": "Bẫy liên tưởng — Dùng từ gợi liên tưởng đến ngữ cảnh nhưng sai chức năng.",
+    "WHQ": "Sai loại câu hỏi — Trả lời sai loại thông tin câu hỏi yêu cầu.",
+    "REP": "Bẫy lặp từ — Lặp lại từ trong câu hỏi để gây cảm giác quen tai nhưng sai logic.",
+    "SND": "Bẫy âm tương tự — Dùng từ có phát âm na ná từ trong câu hỏi.",
+    "YNA": "Bẫy Yes/No — Trả lời Yes/No cho câu hỏi Wh- hoặc không phù hợp.",
+    "TNS": "Sai thì — Sai thì động từ hoặc mốc thời gian so với câu hỏi.",
+    "PER": "Sai chủ thể — Nhầm lẫn đại từ hoặc người thực hiện hành động.",
+    "REL": "Liên quan chủ đề — Cùng trường từ vựng nhưng không trả lời trọng tâm.",
+    "ASS": "Bẫy liên tưởng — Dùng từ gợi liên tưởng đến ngữ cảnh nhưng sai chức năng."
 }
 
 def clean_text(text):
@@ -67,11 +83,9 @@ def parse_options_and_reasons(options_raw, explanation):
         if is_correct:
             correct_ans = letter
             clean_content = content.replace('✓', '').strip()
-            # remove any trailing backticks
             clean_content = re.sub(r'`[^`]+`', '', clean_content).strip()
             options[letter] = clean_content
         else:
-            # find distractor code if any
             m_code = re.search(r'`([A-Z0-9_-]+)`', content)
             clean_content = re.sub(r'`[^`]+`', '', content).strip()
             options[letter] = clean_content
@@ -83,7 +97,6 @@ def parse_options_and_reasons(options_raw, explanation):
             else:
                 wrong_reasons[letter] = f"Lựa chọn {letter} không phù hợp với nội dung bài nghe."
 
-    # Fallback for any missing wrong reason
     for letter in options:
         if letter != correct_ans and letter not in wrong_reasons:
             wrong_reasons[letter] = f"Lựa chọn {letter} không phù hợp với nội dung bài nghe."
@@ -91,32 +104,48 @@ def parse_options_and_reasons(options_raw, explanation):
     return options, correct_ans, wrong_reasons
 
 def main():
-    with open(MD_PATH, 'r', encoding='utf-8') as f:
-        raw_text = clean_text(f.read())
+    with open(CONTENT_MD_PATH, 'r', encoding='utf-8') as f:
+        content_text = clean_text(f.read())
+    with open(BANK_MD_PATH, 'r', encoding='utf-8') as f:
+        bank_text = clean_text(f.read())
 
-    print("Parsing CHAPTER_02_CONTENT.md v2.0...")
+    print("Parsing CHAPTER_02_CONTENT.md and CHAPTER_02_BANK.md...")
 
     all_questions = []
     lessons_data = []
 
-    # 1. Parse Lessons 1 to 9
+    # Map bank tables to lessons
+    bank_part1_map = {
+        "CH02-L01": ("## A1", "ch02-bnk-a"),
+        "CH02-L02": ("## A2", "ch02-bnk-l"),
+        "CH02-L03": ("## A3", "ch02-bnk-v")
+    }
+    bank_part2_map = {
+        "CH02-L05": "## B1",
+        "CH02-L06": "## B2",
+        "CH02-L07": "## B3",
+        "CH02-L08": "## B4",
+        "CH02-L09": "## B5"
+    }
+
     lesson_cfgs = [
-        {"num": 1, "id": "CH02-L01", "title": "Part 1: Người và hành động", "minCorrect": 4, "total": 5, "percentage": 80.0, "part": 1},
-        {"num": 2, "id": "CH02-L02", "title": "Part 1: Vị trí, đồ vật và ảnh không có người", "minCorrect": 4, "total": 5, "percentage": 80.0, "part": 1},
-        {"num": 3, "id": "CH02-L03", "title": "Part 1: Bị động, trạng thái và bẫy suy diễn", "minCorrect": 4, "total": 5, "percentage": 80.0, "part": 1},
-        {"num": 4, "id": "CH02-L04", "title": "Nghe thật: Âm thanh, nối âm, số và giọng", "minCorrect": 8, "total": 10, "percentage": 80.0, "part": 0},
-        {"num": 5, "id": "CH02-L05", "title": "Part 2: Nhận loại câu hỏi trong 3 từ đầu (WH)", "minCorrect": 5, "total": 6, "percentage": 83.3, "part": 2},
-        {"num": 6, "id": "CH02-L06", "title": "Part 2: Yes/No, Tag, Phủ định và Lựa chọn", "minCorrect": 5, "total": 6, "percentage": 83.3, "part": 2},
-        {"num": 7, "id": "CH02-L07", "title": "Part 2: Câu hỏi gián tiếp, Yêu cầu, Đề nghị, Gợi ý", "minCorrect": 5, "total": 6, "percentage": 83.3, "part": 2},
-        {"num": 8, "id": "CH02-L08", "title": "Part 2: Câu trần thuật và Câu trả lời gián tiếp", "minCorrect": 5, "total": 6, "percentage": 83.3, "part": 2},
-        {"num": 9, "id": "CH02-L09", "title": "Part 2: Paraphrase và Bản đồ bẫy tổng hợp", "minCorrect": 5, "total": 6, "percentage": 83.3, "part": 2}
+        {"num": 1, "id": "CH02-L01", "title": "Part 1: Người và hành động", "minCorrect": 12, "total": 15, "percentage": 80.0, "part": 1},
+        {"num": 2, "id": "CH02-L02", "title": "Part 1: Vị trí, đồ vật và ảnh không có người", "minCorrect": 12, "total": 15, "percentage": 80.0, "part": 1},
+        {"num": 3, "id": "CH02-L03", "title": "Part 1: Bị động, trạng thái và bẫy suy diễn", "minCorrect": 12, "total": 15, "percentage": 80.0, "part": 1},
+        {"num": 4, "id": "CH02-L04", "title": "Nghe thật: Âm thanh, nối âm, số và giọng", "minCorrect": 40, "total": 50, "percentage": 80.0, "part": 0},
+        {"num": 5, "id": "CH02-L05", "title": "Part 2: Nhận loại câu hỏi trong 3 từ đầu (WH)", "minCorrect": 18, "total": 22, "percentage": 81.8, "part": 2},
+        {"num": 6, "id": "CH02-L06", "title": "Part 2: Yes/No, Tag, Phủ định và Lựa chọn", "minCorrect": 18, "total": 22, "percentage": 81.8, "part": 2},
+        {"num": 7, "id": "CH02-L07", "title": "Part 2: Câu hỏi gián tiếp, Yêu cầu, Đề nghị, Gợi ý", "minCorrect": 18, "total": 22, "percentage": 81.8, "part": 2},
+        {"num": 8, "id": "CH02-L08", "title": "Part 2: Câu trần thuật và Câu trả lời gián tiếp", "minCorrect": 18, "total": 22, "percentage": 81.8, "part": 2},
+        {"num": 9, "id": "CH02-L09", "title": "Part 2: Paraphrase và Bản đồ bẫy tổng hợp", "minCorrect": 18, "total": 22, "percentage": 81.8, "part": 2}
     ]
 
     for cfg in lesson_cfgs:
         l_num = cfg["num"]
-        p_start = raw_text.find(f"# BÀI {l_num}")
-        p_next = raw_text.find(f"# BÀI {l_num+1}") if l_num < 9 else raw_text.find("# KIỂM TRA")
-        l_chunk = raw_text[p_start:p_next]
+        lid = cfg["id"]
+        p_start = content_text.find(f"# BÀI {l_num}")
+        p_next = content_text.find(f"# BÀI {l_num+1}") if l_num < 9 else content_text.find("# KIỂM TRA")
+        l_chunk = content_text[p_start:p_next]
 
         # Extract objectives
         obj_m = re.search(r'## Mục tiêu\s*\n((?:- [^\n]+\n?)+)', l_chunk)
@@ -139,13 +168,12 @@ def main():
         dictations = []
 
         if l_num == 4:
-            # Special Lesson 4: Audio decoding drills
-            # Parse Drill A (Dictations D1-D10)
+            # Lesson 4: Audio drills
+            # 1. Core Dictations (D1 to D10)
             d_table_m = re.search(r'## 4\.6\. Drill A[^\n]+\n(.*?)(?=\n## 4\.7|\Z)', l_chunk, re.DOTALL)
             if d_table_m:
                 d_lines = d_table_m.group(1).strip().split('\n')
                 for line in d_lines:
-                    # | D1 | Could you tell me where the personnel office is? | couldja |
                     parts = [p.strip() for p in line.split('|') if p.strip()]
                     if len(parts) >= 2 and parts[0].startswith('D'):
                         d_num = parts[0]
@@ -170,7 +198,7 @@ def main():
                             "lessonId": "CH02-L04",
                             "part": 0,
                             "taskType": "dictation",
-                            "prompt": f"Nghe và chép lại câu (Chú ý hiện tượng: {d_note}):",
+                            "prompt": f"Nghe và chép lại câu (Chú ý: {d_note}):",
                             "optionsVisibleBeforeAnswer": False,
                             "image": None,
                             "audioSegments": [
@@ -197,8 +225,126 @@ def main():
                             "difficulty": 2,
                             "revision": 2
                         })
+
+            # 2. Bank Dictations (D11 to D30)
+            c1_m = re.search(r'## C1\. Dictation bổ sung[^\n]+\n(.*?)(?=\n## C2|\Z)', bank_text, re.DOTALL)
+            if c1_m:
+                lines = [l.strip() for l in c1_m.group(1).strip().split('\n') if l.strip().startswith('|')][2:]
+                for line in lines:
+                    parts = [p.strip() for p in line.split('|') if p.strip()]
+                    if len(parts) >= 2 and parts[0].startswith('D'):
+                        d_num = parts[0]
+                        d_text = parts[1]
+                        d_note = parts[2] if len(parts) > 2 else ""
+                        qid = f"CH02-BNK-{d_num}"
+                        lesson_qids.append(qid)
+
+                        dictations.append({
+                            "id": f"CH02-BNK-{d_num}",
+                            "audioText": d_text,
+                            "blanks": [d_note] if d_note else [d_text.split()[-1]],
+                            "answerInput": d_text,
+                            "tags": ["audio_drill", "dictation", "bank"],
+                            "audioFile": f"audio/chapter-02/{qid.lower()}.mp3"
+                        })
+
+                        all_questions.append({
+                            "id": qid,
+                            "groupId": None,
+                            "chapterId": "CH02",
+                            "lessonId": "CH02-L04",
+                            "part": 0,
+                            "taskType": "dictation",
+                            "prompt": f"Nghe và chép lại câu (Chú ý hiện tượng: {d_note}):",
+                            "optionsVisibleBeforeAnswer": False,
+                            "image": None,
+                            "audioSegments": [
+                                {
+                                    "text": d_text,
+                                    "voice": "us-male-01" if int(d_num[1:]) % 2 == 1 else "us-female-01",
+                                    "file": f"audio/chapter-02/{qid.lower()}.mp3",
+                                    "pauseAfterMs": 0
+                                }
+                            ],
+                            "options": {
+                                "ANSWER": d_text
+                            },
+                            "correctAnswer": "ANSWER",
+                            "audioText": d_text,
+                            "blanks": [d_text],
+                            "answerInput": d_text,
+                            "transcript": d_text,
+                            "translation": "",
+                            "explanation": f"Hiện tượng cần chú ý: {d_note}. Câu hoàn chỉnh: {d_text}",
+                            "wrongReasons": {},
+                            "skillTags": ["audio_drill", "dictation", "bank"],
+                            "skillGroup": "linking_and_weak_forms",
+                            "difficulty": 2,
+                            "revision": 2
+                        })
+
+            # 3. Bank Numbers/Time (N01 to N20)
+            c2_m = re.search(r'## C2\. Số, giờ, giá[^\n]+\n(.*?)(?=\n## C3|\Z)', bank_text, re.DOTALL)
+            if c2_m:
+                lines = [l.strip() for l in c2_m.group(1).strip().split('\n') if l.strip().startswith('|')][2:]
+                for line in lines:
+                    parts = [p.strip() for p in line.split('|') if p.strip()]
+                    if len(parts) >= 3 and parts[0].startswith('N'):
+                        n_num = parts[0]
+                        audio_text = parts[1]
+                        ans_trap = parts[2]  # e.g. "13 (30)" or "$15 ($50)"
+
+                        # Parse correct ans and trap
+                        m_at = re.match(r'^(.*?)\s*\((.*?)\)$', ans_trap)
+                        if m_at:
+                            val_correct = m_at.group(1).strip()
+                            val_trap = m_at.group(2).strip()
+                        else:
+                            val_correct = ans_trap.split()[0]
+                            val_trap = ans_trap.split()[-1]
+
+                        qid = f"CH02-BNK-{n_num}"
+                        lesson_qids.append(qid)
+
+                        opts = {
+                            "A": val_correct,
+                            "B": val_trap
+                        }
+
+                        all_questions.append({
+                            "id": qid,
+                            "groupId": None,
+                            "chapterId": "CH02",
+                            "lessonId": "CH02-L04",
+                            "part": 0,
+                            "taskType": "number_drill",
+                            "prompt": f"Nghe audio và chọn con số/giờ/giá tiền đúng:",
+                            "optionsVisibleBeforeAnswer": True,
+                            "image": None,
+                            "audioSegments": [
+                                {
+                                    "text": audio_text,
+                                    "voice": "us-female-01" if int(n_num[1:]) % 2 == 1 else "us-male-01",
+                                    "file": f"audio/chapter-02/{qid.lower()}.mp3",
+                                    "pauseAfterMs": 0
+                                }
+                            ],
+                            "options": opts,
+                            "correctAnswer": "A",
+                            "transcript": audio_text,
+                            "translation": "",
+                            "explanation": f"Từ nói trong audio là: '{audio_text}'. Đáp án đúng là {val_correct}. Bẫy nhầm: {val_trap}.",
+                            "wrongReasons": {
+                                "B": f"Bẫy số/giờ: '{val_trap}' là bẫy dễ nhầm âm hoặc nhầm cách đọc với '{val_correct}'."
+                            },
+                            "skillTags": ["number_listening", "teen_ty", "time_clock"],
+                            "skillGroup": "numbers_and_time",
+                            "difficulty": 1,
+                            "revision": 2
+                        })
+
         else:
-            # Lessons 1-3 (Part 1) and Lessons 5-9 (Part 2)
+            # 1. Parse core questions from CHAPTER_02_CONTENT.md
             q_matches = re.finditer(r'(#{3,4}\s+(CH02-L\d+-Q\d+)[^\n]*)\n(.*?)(?=\n#{3,4}\s+CH02-|\n### |\n## |\Z)', l_chunk, re.DOTALL)
             for qm in q_matches:
                 header_line = qm.group(1).strip()
@@ -206,7 +352,6 @@ def main():
                 qblock = qm.group(3).strip()
                 lesson_qids.append(qid)
 
-                # Header details: e.g. "CH02-L01-Q01 · US-M · ★1" or "CH02-L05-Q01 · US-F → UK-M · ★1"
                 difficulty = 1
                 if '★3' in header_line: difficulty = 3
                 elif '★2' in header_line: difficulty = 2
@@ -218,11 +363,9 @@ def main():
                 opts, correct_ans, wrong_reasons = parse_options_and_reasons(qblock, explanation)
 
                 if cfg["part"] == 1:
-                    # Part 1 Photograph
                     img_m = re.search(r'\*\*Ảnh:\*\*\s*([^\n]+)', qblock)
                     img_desc = img_m.group(1).strip() if img_m else ""
 
-                    # Build audio segments for options A, B, C, D
                     segments = []
                     for letter in ["A", "B", "C", "D"]:
                         if letter in opts:
@@ -256,16 +399,14 @@ def main():
                         "difficulty": difficulty,
                         "revision": 2
                     })
-
                 else:
-                    # Part 2 Question-Response
                     q_text_m = re.search(r'\*\*Q:\*\*\s*([^\n]+)', qblock)
                     q_text = q_text_m.group(1).strip() if q_text_m else ""
 
                     segments = [
                         {
                             "text": q_text,
-                            "voice": "us-female-01" if "US-F" in header_line or "UK-F" in header_line or "CA-F" in header_line or "AU-F" in header_line else "us-male-01",
+                            "voice": "us-female-01" if "F" in header_line.split('→')[0] else "us-male-01",
                             "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
                             "pauseAfterMs": 1500
                         }
@@ -302,6 +443,148 @@ def main():
                         "revision": 2
                     })
 
+            # 2. Parse BANK questions for this lesson
+            if cfg["part"] == 1 and lid in bank_part1_map:
+                sec_prefix, img_prefix = bank_part1_map[lid]
+                sec_p = bank_text.find(sec_prefix)
+                sec_end = bank_text.find("##", sec_p + 3) if bank_text.find("##", sec_p + 3) != -1 else len(bank_text)
+                sec_chunk = bank_text[sec_p:sec_end]
+
+                tbl_lines = [l.strip() for l in sec_chunk.split('\n') if l.strip().startswith('|')][2:]
+                for row in tbl_lines:
+                    cols = [c.strip() for c in row.split('|') if c.strip()]
+                    if len(cols) >= 7:
+                        # ID, Ảnh, A, B, C, D, Đ.án
+                        item_code = cols[0]
+                        img_desc = cols[1]
+                        opt_a = cols[2]
+                        opt_b = cols[3]
+                        opt_c = cols[4]
+                        opt_d = cols[5]
+                        correct_ans = cols[6]
+
+                        qid = f"CH02-BNK-{item_code}"
+                        lesson_qids.append(qid)
+
+                        opts = {}
+                        wrong_reasons = {}
+                        for ltr, raw_opt in [("A", opt_a), ("B", opt_b), ("C", opt_c), ("D", opt_d)]:
+                            m_code = re.search(r'`([A-Z0-9_-]+)`', raw_opt)
+                            clean_opt = re.sub(r'`[^`]+`', '', raw_opt).strip()
+                            opts[ltr] = clean_opt
+                            if ltr != correct_ans:
+                                if m_code:
+                                    code = m_code.group(1)
+                                    wrong_reasons[ltr] = f"[{code}] {DISTRACTOR_MAP.get(code, 'Lựa chọn không khớp với ảnh.')}"
+                                else:
+                                    wrong_reasons[ltr] = f"Lựa chọn {ltr} không phù hợp với chi tiết trong ảnh."
+
+                        segments = []
+                        for ltr in ["A", "B", "C", "D"]:
+                            segments.append({
+                                "text": opts[ltr],
+                                "voice": "us-female-01" if int(item_code[-1]) % 2 == 1 else "us-male-01",
+                                "file": f"audio/chapter-02/{qid.lower()}-{ltr.lower()}.mp3",
+                                "pauseAfterMs": 1000
+                            })
+
+                        all_questions.append({
+                            "id": qid,
+                            "groupId": None,
+                            "chapterId": "CH02",
+                            "lessonId": lid,
+                            "part": 1,
+                            "taskType": "photo_description",
+                            "prompt": "Look at the photo and choose the best description:",
+                            "optionsVisibleBeforeAnswer": False,
+                            "image": f"images/chapter-02/{qid.lower()}.svg",
+                            "imageDescription": img_desc,
+                            "audioSegments": segments,
+                            "options": opts,
+                            "correctAnswer": correct_ans,
+                            "transcript": " / ".join([f"({k}) {v}" for k, v in opts.items()]),
+                            "translation": img_desc,
+                            "explanation": f"Lựa chọn đúng ({correct_ans}): {opts[correct_ans]}. Mô tả chính xác đối tượng và hành động trong ảnh.",
+                            "wrongReasons": wrong_reasons,
+                            "skillTags": ["part1_bank", "photo_description"],
+                            "skillGroup": determine_skill_group(1, [], lid),
+                            "difficulty": 2,
+                            "revision": 2
+                        })
+
+            elif cfg["part"] == 2 and lid in bank_part2_map:
+                sec_prefix = bank_part2_map[lid]
+                sec_p = bank_text.find(sec_prefix)
+                sec_end = bank_text.find("##", sec_p + 3) if bank_text.find("##", sec_p + 3) != -1 else len(bank_text)
+                sec_chunk = bank_text[sec_p:sec_end]
+
+                tbl_lines = [l.strip() for l in sec_chunk.split('\n') if l.strip().startswith('|')][2:]
+                for row in tbl_lines:
+                    cols = [c.strip() for c in row.split('|') if c.strip()]
+                    if len(cols) >= 6:
+                        # ID, Q, A, B, C, Đ.án
+                        item_code = cols[0]
+                        q_text = cols[1]
+                        opt_a = cols[2]
+                        opt_b = cols[3]
+                        opt_c = cols[4]
+                        correct_ans = cols[5]
+
+                        qid = f"CH02-BNK-{item_code}"
+                        lesson_qids.append(qid)
+
+                        opts = {}
+                        wrong_reasons = {}
+                        for ltr, raw_opt in [("A", opt_a), ("B", opt_b), ("C", opt_c)]:
+                            m_code = re.search(r'`([A-Z0-9_-]+)`', raw_opt)
+                            clean_opt = re.sub(r'`[^`]+`', '', raw_opt).strip()
+                            opts[ltr] = clean_opt
+                            if ltr != correct_ans:
+                                if m_code:
+                                    code = m_code.group(1)
+                                    wrong_reasons[ltr] = f"[{code}] {DISTRACTOR_MAP.get(code, 'Phản hồi không phù hợp với câu hỏi.')}"
+                                else:
+                                    wrong_reasons[ltr] = f"Lựa chọn {ltr} không phù hợp với logic câu hỏi."
+
+                        segments = [
+                            {
+                                "text": q_text,
+                                "voice": "us-female-01" if int(item_code[-1]) % 2 == 1 else "us-male-01",
+                                "file": f"audio/chapter-02/{qid.lower()}-q.mp3",
+                                "pauseAfterMs": 1500
+                            }
+                        ]
+                        for ltr in ["A", "B", "C"]:
+                            segments.append({
+                                "text": opts[ltr],
+                                "voice": "us-male-01" if int(item_code[-1]) % 2 == 1 else "us-female-01",
+                                "file": f"audio/chapter-02/{qid.lower()}-{ltr.lower()}.mp3",
+                                "pauseAfterMs": 1000
+                            })
+
+                        all_questions.append({
+                            "id": qid,
+                            "groupId": None,
+                            "chapterId": "CH02",
+                            "lessonId": lid,
+                            "part": 2,
+                            "taskType": "part2_response",
+                            "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất (Part 2):",
+                            "optionsVisibleBeforeAnswer": False,
+                            "image": None,
+                            "audioSegments": segments,
+                            "options": opts,
+                            "correctAnswer": correct_ans,
+                            "transcript": f"{q_text} / (A) {opts['A']} / (B) {opts['B']} / (C) {opts['C']}",
+                            "translation": "",
+                            "explanation": f"Lựa chọn ({correct_ans}) là phản hồi tự nhiên và chính xác nhất cho câu hỏi: '{q_text}'.",
+                            "wrongReasons": wrong_reasons,
+                            "skillTags": ["part2_bank", "response"],
+                            "skillGroup": determine_skill_group(2, [], lid),
+                            "difficulty": 2,
+                            "revision": 2
+                        })
+
         lessons_data.append({
             "lessonId": cfg["id"],
             "title": cfg["title"],
@@ -311,15 +594,15 @@ def main():
             "questionIds": lesson_qids,
             "passRule": {
                 "minCorrect": cfg["minCorrect"],
-                "total": cfg["total"],
-                "percentage": cfg["percentage"]
+                "total": len(lesson_qids),
+                "percentage": round((cfg["minCorrect"] / len(lesson_qids)) * 100, 1)
             }
         })
 
-    # 2. Parse Final Test (25 questions)
+    # 3. Parse Final Test (25 questions from CHAPTER_02_CONTENT.md)
     print("Parsing Final Test CH02-FINAL...")
-    p_final = raw_text.find("# KIỂM TRA CUỐI CHƯƠNG 2")
-    final_chunk = raw_text[p_final:]
+    p_final = content_text.find("# KIỂM TRA CUỐI CHƯƠNG 2")
+    final_chunk = content_text[p_final:]
 
     final_qids = []
     final_matches = re.finditer(r'(#{3,4}\s+(CH02-FINAL-Q\d+)[^\n]*)\n(.*?)(?=\n#{3,4}\s+CH02-FINAL|\n## |\Z)', final_chunk, re.DOTALL)
@@ -423,7 +706,7 @@ def main():
     chapter_data = {
         "chapterId": "CH02",
         "title": "Part 1 và Part 2 — nghe thật: mô tả ảnh, âm thanh thực tế, câu hỏi – phản hồi",
-        "description": "Chiến thuật mô tả tranh Part 1, giải mã âm thực tế và phản xạ 3 giây câu hỏi – phản hồi Part 2",
+        "description": "Chiến thuật mô tả tranh Part 1, giải mã âm thực tế và phản xạ câu hỏi – phản hồi với 230 câu luyện tập chuyên sâu",
         "specVersion": "2.3",
         "contentVersion": "2.0.0",
         "lessons": lessons_data,
@@ -447,6 +730,8 @@ def main():
     print(f"Total Lessons: {len(lessons_data)}")
     print(f"Total Questions: {len(all_questions)}")
     print(f"Final Test Question IDs: {len(final_qids)}")
+    for l in lessons_data:
+        print(f"  {l['lessonId']}: {len(l['questionIds'])} questions (passRule: {l['passRule']})")
 
     with open(OUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(chapter_data, f, indent=2, ensure_ascii=False)

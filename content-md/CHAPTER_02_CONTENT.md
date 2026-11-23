@@ -4,7 +4,8 @@
 **Tên chương:** Part 1 và Part 2 — nghe thật: mô tả ảnh, âm thanh thực tế, câu hỏi – phản hồi
 **Phiên bản nội dung:** 2.0 (thay thế hoàn toàn 1.0)
 **Điều kiện mở khóa:** hoàn thành Chương 1 và đạt ≥ 80% bài kiểm tra Chương 1.
-**Thời lượng gợi ý:** 14–20 buổi, mỗi buổi 30–45 phút.
+**Thời lượng gợi ý:** khoảng 21 buổi (3 tuần), mỗi buổi 30–45 phút: Bài 4 chia 3–4 buổi, các bài còn lại 1–2 buổi, cộng buổi ôn Mistake Book và Final Test.
+**Ngân hàng câu luyện mở rộng:** `CHAPTER_02_BANK.md` (110 câu MCQ + 20 dictation + 20 câu số + 24 cặp âm). Mỗi bài dùng các câu trong file này **cộng** các câu mẫu bên dưới.
 **Mục tiêu điểm:** nền cho mốc Listening 300. Với Part 1 + Part 2 (31/100 câu Listening), mục tiêu của chương là **≥ 5/6 Part 1 và ≥ 18/25 Part 2** ở tốc độ thật. Mức quy đổi sang điểm thay đổi theo từng đề, nên dùng con số này làm mục tiêu luyện tập chứ không phải cam kết điểm.
 
 > Nội dung do giáo trình tự biên soạn: mô phỏng kỹ năng và dạng bẫy của TOEIC, không phải đề ETS chính thức, không chép sách thương mại.

@@ -56,6 +56,16 @@
     </footer>
   </div>
 
+  <script>
+    // Tự động gỡ bỏ Service Worker cũ nếu trước đó từng chạy dự án khác trên localhost
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (var reg of registrations) {
+          reg.unregister();
+        }
+      });
+    }
+  </script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>
