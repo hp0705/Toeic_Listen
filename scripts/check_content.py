@@ -136,10 +136,11 @@ def validate():
                     errors.append(f"Group {gid} turn {t.get('turn')}: Invalid endMs <= startMs")
                 last_end = end_ms
 
-            # Check questionIds
+            # Check questionIds (CH01 has 2 questions per short conversation, CH03 has 3)
             g_qids = g.get("questionIds", [])
-            if len(g_qids) != 3:
-                errors.append(f"Group {gid}: Expected 3 questions, got {len(g_qids)}")
+            expected_count = 2 if ch_id == "CH01" else 3
+            if len(g_qids) != expected_count:
+                errors.append(f"Group {gid}: Expected {expected_count} questions, got {len(g_qids)}")
 
         # Check questions
         questions = ch_data.get("questions", [])

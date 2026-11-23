@@ -9,8 +9,8 @@
     {
       "id": "CH01",
       "file": "chapters/chapter-01.json",
-      "title": "Nền tảng nghe",
-      "description": "Bắt từ khóa, âm cuối, số giờ và ý câu hỏi",
+      "title": "Nền tảng nghe thật",
+      "description": "Nhịp câu, dạng đọc yếu, âm cuối, số/giờ/ngày/tiền, từ để hỏi, bẫy Part 2 và hội thoại ngắn",
       "unlock": "default"
     },
     {

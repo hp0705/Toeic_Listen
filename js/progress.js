@@ -115,10 +115,17 @@ export function rebuildDerived(state, courseData) {
     let qMeta = null;
     if (courseData && courseData.getQuestion) {
       qMeta = courseData.getQuestion(qid);
+    } else if (courseData && courseData.chapters) {
+      for (const ch of courseData.chapters) {
+        if (ch.questions) {
+          const found = ch.questions.find(q => q.id === qid);
+          if (found) { qMeta = found; break; }
+        }
+      }
     }
 
-    const qTags = (qMeta && qMeta.skillTags) ? qMeta.skillTags : [];
-    const qSkillGroup = (qMeta && qMeta.skillGroup) ? qMeta.skillGroup : 'general_listening';
+    const qTags = (qMeta && qMeta.skillTags) ? qMeta.skillTags : (lastAttempt.skillTags || []);
+    const qSkillGroup = (qMeta && qMeta.skillGroup) ? qMeta.skillGroup : (lastAttempt.skillGroup || 'general_listening');
 
     // Track skill group accuracy
     if (!skillGroupStats[qSkillGroup]) {
@@ -165,11 +172,20 @@ export function rebuildDerived(state, courseData) {
         }
 
         // Compare skillGroup or skillTag
-        const otherQ = courseData && courseData.getQuestion ? courseData.getQuestion(a.questionId) : null;
-        if (!otherQ) return false;
+        let otherQ = courseData && courseData.getQuestion ? courseData.getQuestion(a.questionId) : null;
+        if (!otherQ && courseData && courseData.chapters) {
+          for (const ch of courseData.chapters) {
+            if (ch.questions) {
+              const found = ch.questions.find(q => q.id === a.questionId);
+              if (found) { otherQ = found; break; }
+            }
+          }
+        }
+        const otherGroup = otherQ ? otherQ.skillGroup : a.skillGroup;
+        const otherTags = otherQ ? otherQ.skillTags : (a.skillTags || []);
 
-        const sameGroup = otherQ.skillGroup && otherQ.skillGroup === qSkillGroup;
-        const sameTag = otherQ.skillTags && otherQ.skillTags.some(t => qTags.includes(t));
+        const sameGroup = otherGroup && otherGroup === qSkillGroup;
+        const sameTag = otherTags && otherTags.some(t => qTags.includes(t));
         return sameGroup || sameTag;
       });
 

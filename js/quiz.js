@@ -1,7 +1,8 @@
 /**
  * Quiz & Practice Controller for TOEIC Listening 300
  * Handles question presentation, option shuffling, optionsVisibleBeforeAnswer,
- * audio playback, attempt recording, and explanations.
+ * audio playback, dictation questions, Part 3 groups, attempt recording,
+ * test submission, and diagnostic feedback.
  */
 
 import { storage } from './storage.js';
@@ -20,7 +21,8 @@ export class QuizController {
     this.currentGroupIndex = 0;
     this.mode = 'learn'; // 'learn' or 'test'
     this.viewedTranscript = false;
-    this.answers = new Map(); // questionId -> selectedChoiceId (original ID)
+    this.answers = new Map(); // questionId -> selectedChoiceId (original ID or 'ANSWER')
+    this.dictationValues = new Map(); // questionId -> [enteredString, ...]
     this.submitted = false;
   }
 
@@ -37,6 +39,7 @@ export class QuizController {
     this.mode = mode;
     this.submitted = false;
     this.answers.clear();
+    this.dictationValues.clear();
     this.viewedTranscript = false;
 
     const chapter = await this.dataLoader.loadChapter(chapterId);
@@ -56,9 +59,9 @@ export class QuizController {
       return;
     }
 
-    // Check if Part 3 groups exist
-    const isPart3 = this.questions.some(q => q.part === 3 && q.groupId);
-    if (isPart3) {
+    // Check if ALL questions are Part 3 groups (e.g. Pure Part 3 lessons)
+    const isPurePart3 = this.questions.length > 0 && this.questions.every(q => q.part === 3 && q.groupId);
+    if (isPurePart3) {
       const groupIds = [...new Set(this.questions.map(q => q.groupId).filter(Boolean))];
       this.groups = groupIds.map(gid => this.dataLoader.getGroup(gid)).filter(Boolean);
     } else {
@@ -77,8 +80,12 @@ export class QuizController {
       // Create new run
       const optionOrders = {};
       for (const q of this.questions) {
-        const originalKeys = Object.keys(q.options);
-        optionOrders[q.id] = this.shuffle(originalKeys);
+        if (q.options) {
+          const originalKeys = Object.keys(q.options);
+          optionOrders[q.id] = this.shuffle(originalKeys);
+        } else {
+          optionOrders[q.id] = ['A', 'B', 'C'];
+        }
       }
 
       currentRun = {
@@ -109,7 +116,7 @@ export class QuizController {
       return this.run.optionOrders[questionId];
     }
     const q = this.dataLoader.getQuestion(questionId);
-    return q ? Object.keys(q.options) : ['A', 'B', 'C', 'D'];
+    return q && q.options ? Object.keys(q.options) : ['A', 'B', 'C', 'D'];
   }
 
   handleAnswer(questionId, displayedIndex) {
@@ -148,12 +155,42 @@ export class QuizController {
     state.attempts.push(attempt);
     storage.saveState(state);
 
-    if (this.mode === 'learn') {
-      this.render();
-    } else {
-      // In test mode, advance or update UI
-      this.render();
+    this.render();
+  }
+
+  handleDictationAnswer(questionId, isCorrect, inputsArray) {
+    if (this.mode === 'learn' && this.answers.has(questionId)) {
+      return;
     }
+    const q = this.dataLoader.getQuestion(questionId);
+    const selectedAnswer = isCorrect ? q.correctAnswer : 'INCORRECT';
+    this.answers.set(questionId, selectedAnswer);
+    this.dictationValues.set(questionId, inputsArray);
+
+    const state = storage.loadState();
+    const attempt = {
+      id: `attempt-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`,
+      runId: this.run.id,
+      questionId: q.id,
+      groupId: q.groupId || null,
+      chapterId: q.chapterId,
+      lessonId: q.lessonId,
+      part: q.part,
+      mode: this.mode,
+      selected: selectedAnswer,
+      optionOrder: ['ANSWER'],
+      isCorrect: isCorrect,
+      questionRevision: q.revision || 1,
+      answeredAt: new Date().toISOString(),
+      transcriptViewedBeforeAnswer: this.viewedTranscript,
+      playbackRate: audioPlayer.playbackRate,
+      mistakeGroup: null
+    };
+
+    state.attempts.push(attempt);
+    storage.saveState(state);
+
+    this.render();
   }
 
   submitTest() {
@@ -184,8 +221,8 @@ export class QuizController {
     if (!this.container) return;
     this.container.innerHTML = '';
 
-    const isPart3 = this.groups.length > 0;
-    if (isPart3) {
+    const isPurePart3 = this.groups.length > 0;
+    if (isPurePart3) {
       this.renderPart3Group();
     } else {
       this.renderSingleQuestion();
@@ -202,6 +239,29 @@ export class QuizController {
 
     const card = document.createElement('div');
     card.className = 'quiz-card';
+
+    // If Test Submitted, show Summary Banner on top
+    if (this.mode === 'test' && this.submitted) {
+      const correctCount = this.questions.filter(qu => this.answers.get(qu.id) === qu.correctAnswer).length;
+      const pct = Math.round((correctCount / total) * 100);
+      const isPass = pct >= 80;
+
+      const summaryCard = document.createElement('div');
+      summaryCard.className = `test-result-summary ${isPass ? 'result-passed' : 'result-failed'}`;
+      summaryCard.style.padding = '1rem';
+      summaryCard.style.marginBottom = '1rem';
+      summaryCard.style.borderRadius = '8px';
+      summaryCard.style.background = isPass ? '#e8f5e9' : '#ffebee';
+      summaryCard.style.border = `2px solid ${isPass ? '#28a745' : '#dc3545'}`;
+      summaryCard.innerHTML = `
+        <h3 style="margin-top:0; color:${isPass ? '#1b5e20' : '#b71c1c'};">
+          ${isPass ? '🎉 CHÚC MỪNG: BẠN ĐÃ ĐẠT BÀI KIỂM TRA!' : '⚠️ BẠN CẦN ÔN TẬP THÊM ĐỂ ĐẠT CHUẨN!'}
+        </h3>
+        <p><strong>Kết quả:</strong> ${correctCount}/${total} câu đúng (${pct}%). ${isPass ? 'Đã đạt điều kiện mở khóa nội dung tiếp theo!' : 'Yêu cầu đạt từ 80% trở lên.'}</p>
+        <div style="font-size:0.9rem; color:#555;">Bạn đang xem lại chi tiết từng câu bên dưới. Bấm "Hoàn thành bài" để quay về lộ trình học.</div>
+      `;
+      card.appendChild(summaryCard);
+    }
 
     // Header progress
     const header = document.createElement('div');
@@ -220,7 +280,14 @@ export class QuizController {
     playBtn.className = 'btn-play';
     playBtn.innerHTML = `<span>▶ Phát Audio</span>`;
     playBtn.onclick = () => {
-      audioPlayer.playSegments(q.audioSegments, order);
+      if (q.audioSegments && q.audioSegments.length > 0) {
+        audioPlayer.playSegments(q.audioSegments, order);
+      } else if (q.groupId) {
+        const group = this.dataLoader.getGroup(q.groupId);
+        if (group) audioPlayer.playGroup(group.audioFile, 0, null, group.transcript);
+      } else {
+        audioPlayer.fallbackSpeech(q.transcript || q.prompt);
+      }
     };
     playerBox.appendChild(playBtn);
 
@@ -244,6 +311,27 @@ export class QuizController {
     }
     card.appendChild(playerBox);
 
+    // Group Audio Info (if question belongs to a conversation group in Part 3/C)
+    if (q.groupId) {
+      const group = this.dataLoader.getGroup(q.groupId);
+      if (group) {
+        const groupInfoBox = document.createElement('div');
+        groupInfoBox.className = 'group-info-box';
+        groupInfoBox.style.background = '#f0f4f8';
+        groupInfoBox.style.padding = '0.75rem';
+        groupInfoBox.style.borderRadius = '6px';
+        groupInfoBox.style.marginBottom = '1rem';
+        groupInfoBox.innerHTML = `
+          <div style="font-weight:600; color:var(--text-secondary); margin-bottom:0.4rem;">🎧 Nghe đoạn hội thoại: ${group.context || 'Hội thoại ngắn 2 người'}</div>
+          <button class="btn-play-group btn-secondary" style="padding:0.4rem 0.8rem; font-size:0.85rem;">▶ Phát toàn bộ đoạn hội thoại</button>
+        `;
+        groupInfoBox.querySelector('.btn-play-group').onclick = () => {
+          audioPlayer.playGroup(group.audioFile, 0, null, group.transcript);
+        };
+        card.appendChild(groupInfoBox);
+      }
+    }
+
     // Image if Part 1
     if (q.part === 1 && q.image) {
       const imgWrap = document.createElement('div');
@@ -260,44 +348,98 @@ export class QuizController {
       card.appendChild(promptEl);
     }
 
-    // Options list
-    const optionsWrap = document.createElement('div');
-    optionsWrap.className = 'quiz-options';
+    // DICTATION QUESTION HANDLING
+    if (q.taskType === 'dictation') {
+      const dictWrap = document.createElement('div');
+      dictWrap.className = 'quiz-dictation-wrap';
+      dictWrap.style.margin = '1rem 0';
 
-    const labels = ['A', 'B', 'C', 'D'];
-    const showOptionText = q.optionsVisibleBeforeAnswer || isAnswered || (this.mode === 'test' && this.submitted);
+      const sentenceDiv = document.createElement('div');
+      sentenceDiv.className = 'dictation-sentence';
+      sentenceDiv.style.fontSize = '1.1rem';
+      sentenceDiv.style.lineHeight = '2';
 
-    order.forEach((optKey, idx) => {
-      const optBtn = document.createElement('button');
-      optBtn.className = 'quiz-option-btn';
+      const savedVals = this.dictationValues.get(q.id) || [];
+      let inputIdx = 0;
+      const formatted = (q.audioText || q.transcript || '').replace(/\*\*(.*?)\*\*/g, (match, word) => {
+        const currentVal = savedVals[inputIdx] || '';
+        const html = `<input type="text" class="dictation-input quiz-dict-inp" data-idx="${inputIdx}" data-expected="${word.replace(/"/g, '&quot;')}" value="${currentVal}" ${isAnswered && this.mode === 'learn' ? 'disabled' : ''} placeholder="..." autocomplete="off" style="margin: 0 4px;" />`;
+        inputIdx++;
+        return html;
+      });
+      sentenceDiv.innerHTML = formatted;
+      dictWrap.appendChild(sentenceDiv);
 
-      const label = labels[idx];
-      const optText = q.options[optKey];
+      const confirmBtn = document.createElement('button');
+      confirmBtn.className = 'btn-primary';
+      confirmBtn.style.marginTop = '0.75rem';
+      confirmBtn.textContent = isAnswered ? 'Cập nhật câu trả lời' : 'Xác nhận câu trả lời';
+      confirmBtn.disabled = isAnswered && this.mode === 'learn';
 
-      if (isAnswered || (this.mode === 'test' && this.submitted)) {
-        if (optKey === q.correctAnswer) {
-          optBtn.classList.add('correct');
-        } else if (optKey === userAnswer) {
-          optBtn.classList.add('incorrect');
-        }
-      }
-
-      if (showOptionText) {
-        optBtn.innerHTML = `<span class="opt-label">${label}</span> <span class="opt-text">${optText}</span>`;
-      } else {
-        // Part 1 & 2: Hide text before answer to force listening!
-        optBtn.innerHTML = `<span class="opt-label large">${label}</span>`;
-      }
-
-      optBtn.onclick = () => {
-        if (!isAnswered || this.mode === 'test') {
-          this.handleAnswer(q.id, idx);
-        }
+      const checkDictation = () => {
+        const inputs = sentenceDiv.querySelectorAll('.quiz-dict-inp');
+        let allCorrect = true;
+        const enteredVals = [];
+        inputs.forEach(inp => {
+          const val = inp.value.trim();
+          enteredVals.push(val);
+          const exp = (inp.dataset.expected || '').trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+          const got = val.toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+          if (exp !== got) {
+            allCorrect = false;
+          }
+        });
+        this.handleDictationAnswer(q.id, allCorrect, enteredVals);
       };
 
-      optionsWrap.appendChild(optBtn);
-    });
-    card.appendChild(optionsWrap);
+      confirmBtn.onclick = checkDictation;
+      sentenceDiv.querySelectorAll('.quiz-dict-inp').forEach(inp => {
+        inp.onkeydown = (e) => {
+          if (e.key === 'Enter') checkDictation();
+        };
+      });
+
+      dictWrap.appendChild(confirmBtn);
+      card.appendChild(dictWrap);
+    } else {
+      // MULTIPLE CHOICE OPTIONS
+      const optionsWrap = document.createElement('div');
+      optionsWrap.className = 'quiz-options';
+
+      const labels = ['A', 'B', 'C', 'D'];
+      const showOptionText = q.optionsVisibleBeforeAnswer || isAnswered || (this.mode === 'test' && this.submitted);
+
+      order.forEach((optKey, idx) => {
+        const optBtn = document.createElement('button');
+        optBtn.className = 'quiz-option-btn';
+
+        const label = labels[idx];
+        const optText = q.options ? q.options[optKey] : '';
+
+        if (isAnswered || (this.mode === 'test' && this.submitted)) {
+          if (optKey === q.correctAnswer) {
+            optBtn.classList.add('correct');
+          } else if (optKey === userAnswer) {
+            optBtn.classList.add('incorrect');
+          }
+        }
+
+        if (showOptionText) {
+          optBtn.innerHTML = `<span class="opt-label">${label}</span> <span class="opt-text">${optText}</span>`;
+        } else {
+          optBtn.innerHTML = `<span class="opt-label large">${label}</span>`;
+        }
+
+        optBtn.onclick = () => {
+          if (!isAnswered || this.mode === 'test') {
+            this.handleAnswer(q.id, idx);
+          }
+        };
+
+        optionsWrap.appendChild(optBtn);
+      });
+      card.appendChild(optionsWrap);
+    }
 
     // Explanations (in Learn mode after answer, or Test mode after submission)
     if ((this.mode === 'learn' && isAnswered) || (this.mode === 'test' && this.submitted)) {
@@ -305,7 +447,7 @@ export class QuizController {
       explainBox.className = 'explanation-box';
       explainBox.innerHTML = `
         <div class="result-banner ${isCorrect ? 'banner-correct' : 'banner-wrong'}">
-          ${isCorrect ? '✓ Chính xác!' : '✗ Chưa đúng!'} Đáp án đúng: <strong>${q.correctAnswer}</strong>
+          ${isCorrect ? '✓ Chính xác!' : '✗ Chưa đúng!'} Đáp án đúng: <strong>${q.taskType === 'dictation' ? (q.answerInput || q.blanks.join('; ')) : q.correctAnswer}</strong>
         </div>
         <div class="exp-section">
           <h4>Giải thích đáp án:</h4>
@@ -320,7 +462,7 @@ export class QuizController {
           </div>
         ` : ''}
         <div class="exp-section transcript-section">
-          <h4>Transcript & Bản dịch:</h4>
+          <h4>Transcript & Lời thoại:</h4>
           <p class="transcript-text">${q.transcript}</p>
           ${q.translation ? `<p class="translation-text">${q.translation}</p>` : ''}
         </div>
@@ -357,7 +499,7 @@ export class QuizController {
     } else {
       const finishBtn = document.createElement('button');
       finishBtn.className = 'btn-finish';
-      finishBtn.textContent = this.mode === 'test' ? 'Nộp bài kiểm tra' : 'Hoàn thành bài';
+      finishBtn.textContent = this.mode === 'test' && !this.submitted ? 'Nộp bài kiểm tra' : 'Hoàn thành bài';
       finishBtn.onclick = () => {
         if (this.mode === 'test' && !this.submitted) {
           this.submitTest();
@@ -422,7 +564,7 @@ export class QuizController {
     }
     card.appendChild(playerBox);
 
-    // List 3 questions of this conversation
+    // List questions of this conversation
     const questionsContainer = document.createElement('div');
     questionsContainer.className = 'part3-questions-container';
 
@@ -448,7 +590,7 @@ export class QuizController {
         const optBtn = document.createElement('button');
         optBtn.className = 'quiz-option-btn';
         const label = labels[idx];
-        const optText = q.options[optKey];
+        const optText = q.options ? q.options[optKey] : '';
 
         if (isAnswered || (this.mode === 'test' && this.submitted)) {
           if (optKey === q.correctAnswer) {
@@ -485,7 +627,7 @@ export class QuizController {
     });
     card.appendChild(questionsContainer);
 
-    // Transcript & turns re-listen in Learn mode after all 3 answered
+    // Transcript & turns re-listen in Learn mode after all answered
     if ((this.mode === 'learn' && allGroupAnswered) || (this.mode === 'test' && this.submitted)) {
       const transBox = document.createElement('div');
       transBox.className = 'explanation-box transcript-box';
@@ -550,7 +692,7 @@ export class QuizController {
     } else {
       const finishBtn = document.createElement('button');
       finishBtn.className = 'btn-finish';
-      finishBtn.textContent = this.mode === 'test' ? 'Nộp bài kiểm tra' : 'Hoàn thành bài';
+      finishBtn.textContent = this.mode === 'test' && !this.submitted ? 'Nộp bài kiểm tra' : 'Hoàn thành bài';
       finishBtn.onclick = () => {
         if (this.mode === 'test' && !this.submitted) {
           this.submitTest();

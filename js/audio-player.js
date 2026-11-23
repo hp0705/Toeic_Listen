@@ -171,6 +171,49 @@ export class AudioPlayer {
     });
   }
 
+  playABXSequence(textA, textB, textX) {
+    this.stop();
+    this.fallbackSpeech(textA, () => {
+      this.turnTimer = setTimeout(() => {
+        this.fallbackSpeech(textB, () => {
+          this.turnTimer = setTimeout(() => {
+            this.fallbackSpeech(textX);
+          }, 700);
+        });
+      }, 600);
+    });
+  }
+
+  playFileOrSpeech(file, fallbackText, onDone = null) {
+    this.stop();
+    if (!file) {
+      this.fallbackSpeech(fallbackText, onDone);
+      return;
+    }
+
+    this.audio.src = file;
+    this.audio.playbackRate = this.playbackRate;
+
+    const errorHandler = () => {
+      this.audio.removeEventListener('error', errorHandler);
+      this.audio.removeEventListener('ended', endedHandler);
+      this.fallbackSpeech(fallbackText, onDone);
+    };
+
+    const endedHandler = () => {
+      this.audio.removeEventListener('error', errorHandler);
+      this.audio.removeEventListener('ended', endedHandler);
+      if (onDone) onDone();
+    };
+
+    this.audio.addEventListener('error', errorHandler);
+    this.audio.addEventListener('ended', endedHandler);
+
+    this.audio.play().catch(() => {
+      errorHandler();
+    });
+  }
+
   fallbackSpeech(text = "", onDone = null) {
     if (!('speechSynthesis' in window)) {
       if (onDone) onDone();

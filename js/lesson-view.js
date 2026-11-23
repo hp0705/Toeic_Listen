@@ -1,6 +1,7 @@
 /**
  * Lesson View for TOEIC Listening 300
- * Renders lesson objectives, teaching blocks, vocabulary table, audio examples
+ * Renders lesson objectives, teaching blocks, comparisons, ABX discrimination,
+ * dictation (nghe-chép), vocabulary, audio examples, and final test intro.
  */
 
 import { audioPlayer } from './audio-player.js';
@@ -113,6 +114,83 @@ export class LessonView {
         </div>
       ` : ''}
 
+      <!-- ABX Discrimination Exercises -->
+      ${lesson.abxExercises && lesson.abxExercises.length > 0 ? `
+        <div class="card-section abx-section">
+          <h2 class="section-title">⚡ Luyện nghe đối chiếu (ABX Discrimination)</h2>
+          <p class="section-sub">Nghe A, nghe B, rồi nghe X (ẩn). Chọn xem X giống A hay B để rèn phản xạ nhận biết âm/từ chức năng tinh tế:</p>
+          <div class="abx-grid">
+            ${lesson.abxExercises.map(item => `
+              <div class="abx-card" data-abx-id="${item.id}" data-answer="${item.correctAnswer}" data-text-a="${item.textA.replace(/"/g, '&quot;')}" data-text-b="${item.textB.replace(/"/g, '&quot;')}" data-text-x="${item.textX.replace(/"/g, '&quot;')}">
+                <div class="abx-card-header">
+                  <span class="abx-id-badge">${item.id}</span>
+                  <div class="abx-tags">
+                    ${(item.tags || []).map(t => `<span class="abx-tag">${t}</span>`).join('')}
+                  </div>
+                </div>
+                <div class="abx-options-row">
+                  <div class="abx-option-item">
+                    <button class="abx-btn-audio btn-play-abx-a">▶ A</button>
+                    <span>${item.textA}</span>
+                  </div>
+                  <div class="abx-option-item">
+                    <button class="abx-btn-audio btn-play-abx-b">▶ B</button>
+                    <span>${item.textB}</span>
+                  </div>
+                  <div class="abx-option-item">
+                    <button class="abx-btn-audio btn-play-abx-x" style="background: #eef2ff; color: var(--primary);">❓ Nghe X (ẩn)</button>
+                    <em>Âm thanh cần đoán</em>
+                  </div>
+                </div>
+                <button class="abx-btn-play-all btn-play-abx-all">▶▶ Nghe chuỗi A → B → X</button>
+                <div class="abx-decision-row">
+                  <button class="abx-choice-btn btn-choice-a" data-choice="A">X giống A</button>
+                  <button class="abx-choice-btn btn-choice-b" data-choice="B">X giống B</button>
+                </div>
+                <div class="abx-feedback" style="display:none;"></div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      ` : ''}
+
+      <!-- Dictation Exercises -->
+      ${lesson.dictations && lesson.dictations.length > 0 ? `
+        <div class="card-section dictation-section">
+          <h2 class="section-title">✍️ Luyện nghe-chép (Dictation)</h2>
+          <p class="section-sub">Nghe audio và gõ các từ hoặc số còn thiếu vào ô trống. Giúp tai ép não nhận diện âm thật:</p>
+          <div class="dictation-list">
+            ${lesson.dictations.map((item) => {
+              let partIdx = 0;
+              const formattedSentence = item.audioText.replace(/\*\*(.*?)\*\*/g, (match, word) => {
+                const p = `<input type="text" class="dictation-input" data-expected="${word.replace(/"/g, '&quot;')}" placeholder="..." autocomplete="off" />`;
+                partIdx++;
+                return p;
+              });
+              return `
+                <div class="dictation-card" data-dict-id="${item.id}" data-audio-text="${item.audioText.replace(/"/g, '&quot;')}">
+                  <div class="dictation-header">
+                    <div style="display:flex; align-items:center; gap:0.5rem;">
+                      <button class="abx-btn-audio btn-play-dict" data-file="${item.audioFile}" data-text="${item.audioText.replace(/\*\*/g, '').replace(/"/g, '&quot;')}">▶ Nghe câu</button>
+                      <span class="abx-id-badge">${item.id}</span>
+                    </div>
+                    <div class="abx-tags">
+                      ${(item.tags || []).map(t => `<span class="abx-tag">${t}</span>`).join('')}
+                    </div>
+                  </div>
+                  <div class="dictation-sentence">${formattedSentence}</div>
+                  <div class="dictation-actions">
+                    <button class="btn-primary btn-check-dict" style="padding: 0.35rem 0.85rem; font-size: 0.85rem;">Kiểm tra</button>
+                    <button class="btn-secondary btn-reveal-dict" style="padding: 0.35rem 0.85rem; font-size: 0.85rem;">Xem đáp án</button>
+                  </div>
+                  <div class="dictation-feedback" style="display:none;"></div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      ` : ''}
+
       <!-- Vocabulary -->
       ${lesson.vocabulary && lesson.vocabulary.length > 0 ? `
         <div class="card-section vocab-section">
@@ -197,12 +275,105 @@ export class LessonView {
       };
     });
 
+    // ABX handlers
+    el.querySelectorAll('.abx-card').forEach(card => {
+      const textA = card.dataset.textA;
+      const textB = card.dataset.textB;
+      const textX = card.dataset.textX;
+      const correctAns = card.dataset.answer;
+      const feedbackEl = card.querySelector('.abx-feedback');
+
+      card.querySelector('.btn-play-abx-a').onclick = () => audioPlayer.playWord(textA);
+      card.querySelector('.btn-play-abx-b').onclick = () => audioPlayer.playWord(textB);
+      card.querySelector('.btn-play-abx-x').onclick = () => audioPlayer.playWord(textX);
+      card.querySelector('.btn-play-abx-all').onclick = () => audioPlayer.playABXSequence(textA, textB, textX);
+
+      const handleChoice = (chosen) => {
+        const isRight = chosen === correctAns;
+        const btnA = card.querySelector('.btn-choice-a');
+        const btnB = card.querySelector('.btn-choice-b');
+        btnA.className = 'abx-choice-btn btn-choice-a';
+        btnB.className = 'abx-choice-btn btn-choice-b';
+
+        const chosenBtn = chosen === 'A' ? btnA : btnB;
+        if (isRight) {
+          chosenBtn.classList.add('selected-correct');
+          feedbackEl.className = 'abx-feedback feedback-correct';
+          feedbackEl.innerHTML = `✅ Chính xác! X chính là (${correctAns}): <strong>${textX}</strong>`;
+        } else {
+          chosenBtn.classList.add('selected-wrong');
+          feedbackEl.className = 'abx-feedback feedback-wrong';
+          feedbackEl.innerHTML = `❌ Chưa đúng! X thực ra là (${correctAns}): <strong>${textX}</strong>. Hãy bấm "Nghe chuỗi" để so sánh lại nhé!`;
+        }
+        feedbackEl.style.display = 'block';
+      };
+
+      card.querySelector('.btn-choice-a').onclick = () => handleChoice('A');
+      card.querySelector('.btn-choice-b').onclick = () => handleChoice('B');
+    });
+
+    // Dictation handlers
+    el.querySelectorAll('.dictation-card').forEach(card => {
+      const audioText = card.dataset.audioText;
+      const playBtn = card.querySelector('.btn-play-dict');
+      const checkBtn = card.querySelector('.btn-check-dict');
+      const revealBtn = card.querySelector('.btn-reveal-dict');
+      const feedbackEl = card.querySelector('.dictation-feedback');
+      const inputs = card.querySelectorAll('.dictation-input');
+
+      playBtn.onclick = () => {
+        audioPlayer.playFileOrSpeech(playBtn.dataset.file, playBtn.dataset.text);
+      };
+
+      const checkInputs = () => {
+        let correctCount = 0;
+        inputs.forEach(inp => {
+          const expected = (inp.dataset.expected || '').trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+          const val = inp.value.trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+          inp.classList.remove('correct', 'incorrect');
+          if (expected === val) {
+            inp.classList.add('correct');
+            correctCount++;
+          } else {
+            inp.classList.add('incorrect');
+          }
+        });
+
+        if (correctCount === inputs.length) {
+          feedbackEl.className = 'dictation-feedback feedback-correct';
+          feedbackEl.innerHTML = `🎉 Hoàn hảo! Bạn đã nghe và điền đúng tất cả các từ khóa.`;
+        } else {
+          feedbackEl.className = 'dictation-feedback feedback-wrong';
+          feedbackEl.innerHTML = `Bạn đúng ${correctCount}/${inputs.length} ô. Ô màu đỏ chưa chính xác, hãy nghe lại hoặc bấm "Xem đáp án".`;
+        }
+        feedbackEl.style.display = 'block';
+      };
+
+      checkBtn.onclick = checkInputs;
+      inputs.forEach(inp => {
+        inp.onkeydown = (e) => {
+          if (e.key === 'Enter') checkInputs();
+        };
+      });
+
+      revealBtn.onclick = () => {
+        inputs.forEach(inp => {
+          inp.value = inp.dataset.expected || '';
+          inp.classList.remove('incorrect');
+          inp.classList.add('correct');
+        });
+        feedbackEl.className = 'dictation-feedback feedback-correct';
+        feedbackEl.innerHTML = `Câu hoàn chỉnh: <strong>${audioText.replace(/\*\*/g, '')}</strong>`;
+        feedbackEl.style.display = 'block';
+      };
+    });
+
     // Example audio play handlers
     el.querySelectorAll('.btn-play-sm').forEach(btn => {
       btn.onclick = () => {
         const file = btn.dataset.file;
         const text = btn.dataset.text;
-        audioPlayer.playSegments([{ text, file, pauseAfterMs: 0 }]);
+        audioPlayer.playFileOrSpeech(file, text);
       };
     });
 
@@ -232,23 +403,36 @@ export class LessonView {
       </div>
 
       <div class="card-section">
-        <h2 class="section-title">📋 Thông tin bài kiểm tra</h2>
-        <p>Bài kiểm tra gồm <strong>${finalTest.questionIds.length} câu hỏi mới</strong> tổng hợp kiến thức của toàn bộ ${chapter.title}.</p>
+        <h2 class="section-title">📋 Cấu trúc bài kiểm tra (30 câu)</h2>
+        <p>Bài kiểm tra đánh giá toàn diện năng lực nghe ở tốc độ chuẩn 1.0x không xem transcript:</p>
         <ul class="test-rules-list">
-          <li>Âm thanh phát ở tốc độ chuẩn 1.0x.</li>
-          <li>Transcript và bản dịch sẽ chỉ hiển thị sau khi hoàn thành toàn bộ bài kiểm tra.</li>
-          <li>Đạt từ 80% trở lên sẽ mở khóa chương tiếp theo!</li>
+          <li><strong>Phần A — Nghe-chép (10 câu):</strong> Nghe và gõ lại số, giờ, ngày tháng, giá tiền và từ nối/âm cuối (Đạt ≥ 7/10).</li>
+          <li><strong>Phần B — Part 2 phản hồi phù hợp (14 câu):</strong> Nghe câu hỏi và 3 phản hồi, chọn phản hồi đúng với đầy đủ các dạng bẫy (Đạt ≥ 10/14).</li>
+          <li><strong>Phần C — Hội thoại ngắn (6 câu):</strong> 3 đoạn hội thoại 2 người, nắm ý chính và chi tiết quan trọng (Đạt ≥ 4/6).</li>
+          <li><strong>Tổng điểm cần đạt:</strong> Đúng từ <strong>24/30 câu (80%)</strong> để qua chương và mở khóa chương tiếp theo.</li>
         </ul>
       </div>
 
+      <div class="card-section warning-box">
+        <h3 class="warning-title">⚠️ Lưu ý khi làm bài kiểm tra:</h3>
+        <p>Không bấm xem transcript hoặc dừng bài giữa chừng. Hệ thống sẽ tự động chẩn đoán nhóm lỗi theo tag (Phụ lục A) để bạn ôn lại hiệu quả nhất.</p>
+      </div>
+
       <div class="lesson-actions-card">
-        <button class="btn-primary btn-large btn-start-final">
-          🚀 Bắt đầu làm bài kiểm tra
-        </button>
+        <h3>Bắt đầu bài kiểm tra ngay?</h3>
+        <div class="action-btn-row">
+          <button class="btn-primary btn-large btn-start-final-test">
+            <span class="btn-icon">🚀</span>
+            <div class="btn-label-wrap">
+              <strong>Bắt đầu làm bài kiểm tra (30 câu)</strong>
+              <small>Tốc độ chuẩn 1.0x, nộp bài tính điểm</small>
+            </div>
+          </button>
+        </div>
       </div>
     `;
 
-    el.querySelector('.btn-start-final').onclick = () => {
+    el.querySelector('.btn-start-final-test').onclick = () => {
       this.onStartQuiz(chapter.chapterId, finalTest.id, 'test');
     };
 
