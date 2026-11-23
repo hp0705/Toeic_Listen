@@ -391,8 +391,41 @@ export class QuizController {
     // Question Prompt
     if (q.prompt) {
       const promptEl = document.createElement('div');
-      promptEl.className = 'quiz-prompt';
-      promptEl.textContent = q.prompt;
+      promptEl.className = 'quiz-prompt-wrap';
+
+      // Check if prompt has English text and parenthesized Vietnamese translation
+      const vnRegex = /^(.*?)\s*\(([^)]*[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ][^)]*)\)\s*$/i;
+      const match = q.prompt.match(vnRegex);
+
+      if (match) {
+        const enText = match[1].trim();
+        const vnText = match[2].trim();
+
+        promptEl.innerHTML = `
+          <div class="quiz-prompt-header">
+            <div class="quiz-prompt-text">${enText}</div>
+            <button type="button" class="btn-translate-prompt" title="Bấm để xem dịch nghĩa tiếng Việt" aria-label="Xem dịch nghĩa câu hỏi">
+              <span class="btn-trans-icon">🌐</span>
+              <span class="btn-trans-text">Dịch nghĩa</span>
+            </button>
+          </div>
+          <div class="quiz-prompt-translation" style="display: none;">
+            <span class="trans-pill">Tiếng Việt</span>
+            <span class="trans-content">${vnText}</span>
+          </div>
+        `;
+
+        const transBtn = promptEl.querySelector('.btn-translate-prompt');
+        const transBox = promptEl.querySelector('.quiz-prompt-translation');
+        transBtn.onclick = () => {
+          const isHidden = (transBox.style.display === 'none');
+          transBox.style.display = isHidden ? 'flex' : 'none';
+          transBtn.classList.toggle('active', isHidden);
+          transBtn.querySelector('.btn-trans-text').textContent = isHidden ? 'Ẩn bản dịch' : 'Dịch nghĩa';
+        };
+      } else {
+        promptEl.innerHTML = `<div class="quiz-prompt">${q.prompt}</div>`;
+      }
       card.appendChild(promptEl);
     }
 
