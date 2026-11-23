@@ -224,7 +224,7 @@ def main():
                     "part": 0,
                     "taskType": "foundation_listening",
                     "prompt": prompt_text,
-                    "optionsVisibleBeforeAnswer": False,
+                    "optionsVisibleBeforeAnswer": True,
                     "image": None,
                     "audioSegments": [
                         {

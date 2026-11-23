@@ -452,7 +452,10 @@ export class QuizController {
     } else {
       // MULTIPLE CHOICE OPTIONS
       const optionsWrap = document.createElement('div');
-      const showOptionText = q.optionsVisibleBeforeAnswer || isAnswered || (this.mode === 'test' && this.submitted);
+      // Nếu audio không đọc từng phương án A, B, C thì bắt buộc phải hiện chữ trên màn hình để người học đọc
+      const hasOptionAudio = q.audioSegments && q.audioSegments.length > 1;
+      const isAudioOnlyChoice = (q.optionsVisibleBeforeAnswer === false) && hasOptionAudio;
+      const showOptionText = !isAudioOnlyChoice || isAnswered || (this.mode === 'test' && this.submitted);
       optionsWrap.className = `quiz-options ${!showOptionText ? 'audio-only-choices' : ''}`;
 
       const labels = ['A', 'B', 'C', 'D'];

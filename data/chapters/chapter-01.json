@@ -1695,7 +1695,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Until when has the shipment been delayed? (Lô hàng bị hoãn đến khi nào?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1735,7 +1735,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Where should the invoice be left? (Nên để hóa đơn ở đâu?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1774,7 +1774,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What will the speaker do right after lunch? (Người nói sẽ làm gì ngay sau bữa trưa?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1813,7 +1813,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Which printer has a problem? (Máy in nào có vấn đề?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1852,7 +1852,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Where is the shipment coming from? (Lô hàng đến từ đâu?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1891,7 +1891,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Why is the meeting postponed? (Vì sao cuộc họp bị hoãn?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1931,7 +1931,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What did Ms. Lee do? (Cô Lee đã làm gì?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -1971,7 +1971,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What does the speaker say about the order? (Người nói nói gì về đơn hàng?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2011,7 +2011,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What is true about the budget? (Điều nào đúng về ngân sách?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2051,7 +2051,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What would the speaker like? (Người nói muốn gì?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2090,7 +2090,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "Which bus doesn't stop at the library? (Xe nào không dừng ở thư viện?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2129,7 +2129,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "How long has she worked at the company? (Cô ấy đã làm ở công ty bao lâu?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2168,7 +2168,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What time does the train leave? (Mấy giờ tàu rời đi?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2206,7 +2206,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "How much is a group ticket for five people? (Vé nhóm 5 người giá bao nhiêu?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2246,7 +2246,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "When is the workshop? (Hội thảo diễn ra khi nào?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2286,7 +2286,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "When does the pharmacy open? (Quầy thuốc mở cửa lúc mấy giờ?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2325,7 +2325,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "How many chairs have arrived? (Đã có bao nhiêu ghế đến?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
@@ -2364,7 +2364,7 @@
       "part": 0,
       "taskType": "foundation_listening",
       "prompt": "What number should be called if she isn't there? (Gọi số nào nếu cô ấy không có mặt?)",
-      "optionsVisibleBeforeAnswer": false,
+      "optionsVisibleBeforeAnswer": true,
       "image": null,
       "audioSegments": [
         {
