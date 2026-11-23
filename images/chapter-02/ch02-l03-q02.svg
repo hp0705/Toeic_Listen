@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#e2e8f0"/>
+  <!-- Glass Windows grid reflecting blue sky -->
+  <rect x="40" y="40" width="160" height="260" fill="#38bdf8" stroke="#0284c7" stroke-width="6"/>
+  <rect x="220" y="40" width="160" height="260" fill="#7dd3fc" stroke="#0284c7" stroke-width="6"/>
+  <rect x="400" y="40" width="160" height="260" fill="#38bdf8" stroke="#0284c7" stroke-width="6"/>
+  <!-- Sky reflection highlights -->
+  <polygon points="50,60 180,60 120,180 50,180" fill="#ffffff" opacity="0.3"/>
+  <polygon points="230,60 360,60 300,180 230,180" fill="#ffffff" opacity="0.3"/>
+  <polygon points="410,60 540,60 480,180 410,180" fill="#ffffff" opacity="0.3"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L03-Q02: Large glass building windows reflecting sky (no people)</text>
+</svg>

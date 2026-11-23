@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f1f5f9"/>
+  <!-- Bookshelf -->
+  <rect x="60" y="40" width="220" height="280" fill="#94a3b8" stroke="#475569" stroke-width="5"/>
+  <line x1="60" y1="120" x2="280" y2="120" stroke="#475569" stroke-width="5"/>
+  <line x1="60" y1="200" x2="280" y2="200" stroke="#475569" stroke-width="5"/>
+  <!-- Folders on shelf -->
+  <rect x="75" y="55" width="20" height="60" fill="#2563eb"/>
+  <rect x="100" y="55" width="20" height="60" fill="#dc2626"/>
+  <rect x="125" y="55" width="20" height="60" fill="#16a34a"/>
+  <!-- Person placing folder -->
+  <rect x="360" y="210" width="18" height="110" fill="#1e293b"/>
+  <rect x="390" y="210" width="18" height="110" fill="#1e293b"/>
+  <polygon points="350,130 420,130 410,210 355,210" fill="#0284c7"/>
+  <circle cx="385" cy="100" r="22" fill="#fed7aa"/>
+  <!-- Arm placing folder -->
+  <path d="M 370 145 L 250 140" stroke="#fed7aa" stroke-width="9" stroke-linecap="round"/>
+  <rect x="230" y="130" width="20" height="65" fill="#f59e0b" transform="rotate(10 230 130)"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-FINAL-Q01: Staff placing folders onto office bookshelf</text>
+</svg>

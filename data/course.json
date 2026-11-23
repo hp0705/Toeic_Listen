@@ -1,0 +1,31 @@
+{
+  "courseId": "toeic-listening-300",
+  "title": "TOEIC Listening 300",
+  "targetScore": 300,
+  "scoreScale": 495,
+  "specVersion": "2.3",
+  "contentVersion": "1.0.0",
+  "chapters": [
+    {
+      "id": "CH01",
+      "file": "chapters/chapter-01.json",
+      "title": "Nền tảng nghe",
+      "description": "Bắt từ khóa, âm cuối, số giờ và ý câu hỏi",
+      "unlock": "default"
+    },
+    {
+      "id": "CH02",
+      "file": "chapters/chapter-02.json",
+      "title": "Part 1 & Part 2 mở rộng",
+      "description": "Mô tả tranh, câu hỏi gián tiếp và phản hồi tự nhiên",
+      "unlock": "CH01_PASS"
+    },
+    {
+      "id": "CH03",
+      "file": "chapters/chapter-03.json",
+      "title": "Part 3 cơ bản: hội thoại hai người",
+      "description": "Mục đích, địa điểm, chi tiết, vấn đề và hành động tiếp theo",
+      "unlock": "CH02_PASS"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f1f5f9"/>
+  <rect y="280" width="600" height="120" fill="#cbd5e1"/>
+  <!-- Wall line -->
+  <line x1="0" y1="280" x2="600" y2="280" stroke="#94a3b8" stroke-width="3"/>
+  <!-- Row of chairs -->
+  <!-- Chair 1 -->
+  <rect x="70" y="180" width="90" height="60" rx="6" fill="#2563eb"/>
+  <rect x="70" y="235" width="90" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="80" y="247" width="8" height="55" fill="#334155"/>
+  <rect x="142" y="247" width="8" height="55" fill="#334155"/>
+  <!-- Chair 2 -->
+  <rect x="190" y="180" width="90" height="60" rx="6" fill="#2563eb"/>
+  <rect x="190" y="235" width="90" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="200" y="247" width="8" height="55" fill="#334155"/>
+  <rect x="262" y="247" width="8" height="55" fill="#334155"/>
+  <!-- Chair 3 -->
+  <rect x="310" y="180" width="90" height="60" rx="6" fill="#2563eb"/>
+  <rect x="310" y="235" width="90" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="320" y="247" width="8" height="55" fill="#334155"/>
+  <rect x="382" y="247" width="8" height="55" fill="#334155"/>
+  <!-- Chair 4 -->
+  <rect x="430" y="180" width="90" height="60" rx="6" fill="#2563eb"/>
+  <rect x="430" y="235" width="90" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="440" y="247" width="8" height="55" fill="#334155"/>
+  <rect x="502" y="247" width="8" height="55" fill="#334155"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L02-Q03: Row of chairs arranged along the wall</text>
+</svg>

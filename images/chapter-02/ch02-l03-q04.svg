@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect y="290" width="600" height="110" fill="#94a3b8"/>
+  <!-- Bicycle -->
+  <circle cx="170" cy="260" r="45" fill="none" stroke="#334155" stroke-width="6"/>
+  <circle cx="340" cy="260" r="45" fill="none" stroke="#334155" stroke-width="6"/>
+  <!-- Bike Frame -->
+  <polygon points="170,260 250,260 290,190 220,190" fill="none" stroke="#dc2626" stroke-width="6"/>
+  <line x1="250" y1="260" x2="340" y2="260" stroke="#dc2626" stroke-width="6"/>
+  <line x1="340" y1="260" x2="330" y2="170" stroke="#334155" stroke-width="6"/>
+  <!-- Man inspecting front wheel -->
+  <polygon points="380,240 430,240 420,310 370,310" fill="#1e293b"/>
+  <ellipse cx="400" cy="200" rx="20" ry="30" fill="#0284c7"/>
+  <circle cx="410" cy="150" r="18" fill="#fed7aa"/>
+  <!-- Hand inspecting wheel -->
+  <path d="M 400 200 L 345 250" stroke="#fed7aa" stroke-width="7" stroke-linecap="round"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L03-Q04: Man inspecting front wheel of bicycle by street</text>
+</svg>

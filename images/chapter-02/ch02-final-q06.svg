@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect y="310" width="600" height="90" fill="#e2e8f0"/>
+  <!-- Photocopier / Multifunction printer -->
+  <rect x="120" y="150" width="150" height="160" rx="6" fill="#475569" stroke="#334155" stroke-width="3"/>
+  <rect x="140" y="125" width="110" height="25" fill="#64748b"/>
+  <!-- Control panel -->
+  <rect x="230" y="155" width="30" height="20" fill="#38bdf8"/>
+  <!-- Technician leaning down -->
+  <rect x="360" y="240" width="18" height="80" fill="#1e293b"/>
+  <rect x="390" y="240" width="18" height="80" fill="#1e293b"/>
+  <polygon points="320,180 380,150 400,210 340,240" fill="#ea580c"/>
+  <circle cx="310" cy="160" r="20" fill="#fed7aa"/>
+  <!-- Hand inspecting control panel -->
+  <path d="M 310 180 L 265 165" stroke="#fed7aa" stroke-width="8" stroke-linecap="round"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-FINAL-Q06: Technician leaning to inspect copier panel</text>
+</svg>

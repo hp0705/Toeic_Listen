@@ -1,0 +1,2738 @@
+{
+  "chapterId": "CH02",
+  "title": "Part 1 và Part 2 mở rộng",
+  "description": "Mô tả tranh, câu hỏi gián tiếp và phản hồi tự nhiên",
+  "specVersion": "2.3",
+  "contentVersion": "1.0.0",
+  "lessons": [
+    {
+      "lessonId": "CH02-L01",
+      "title": "Part 1: Người và hành động",
+      "objectives": [
+        "Nhận ra người trong ảnh đang làm gì.",
+        "Nghe động từ hành động và dạng `be + V-ing`.",
+        "Phân biệt hành động đang diễn ra với hành động không có trong ảnh."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Cách nghe Part 1",
+          "content": "Trong Part 1, bạn nhìn một bức ảnh và nghe bốn câu mô tả. Chọn câu mô tả đúng nhất. Tập trung vào:\n\n- Ai xuất hiện? a man, a woman, two workers, a customer.\n- Họ đang làm gì? carrying, examining, arranging, talking.\n- Vật gì được nhắc đến? a box, a document, a cart, a machine.\n- Hành động có thật trong ảnh không?\n\nKhông chọn câu chỉ vì một từ trong câu giống vật thể trong hình. Cả hành động và quan hệ phải phù hợp."
+        },
+        {
+          "title": "Động từ hành động hay gặp",
+          "content": "| Động từ/cụm | Nghĩa |\n|---|---|\n| carry a box | mang một cái hộp |\n| arrange the chairs | sắp xếp ghế |\n| examine a document | xem xét tài liệu |\n| operate a machine | vận hành máy |\n| load a truck | chất hàng lên xe tải |\n| speak with a customer | nói chuyện với khách |\n| point at a screen | chỉ vào màn hình |\n| clean a table | lau bàn |\n| hold a folder | cầm một tập hồ sơ |\n| adjust a chair | điều chỉnh ghế |"
+        },
+        {
+          "title": "Cấu trúc mô tả đang diễn ra",
+          "content": "`A woman is examining a document.`  \nMột phụ nữ đang xem xét tài liệu.\n\n`Two workers are loading boxes onto a truck.`  \nHai công nhân đang chất các thùng hàng lên xe tải.\n\nChủ ngữ số ít thường đi với `is`; chủ ngữ số nhiều thường đi với `are` trong cấu trúc hiện tại tiếp diễn."
+        },
+        {
+          "title": "Bài tập Part 1",
+          "content": "**Hướng dẫn tạo ảnh:** Các ảnh dưới đây là mô tả để Gemini tạo hình minh họa SVG đơn giản, không chữ, không logo, không cần tìm ảnh trên Internet. Mỗi ảnh phải rõ hành động chính và dùng làm asset local."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH02-L01-Q01",
+        "CH02-L01-Q02",
+        "CH02-L01-Q03",
+        "CH02-L01-Q04"
+      ],
+      "passRule": {
+        "minCorrect": 3,
+        "total": 4,
+        "percentage": 75
+      }
+    },
+    {
+      "lessonId": "CH02-L02",
+      "title": "Part 1: Vị trí và đồ vật",
+      "objectives": [
+        "Nhận ra vị trí tương đối của đồ vật.",
+        "Nghe giới từ chỉ vị trí.",
+        "Không nhầm vật ở gần, ở trên, ở dưới, bên cạnh hoặc phía sau."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Từ chỉ vị trí quan trọng",
+          "content": "| Cụm | Nghĩa |\n|---|---|\n| next to / beside | bên cạnh |\n| in front of | phía trước |\n| behind | phía sau |\n| on top of | ở trên |\n| underneath / under | ở dưới |\n| across from | đối diện |\n| near | gần |\n| along the wall | dọc theo bức tường |\n| at the corner | ở góc |\n| in the center of | ở chính giữa |"
+        },
+        {
+          "title": "Cẩn thận với từ chỉ vị trí",
+          "content": "`The chair is beside the desk.` khác `The chair is behind the desk.`\n\n`A lamp is on the table.` khác `A lamp is under the table.`\n\nKhi nhìn ảnh, hãy xác định vị trí trước; khi nghe, đối chiếu đúng giới từ."
+        },
+        {
+          "title": "Bài tập Part 1",
+          "content": ""
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH02-L02-Q01",
+        "CH02-L02-Q02",
+        "CH02-L02-Q03",
+        "CH02-L02-Q04"
+      ],
+      "passRule": {
+        "minCorrect": 3,
+        "total": 4,
+        "percentage": 75
+      }
+    },
+    {
+      "lessonId": "CH02-L03",
+      "title": "Part 1: Bị động và bẫy suy diễn",
+      "objectives": [
+        "Nhận ra mô tả bị động thường gặp trong ảnh.",
+        "Phân biệt vật đang được làm gì với người đang làm gì.",
+        "Không chọn mô tả thêm thông tin không thể xác nhận từ ảnh."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Cấu trúc bị động thường gặp",
+          "content": "- `The chairs are being arranged.` — Ghế đang được sắp xếp.\n- `The windows have been cleaned.` — Cửa sổ đã được lau.\n- `A road is being repaired.` — Con đường đang được sửa.\n- `The packages are stacked near the door.` — Các kiện hàng được xếp gần cửa.\n\nGợi ý:\n\n- `is/are being + V3` thường mô tả hành động đang được thực hiện.\n- `has/have been + V3` thường nói việc đã hoàn thành hoặc trạng thái kết quả.\n- `is/are + V3` có thể mô tả trạng thái hoặc hành động bị động tùy ngữ cảnh."
+        },
+        {
+          "title": "Bẫy suy diễn",
+          "content": "Không tự suy luận nghề nghiệp, mục đích hoặc thời gian nếu ảnh không cho thấy.\n\nVí dụ: ảnh có người cầm một tập hồ sơ. Không thể kết luận người đó là luật sư, sắp ký hợp đồng hoặc đang đi phỏng vấn nếu không có bằng chứng.\n\nChọn câu mô tả điều nhìn thấy được, không chọn câu nghe có vẻ hợp lý nhưng thêm thông tin."
+        },
+        {
+          "title": "Bài tập Part 1",
+          "content": ""
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH02-L03-Q01",
+        "CH02-L03-Q02",
+        "CH02-L03-Q03",
+        "CH02-L03-Q04"
+      ],
+      "passRule": {
+        "minCorrect": 3,
+        "total": 4,
+        "percentage": 75
+      }
+    },
+    {
+      "lessonId": "CH02-L04",
+      "title": "Part 2: Câu hỏi gián tiếp và giao tiếp",
+      "objectives": [
+        "Nhận ra câu hỏi gián tiếp vẫn mang loại câu hỏi gốc.",
+        "Nhận diện yêu cầu lịch sự bằng Could you/Would you mind.",
+        "Phản hồi phù hợp với lời đề nghị, lời mời hoặc gợi ý."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Câu hỏi gián tiếp",
+          "content": "Ví dụ:\n\n`Could you tell me where the nearest bank is?`  \nBạn có thể cho tôi biết ngân hàng gần nhất ở đâu không?\n\nCâu hỏi chính vẫn là `where`, nên câu trả lời nên cung cấp địa điểm.\n\n`Do you know when the next train leaves?`  \nBạn có biết chuyến tàu tiếp theo khởi hành khi nào không?\n\nCâu trả lời nên có thời gian."
+        },
+        {
+          "title": "Yêu cầu lịch sự",
+          "content": "| Mẫu câu | Ý định | Phản hồi có thể phù hợp |\n|---|---|---|\n| Could you send me the file? | nhờ gửi file | Certainly. |\n| Would you mind opening the window? | nhờ mở cửa sổ | Not at all. |\n| Can you check this invoice? | nhờ kiểm tra | I'll take a look. |\n| Would you please call the supplier? | nhờ gọi nhà cung cấp | Of course. |\n\nLưu ý: `Would you mind...?` thường được đáp bằng `Not at all` hoặc `No problem` để thể hiện không phiền làm việc đó."
+        },
+        {
+          "title": "Đề nghị, lời mời và gợi ý",
+          "content": "- `Why don't we ...?` thường là gợi ý.\n- `Would you like to ...?` thường là lời mời/đề nghị.\n- `How about ...?` thường đưa ra gợi ý.\n- `Let's ...` là lời rủ/gợi ý cùng làm."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH02-L04-Q01",
+        "CH02-L04-Q02",
+        "CH02-L04-Q03",
+        "CH02-L04-Q04",
+        "CH02-L04-Q05",
+        "CH02-L04-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    },
+    {
+      "lessonId": "CH02-L05",
+      "title": "Part 2: Paraphrase và phản hồi tự nhiên",
+      "objectives": [
+        "Nhận ra câu trả lời có thể dùng từ khác nhưng cùng nghĩa.",
+        "Không đòi hỏi đáp án phải lặp từ trong câu hỏi.",
+        "Xử lý câu trần thuật và câu hỏi lựa chọn."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Paraphrase là gì?",
+          "content": "Paraphrase là diễn đạt cùng ý bằng từ/cấu trúc khác.\n\n| Câu hỏi / từ trong audio | Cách diễn đạt lại có thể gặp |\n|---|---|\n| purchase | buy |\n| postpone | put off |\n| be available | be free |\n| begin | start |\n| complete | finish |\n| cost | be priced at |\n| reserve | book |\n| approximately | about |\n\nVí dụ:\n\n**Question:** Is Ms. Chen available this afternoon?  \n**Response:** She's free after two.\n\n`available` và `free` có thể cùng nghĩa là rảnh trong ngữ cảnh này."
+        },
+        {
+          "title": "Câu trần thuật cần phản hồi theo ngữ cảnh",
+          "content": "Part 2 không chỉ có câu hỏi. Có thể nghe câu thông báo hoặc nhận xét:\n\n`The copier is out of paper.`  \nPhản hồi phù hợp có thể là: `I'll refill it.`\n\n`Our flight has been postponed.`  \nPhản hồi phù hợp có thể là: `I hope it won't be delayed too long.`"
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH02-L05-Q01",
+        "CH02-L05-Q02",
+        "CH02-L05-Q03",
+        "CH02-L05-Q04",
+        "CH02-L05-Q05",
+        "CH02-L05-Q06",
+        "CH02-L05-Q07",
+        "CH02-L05-Q08"
+      ],
+      "passRule": {
+        "minCorrect": 6,
+        "total": 8,
+        "percentage": 75
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "CH02-L01-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L01",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l01-q01.svg",
+      "audioSegments": [
+        {
+          "text": "A woman is examining a document.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A woman is watering some plants.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A woman is moving a bookshelf.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A woman is opening a window.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A woman is examining a document.",
+        "B": "A woman is watering some plants.",
+        "C": "A woman is moving a bookshelf.",
+        "D": "A woman is opening a window."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A woman is examining a document. (B) A woman is watering some plants. (C) A woman is moving a bookshelf. (D) A woman is opening a window.",
+      "translation": "",
+      "explanation": "Người phụ nữ đang xem một tài liệu.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "present_continuous"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L01-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L01",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l01-q02.svg",
+      "audioSegments": [
+        {
+          "text": "Two employees are repairing a vehicle.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "One employee is pointing at a screen.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The employees are leaving the building.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A customer is paying at a counter.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Two employees are repairing a vehicle.",
+        "B": "One employee is pointing at a screen.",
+        "C": "The employees are leaving the building.",
+        "D": "A customer is paying at a counter."
+      },
+      "correctAnswer": "B",
+      "transcript": "(A) Two employees are repairing a vehicle. (B) One employee is pointing at a screen. (C) The employees are leaving the building. (D) A customer is paying at a counter.",
+      "translation": "",
+      "explanation": "Một nhân viên đang chỉ vào màn hình.",
+      "wrongReasons": {
+        "A": "Lựa chọn (A) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "point_at"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L01-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L01",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l01-q03.svg",
+      "audioSegments": [
+        {
+          "text": "A man is pushing a cart.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is painting a wall.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is sitting at a desk.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is washing a car.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A man is pushing a cart.",
+        "B": "A man is painting a wall.",
+        "C": "A man is sitting at a desk.",
+        "D": "A man is washing a car."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A man is pushing a cart. (B) A man is painting a wall. (C) A man is sitting at a desk. (D) A man is washing a car.",
+      "translation": "",
+      "explanation": "Hành động chính là đẩy xe đẩy.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "push_pull"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L01-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L01",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l01-q04.svg",
+      "audioSegments": [
+        {
+          "text": "Several people are attending a meeting.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several people are waiting for a bus.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several people are exercising outdoors.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several people are loading luggage.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l01-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Several people are attending a meeting.",
+        "B": "Several people are waiting for a bus.",
+        "C": "Several people are exercising outdoors.",
+        "D": "Several people are loading luggage."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) Several people are attending a meeting. (B) Several people are waiting for a bus. (C) Several people are exercising outdoors. (D) Several people are loading luggage.",
+      "translation": "",
+      "explanation": "Những người này đang tham gia một cuộc họp.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_group_action",
+        "meeting_vocabulary"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L02-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L02",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l02-q01.svg",
+      "audioSegments": [
+        {
+          "text": "A suitcase is beside a bench.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A suitcase is under a vehicle.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A suitcase is on a counter.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A suitcase is being carried upstairs.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A suitcase is beside a bench.",
+        "B": "A suitcase is under a vehicle.",
+        "C": "A suitcase is on a counter.",
+        "D": "A suitcase is being carried upstairs."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A suitcase is beside a bench. (B) A suitcase is under a vehicle. (C) A suitcase is on a counter. (D) A suitcase is being carried upstairs.",
+      "translation": "",
+      "explanation": "Vali nằm cạnh ghế dài. `beside` = bên cạnh.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "preposition_beside"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L02-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L02",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l02-q02.svg",
+      "audioSegments": [
+        {
+          "text": "A lamp is on the table.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A lamp is underneath the table.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A lamp is hanging from the ceiling.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A lamp is next to the door.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A lamp is on the table.",
+        "B": "A lamp is underneath the table.",
+        "C": "A lamp is hanging from the ceiling.",
+        "D": "A lamp is next to the door."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A lamp is on the table. (B) A lamp is underneath the table. (C) A lamp is hanging from the ceiling. (D) A lamp is next to the door.",
+      "translation": "",
+      "explanation": "Đèn nằm trên mặt bàn.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "preposition_on"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L02-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L02",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l02-q03.svg",
+      "audioSegments": [
+        {
+          "text": "The chairs are arranged along the wall.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs are stacked on a truck.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs are hanging from the ceiling.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs are placed in the kitchen.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The chairs are arranged along the wall.",
+        "B": "The chairs are stacked on a truck.",
+        "C": "The chairs are hanging from the ceiling.",
+        "D": "The chairs are placed in the kitchen."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) The chairs are arranged along the wall. (B) The chairs are stacked on a truck. (C) The chairs are hanging from the ceiling. (D) The chairs are placed in the kitchen.",
+      "translation": "",
+      "explanation": "Ghế được xếp dọc theo tường.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "along_the_wall"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L02-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L02",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l02-q04.svg",
+      "audioSegments": [
+        {
+          "text": "The reception desk is across from the elevators.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The reception desk is behind the elevators.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The reception desk is inside an elevator.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The reception desk is next to a staircase outside.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l02-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The reception desk is across from the elevators.",
+        "B": "The reception desk is behind the elevators.",
+        "C": "The reception desk is inside an elevator.",
+        "D": "The reception desk is next to a staircase outside."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) The reception desk is across from the elevators. (B) The reception desk is behind the elevators. (C) The reception desk is inside an elevator. (D) The reception desk is next to a staircase outside.",
+      "translation": "",
+      "explanation": "Quầy tiếp tân nằm đối diện thang máy.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "across_from"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L03-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L03",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l03-q01.svg",
+      "audioSegments": [
+        {
+          "text": "The chairs are being arranged in rows.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs are being delivered to a house.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs have been removed from the room.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The chairs are covered with plastic sheets.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The chairs are being arranged in rows.",
+        "B": "The chairs are being delivered to a house.",
+        "C": "The chairs have been removed from the room.",
+        "D": "The chairs are covered with plastic sheets."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) The chairs are being arranged in rows. (B) The chairs are being delivered to a house. (C) The chairs have been removed from the room. (D) The chairs are covered with plastic sheets.",
+      "translation": "",
+      "explanation": "Ghế đang được sắp thành hàng; `are being arranged` là cấu trúc bị động tiếp diễn.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_passive",
+        "being_v3"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L03-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L03",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l03-q02.svg",
+      "audioSegments": [
+        {
+          "text": "The windows have been cleaned.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The windows are being replaced.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The windows are covered with posters.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The windows are being opened by a worker.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The windows have been cleaned.",
+        "B": "The windows are being replaced.",
+        "C": "The windows are covered with posters.",
+        "D": "The windows are being opened by a worker."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) The windows have been cleaned. (B) The windows are being replaced. (C) The windows are covered with posters. (D) The windows are being opened by a worker.",
+      "translation": "",
+      "explanation": "Ảnh cho thấy cửa sổ sạch; mô tả kết quả đã được lau phù hợp nhất.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_passive",
+        "present_perfect_passive"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L03-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L03",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l03-q03.svg",
+      "audioSegments": [
+        {
+          "text": "The packages are stacked near the doorway.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The packages are being loaded onto a plane.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A worker is opening the packages.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The packages are floating above the floor.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The packages are stacked near the doorway.",
+        "B": "The packages are being loaded onto a plane.",
+        "C": "A worker is opening the packages.",
+        "D": "The packages are floating above the floor."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) The packages are stacked near the doorway. (B) The packages are being loaded onto a plane. (C) A worker is opening the packages. (D) The packages are floating above the floor.",
+      "translation": "",
+      "explanation": "Có thể xác nhận vị trí và trạng thái các thùng hàng.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_object_state",
+        "supported_detail"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L03-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L03",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-l03-q04.svg",
+      "audioSegments": [
+        {
+          "text": "A man is inspecting a bicycle.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is purchasing a new bicycle.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is riding a bicycle along a road.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A man is washing a motorcycle.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l03-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A man is inspecting a bicycle.",
+        "B": "A man is purchasing a new bicycle.",
+        "C": "A man is riding a bicycle along a road.",
+        "D": "A man is washing a motorcycle."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A man is inspecting a bicycle. (B) A man is purchasing a new bicycle. (C) A man is riding a bicycle along a road. (D) A man is washing a motorcycle.",
+      "translation": "",
+      "explanation": "Hành động nhìn thấy là kiểm tra xe đạp.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_supported_detail",
+        "action_verb"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It's next to the main reception desk.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At four fifteen.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Mr. Lewis will attend.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "It's next to the main reception desk.",
+        "B": "At four fifteen.",
+        "C": "Mr. Lewis will attend."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) It's next to the main reception desk. / (B) At four fifteen. / (C) Mr. Lewis will attend.",
+      "translation": "",
+      "explanation": "Câu hỏi gián tiếp có `where`, cần địa điểm.",
+      "wrongReasons": {
+        "B": "B à thời gian",
+        "C": "C à người."
+      },
+      "skillTags": [
+        "indirect_question",
+        "where_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "In about half an hour.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "On the second floor.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The maintenance team is experienced.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "In about half an hour.",
+        "B": "On the second floor.",
+        "C": "The maintenance team is experienced."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) In about half an hour. / (B) On the second floor. / (C) The maintenance team is experienced.",
+      "translation": "",
+      "explanation": "`when` hỏi thời gian; `in about half an hour` là khoảng thời gian đến.",
+      "wrongReasons": {
+        "B": "B à địa điểm",
+        "C": "C mô tả đội bảo trì."
+      },
+      "skillTags": [
+        "indirect_question",
+        "when_response",
+        "time_expression"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Not at all. I'll close it.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The conference starts at noon.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The door is made of glass.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Not at all. I'll close it.",
+        "B": "The conference starts at noon.",
+        "C": "The door is made of glass."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Not at all. I'll close it. / (B) The conference starts at noon. / (C) The door is made of glass.",
+      "translation": "",
+      "explanation": "`Would you mind...?` là lời nhờ lịch sự; A thể hiện không phiền và sẽ làm.",
+      "wrongReasons": {
+        "B": "B à thời gian",
+        "C": "C mô tả cánh cửa."
+      },
+      "skillTags": [
+        "polite_request",
+        "would_you_mind"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "That would be convenient.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The airport is quite large.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At terminal three.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "That would be convenient.",
+        "B": "The airport is quite large.",
+        "C": "At terminal three."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) That would be convenient. / (B) The airport is quite large. / (C) At terminal three.",
+      "translation": "",
+      "explanation": "`How about...?` đưa ra gợi ý; A phản hồi ý kiến về gợi ý đó.",
+      "wrongReasons": {
+        "B": "B mô tả sân bay",
+        "C": "C à địa điểm, không phản hồi đề xuất đi taxi."
+      },
+      "skillTags": [
+        "suggestion_response",
+        "how_about"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q05",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q05-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "I'd love to. Thank you.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q05-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The lunch menu is on the table.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q05-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At twelve thirty yesterday.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q05-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "I'd love to. Thank you.",
+        "B": "The lunch menu is on the table.",
+        "C": "At twelve thirty yesterday."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) I'd love to. Thank you. / (B) The lunch menu is on the table. / (C) At twelve thirty yesterday.",
+      "translation": "",
+      "explanation": "Đây là lời mời; A chấp nhận một cách tự nhiên.",
+      "wrongReasons": {
+        "B": "B nói về thực đơn",
+        "C": "C à mốc thời gian không phù hợp."
+      },
+      "skillTags": [
+        "invitation_response",
+        "would_you_like"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L04-Q06",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L04",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q06-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "That's a sensible idea.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q06-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The contract is in the blue folder.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q06-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The signing ceremony is on Monday.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l04-q06-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "That's a sensible idea.",
+        "B": "The contract is in the blue folder.",
+        "C": "The signing ceremony is on Monday."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) That's a sensible idea. / (B) The contract is in the blue folder. / (C) The signing ceremony is on Monday.",
+      "translation": "",
+      "explanation": "`Why don't we...?` là lời đề nghị cùng làm; A đồng tình.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C iên quan đến hợp đồng nhưng không phản hồi đề xuất."
+      },
+      "skillTags": [
+        "suggestion_response",
+        "contract_vocabulary"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "He's free at two o'clock.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "He bought lunch yesterday.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The meeting room is upstairs.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "He's free at two o'clock.",
+        "B": "He bought lunch yesterday.",
+        "C": "The meeting room is upstairs."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) He's free at two o'clock. / (B) He bought lunch yesterday. / (C) The meeting room is upstairs.",
+      "translation": "",
+      "explanation": "`available` được paraphrase bằng `free`; A trả lời thời gian rảnh.",
+      "wrongReasons": {
+        "B": "B có từ lunch nhưng không trả lời ông",
+        "C": "C à địa điểm."
+      },
+      "skillTags": [
+        "paraphrase_available_free",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, it's been put off until next week.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The workshop room is clean.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "We need more chairs.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, it's been put off until next week.",
+        "B": "The workshop room is clean.",
+        "C": "We need more chairs."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Yes, it's been put off until next week. / (B) The workshop room is clean. / (C) We need more chairs.",
+      "translation": "",
+      "explanation": "`postponed` được diễn đạt lại bằng `put off`; A trả lời Yes và cho biết thời điểm mới.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C chỉ liên quan đến workshop nhưng không trả lời việc có bị hoãn hay không."
+      },
+      "skillTags": [
+        "paraphrase_postpone_put_off",
+        "yes_no_question"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It starts at nine tomorrow.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The new employees are friendly.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "In the training department.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "It starts at nine tomorrow.",
+        "B": "The new employees are friendly.",
+        "C": "In the training department."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) It starts at nine tomorrow. / (B) The new employees are friendly. / (C) In the training department.",
+      "translation": "",
+      "explanation": "`begin` được paraphrase bằng `start`; câu hỏi When cần thời gian.",
+      "wrongReasons": {
+        "B": "B mô tả người",
+        "C": "C à phòng ban."
+      },
+      "skillTags": [
+        "paraphrase_begin_start",
+        "when_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It's priced at eighty dollars.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The parking garage is behind the hotel.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "For one month only.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "It's priced at eighty dollars.",
+        "B": "The parking garage is behind the hotel.",
+        "C": "For one month only."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) It's priced at eighty dollars. / (B) The parking garage is behind the hotel. / (C) For one month only.",
+      "translation": "",
+      "explanation": "`How much` hỏi giá; `priced at` diễn đạt giá bán/giá tiền.",
+      "wrongReasons": {
+        "B": "B à địa điểm",
+        "C": "C nói thời hạn."
+      },
+      "skillTags": [
+        "paraphrase_cost_price",
+        "money"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q05",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q05-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "We can use the room next door instead.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q05-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The conference begins at ten.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q05-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "I printed the conference agenda.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q05-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "We can use the room next door instead.",
+        "B": "The conference begins at ten.",
+        "C": "I printed the conference agenda."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) We can use the room next door instead. / (B) The conference begins at ten. / (C) I printed the conference agenda.",
+      "translation": "",
+      "explanation": "`occupied` nghĩa là đang có người sử dụng; A đưa ra giải pháp thay thế hợp lý.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C nhắc lại chủ đề conference nhưng không xử lý tình huống."
+      },
+      "skillTags": [
+        "statement_response",
+        "contextual_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q06",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q06-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The one that offered the lowest price.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q06-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Before the end of the month.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q06-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "We contacted the vendor yesterday.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q06-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The one that offered the lowest price.",
+        "B": "Before the end of the month.",
+        "C": "We contacted the vendor yesterday."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) The one that offered the lowest price. / (B) Before the end of the month. / (C) We contacted the vendor yesterday.",
+      "translation": "",
+      "explanation": "Which hỏi lựa chọn cụ thể; A xác định nhà cung cấp theo tiêu chí giá.",
+      "wrongReasons": {
+        "B": "B à thời gian",
+        "C": "C kể việc đã làm nhưng không chọn vendor nào."
+      },
+      "skillTags": [
+        "which_question",
+        "choice_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q07",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q07-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "I'll call the supplier for an update.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q07-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The delivery driver is wearing a uniform.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q07-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The package is very light.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q07-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "I'll call the supplier for an update.",
+        "B": "The delivery driver is wearing a uniform.",
+        "C": "The package is very light."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) I'll call the supplier for an update. / (B) The delivery driver is wearing a uniform. / (C) The package is very light.",
+      "translation": "",
+      "explanation": "Đây là câu trần thuật nêu vấn đề; phản hồi phù hợp là hành động kiểm tra tình trạng giao hàng.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C mô tả người/vật, không giải quyết vấn đề."
+      },
+      "skillTags": [
+        "statement_response",
+        "problem_solution"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-L05-Q08",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q08-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Working from home would be easier.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q08-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The office closes at six.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q08-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Tomorrow's forecast is sunny.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-l05-q08-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Working from home would be easier.",
+        "B": "The office closes at six.",
+        "C": "Tomorrow's forecast is sunny."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Working from home would be easier. / (B) The office closes at six. / (C) Tomorrow's forecast is sunny.",
+      "translation": "",
+      "explanation": "`Would you rather A or B?` yêu cầu nêu lựa chọn/ưu tiên.",
+      "wrongReasons": {
+        "B": "B à giờ đóng cửa",
+        "C": "C nói thời tiết, không nêu lựa chọn."
+      },
+      "skillTags": [
+        "preference_question",
+        "choice_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q01",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q01.svg",
+      "audioSegments": [
+        {
+          "text": "A worker is placing folders on a shelf.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A worker is removing a tire from a car.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A worker is cleaning a window.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A worker is carrying a ladder outside.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A worker is placing folders on a shelf.",
+        "B": "A worker is removing a tire from a car.",
+        "C": "A worker is cleaning a window.",
+        "D": "A worker is carrying a ladder outside."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A worker is placing folders on a shelf. (B) A worker is removing a tire from a car. (C) A worker is cleaning a window. (D) A worker is carrying a ladder outside.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_person_action`, `object_action`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "object_action"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q02",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q02.svg",
+      "audioSegments": [
+        {
+          "text": "A bicycle is leaning against a fence.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A bicycle is inside a storage cabinet.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A bicycle is being loaded onto a boat.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A bicycle is hanging from a ceiling.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A bicycle is leaning against a fence.",
+        "B": "A bicycle is inside a storage cabinet.",
+        "C": "A bicycle is being loaded onto a boat.",
+        "D": "A bicycle is hanging from a ceiling."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A bicycle is leaning against a fence. (B) A bicycle is inside a storage cabinet. (C) A bicycle is being loaded onto a boat. (D) A bicycle is hanging from a ceiling.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_position`, `preposition_against`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "preposition_against"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q03",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q03.svg",
+      "audioSegments": [
+        {
+          "text": "A server is carrying a tray.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A server is washing a floor.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A server is repairing a chair.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A server is reading a newspaper.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A server is carrying a tray.",
+        "B": "A server is washing a floor.",
+        "C": "A server is repairing a chair.",
+        "D": "A server is reading a newspaper."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A server is carrying a tray. (B) A server is washing a floor. (C) A server is repairing a chair. (D) A server is reading a newspaper.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_person_action`, `carrying`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "carrying"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q04",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q04.svg",
+      "audioSegments": [
+        {
+          "text": "Several boxes are stored beneath a table.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several boxes are spread across the road.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several boxes are being painted.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Several boxes are hanging from a wall.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Several boxes are stored beneath a table.",
+        "B": "Several boxes are spread across the road.",
+        "C": "Several boxes are being painted.",
+        "D": "Several boxes are hanging from a wall."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) Several boxes are stored beneath a table. (B) Several boxes are spread across the road. (C) Several boxes are being painted. (D) Several boxes are hanging from a wall.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_position`, `underneath`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_position",
+        "underneath"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q05",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q05.svg",
+      "audioSegments": [
+        {
+          "text": "A truck is parked outside a warehouse.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q05-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A truck is driving through a tunnel.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q05-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A truck is being washed in a garage.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q05-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A truck is parked inside a restaurant.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q05-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A truck is parked outside a warehouse.",
+        "B": "A truck is driving through a tunnel.",
+        "C": "A truck is being washed in a garage.",
+        "D": "A truck is parked inside a restaurant."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A truck is parked outside a warehouse. (B) A truck is driving through a tunnel. (C) A truck is being washed in a garage. (D) A truck is parked inside a restaurant.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_location`, `vehicle_state`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_location",
+        "vehicle_state"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q06",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 1,
+      "taskType": "photograph_description",
+      "prompt": "Nghe 4 câu mô tả và chọn câu đúng nhất cho bức tranh.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": "images/chapter-02/ch02-final-q06.svg",
+      "audioSegments": [
+        {
+          "text": "A technician is inspecting a copier.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q06-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A technician is ordering lunch.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q06-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A technician is greeting passengers.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q06-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "A technician is moving a sofa.",
+          "choiceId": "D",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q06-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "A technician is inspecting a copier.",
+        "B": "A technician is ordering lunch.",
+        "C": "A technician is greeting passengers.",
+        "D": "A technician is moving a sofa."
+      },
+      "correctAnswer": "A",
+      "transcript": "(A) A technician is inspecting a copier. (B) A technician is ordering lunch. (C) A technician is greeting passengers. (D) A technician is moving a sofa.",
+      "translation": "",
+      "explanation": "**Tags:** `part1_person_action`, `inspect`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe.",
+        "D": "Lựa chọn (D) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "part1_person_action",
+        "inspect"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q07",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q07-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "In the top drawer of the cabinet.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q07-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At around five o'clock.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q07-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The keys are made of metal.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q07-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "In the top drawer of the cabinet.",
+        "B": "At around five o'clock.",
+        "C": "The keys are made of metal."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) In the top drawer of the cabinet. / (B) At around five o'clock. / (C) The keys are made of metal.",
+      "translation": "",
+      "explanation": "`where` hỏi nơi cất.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "indirect_question",
+        "where_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q08",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q08-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Not at all. I'll send it now.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q08-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The team meeting is tomorrow.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q08-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The message is quite short.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q08-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Not at all. I'll send it now.",
+        "B": "The team meeting is tomorrow.",
+        "C": "The message is quite short."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Not at all. I'll send it now. / (B) The team meeting is tomorrow. / (C) The message is quite short.",
+      "translation": "",
+      "explanation": "Lời nhờ lịch sự; A đồng ý.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "would_you_mind",
+        "request_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q09",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q09-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, it arrived this morning.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q09-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The supplier is based overseas.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q09-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the purchasing department.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q09-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, it arrived this morning.",
+        "B": "The supplier is based overseas.",
+        "C": "At the purchasing department."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Yes, it arrived this morning. / (B) The supplier is based overseas. / (C) At the purchasing department.",
+      "translation": "",
+      "explanation": "Câu hỏi Yes/No về việc đã gửi báo giá chưa.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "yes_no_question",
+        "business_vocabulary"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q10",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q10-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "That would give us more time.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q10-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The flight attendant is helpful.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q10-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At gate number eight.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q10-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "That would give us more time.",
+        "B": "The flight attendant is helpful.",
+        "C": "At gate number eight."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) That would give us more time. / (B) The flight attendant is helpful. / (C) At gate number eight.",
+      "translation": "",
+      "explanation": "Phản hồi ý kiến đề xuất.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "suggestion_response",
+        "how_about"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q11",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q11-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "She's available after two.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q11-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The supervisor's office is upstairs.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q11-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The afternoon session was canceled.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q11-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "She's available after two.",
+        "B": "The supervisor's office is upstairs.",
+        "C": "The afternoon session was canceled."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) She's available after two. / (B) The supervisor's office is upstairs. / (C) The afternoon session was canceled.",
+      "translation": "",
+      "explanation": "`free` được paraphrase bằng `available`.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "paraphrase_free_available",
+        "time_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q12",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q12-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Early next week.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q12-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "On the second computer.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q12-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The software is easy to use.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q12-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Early next week.",
+        "B": "On the second computer.",
+        "C": "The software is easy to use."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Early next week. / (B) On the second computer. / (C) The software is easy to use.",
+      "translation": "",
+      "explanation": "When hỏi thời gian.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "when_response",
+        "time_expression"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q13",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q13-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "We should reserve another room.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q13-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The meeting lasted an hour.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q13-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "I met the painter yesterday.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q13-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "We should reserve another room.",
+        "B": "The meeting lasted an hour.",
+        "C": "I met the painter yesterday."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) We should reserve another room. / (B) The meeting lasted an hour. / (C) I met the painter yesterday.",
+      "translation": "",
+      "explanation": "Câu trần thuật nêu tình huống; A đưa ra giải pháp.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "statement_response",
+        "problem_solution"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q14",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q14-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The updated version with the new figures.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q14-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the visitor entrance.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q14-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It took about twenty minutes.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q14-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The updated version with the new figures.",
+        "B": "At the visitor entrance.",
+        "C": "It took about twenty minutes."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) The updated version with the new figures. / (B) At the visitor entrance. / (C) It took about twenty minutes.",
+      "translation": "",
+      "explanation": "Which hỏi lựa chọn.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "which_question",
+        "choice_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH02-FINAL-Q15",
+      "groupId": null,
+      "chapterId": "CH02",
+      "lessonId": "CH02-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q15-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, it has been canceled because of the storm.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q15-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The concert begins at seven.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q15-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The outdoor stage is very large.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-02/ch02-final-q15-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, it has been canceled because of the storm.",
+        "B": "The concert begins at seven.",
+        "C": "The outdoor stage is very large."
+      },
+      "correctAnswer": "A",
+      "transcript": " / (A) Yes, it has been canceled because of the storm. / (B) The concert begins at seven. / (C) The outdoor stage is very large.",
+      "translation": "",
+      "explanation": "`called off` có nghĩa là hủy; `canceled` là paraphrase.",
+      "wrongReasons": {
+        "B": "Lựa chọn (B) không phù hợp với thông tin trong bài nghe.",
+        "C": "Lựa chọn (C) không phù hợp với thông tin trong bài nghe."
+      },
+      "skillTags": [
+        "paraphrase_called_off_canceled",
+        "yes_no_question"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    }
+  ],
+  "finalTest": {
+    "id": "CH02-FINAL",
+    "title": "Kiểm tra cuối chương 2",
+    "questionIds": [
+      "CH02-FINAL-Q01",
+      "CH02-FINAL-Q02",
+      "CH02-FINAL-Q03",
+      "CH02-FINAL-Q04",
+      "CH02-FINAL-Q05",
+      "CH02-FINAL-Q06",
+      "CH02-FINAL-Q07",
+      "CH02-FINAL-Q08",
+      "CH02-FINAL-Q09",
+      "CH02-FINAL-Q10",
+      "CH02-FINAL-Q11",
+      "CH02-FINAL-Q12",
+      "CH02-FINAL-Q13",
+      "CH02-FINAL-Q14",
+      "CH02-FINAL-Q15"
+    ],
+    "passRule": {
+      "minCorrect": 12,
+      "total": 15,
+      "percentage": 80
+    }
+  }
+}

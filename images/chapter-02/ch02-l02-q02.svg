@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect y="310" width="600" height="90" fill="#cbd5e1"/>
+  <!-- Wooden Desk -->
+  <rect x="120" y="180" width="360" height="20" rx="3" fill="#b45309"/>
+  <rect x="145" y="200" width="18" height="120" fill="#78350f"/>
+  <rect x="435" y="200" width="18" height="120" fill="#78350f"/>
+  <!-- Desk Lamp on Desk -->
+  <ellipse cx="220" cy="178" rx="25" ry="6" fill="#334155"/>
+  <path d="M 220 178 Q 210 120 250 100" stroke="#334155" stroke-width="6" fill="none"/>
+  <polygon points="240,85 270,110 230,115" fill="#f59e0b"/>
+  <!-- Cardboard Box Under Desk -->
+  <rect x="260" y="240" width="90" height="70" rx="4" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+  <line x1="260" y1="265" x2="350" y2="265" stroke="#92400e" stroke-width="2"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L02-Q02: Desk lamp on table, cardboard box underneath</text>
+</svg>

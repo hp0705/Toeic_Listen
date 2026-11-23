@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+*.tmp
+.env
+.DS_Store
+Thumbs.db
+
+# WAV gốc và cache TTS: không commit
+audio-src/
+*.wav
+
+# Dữ liệu tiến độ cá nhân: KHÔNG bao giờ commit (repo public)
+*progress*.json
+*backup*.json
+toeic-progress_*.json

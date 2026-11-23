@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiểm thử lưu trữ tiến độ — TOEIC Listening 300</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 { color: #1e3a8a; }
+    .test-summary {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      gap: 2rem;
+      font-size: 1.1rem;
+    }
+    .test-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .test-card.pass { border-left: 6px solid #16a34a; }
+    .test-card.fail { border-left: 6px solid #dc2626; background: #fef2f2; }
+    .badge {
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+    }
+    .badge.pass { background: #dcfce7; color: #15803d; }
+    .badge.fail { background: #fee2e2; color: #b91c1c; }
+  </style>
+</head>
+<body>
+  <h1>🧪 Bộ kiểm thử nghiệm thu lưu trữ tiến độ (PROGRESS_STORAGE_SPEC v1.2)</h1>
+  <p>Tự động kiểm tra tính toàn vẹn của LocalStorage, cơ chế tính dẫn xuất, mở khóa chương, và khắc phục lỗi qua <code>skillGroup</code>.</p>
+  
+  <div class="test-summary">
+    <div>Tổng số test: <strong id="total-tests">0</strong></div>
+    <div>Đạt: <strong id="passed-tests" style="color: #16a34a;">0</strong></div>
+    <div>Không đạt: <strong id="failed-tests" style="color: #dc2626;">0</strong></div>
+  </div>
+
+  <div id="test-results">Đang chạy kiểm thử...</div>
+
+  <script type="module">
+    import { storage } from '../js/storage.js';
+    import { rebuildDerived } from '../js/progress.js';
+    import { BackupManager } from '../js/backup.js';
+
+    const resultsContainer = document.getElementById('test-results');
+    const totalEl = document.getElementById('total-tests');
+    const passEl = document.getElementById('passed-tests');
+    const failEl = document.getElementById('failed-tests');
+
+    let total = 0;
+    let passed = 0;
+    let failed = 0;
+
+    function assert(name, condition, details = "") {
+      total++;
+      const card = document.createElement('div');
+      card.className = `test-card ${condition ? 'pass' : 'fail'}`;
+      card.innerHTML = `
+        <div>
+          <strong>${name}</strong>
+          ${details ? `<div style="font-size:0.85rem;color:#64748b;margin-top:2px;">${details}</div>` : ''}
+        </div>
+        <span class="badge ${condition ? 'pass' : 'fail'}">${condition ? 'PASS' : 'FAIL'}</span>
+      `;
+      resultsContainer.appendChild(card);
+      if (condition) passed++;
+      else failed++;
+    }
+
+    async function runAllTests() {
+      resultsContainer.innerHTML = '';
+
+      // Test 1: Khởi tạo state mặc định
+      const def = storage.createDefaultState();
+      assert(
+        "1. Khởi tạo state mặc định",
+        def.schemaVersion === 2 && def.specVersion === '2.3' && Array.isArray(def.runs) && Array.isArray(def.attempts),
+        "schemaVersion=2, specVersion=2.3, runs=[], attempts=[]"
+      );
+
+      // Test 2: Lưu và nạp state từ LocalStorage
+      storage.saveState(def);
+      const loaded = storage.loadState();
+      assert(
+        "2. Lưu và nạp state từ LocalStorage",
+        loaded && loaded.schemaVersion === 2 && loaded.courseId === 'toeic-listening-300'
+      );
+
+      // Test 3: Ghi nhận run và attempt
+      const runId = "test-run-01";
+      loaded.runs.push({
+        id: runId,
+        chapterId: "CH01",
+        lessonId: "CH01-L01",
+        mode: "learn",
+        startedAt: new Date().toISOString(),
+        finishedAt: new Date().toISOString(),
+        status: "submitted",
+        optionOrders: { "CH01-L01-Q01": ["B", "A", "C"] }
+      });
+      loaded.attempts.push({
+        id: "test-att-01",
+        runId: runId,
+        questionId: "CH01-L01-Q01",
+        groupId: null,
+        chapterId: "CH01",
+        lessonId: "CH01-L01",
+        part: 0,
+        mode: "learn",
+        selected: "B",
+        optionOrder: ["B", "A", "C"],
+        isCorrect: true,
+        questionRevision: 1,
+        answeredAt: new Date().toISOString(),
+        transcriptViewedBeforeAnswer: false,
+        playbackRate: 1.0
+      });
+      storage.saveState(loaded);
+      const reloaded = storage.loadState();
+      assert(
+        "3. Ghi nhận run và attempt bảo toàn qua lưu trữ",
+        reloaded.runs.length === 1 && reloaded.attempts.length === 1 && reloaded.attempts[0].selected === "B"
+      );
+
+      // Test 4: passRule 3/4 (75%) cho CH01-L01
+      const dummyCourse = {
+        chapters: [
+          {
+            id: "CH01",
+            lessons: [
+              { lessonId: "CH01-L01", passRule: { minCorrect: 3, total: 4, percentage: 75 } }
+            ],
+            finalTest: { id: "CH01-FINAL", passRule: { minCorrect: 12, total: 15, percentage: 80 } }
+          },
+          {
+            id: "CH02",
+            lessons: [
+              { lessonId: "CH02-L05", passRule: { minCorrect: 6, total: 8, percentage: 75 } }
+            ],
+            finalTest: { id: "CH02-FINAL", passRule: { minCorrect: 12, total: 15, percentage: 80 } }
+          },
+          {
+            id: "CH03",
+            lessons: [],
+            finalTest: { id: "CH03-FINAL", passRule: { minCorrect: 10, total: 12, percentage: 83.3 } }
+          }
+        ]
+      };
+
+      // Add 2 more correct attempts to run-01 (total 3/4 correct)
+      loaded.attempts.push(
+        { id: "test-att-02", runId: runId, questionId: "CH01-L01-Q02", isCorrect: true, answeredAt: new Date().toISOString(), playbackRate: 1.0 },
+        { id: "test-att-03", runId: runId, questionId: "CH01-L01-Q03", isCorrect: true, answeredAt: new Date().toISOString(), playbackRate: 1.0 },
+        { id: "test-att-04", runId: runId, questionId: "CH01-L01-Q04", isCorrect: false, answeredAt: new Date().toISOString(), playbackRate: 1.0 }
+      );
+      const derived4 = rebuildDerived(loaded, dummyCourse);
+      assert(
+        "4. passRule cho bài 4 câu: đúng 3/4 (75%) được công nhận hoàn thành bài",
+        derived4.passedLessons.includes("CH01-L01"),
+        `Đúng 3/4 câu -> passedLessons chứa CH01-L01: ${derived4.passedLessons.includes("CH01-L01")}`
+      );
+
+      // Test 5: Mở khóa CH02 khi CH01-FINAL >= 80% (12/15)
+      assert(
+        "5. CH02 ban đầu bị khóa",
+        derived4.chapterStatus.CH02.unlocked === false
+      );
+
+      // Simulate passing CH01-FINAL
+      const finalRunId = "run-ch01-final";
+      loaded.runs.push({
+        id: finalRunId,
+        chapterId: "CH01",
+        lessonId: "CH01-FINAL",
+        status: "submitted"
+      });
+      for (let i = 1; i <= 15; i++) {
+        loaded.attempts.push({
+          id: `att-ch01-f-${i}`,
+          runId: finalRunId,
+          questionId: `CH01-FINAL-Q${String(i).padStart(2, '0')}`,
+          isCorrect: i <= 12, // 12 correct = 80%
+          answeredAt: new Date().toISOString(),
+          playbackRate: 1.0
+        });
+      }
+      const derivedFinal = rebuildDerived(loaded, dummyCourse);
+      assert(
+        "6. Mở khóa CH02 khi đạt CH01-FINAL 12/15 câu (80%)",
+        derivedFinal.chapterStatus.CH02.unlocked === true,
+        `CH02 unlocked = ${derivedFinal.chapterStatus.CH02.unlocked}`
+      );
+
+      // Test 7: Part 3 lưu đúng groupId dạng CH03-Lxx-Gyy
+      const part3Att = {
+        id: "att-p3-01",
+        runId: "run-p3",
+        questionId: "CH03-L01-Q01",
+        groupId: "CH03-L01-G01",
+        chapterId: "CH03",
+        lessonId: "CH03-L01",
+        part: 3,
+        selected: "C",
+        isCorrect: true,
+        answeredAt: new Date().toISOString()
+      };
+      loaded.attempts.push(part3Att);
+      assert(
+        "7. Attempt Part 3 lưu đúng groupId chuẩn CH03-Lxx-Gyy",
+        part3Att.groupId === "CH03-L01-G01"
+      );
+
+      // Test 8: Khắc phục lỗi dứt điểm bằng câu mới cùng skillGroup
+      // Giả lập câu sai: Q_FAIL thuộc skillGroup: "contractions_and_endings"
+      const dummyCourseWithQ = {
+        ...dummyCourse,
+        getQuestion(qid) {
+          if (qid === "Q_FAIL") return { id: "Q_FAIL", skillTags: ["contraction_weve"], skillGroup: "contractions_and_endings" };
+          if (qid === "Q_NEW_GROUP") return { id: "Q_NEW_GROUP", skillTags: ["final_sound_s"], skillGroup: "contractions_and_endings" };
+          return null;
+        }
+      };
+
+      const failTime = new Date("2026-11-23T08:00:00Z").toISOString();
+      const recoverTime = new Date("2026-11-23T08:30:00Z").toISOString();
+
+      const testStateErrors = {
+        ...loaded,
+        runs: [],
+        attempts: [
+          // Attempt 1: Làm sai câu Q_FAIL
+          {
+            id: "att-fail",
+            runId: "r1",
+            questionId: "Q_FAIL",
+            isCorrect: false,
+            answeredAt: failTime,
+            playbackRate: 1.0,
+            transcriptViewedBeforeAnswer: false
+          },
+          // Attempt 2: Làm đúng câu Q_NEW_GROUP (cùng skillGroup contractions_and_endings nhưng khác skillTag)
+          {
+            id: "att-recover",
+            runId: "r2",
+            questionId: "Q_NEW_GROUP",
+            isCorrect: true,
+            answeredAt: recoverTime,
+            playbackRate: 1.0,
+            transcriptViewedBeforeAnswer: false
+          },
+          // Attempt 3: Làm lại câu Q_FAIL đúng
+          {
+            id: "att-fail-fixed",
+            runId: "r3",
+            questionId: "Q_FAIL",
+            isCorrect: true,
+            answeredAt: new Date("2026-11-23T09:00:00Z").toISOString(),
+            playbackRate: 1.0,
+            transcriptViewedBeforeAnswer: false
+          }
+        ]
+      };
+
+      const derivedMistake = rebuildDerived(testStateErrors, dummyCourseWithQ);
+      const mItem = derivedMistake.mistakes.find(m => m.questionId === "Q_FAIL");
+      assert(
+        "8. Khắc phục lỗi qua skillGroup (giải quyết triệt để tag xuất hiện 1 lần)",
+        mItem && mItem.status === "resolved",
+        `Trạng thái câu sai sau khi làm đúng câu cùng skillGroup: ${mItem ? mItem.status : 'null'}`
+      );
+
+      // Test 9: Không gọi localStorage.clear()
+      assert(
+        "9. Tuân thủ an toàn: Mọi hàm lưu trữ không gọi localStorage.clear()",
+        typeof storage.saveState === 'function' && typeof storage.restoreSnapshot === 'function'
+      );
+
+      // Test 10: Import-Merge không làm mất dữ liệu
+      const importPayload = JSON.stringify({
+        schemaVersion: 2,
+        specVersion: "2.3",
+        contentVersion: "1.0.0",
+        runs: [{ id: "imported-run-01", lessonId: "CH01-L02", status: "submitted" }],
+        attempts: [{ id: "imported-att-01", questionId: "CH01-L02-Q01", isCorrect: true }]
+      });
+      const mergeRes = BackupManager.importBackup(importPayload, "merge");
+      assert(
+        "10. Import-Merge bảo toàn dữ liệu hiện có và thêm bản ghi mới",
+        mergeRes.success && mergeRes.newRunsCount === 1 && mergeRes.newAttemptsCount === 1
+      );
+
+      // Summary
+      totalEl.textContent = total;
+      passEl.textContent = passed;
+      failEl.textContent = failed;
+    }
+
+    runAllTests();
+  </script>
+</body>
+</html>

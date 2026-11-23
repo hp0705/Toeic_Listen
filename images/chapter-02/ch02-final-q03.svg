@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#fdf4ff"/>
+  <rect y="310" width="600" height="90" fill="#f3e8ff"/>
+  <!-- Waiter -->
+  <rect x="180" y="220" width="16" height="100" fill="#1e293b"/>
+  <rect x="205" y="220" width="16" height="100" fill="#1e293b"/>
+  <polygon points="170,140 230,140 225,220 175,220" fill="#475569"/>
+  <polygon points="195,140 205,140 200,165" fill="#ffffff"/>
+  <circle cx="200" cy="110" r="22" fill="#fed7aa"/>
+  <!-- Arm carrying tray -->
+  <path d="M 215 155 Q 260 160 290 150" stroke="#fed7aa" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- Tray with two water glasses -->
+  <rect x="280" y="145" width="80" height="8" rx="2" fill="#0f172a"/>
+  <rect x="300" y="125" width="14" height="20" rx="2" fill="#38bdf8"/>
+  <rect x="330" y="125" width="14" height="20" rx="2" fill="#38bdf8"/>
+  <!-- Customer table in background -->
+  <rect x="420" y="240" width="120" height="15" fill="#b45309"/>
+  <rect x="475" y="255" width="12" height="65" fill="#78350f"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-FINAL-Q03: Waiter carrying tray with two glasses to table</text>
+</svg>

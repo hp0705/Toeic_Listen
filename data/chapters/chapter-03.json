@@ -1,0 +1,2926 @@
+{
+  "chapterId": "CH03",
+  "title": "Part 3 cơ bản: hội thoại hai người",
+  "description": "Mục đích, địa điểm, chi tiết, vấn đề và hành động tiếp theo",
+  "specVersion": "2.3",
+  "contentVersion": "1.0.0",
+  "lessons": [
+    {
+      "lessonId": "CH03-L01",
+      "title": "Cấu trúc Part 3 và nghe mục đích hội thoại",
+      "objectives": [
+        "Biết Part 3 hoạt động thế nào và nên làm gì trước, trong, sau khi nghe.",
+        "Nhận ra mục đích hội thoại từ hai lượt nói đầu.",
+        "Nhận ra việc người nói sẽ làm tiếp ở cuối hội thoại."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Part 3 gồm gì?",
+          "content": "Theo cấu trúc TOEIC Listening hiện hành, Part 3 gồm các hội thoại ngắn giữa hai hoặc ba người. Mỗi hội thoại có **3 câu hỏi**, mỗi câu **4 lựa chọn A–D**. Câu hỏi và lựa chọn được in sẵn, không được đọc trong audio, nên bạn có thời gian đọc trước.\n\n| Thứ tự câu hỏi | Thường hỏi về | Nghe ở đâu |\n|---|---|---|\n| Câu 1 | Chủ đề, mục đích, địa điểm, người nói | Hai lượt nói đầu |\n| Câu 2 | Chi tiết, vấn đề, lý do | Phần giữa |\n| Câu 3 | Việc sẽ làm tiếp theo, yêu cầu, đề nghị | Hai lượt nói cuối |\n\nĐây là xu hướng phổ biến, không phải quy tắc tuyệt đối."
+        },
+        {
+          "title": "Quy trình 3 bước",
+          "content": "1. **Trước khi nghe:** đọc cả ba câu hỏi. Gạch chân từ khóa: ai (`man`/`woman`), hỏi gì (`why`, `when`, `what problem`).\n2. **Trong khi nghe:** nghe hai lượt đầu cho câu 1, giữ ý cho câu 2 và 3. Đánh dấu đáp án ngay khi nghe được.\n3. **Sau khi nghe:** chọn đáp án phù hợp nhất cho câu còn lại, rồi nhanh chóng đọc ba câu của hội thoại kế tiếp."
+        },
+        {
+          "title": "Câu mở đầu thường nêu mục đích",
+          "content": "| Mẫu câu | Mục đích |\n|---|---|\n| I'm calling about... | gọi điện về việc gì |\n| I wanted to ask you about... | muốn hỏi về việc gì |\n| Do you have a minute? | muốn bàn một việc |\n| We need to talk about... | cần bàn một vấn đề |\n| I'd like to order / book / reserve... | đặt hàng/đặt chỗ |\n| Is there a problem with...? | hỏi về vấn đề |"
+        },
+        {
+          "title": "Câu hỏi mục đích và việc tiếp theo",
+          "content": "| Câu hỏi | Cách tìm |\n|---|---|\n| Why is the woman calling? | Nghe câu đầu của người gọi: `I'm calling to/about...` |\n| What are the speakers discussing? | Nghe chủ đề chung của cả hai lượt đầu |\n| What will the man do next? | Nghe `I'll...`, `Let me...`, `I'm going to...` ở cuối |"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "order",
+          "meaning": "đơn hàng, đặt hàng",
+          "example": ""
+        },
+        {
+          "word": "brochure",
+          "meaning": "tờ rơi, sách giới thiệu",
+          "example": ""
+        },
+        {
+          "word": "delivery / deliver",
+          "meaning": "giao hàng",
+          "example": ""
+        },
+        {
+          "word": "health fair",
+          "meaning": "hội chợ sức khỏe",
+          "example": ""
+        },
+        {
+          "word": "session",
+          "meaning": "buổi (họp, đào tạo)",
+          "example": ""
+        },
+        {
+          "word": "trainer",
+          "meaning": "người đào tạo",
+          "example": ""
+        },
+        {
+          "word": "move / reschedule",
+          "meaning": "dời lịch",
+          "example": ""
+        },
+        {
+          "word": "let someone know",
+          "meaning": "báo cho ai biết",
+          "example": ""
+        }
+      ],
+      "examples": [],
+      "questionIds": [
+        "CH03-L01-Q01",
+        "CH03-L01-Q02",
+        "CH03-L01-Q03",
+        "CH03-L01-Q04",
+        "CH03-L01-Q05",
+        "CH03-L01-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    },
+    {
+      "lessonId": "CH03-L02",
+      "title": "Địa điểm, nghề nghiệp, quan hệ người nói",
+      "objectives": [
+        "Đoán nơi diễn ra hội thoại từ từ khóa liên quan.",
+        "Đoán nghề nghiệp và vai trò người nói.",
+        "Phân biệt thông tin được nói trực tiếp với thông tin phải suy ra."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Câu hỏi suy luận thường gặp",
+          "content": "| Câu hỏi | Cần tìm |\n|---|---|\n| Where does the conversation most likely take place? | Nơi diễn ra |\n| Who most likely is the man? | Nghề nghiệp/vai trò |\n| What is the relationship between the speakers? | Quan hệ: đồng nghiệp, khách và nhân viên, cấp trên và cấp dưới |\n\nĐáp án gần như **không được nói thẳng**. Bạn phải gom ít nhất hai manh mối."
+        },
+        {
+          "title": "Nhóm từ khóa theo nơi chốn",
+          "content": "| Nơi | Từ khóa thường gặp |\n|---|---|\n| Hotel | reservation, check in, key card, front desk, breakfast |\n| Restaurant | table, menu, order, reservation, special |\n| Pharmacy / clinic | prescription, dosage, insurance, appointment |\n| Airport | flight, gate, boarding pass, luggage |\n| Bank | account, deposit, loan, transfer |\n| Office | meeting, report, deadline, department |\n| Store | refund, exchange, receipt, size, discount |"
+        },
+        {
+          "title": "Cách suy luận",
+          "content": "1. Gạch ra các danh từ đặc trưng trong lượt nói của **từng** người.\n2. Hỏi: ai thường nói câu này? Nhân viên hỏi thẻ tín dụng, khách hỏi bữa sáng.\n3. Chọn đáp án giải thích được **tất cả** manh mối, không chỉ một từ."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "reservation",
+          "meaning": "đặt phòng/đặt chỗ",
+          "example": ""
+        },
+        {
+          "word": "deposit",
+          "meaning": "tiền đặt cọc",
+          "example": ""
+        },
+        {
+          "word": "included",
+          "meaning": "đã bao gồm",
+          "example": ""
+        },
+        {
+          "word": "key card",
+          "meaning": "thẻ khóa phòng",
+          "example": ""
+        },
+        {
+          "word": "prescription",
+          "meaning": "đơn thuốc",
+          "example": ""
+        },
+        {
+          "word": "dosage",
+          "meaning": "liều lượng",
+          "example": ""
+        },
+        {
+          "word": "tablet",
+          "meaning": "viên thuốc",
+          "example": ""
+        },
+        {
+          "word": "insurance covers",
+          "meaning": "bảo hiểm chi trả",
+          "example": ""
+        }
+      ],
+      "examples": [],
+      "questionIds": [
+        "CH03-L02-Q01",
+        "CH03-L02-Q02",
+        "CH03-L02-Q03",
+        "CH03-L02-Q04",
+        "CH03-L02-Q05",
+        "CH03-L02-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    },
+    {
+      "lessonId": "CH03-L03",
+      "title": "Chi tiết: thời gian, số, đồ vật",
+      "objectives": [
+        "Bắt đúng chi tiết mà câu hỏi hỏi.",
+        "Không bị lừa bởi thông tin được sửa lại giữa chừng.",
+        "Nhận ra số lượng và thời gian trong hội thoại."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Câu hỏi chi tiết thường gặp",
+          "content": "| Câu hỏi | Tìm |\n|---|---|\n| When will...? / What day...? | Thời gian |\n| How many / How much...? | Số lượng, giá |\n| What does the man ask the woman to bring? | Đồ vật |\n| Who will...? | Người |\n| What position is he applying for? | Vị trí công việc |"
+        },
+        {
+          "title": "Bẫy: thông tin bị sửa",
+          "content": "Trong hội thoại, một người có thể nói một thông tin rồi người kia sửa lại:\n\n- `Wednesday? ... Oh, you're right, Thursday.` → đáp án là Thursday.\n- `Twenty is too many. How about fifteen?` → số cuối cùng được chọn là fifteen.\n\n**Quy tắc:** thông tin **cuối cùng được chấp nhận** mới là đáp án. Chú ý các từ chuyển hướng: `actually`, `but`, `instead`, `however`, `on second thought`."
+        },
+        {
+          "title": "Số và thời gian",
+          "content": "- Ôn lại cặp số dễ nhầm từ Chương 1: `thirteen / thirty`, `fifteen / fifty`.\n- Giờ: `two o'clock`, `fifteen minutes early` (sớm mười lăm phút).\n- Khoảng thời gian: `in about half an hour`, `until Thursday`."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "xác nhận",
+          "example": ""
+        },
+        {
+          "word": "interview",
+          "meaning": "buổi phỏng vấn",
+          "example": ""
+        },
+        {
+          "word": "position",
+          "meaning": "vị trí công việc",
+          "example": ""
+        },
+        {
+          "word": "portfolio",
+          "meaning": "hồ sơ năng lực/tập sản phẩm",
+          "example": ""
+        },
+        {
+          "word": "department head",
+          "meaning": "trưởng phòng",
+          "example": ""
+        },
+        {
+          "word": "supplies",
+          "meaning": "vật tư văn phòng",
+          "example": ""
+        },
+        {
+          "word": "discount",
+          "meaning": "giảm giá",
+          "example": ""
+        },
+        {
+          "word": "storage",
+          "meaning": "nơi lưu trữ, kho",
+          "example": ""
+        },
+        {
+          "word": "place an order",
+          "meaning": "đặt hàng",
+          "example": ""
+        }
+      ],
+      "examples": [],
+      "questionIds": [
+        "CH03-L03-Q01",
+        "CH03-L03-Q02",
+        "CH03-L03-Q03",
+        "CH03-L03-Q04",
+        "CH03-L03-Q05",
+        "CH03-L03-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    },
+    {
+      "lessonId": "CH03-L04",
+      "title": "Vấn đề, yêu cầu, đề nghị, việc tiếp theo",
+      "objectives": [
+        "Nhận ra vấn đề mà người nói gặp phải.",
+        "Phân biệt yêu cầu (nhờ ai làm) và đề nghị (tự mình làm).",
+        "Tìm việc người nói sẽ làm tiếp theo."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Dấu hiệu của vấn đề",
+          "content": "| Dấu hiệu | Ví dụ |\n|---|---|\n| Có chuyện không ổn | `The projector isn't turning on.` |\n| Mở đầu báo tin xấu | `Unfortunately...`, `I'm afraid...` |\n| Hết hàng, trễ, hỏng | `out of stock`, `delayed`, `broken` |\n| Báo thời gian gấp | `in twenty minutes` |\n\nCâu hỏi: `What problem does the man mention?`"
+        },
+        {
+          "title": "Yêu cầu, đề nghị, gợi ý",
+          "content": "| Loại | Mẫu câu | Ai làm việc? |\n|---|---|---|\n| Yêu cầu | `Could you...?`, `Would you mind...?` | Người được nhờ |\n| Đề nghị | `I can...`, `Let me...`, `Shall I...?` | Người nói |\n| Gợi ý | `Why don't we...?`, `How about...?` | Cả hai hoặc người nghe |\n\nVới câu hỏi `What does the woman offer to do?` hãy tìm chính **người nữ** nói `Let me...` hoặc `I can...`. Nhiều bẫy dùng việc do người nam làm."
+        },
+        {
+          "title": "Việc tiếp theo",
+          "content": "Việc sẽ làm tiếp theo thường nằm ở **một đến hai lượt nói cuối**. Tìm `I'll...`, `I'm going to...`, `Let me...`. Chú ý ai nói câu đó."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "projector",
+          "meaning": "máy chiếu",
+          "example": ""
+        },
+        {
+          "word": "conference room",
+          "meaning": "phòng họp",
+          "example": ""
+        },
+        {
+          "word": "handouts",
+          "meaning": "tài liệu phát",
+          "example": ""
+        },
+        {
+          "word": "IT department",
+          "meaning": "phòng công nghệ thông tin",
+          "example": ""
+        },
+        {
+          "word": "just in case",
+          "meaning": "phòng khi cần",
+          "example": ""
+        },
+        {
+          "word": "exchange",
+          "meaning": "đổi hàng",
+          "example": ""
+        },
+        {
+          "word": "out of (a size)",
+          "meaning": "hết (cỡ nào đó)",
+          "example": ""
+        },
+        {
+          "word": "ship",
+          "meaning": "gửi hàng",
+          "example": ""
+        },
+        {
+          "word": "refund",
+          "meaning": "hoàn tiền",
+          "example": ""
+        }
+      ],
+      "examples": [],
+      "questionIds": [
+        "CH03-L04-Q01",
+        "CH03-L04-Q02",
+        "CH03-L04-Q03",
+        "CH03-L04-Q04",
+        "CH03-L04-Q05",
+        "CH03-L04-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    },
+    {
+      "lessonId": "CH03-L05",
+      "title": "Paraphrase và bẫy trong Part 3",
+      "objectives": [
+        "Nhận ra đáp án đúng dùng từ khác với audio.",
+        "Né các đáp án lặp lại từ trong audio nhưng sai ý.",
+        "Chú ý đúng người, đúng thời điểm, đúng sự việc."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Paraphrase trong Part 3",
+          "content": "| Audio | Đáp án có thể dùng |\n|---|---|\n| We're moving to the Harbor Building | An office relocation |\n| much farther from my apartment | The distance to the new location |\n| ask Human Resources whether it's confirmed | If a shuttle service will be provided |\n| I need the figures from the sales team | Figures from the sales team (đáp án có thể giữ nguyên cụm từ) |\n| ask Priya whether she can send them earlier | Request the information sooner |"
+        },
+        {
+          "title": "Năm bẫy thường gặp",
+          "content": "| Bẫy | Ví dụ |\n|---|---|\n| Lặp từ trong audio nhưng sai ý | Đáp án nhắc `shuttle bus` nhưng chủ đề chính là chuyển văn phòng |\n| Sai người nói | Việc do người nam làm nhưng câu hỏi hỏi người nữ |\n| Sai thời điểm | `Wednesday evening` là hạn của người khác, không phải lúc người nam xem lại |\n| Thông tin chưa chắc chắn | `may offer a shuttle` chưa phải điều chắc chắn |\n| Thông tin đúng nhưng không phải câu hỏi hỏi | Đáp án đúng với hội thoại nhưng trả lời câu hỏi khác |"
+        },
+        {
+          "title": "Cách xử lý",
+          "content": "1. Với mỗi lựa chọn, hỏi: **ai** làm, **khi nào**, **điều đó có thật sự được nói không**.\n2. Đừng chọn đáp án chỉ vì nghe thấy cùng từ.\n3. Ưu tiên đáp án diễn đạt lại ý bằng từ khác."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "relocation / move",
+          "meaning": "việc chuyển địa điểm",
+          "example": ""
+        },
+        {
+          "word": "commute",
+          "meaning": "quãng đường đi làm",
+          "example": ""
+        },
+        {
+          "word": "shuttle bus",
+          "meaning": "xe đưa đón",
+          "example": ""
+        },
+        {
+          "word": "Human Resources",
+          "meaning": "phòng nhân sự",
+          "example": ""
+        },
+        {
+          "word": "budget report",
+          "meaning": "báo cáo ngân sách",
+          "example": ""
+        },
+        {
+          "word": "figures",
+          "meaning": "số liệu",
+          "example": ""
+        },
+        {
+          "word": "cutting it close",
+          "meaning": "sát giờ, sát hạn",
+          "example": ""
+        },
+        {
+          "word": "submit",
+          "meaning": "nộp",
+          "example": ""
+        },
+        {
+          "word": "review",
+          "meaning": "xem lại, rà soát",
+          "example": ""
+        }
+      ],
+      "examples": [],
+      "questionIds": [
+        "CH03-L05-Q01",
+        "CH03-L05-Q02",
+        "CH03-L05-Q03",
+        "CH03-L05-Q04",
+        "CH03-L05-Q05",
+        "CH03-L05-Q06"
+      ],
+      "passRule": {
+        "minCorrect": 5,
+        "total": 6,
+        "percentage": 83.3
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "CH03-L01-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Khách hàng gọi cho một cửa hàng in ấn.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Hello, this is Carla Mendes from Brightwell Dental. I'm calling about the brochures we ordered last week.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5840
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Hi, Ms. Mendes. Yes, I have your order here. Is there a problem?",
+          "pauseAfterMs": 450,
+          "startMs": 6290,
+          "endMs": 10850
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "Not exactly. We need them for a health fair on Friday, and I wanted to make sure they'll be ready in time.",
+          "pauseAfterMs": 450,
+          "startMs": 11300,
+          "endMs": 18740
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "They're printed already. I can have them delivered tomorrow afternoon.",
+          "pauseAfterMs": 450,
+          "startMs": 19190,
+          "endMs": 22790
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "That's perfect. Please send them to the front desk.",
+          "pauseAfterMs": 450,
+          "startMs": 23240,
+          "endMs": 26520
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l01-g01.mp3",
+      "transcript": "W1: Hello, this is Carla Mendes from Brightwell Dental. I'm calling about the brochures we ordered last week. / M1: Hi, Ms. Mendes. Yes, I have your order here. Is there a problem? / W1: Not exactly. We need them for a health fair on Friday, and I wanted to make sure they'll be ready in time. / M1: They're printed already. I can have them delivered tomorrow afternoon. / W1: That's perfect. Please send them to the front desk.",
+      "translation": "- W1: Xin chào, tôi là Carla Mendes ở Phòng khám nha khoa Brightwell. Tôi gọi về các tờ rơi chúng tôi đặt tuần trước.\n- M1: Chào cô Mendes. Vâng, tôi có đơn hàng của cô đây. Có vấn đề gì không ạ?\n- W1: Không hẳn. Chúng tôi cần chúng cho hội chợ sức khỏe vào thứ Sáu, và tôi muốn chắc là chúng kịp sẵn sàng.\n- M1: Chúng đã được in rồi. Tôi có thể cho giao vào chiều mai.\n- W1: Tuyệt quá. Xin hãy gửi đến quầy lễ tân.",
+      "questionIds": [
+        "CH03-L01-Q01",
+        "CH03-L01-Q02",
+        "CH03-L01-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp bàn về lịch đào tạo.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Hi, Janet. Do you have a minute? I wanted to talk about next week's safety training.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5520
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "Sure. Is it still on Tuesday morning?",
+          "pauseAfterMs": 450,
+          "startMs": 5970,
+          "endMs": 8610
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "That's the issue. The trainer can't come until Wednesday, so we'll need to move the session.",
+          "pauseAfterMs": 450,
+          "startMs": 9060,
+          "endMs": 14580
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "Wednesday is fine for my team, but a few of us have a client meeting after lunch.",
+          "pauseAfterMs": 450,
+          "startMs": 15030,
+          "endMs": 20870
+        },
+        {
+          "turn": 5,
+          "speakerId": "M1",
+          "text": "Then let's start at nine. That should finish before noon.",
+          "pauseAfterMs": 450,
+          "startMs": 21320,
+          "endMs": 24920
+        },
+        {
+          "turn": 6,
+          "speakerId": "W1",
+          "text": "Great. I'll let everyone know.",
+          "pauseAfterMs": 450,
+          "startMs": 25370,
+          "endMs": 27370
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l01-g02.mp3",
+      "transcript": "M1: Hi, Janet. Do you have a minute? I wanted to talk about next week's safety training. / W1: Sure. Is it still on Tuesday morning? / M1: That's the issue. The trainer can't come until Wednesday, so we'll need to move the session. / W1: Wednesday is fine for my team, but a few of us have a client meeting after lunch. / M1: Then let's start at nine. That should finish before noon. / W1: Great. I'll let everyone know.",
+      "translation": "- M1: Chào Janet. Cô có rảnh một phút không? Tôi muốn bàn về buổi đào tạo an toàn tuần sau.\n- W1: Được. Vẫn là sáng thứ Ba chứ?\n- M1: Đó là vấn đề. Người đào tạo không thể đến cho đến thứ Tư, nên chúng ta cần dời buổi học.\n- W1: Thứ Tư ổn với nhóm tôi, nhưng vài người chúng tôi có cuộc họp khách hàng sau bữa trưa.\n- M1: Vậy hãy bắt đầu lúc chín giờ. Như vậy sẽ kết thúc trước buổi trưa.\n- W1: Tuyệt. Tôi sẽ báo mọi người.",
+      "questionIds": [
+        "CH03-L01-Q04",
+        "CH03-L01-Q05",
+        "CH03-L01-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Khách nhận phòng khách sạn.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Good evening. I have a reservation under Daniel Foster.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 3280
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "Welcome, Mr. Foster. I see you're booked for three nights. May I have your credit card for the deposit?",
+          "pauseAfterMs": 450,
+          "startMs": 3730,
+          "endMs": 10210
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "Of course. Also, is breakfast included? I didn't see it on my confirmation.",
+          "pauseAfterMs": 450,
+          "startMs": 10660,
+          "endMs": 15220
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "Breakfast is served from six to ten in the restaurant on the second floor. Here's your key card.",
+          "pauseAfterMs": 450,
+          "startMs": 15670,
+          "endMs": 21830
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l02-g01.mp3",
+      "transcript": "M1: Good evening. I have a reservation under Daniel Foster. / W1: Welcome, Mr. Foster. I see you're booked for three nights. May I have your credit card for the deposit? / M1: Of course. Also, is breakfast included? I didn't see it on my confirmation. / W1: Breakfast is served from six to ten in the restaurant on the second floor. Here's your key card.",
+      "translation": "- M1: Chào buổi tối. Tôi có đặt phòng dưới tên Daniel Foster.\n- W1: Chào mừng ông Foster. Tôi thấy ông đặt ba đêm. Tôi xin thẻ tín dụng của ông để đặt cọc được không ạ?\n- M1: Tất nhiên. Ngoài ra, bữa sáng có bao gồm không? Tôi không thấy trong xác nhận của mình.\n- W1: Bữa sáng phục vụ từ sáu đến mười giờ ở nhà hàng tầng hai. Đây là thẻ khóa phòng của ông.",
+      "questionIds": [
+        "CH03-L02-Q01",
+        "CH03-L02-Q02",
+        "CH03-L02-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Một người mẹ đến lấy thuốc.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Excuse me, I'm here to pick up a prescription for my son. The last name is Alvarez.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5840
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "One moment, I'll check. Yes, it's ready, but I'd like to explain something first. The doctor changed the dosage this time.",
+          "pauseAfterMs": 450,
+          "startMs": 6290,
+          "endMs": 13410
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "Thank you. I didn't notice any change.",
+          "pauseAfterMs": 450,
+          "startMs": 13860,
+          "endMs": 16500
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "He should take one tablet in the morning and one at night, with food.",
+          "pauseAfterMs": 450,
+          "startMs": 16950,
+          "endMs": 21830
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "Got it. Do I pay here or at the front counter?",
+          "pauseAfterMs": 450,
+          "startMs": 22280,
+          "endMs": 26200
+        },
+        {
+          "turn": 6,
+          "speakerId": "M1",
+          "text": "Right here. Your insurance covers most of it, so it's only five dollars.",
+          "pauseAfterMs": 450,
+          "startMs": 26650,
+          "endMs": 31210
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l02-g02.mp3",
+      "transcript": "W1: Excuse me, I'm here to pick up a prescription for my son. The last name is Alvarez. / M1: One moment, I'll check. Yes, it's ready, but I'd like to explain something first. The doctor changed the dosage this time. / W1: Thank you. I didn't notice any change. / M1: He should take one tablet in the morning and one at night, with food. / W1: Got it. Do I pay here or at the front counter? / M1: Right here. Your insurance covers most of it, so it's only five dollars.",
+      "translation": "- W1: Xin lỗi, tôi đến lấy thuốc theo đơn cho con trai tôi. Họ là Alvarez.\n- M1: Xin chờ một chút, tôi sẽ kiểm tra. Vâng, thuốc đã sẵn sàng, nhưng tôi muốn giải thích điều này trước. Lần này bác sĩ đã đổi liều lượng.\n- W1: Cảm ơn anh. Tôi không để ý có thay đổi.\n- M1: Cháu nên uống một viên vào buổi sáng và một viên vào buổi tối, cùng với thức ăn.\n- W1: Tôi hiểu rồi. Tôi trả ở đây hay ở quầy phía trước?\n- M1: Ngay tại đây. Bảo hiểm của chị chi trả phần lớn, nên chỉ còn năm đô la.",
+      "questionIds": [
+        "CH03-L02-Q04",
+        "CH03-L02-Q05",
+        "CH03-L02-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Xác nhận lịch phỏng vấn qua điện thoại.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Mr. Chen, I'm calling to confirm your interview for the marketing position. It's scheduled for Thursday at two o'clock.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 6480
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Thursday? I thought it was Wednesday. Hold on, let me check my calendar. Oh, you're right, Thursday. Sorry about that.",
+          "pauseAfterMs": 450,
+          "startMs": 6930,
+          "endMs": 13730
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "No problem. Please arrive fifteen minutes early, and bring a copy of your portfolio.",
+          "pauseAfterMs": 450,
+          "startMs": 14180,
+          "endMs": 19060
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "Will I meet with the department head?",
+          "pauseAfterMs": 450,
+          "startMs": 19510,
+          "endMs": 22150
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "Yes, Ms. Okafor will be interviewing you, along with a member of the design team.",
+          "pauseAfterMs": 450,
+          "startMs": 22600,
+          "endMs": 27800
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l03-g01.mp3",
+      "transcript": "W1: Mr. Chen, I'm calling to confirm your interview for the marketing position. It's scheduled for Thursday at two o'clock. / M1: Thursday? I thought it was Wednesday. Hold on, let me check my calendar. Oh, you're right, Thursday. Sorry about that. / W1: No problem. Please arrive fifteen minutes early, and bring a copy of your portfolio. / M1: Will I meet with the department head? / W1: Yes, Ms. Okafor will be interviewing you, along with a member of the design team.",
+      "translation": "- W1: Anh Chen, tôi gọi để xác nhận buổi phỏng vấn vị trí marketing của anh. Lịch hẹn là thứ Năm lúc hai giờ.\n- M1: Thứ Năm sao? Tôi tưởng là thứ Tư. Chờ chút, để tôi xem lịch. Ồ, cô nói đúng, thứ Năm. Xin lỗi nhé.\n- W1: Không sao. Xin hãy đến sớm mười lăm phút và mang theo một bản hồ sơ năng lực.\n- M1: Tôi sẽ gặp trưởng phòng chứ?\n- W1: Vâng, cô Okafor sẽ phỏng vấn anh, cùng một thành viên của nhóm thiết kế.",
+      "questionIds": [
+        "CH03-L03-Q01",
+        "CH03-L03-Q02",
+        "CH03-L03-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp bàn việc đặt giấy in.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Hi, Sandra. I'm ordering supplies for the office. Do we still need to buy printer paper?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5520
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "Yes. We have only two boxes left, and we use about ten a month.",
+          "pauseAfterMs": 450,
+          "startMs": 5970,
+          "endMs": 10850
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "Okay. The supplier has a sale. If we order twenty boxes, we get a discount.",
+          "pauseAfterMs": 450,
+          "startMs": 11300,
+          "endMs": 16500
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "Twenty is too many for our storage closet. How about fifteen?",
+          "pauseAfterMs": 450,
+          "startMs": 16950,
+          "endMs": 20870
+        },
+        {
+          "turn": 5,
+          "speakerId": "M1",
+          "text": "Fifteen should be enough. I'll place the order this afternoon and ask them to deliver it on Monday.",
+          "pauseAfterMs": 450,
+          "startMs": 21320,
+          "endMs": 27480
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l03-g02.mp3",
+      "transcript": "M1: Hi, Sandra. I'm ordering supplies for the office. Do we still need to buy printer paper? / W1: Yes. We have only two boxes left, and we use about ten a month. / M1: Okay. The supplier has a sale. If we order twenty boxes, we get a discount. / W1: Twenty is too many for our storage closet. How about fifteen? / M1: Fifteen should be enough. I'll place the order this afternoon and ask them to deliver it on Monday.",
+      "translation": "- M1: Chào Sandra. Tôi đang đặt vật tư cho văn phòng. Chúng ta còn cần mua giấy in không?\n- W1: Có. Chúng ta chỉ còn hai hộp, và dùng khoảng mười hộp một tháng.\n- M1: Được. Nhà cung cấp đang giảm giá. Nếu đặt hai mươi hộp, chúng ta được chiết khấu.\n- W1: Hai mươi hộp là quá nhiều cho tủ chứa của chúng ta. Mười lăm hộp thì sao?\n- M1: Mười lăm hộp chắc đủ. Chiều nay tôi sẽ đặt hàng và nhờ họ giao vào thứ Hai.",
+      "questionIds": [
+        "CH03-L03-Q04",
+        "CH03-L03-Q05",
+        "CH03-L03-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp chuẩn bị buổi thuyết trình.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Hi, Tom. Are you ready for the client presentation at ten?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 3920
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Not quite. The projector in Conference Room B isn't turning on, and the client will arrive in twenty minutes.",
+          "pauseAfterMs": 450,
+          "startMs": 4370,
+          "endMs": 10850
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "Let me call the IT department. If they can't fix it, we can use the larger room on the fourth floor.",
+          "pauseAfterMs": 450,
+          "startMs": 11300,
+          "endMs": 18420
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "Good idea. Meanwhile, I'll move my laptop and handouts there just in case.",
+          "pauseAfterMs": 450,
+          "startMs": 18870,
+          "endMs": 23430
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l04-g01.mp3",
+      "transcript": "W1: Hi, Tom. Are you ready for the client presentation at ten? / M1: Not quite. The projector in Conference Room B isn't turning on, and the client will arrive in twenty minutes. / W1: Let me call the IT department. If they can't fix it, we can use the larger room on the fourth floor. / M1: Good idea. Meanwhile, I'll move my laptop and handouts there just in case.",
+      "translation": "- W1: Chào Tom. Anh đã sẵn sàng cho buổi thuyết trình với khách hàng lúc mười giờ chưa?\n- M1: Chưa hẳn. Máy chiếu ở Phòng họp B không bật lên, mà khách sẽ đến trong hai mươi phút nữa.\n- W1: Để tôi gọi phòng IT. Nếu họ không sửa được, chúng ta có thể dùng phòng lớn hơn ở tầng bốn.\n- M1: Ý hay. Trong lúc đó, tôi sẽ chuyển máy tính xách tay và tài liệu sang đó phòng khi cần.",
+      "questionIds": [
+        "CH03-L04-Q01",
+        "CH03-L04-Q02",
+        "CH03-L04-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Khách muốn đổi giày ở cửa hàng.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Hi, I bought these running shoes yesterday, but they're a little tight. Can I exchange them for a larger size?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 6800
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Certainly. Unfortunately, we're out of that size in black. We have it in gray, though, or we can order black for you.",
+          "pauseAfterMs": 450,
+          "startMs": 7250,
+          "endMs": 14690
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "I really wanted black. How long would it take?",
+          "pauseAfterMs": 450,
+          "startMs": 15140,
+          "endMs": 18420
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "About three days. I can have it shipped to your home so you don't have to come back.",
+          "pauseAfterMs": 450,
+          "startMs": 18870,
+          "endMs": 25030
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "That would be great. Here's my address.",
+          "pauseAfterMs": 450,
+          "startMs": 25480,
+          "endMs": 28120
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l04-g02.mp3",
+      "transcript": "W1: Hi, I bought these running shoes yesterday, but they're a little tight. Can I exchange them for a larger size? / M1: Certainly. Unfortunately, we're out of that size in black. We have it in gray, though, or we can order black for you. / W1: I really wanted black. How long would it take? / M1: About three days. I can have it shipped to your home so you don't have to come back. / W1: That would be great. Here's my address.",
+      "translation": "- W1: Chào anh, hôm qua tôi mua đôi giày chạy bộ này nhưng hơi chật. Tôi đổi sang cỡ lớn hơn được không?\n- M1: Được chứ. Rất tiếc, chúng tôi hết cỡ đó màu đen. Có màu xám, hoặc chúng tôi có thể đặt màu đen cho chị.\n- W1: Tôi thật sự muốn màu đen. Mất bao lâu?\n- M1: Khoảng ba ngày. Tôi có thể cho gửi về nhà chị để chị không phải quay lại.\n- W1: Vậy thì tuyệt. Đây là địa chỉ của tôi.",
+      "questionIds": [
+        "CH03-L04-Q04",
+        "CH03-L04-Q05",
+        "CH03-L04-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp bàn về việc chuyển văn phòng.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Did you see the email about our office? We're moving to the Harbor Building next month.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5520
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "I did. I'm happy about it, but I'm worried about the commute. It's much farther from my apartment.",
+          "pauseAfterMs": 450,
+          "startMs": 5970,
+          "endMs": 12130
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "Me too. I heard the company may offer a shuttle bus from the train station.",
+          "pauseAfterMs": 450,
+          "startMs": 12580,
+          "endMs": 17780
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "That would help a lot. I'll ask Human Resources whether it's confirmed.",
+          "pauseAfterMs": 450,
+          "startMs": 18230,
+          "endMs": 22470
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l05-g01.mp3",
+      "transcript": "M1: Did you see the email about our office? We're moving to the Harbor Building next month. / W1: I did. I'm happy about it, but I'm worried about the commute. It's much farther from my apartment. / M1: Me too. I heard the company may offer a shuttle bus from the train station. / W1: That would help a lot. I'll ask Human Resources whether it's confirmed.",
+      "translation": "- M1: Cô thấy email về văn phòng của chúng ta chưa? Tháng sau chúng ta chuyển đến Tòa nhà Harbor.\n- W1: Tôi thấy rồi. Tôi vui, nhưng lo về quãng đường đi làm. Nó xa nhà tôi hơn nhiều.\n- M1: Tôi cũng vậy. Tôi nghe nói công ty có thể sẽ có xe đưa đón từ ga tàu.\n- W1: Vậy thì giúp ích nhiều lắm. Tôi sẽ hỏi phòng Nhân sự xem đã chắc chắn chưa.",
+      "questionIds": [
+        "CH03-L05-Q01",
+        "CH03-L05-Q02",
+        "CH03-L05-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp bàn về báo cáo ngân sách.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Marcus, did you finish the budget report? The directors want it by Friday.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 4560
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Almost. I only need the figures from the sales team, but Priya said they won't be ready until Thursday.",
+          "pauseAfterMs": 450,
+          "startMs": 5010,
+          "endMs": 11490
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "That's cutting it close. Could you ask Priya whether she can send them earlier?",
+          "pauseAfterMs": 450,
+          "startMs": 11940,
+          "endMs": 16820
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "I already did, and she said she'd try for Wednesday evening. I'll review everything on Thursday morning, then submit it.",
+          "pauseAfterMs": 450,
+          "startMs": 17270,
+          "endMs": 24070
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "Perfect. Just let me know if anything changes.",
+          "pauseAfterMs": 450,
+          "startMs": 24520,
+          "endMs": 27480
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-l05-g02.mp3",
+      "transcript": "W1: Marcus, did you finish the budget report? The directors want it by Friday. / M1: Almost. I only need the figures from the sales team, but Priya said they won't be ready until Thursday. / W1: That's cutting it close. Could you ask Priya whether she can send them earlier? / M1: I already did, and she said she'd try for Wednesday evening. I'll review everything on Thursday morning, then submit it. / W1: Perfect. Just let me know if anything changes.",
+      "translation": "- W1: Marcus, anh hoàn thành báo cáo ngân sách chưa? Các giám đốc muốn có trước thứ Sáu.\n- M1: Gần xong. Tôi chỉ cần số liệu từ nhóm bán hàng, nhưng Priya nói chúng sẽ chưa sẵn sàng cho đến thứ Năm.\n- W1: Vậy là sát hạn. Anh có thể hỏi Priya xem cô ấy gửi sớm hơn được không?\n- M1: Tôi hỏi rồi, và cô ấy nói sẽ cố gắng cho tối thứ Tư. Tôi sẽ xem lại mọi thứ vào sáng thứ Năm, rồi nộp.\n- W1: Tuyệt. Có gì thay đổi thì cứ báo tôi biết.",
+      "questionIds": [
+        "CH03-L05-Q04",
+        "CH03-L05-Q05",
+        "CH03-L05-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Đặt tiệc ăn uống cho sự kiện công ty.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Good morning, Lakeside Catering. How can I help you?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 3280
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "Hi, I'm organizing a retirement party for our accounting department next Saturday. We expect about forty guests, and I'd like to see your menu.",
+          "pauseAfterMs": 450,
+          "startMs": 3730,
+          "endMs": 11810
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "Certainly. We have buffet and sit-down options. For forty people, the buffet is usually more affordable.",
+          "pauseAfterMs": 450,
+          "startMs": 12260,
+          "endMs": 17780
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "Then the buffet sounds right. Could you email me the menu and prices today?",
+          "pauseAfterMs": 450,
+          "startMs": 18230,
+          "endMs": 23110
+        },
+        {
+          "turn": 5,
+          "speakerId": "M1",
+          "text": "Of course. I just need your email address.",
+          "pauseAfterMs": 450,
+          "startMs": 23560,
+          "endMs": 26520
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-final-g01.mp3",
+      "transcript": "M1: Good morning, Lakeside Catering. How can I help you? / W1: Hi, I'm organizing a retirement party for our accounting department next Saturday. We expect about forty guests, and I'd like to see your menu. / M1: Certainly. We have buffet and sit-down options. For forty people, the buffet is usually more affordable. / W1: Then the buffet sounds right. Could you email me the menu and prices today? / M1: Of course. I just need your email address.",
+      "translation": "- M1: Chào buổi sáng, Lakeside Catering xin nghe. Tôi giúp gì được cho chị?\n- W1: Chào anh, tôi đang tổ chức tiệc nghỉ hưu cho phòng kế toán vào thứ Bảy tuần sau. Chúng tôi dự kiến khoảng bốn mươi khách, và tôi muốn xem thực đơn của anh.\n- M1: Được ạ. Chúng tôi có lựa chọn tiệc buffet và tiệc ngồi. Với bốn mươi người, buffet thường tiết kiệm hơn.\n- W1: Vậy buffet nghe hợp lý. Anh gửi email thực đơn và giá cho tôi hôm nay được không?\n- M1: Tất nhiên. Tôi chỉ cần địa chỉ email của chị.",
+      "questionIds": [
+        "CH03-FINAL-Q01",
+        "CH03-FINAL-Q02",
+        "CH03-FINAL-Q03"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Hai đồng nghiệp nói về hoàn chi phí công tác.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Hi, Yuki. I'm back from the conference in Denver. Where should I submit my travel receipts?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 5520
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "You can upload them to the finance portal, but the deadline for reimbursement is this Friday.",
+          "pauseAfterMs": 450,
+          "startMs": 5970,
+          "endMs": 11490
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "This Friday? Oh, I thought I had until the end of the month. I'd better do it now.",
+          "pauseAfterMs": 450,
+          "startMs": 11940,
+          "endMs": 18100
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "Good idea. If you have trouble with the portal, ask Mr. Hayes in the finance office. He can help you.",
+          "pauseAfterMs": 450,
+          "startMs": 18550,
+          "endMs": 25350
+        },
+        {
+          "turn": 5,
+          "speakerId": "M1",
+          "text": "Thanks. I'll go to his office after lunch.",
+          "pauseAfterMs": 450,
+          "startMs": 25800,
+          "endMs": 28760
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-final-g02.mp3",
+      "transcript": "M1: Hi, Yuki. I'm back from the conference in Denver. Where should I submit my travel receipts? / W1: You can upload them to the finance portal, but the deadline for reimbursement is this Friday. / M1: This Friday? Oh, I thought I had until the end of the month. I'd better do it now. / W1: Good idea. If you have trouble with the portal, ask Mr. Hayes in the finance office. He can help you. / M1: Thanks. I'll go to his office after lunch.",
+      "translation": "- M1: Chào Yuki. Tôi vừa đi hội nghị ở Denver về. Tôi nên nộp biên lai đi lại ở đâu?\n- W1: Anh có thể tải lên cổng thông tin tài chính, nhưng hạn hoàn chi phí là thứ Sáu này.\n- M1: Thứ Sáu này sao? Ồ, tôi tưởng mình có đến cuối tháng. Tốt hơn là làm ngay bây giờ.\n- W1: Ý hay. Nếu anh gặp khó với cổng thông tin, hãy hỏi ông Hayes ở phòng tài chính. Ông ấy có thể giúp anh.\n- M1: Cảm ơn. Tôi sẽ đến văn phòng của ông ấy sau bữa trưa.",
+      "questionIds": [
+        "CH03-FINAL-Q04",
+        "CH03-FINAL-Q05",
+        "CH03-FINAL-Q06"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-G03",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Nhân viên nhờ bộ phận IT đặt lại mật khẩu.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "W1",
+          "text": "Hello, IT help desk. This is Rosa.",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 2640
+        },
+        {
+          "turn": 2,
+          "speakerId": "M1",
+          "text": "Hi, Rosa. I can't log in to the shared drive. It keeps saying my password has expired.",
+          "pauseAfterMs": 450,
+          "startMs": 3090,
+          "endMs": 8930
+        },
+        {
+          "turn": 3,
+          "speakerId": "W1",
+          "text": "That happens every ninety days. You can reset it through the company website. Do you have the link?",
+          "pauseAfterMs": 450,
+          "startMs": 9380,
+          "endMs": 15540
+        },
+        {
+          "turn": 4,
+          "speakerId": "M1",
+          "text": "No, I don't. Could you send it to me?",
+          "pauseAfterMs": 450,
+          "startMs": 15990,
+          "endMs": 19270
+        },
+        {
+          "turn": 5,
+          "speakerId": "W1",
+          "text": "Sure. I'll send it right now. Once you reset it, wait a few minutes before you try again.",
+          "pauseAfterMs": 450,
+          "startMs": 19720,
+          "endMs": 25880
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-final-g03.mp3",
+      "transcript": "W1: Hello, IT help desk. This is Rosa. / M1: Hi, Rosa. I can't log in to the shared drive. It keeps saying my password has expired. / W1: That happens every ninety days. You can reset it through the company website. Do you have the link? / M1: No, I don't. Could you send it to me? / W1: Sure. I'll send it right now. Once you reset it, wait a few minutes before you try again.",
+      "translation": "- W1: Xin chào, bộ phận hỗ trợ IT đây. Tôi là Rosa.\n- M1: Chào Rosa. Tôi không đăng nhập được vào ổ đĩa chung. Nó cứ báo mật khẩu của tôi đã hết hạn.\n- W1: Việc đó xảy ra cứ mỗi chín mươi ngày. Anh có thể đặt lại qua trang web công ty. Anh có đường dẫn không?\n- M1: Không, tôi không có. Cô gửi cho tôi được không?\n- W1: Được. Tôi sẽ gửi ngay bây giờ. Sau khi anh đặt lại, hãy chờ vài phút rồi hãy thử lại.",
+      "questionIds": [
+        "CH03-FINAL-Q07",
+        "CH03-FINAL-Q08",
+        "CH03-FINAL-Q09"
+      ],
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-G04",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "groupType": "conversation",
+      "context": "Khách hỏi đăng ký phòng tập.",
+      "speakers": [
+        {
+          "speakerId": "W1",
+          "label": "Woman",
+          "gender": "female"
+        },
+        {
+          "speakerId": "M1",
+          "label": "Man",
+          "gender": "male"
+        }
+      ],
+      "voiceAssignment": {
+        "W1": "us-female-01",
+        "M1": "us-male-01"
+      },
+      "turns": [
+        {
+          "turn": 1,
+          "speakerId": "M1",
+          "text": "Welcome to Greenfield Fitness. Are you interested in a membership?",
+          "pauseAfterMs": 450,
+          "startMs": 0,
+          "endMs": 3600
+        },
+        {
+          "turn": 2,
+          "speakerId": "W1",
+          "text": "Yes. I work nearby, so I'd like to come before work. What time do you open?",
+          "pauseAfterMs": 450,
+          "startMs": 4050,
+          "endMs": 9570
+        },
+        {
+          "turn": 3,
+          "speakerId": "M1",
+          "text": "We open at five thirty on weekdays. Our monthly plan is forty dollars, or you can pay for a full year and get two months free.",
+          "pauseAfterMs": 450,
+          "startMs": 10020,
+          "endMs": 18740
+        },
+        {
+          "turn": 4,
+          "speakerId": "W1",
+          "text": "The yearly plan sounds good, but I'd like to try the gym first.",
+          "pauseAfterMs": 450,
+          "startMs": 19190,
+          "endMs": 23750
+        },
+        {
+          "turn": 5,
+          "speakerId": "M1",
+          "text": "No problem. I can give you a free three-day pass. You just need to fill out this form.",
+          "pauseAfterMs": 450,
+          "startMs": 24200,
+          "endMs": 30360
+        }
+      ],
+      "audioFile": "audio/chapter-03/ch03-final-g04.mp3",
+      "transcript": "M1: Welcome to Greenfield Fitness. Are you interested in a membership? / W1: Yes. I work nearby, so I'd like to come before work. What time do you open? / M1: We open at five thirty on weekdays. Our monthly plan is forty dollars, or you can pay for a full year and get two months free. / W1: The yearly plan sounds good, but I'd like to try the gym first. / M1: No problem. I can give you a free three-day pass. You just need to fill out this form.",
+      "translation": "- M1: Chào mừng đến Greenfield Fitness. Chị có quan tâm đến gói thành viên không?\n- W1: Có. Tôi làm việc gần đây nên muốn đến tập trước giờ làm. Anh mở cửa lúc mấy giờ?\n- M1: Chúng tôi mở lúc năm giờ ba mươi vào các ngày trong tuần. Gói hằng tháng là bốn mươi đô la, hoặc chị có thể trả cả năm và được miễn phí hai tháng.\n- W1: Gói năm nghe hay đấy, nhưng tôi muốn tập thử trước.\n- M1: Không vấn đề gì. Tôi có thể tặng chị một vé tập miễn phí ba ngày. Chị chỉ cần điền vào mẫu này.",
+      "questionIds": [
+        "CH03-FINAL-Q10",
+        "CH03-FINAL-Q11",
+        "CH03-FINAL-Q12"
+      ],
+      "revision": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "CH03-L01-Q01",
+      "groupId": "CH03-L01-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Why is the woman calling?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "To cancel an order",
+        "B": "To change a delivery address",
+        "C": "To check on the readiness of an order",
+        "D": "To complain about a price"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Hello, this is Carla Mendes from Brightwell Dental. I'm calling about the brochures we ordered last week. / M1: Hi, Ms. Mendes. Yes, I have your order here. Is there a problem? / W1: Not exactly. We need them for a health fair on Friday, and I wanted to make sure they'll be ready in time. / M1: They're printed already. I can have them delivered tomorrow afternoon. / W1: That's perfect. Please send them to the front desk.",
+      "translation": "- W1: Xin chào, tôi là Carla Mendes ở Phòng khám nha khoa Brightwell. Tôi gọi về các tờ rơi chúng tôi đặt tuần trước.\n- M1: Chào cô Mendes. Vâng, tôi có đơn hàng của cô đây. Có vấn đề gì không ạ?\n- W1: Không hẳn. Chúng tôi cần chúng cho hội chợ sức khỏe vào thứ Sáu, và tôi muốn chắc là chúng kịp sẵn sàng.\n- M1: Chúng đã được in rồi. Tôi có thể cho giao vào chiều mai.\n- W1: Tuyệt quá. Xin hãy gửi đến quầy lễ tân.",
+      "explanation": "Người nữ nói gọi về đơn hàng tờ rơi và muốn chắc là chúng sẽ sẵn sàng kịp.",
+      "wrongReasons": {
+        "A": "A không nói hủy",
+        "B": "B địa chỉ chỉ nhắc là quầy lễ tân, không đổi",
+        "D": "D không nói về giá."
+      },
+      "skillTags": [
+        "part3_purpose",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-Q02",
+      "groupId": "CH03-L01-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What event is the woman preparing for?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A health fair",
+        "B": "A grand opening",
+        "C": "A staff training",
+        "D": "A product launch"
+      },
+      "correctAnswer": "A",
+      "transcript": "W1: Hello, this is Carla Mendes from Brightwell Dental. I'm calling about the brochures we ordered last week. / M1: Hi, Ms. Mendes. Yes, I have your order here. Is there a problem? / W1: Not exactly. We need them for a health fair on Friday, and I wanted to make sure they'll be ready in time. / M1: They're printed already. I can have them delivered tomorrow afternoon. / W1: That's perfect. Please send them to the front desk.",
+      "translation": "- W1: Xin chào, tôi là Carla Mendes ở Phòng khám nha khoa Brightwell. Tôi gọi về các tờ rơi chúng tôi đặt tuần trước.\n- M1: Chào cô Mendes. Vâng, tôi có đơn hàng của cô đây. Có vấn đề gì không ạ?\n- W1: Không hẳn. Chúng tôi cần chúng cho hội chợ sức khỏe vào thứ Sáu, và tôi muốn chắc là chúng kịp sẵn sàng.\n- M1: Chúng đã được in rồi. Tôi có thể cho giao vào chiều mai.\n- W1: Tuyệt quá. Xin hãy gửi đến quầy lễ tân.",
+      "explanation": "`a health fair on Friday` là sự kiện cần tờ rơi.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc trong hội thoại.",
+        "C": "B, C, D không được nhắc trong hội thoại.",
+        "D": "D không được nhắc trong hội thoại."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "part3_event"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-Q03",
+      "groupId": "CH03-L01-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What will the man do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Send a refund",
+        "B": "Print additional copies",
+        "C": "Call a different customer",
+        "D": "Deliver the order tomorrow"
+      },
+      "correctAnswer": "D",
+      "transcript": "W1: Hello, this is Carla Mendes from Brightwell Dental. I'm calling about the brochures we ordered last week. / M1: Hi, Ms. Mendes. Yes, I have your order here. Is there a problem? / W1: Not exactly. We need them for a health fair on Friday, and I wanted to make sure they'll be ready in time. / M1: They're printed already. I can have them delivered tomorrow afternoon. / W1: That's perfect. Please send them to the front desk.",
+      "translation": "- W1: Xin chào, tôi là Carla Mendes ở Phòng khám nha khoa Brightwell. Tôi gọi về các tờ rơi chúng tôi đặt tuần trước.\n- M1: Chào cô Mendes. Vâng, tôi có đơn hàng của cô đây. Có vấn đề gì không ạ?\n- W1: Không hẳn. Chúng tôi cần chúng cho hội chợ sức khỏe vào thứ Sáu, và tôi muốn chắc là chúng kịp sẵn sàng.\n- M1: Chúng đã được in rồi. Tôi có thể cho giao vào chiều mai.\n- W1: Tuyệt quá. Xin hãy gửi đến quầy lễ tân.",
+      "explanation": "Người nam nói có thể cho giao hàng vào chiều mai.",
+      "wrongReasons": {
+        "A": "A không có hoàn tiền",
+        "B": "B tờ rơi đã được in rồi",
+        "C": "C không nhắc khách khác."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "time_expression"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-Q04",
+      "groupId": "CH03-L01-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What are the speakers mainly discussing?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A client meeting",
+        "B": "A change to a training schedule",
+        "C": "A new safety regulation",
+        "D": "A trainer's salary"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Hi, Janet. Do you have a minute? I wanted to talk about next week's safety training. / W1: Sure. Is it still on Tuesday morning? / M1: That's the issue. The trainer can't come until Wednesday, so we'll need to move the session. / W1: Wednesday is fine for my team, but a few of us have a client meeting after lunch. / M1: Then let's start at nine. That should finish before noon. / W1: Great. I'll let everyone know.",
+      "translation": "- M1: Chào Janet. Cô có rảnh một phút không? Tôi muốn bàn về buổi đào tạo an toàn tuần sau.\n- W1: Được. Vẫn là sáng thứ Ba chứ?\n- M1: Đó là vấn đề. Người đào tạo không thể đến cho đến thứ Tư, nên chúng ta cần dời buổi học.\n- W1: Thứ Tư ổn với nhóm tôi, nhưng vài người chúng tôi có cuộc họp khách hàng sau bữa trưa.\n- M1: Vậy hãy bắt đầu lúc chín giờ. Như vậy sẽ kết thúc trước buổi trưa.\n- W1: Tuyệt. Tôi sẽ báo mọi người.",
+      "explanation": "Họ bàn về việc dời buổi đào tạo an toàn từ thứ Ba sang thứ Tư.",
+      "wrongReasons": {
+        "A": "A chỉ là lý do phụ về giờ giấc",
+        "C": "C không nói quy định mới",
+        "D": "D không nói lương."
+      },
+      "skillTags": [
+        "part3_topic",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-Q05",
+      "groupId": "CH03-L01-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Why does the man suggest starting at nine?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "To finish before noon",
+        "B": "To wait for the trainer",
+        "C": "To avoid traffic",
+        "D": "To prepare the room"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Hi, Janet. Do you have a minute? I wanted to talk about next week's safety training. / W1: Sure. Is it still on Tuesday morning? / M1: That's the issue. The trainer can't come until Wednesday, so we'll need to move the session. / W1: Wednesday is fine for my team, but a few of us have a client meeting after lunch. / M1: Then let's start at nine. That should finish before noon. / W1: Great. I'll let everyone know.",
+      "translation": "- M1: Chào Janet. Cô có rảnh một phút không? Tôi muốn bàn về buổi đào tạo an toàn tuần sau.\n- W1: Được. Vẫn là sáng thứ Ba chứ?\n- M1: Đó là vấn đề. Người đào tạo không thể đến cho đến thứ Tư, nên chúng ta cần dời buổi học.\n- W1: Thứ Tư ổn với nhóm tôi, nhưng vài người chúng tôi có cuộc họp khách hàng sau bữa trưa.\n- M1: Vậy hãy bắt đầu lúc chín giờ. Như vậy sẽ kết thúc trước buổi trưa.\n- W1: Tuyệt. Tôi sẽ báo mọi người.",
+      "explanation": "Người nam nói bắt đầu lúc chín giờ thì sẽ kết thúc trước buổi trưa, kịp trước cuộc họp khách hàng buổi chiều.",
+      "wrongReasons": {
+        "B": "B người đào tạo đã chắc chắn đến thứ Tư",
+        "C": "C không nói về giao thông",
+        "D": "D không nói chuẩn bị phòng."
+      },
+      "skillTags": [
+        "part3_reason",
+        "time_expression"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L01-Q06",
+      "groupId": "CH03-L01-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L01",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What will the woman do next?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Contact the trainer",
+        "B": "Reserve a meeting room",
+        "C": "Inform her colleagues",
+        "D": "Cancel a client meeting"
+      },
+      "correctAnswer": "C",
+      "transcript": "M1: Hi, Janet. Do you have a minute? I wanted to talk about next week's safety training. / W1: Sure. Is it still on Tuesday morning? / M1: That's the issue. The trainer can't come until Wednesday, so we'll need to move the session. / W1: Wednesday is fine for my team, but a few of us have a client meeting after lunch. / M1: Then let's start at nine. That should finish before noon. / W1: Great. I'll let everyone know.",
+      "translation": "- M1: Chào Janet. Cô có rảnh một phút không? Tôi muốn bàn về buổi đào tạo an toàn tuần sau.\n- W1: Được. Vẫn là sáng thứ Ba chứ?\n- M1: Đó là vấn đề. Người đào tạo không thể đến cho đến thứ Tư, nên chúng ta cần dời buổi học.\n- W1: Thứ Tư ổn với nhóm tôi, nhưng vài người chúng tôi có cuộc họp khách hàng sau bữa trưa.\n- M1: Vậy hãy bắt đầu lúc chín giờ. Như vậy sẽ kết thúc trước buổi trưa.\n- W1: Tuyệt. Tôi sẽ báo mọi người.",
+      "explanation": "`I'll let everyone know` = báo cho mọi người biết.",
+      "wrongReasons": {
+        "A": "A người nam phụ trách việc với người đào tạo",
+        "B": "B không đặt phòng",
+        "D": "D cuộc họp khách hàng vẫn diễn ra."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q01",
+      "groupId": "CH03-L02-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Where does the conversation most likely take place?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "At a restaurant",
+        "B": "At a hotel",
+        "C": "At a travel agency",
+        "D": "At an airport"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Good evening. I have a reservation under Daniel Foster. / W1: Welcome, Mr. Foster. I see you're booked for three nights. May I have your credit card for the deposit? / M1: Of course. Also, is breakfast included? I didn't see it on my confirmation. / W1: Breakfast is served from six to ten in the restaurant on the second floor. Here's your key card.",
+      "translation": "- M1: Chào buổi tối. Tôi có đặt phòng dưới tên Daniel Foster.\n- W1: Chào mừng ông Foster. Tôi thấy ông đặt ba đêm. Tôi xin thẻ tín dụng của ông để đặt cọc được không ạ?\n- M1: Tất nhiên. Ngoài ra, bữa sáng có bao gồm không? Tôi không thấy trong xác nhận của mình.\n- W1: Bữa sáng phục vụ từ sáu đến mười giờ ở nhà hàng tầng hai. Đây là thẻ khóa phòng của ông.",
+      "explanation": "`reservation`, `booked for three nights`, `deposit`, `key card` là các manh mối của khách sạn.",
+      "wrongReasons": {
+        "A": "A nhà hàng chỉ được nhắc như nơi ăn sáng",
+        "C": "C và",
+        "D": "D không có manh mối."
+      },
+      "skillTags": [
+        "part3_place",
+        "part3_inference"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q02",
+      "groupId": "CH03-L02-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man ask about?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Parking fees",
+        "B": "A late checkout",
+        "C": "A room upgrade",
+        "D": "Breakfast"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Good evening. I have a reservation under Daniel Foster. / W1: Welcome, Mr. Foster. I see you're booked for three nights. May I have your credit card for the deposit? / M1: Of course. Also, is breakfast included? I didn't see it on my confirmation. / W1: Breakfast is served from six to ten in the restaurant on the second floor. Here's your key card.",
+      "translation": "- M1: Chào buổi tối. Tôi có đặt phòng dưới tên Daniel Foster.\n- W1: Chào mừng ông Foster. Tôi thấy ông đặt ba đêm. Tôi xin thẻ tín dụng của ông để đặt cọc được không ạ?\n- M1: Tất nhiên. Ngoài ra, bữa sáng có bao gồm không? Tôi không thấy trong xác nhận của mình.\n- W1: Bữa sáng phục vụ từ sáu đến mười giờ ở nhà hàng tầng hai. Đây là thẻ khóa phòng của ông.",
+      "explanation": "Người nam hỏi `is breakfast included?`.",
+      "wrongReasons": {
+        "A": "A, B, C không được nhắc.",
+        "B": "A, B, C không được nhắc.",
+        "C": "C không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q03",
+      "groupId": "CH03-L02-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman give the man?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A key card",
+        "B": "A receipt",
+        "C": "A city map",
+        "D": "A menu"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Good evening. I have a reservation under Daniel Foster. / W1: Welcome, Mr. Foster. I see you're booked for three nights. May I have your credit card for the deposit? / M1: Of course. Also, is breakfast included? I didn't see it on my confirmation. / W1: Breakfast is served from six to ten in the restaurant on the second floor. Here's your key card.",
+      "translation": "- M1: Chào buổi tối. Tôi có đặt phòng dưới tên Daniel Foster.\n- W1: Chào mừng ông Foster. Tôi thấy ông đặt ba đêm. Tôi xin thẻ tín dụng của ông để đặt cọc được không ạ?\n- M1: Tất nhiên. Ngoài ra, bữa sáng có bao gồm không? Tôi không thấy trong xác nhận của mình.\n- W1: Bữa sáng phục vụ từ sáu đến mười giờ ở nhà hàng tầng hai. Đây là thẻ khóa phòng của ông.",
+      "explanation": "Người nữ nói `Here's your key card`.",
+      "wrongReasons": {
+        "B": "B, C, D không có trong hội thoại.",
+        "C": "B, C, D không có trong hội thoại.",
+        "D": "D không có trong hội thoại."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q04",
+      "groupId": "CH03-L02-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Who most likely is the man?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A doctor",
+        "B": "A delivery driver",
+        "C": "A pharmacist",
+        "D": "An insurance agent"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Excuse me, I'm here to pick up a prescription for my son. The last name is Alvarez. / M1: One moment, I'll check. Yes, it's ready, but I'd like to explain something first. The doctor changed the dosage this time. / W1: Thank you. I didn't notice any change. / M1: He should take one tablet in the morning and one at night, with food. / W1: Got it. Do I pay here or at the front counter? / M1: Right here. Your insurance covers most of it, so it's only five dollars.",
+      "translation": "- W1: Xin lỗi, tôi đến lấy thuốc theo đơn cho con trai tôi. Họ là Alvarez.\n- M1: Xin chờ một chút, tôi sẽ kiểm tra. Vâng, thuốc đã sẵn sàng, nhưng tôi muốn giải thích điều này trước. Lần này bác sĩ đã đổi liều lượng.\n- W1: Cảm ơn anh. Tôi không để ý có thay đổi.\n- M1: Cháu nên uống một viên vào buổi sáng và một viên vào buổi tối, cùng với thức ăn.\n- W1: Tôi hiểu rồi. Tôi trả ở đây hay ở quầy phía trước?\n- M1: Ngay tại đây. Bảo hiểm của chị chi trả phần lớn, nên chỉ còn năm đô la.",
+      "explanation": "Anh ấy kiểm tra thuốc theo đơn, giải thích liều lượng và nhận tiền tại chỗ, đó là công việc của dược sĩ.",
+      "wrongReasons": {
+        "A": "A bác sĩ là người đã thay đổi liều, không phải người nam",
+        "B": "B không có giao hàng",
+        "D": "D bảo hiểm chỉ được nhắc khi nói về chi phí."
+      },
+      "skillTags": [
+        "part3_occupation",
+        "part3_inference"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q05",
+      "groupId": "CH03-L02-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man want to explain?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Insurance rules",
+        "B": "A store policy",
+        "C": "A refill date",
+        "D": "A change in the dosage"
+      },
+      "correctAnswer": "D",
+      "transcript": "W1: Excuse me, I'm here to pick up a prescription for my son. The last name is Alvarez. / M1: One moment, I'll check. Yes, it's ready, but I'd like to explain something first. The doctor changed the dosage this time. / W1: Thank you. I didn't notice any change. / M1: He should take one tablet in the morning and one at night, with food. / W1: Got it. Do I pay here or at the front counter? / M1: Right here. Your insurance covers most of it, so it's only five dollars.",
+      "translation": "- W1: Xin lỗi, tôi đến lấy thuốc theo đơn cho con trai tôi. Họ là Alvarez.\n- M1: Xin chờ một chút, tôi sẽ kiểm tra. Vâng, thuốc đã sẵn sàng, nhưng tôi muốn giải thích điều này trước. Lần này bác sĩ đã đổi liều lượng.\n- W1: Cảm ơn anh. Tôi không để ý có thay đổi.\n- M1: Cháu nên uống một viên vào buổi sáng và một viên vào buổi tối, cùng với thức ăn.\n- W1: Tôi hiểu rồi. Tôi trả ở đây hay ở quầy phía trước?\n- M1: Ngay tại đây. Bảo hiểm của chị chi trả phần lớn, nên chỉ còn năm đô la.",
+      "explanation": "Người nam nói bác sĩ đã đổi liều lượng và anh muốn giải thích.",
+      "wrongReasons": {
+        "A": "A bảo hiểm chỉ nhắc ngắn khi nói giá",
+        "B": "B không nói chính sách cửa hàng",
+        "C": "C không nói ngày mua lại thuốc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L02-Q06",
+      "groupId": "CH03-L02-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L02",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "How much will the woman pay?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Two dollars",
+        "B": "Five dollars",
+        "C": "Fifteen dollars",
+        "D": "Fifty dollars"
+      },
+      "correctAnswer": "B",
+      "transcript": "W1: Excuse me, I'm here to pick up a prescription for my son. The last name is Alvarez. / M1: One moment, I'll check. Yes, it's ready, but I'd like to explain something first. The doctor changed the dosage this time. / W1: Thank you. I didn't notice any change. / M1: He should take one tablet in the morning and one at night, with food. / W1: Got it. Do I pay here or at the front counter? / M1: Right here. Your insurance covers most of it, so it's only five dollars.",
+      "translation": "- W1: Xin lỗi, tôi đến lấy thuốc theo đơn cho con trai tôi. Họ là Alvarez.\n- M1: Xin chờ một chút, tôi sẽ kiểm tra. Vâng, thuốc đã sẵn sàng, nhưng tôi muốn giải thích điều này trước. Lần này bác sĩ đã đổi liều lượng.\n- W1: Cảm ơn anh. Tôi không để ý có thay đổi.\n- M1: Cháu nên uống một viên vào buổi sáng và một viên vào buổi tối, cùng với thức ăn.\n- W1: Tôi hiểu rồi. Tôi trả ở đây hay ở quầy phía trước?\n- M1: Ngay tại đây. Bảo hiểm của chị chi trả phần lớn, nên chỉ còn năm đô la.",
+      "explanation": "`it's only five dollars`. Cẩn thận phân biệt `five`, `fifteen`, `fifty`.",
+      "wrongReasons": {
+        "A": "A không được nhắc",
+        "C": "C và",
+        "D": "D à các số dễ nhầm với `five`."
+      },
+      "skillTags": [
+        "part3_detail_number",
+        "number_recognition",
+        "teen_ty_numbers"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q01",
+      "groupId": "CH03-L03-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What position is the man applying for?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Marketing",
+        "B": "Design",
+        "C": "Accounting",
+        "D": "Human resources"
+      },
+      "correctAnswer": "A",
+      "transcript": "W1: Mr. Chen, I'm calling to confirm your interview for the marketing position. It's scheduled for Thursday at two o'clock. / M1: Thursday? I thought it was Wednesday. Hold on, let me check my calendar. Oh, you're right, Thursday. Sorry about that. / W1: No problem. Please arrive fifteen minutes early, and bring a copy of your portfolio. / M1: Will I meet with the department head? / W1: Yes, Ms. Okafor will be interviewing you, along with a member of the design team.",
+      "translation": "- W1: Anh Chen, tôi gọi để xác nhận buổi phỏng vấn vị trí marketing của anh. Lịch hẹn là thứ Năm lúc hai giờ.\n- M1: Thứ Năm sao? Tôi tưởng là thứ Tư. Chờ chút, để tôi xem lịch. Ồ, cô nói đúng, thứ Năm. Xin lỗi nhé.\n- W1: Không sao. Xin hãy đến sớm mười lăm phút và mang theo một bản hồ sơ năng lực.\n- M1: Tôi sẽ gặp trưởng phòng chứ?\n- W1: Vâng, cô Okafor sẽ phỏng vấn anh, cùng một thành viên của nhóm thiết kế.",
+      "explanation": "`your interview for the marketing position`.",
+      "wrongReasons": {
+        "B": "B nhóm thiết kế chỉ là một người cùng phỏng vấn",
+        "C": "C và",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q02",
+      "groupId": "CH03-L03-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "When is the interview?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Wednesday at two o'clock",
+        "B": "Wednesday at four o'clock",
+        "C": "Thursday at two o'clock",
+        "D": "Thursday at four o'clock"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Mr. Chen, I'm calling to confirm your interview for the marketing position. It's scheduled for Thursday at two o'clock. / M1: Thursday? I thought it was Wednesday. Hold on, let me check my calendar. Oh, you're right, Thursday. Sorry about that. / W1: No problem. Please arrive fifteen minutes early, and bring a copy of your portfolio. / M1: Will I meet with the department head? / W1: Yes, Ms. Okafor will be interviewing you, along with a member of the design team.",
+      "translation": "- W1: Anh Chen, tôi gọi để xác nhận buổi phỏng vấn vị trí marketing của anh. Lịch hẹn là thứ Năm lúc hai giờ.\n- M1: Thứ Năm sao? Tôi tưởng là thứ Tư. Chờ chút, để tôi xem lịch. Ồ, cô nói đúng, thứ Năm. Xin lỗi nhé.\n- W1: Không sao. Xin hãy đến sớm mười lăm phút và mang theo một bản hồ sơ năng lực.\n- M1: Tôi sẽ gặp trưởng phòng chứ?\n- W1: Vâng, cô Okafor sẽ phỏng vấn anh, cùng một thành viên của nhóm thiết kế.",
+      "explanation": "Người nam tưởng thứ Tư nhưng sau khi kiểm tra lịch thì xác nhận là thứ Năm lúc hai giờ.",
+      "wrongReasons": {
+        "A": "A và",
+        "B": "B chứa thứ Tư, ngày bị nhầm",
+        "D": "D sai giờ."
+      },
+      "skillTags": [
+        "part3_detail_time",
+        "part3_corrected_info",
+        "time_expression"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q03",
+      "groupId": "CH03-L03-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman ask the man to bring?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A letter of reference",
+        "B": "A portfolio",
+        "C": "A photo ID",
+        "D": "A building pass"
+      },
+      "correctAnswer": "B",
+      "transcript": "W1: Mr. Chen, I'm calling to confirm your interview for the marketing position. It's scheduled for Thursday at two o'clock. / M1: Thursday? I thought it was Wednesday. Hold on, let me check my calendar. Oh, you're right, Thursday. Sorry about that. / W1: No problem. Please arrive fifteen minutes early, and bring a copy of your portfolio. / M1: Will I meet with the department head? / W1: Yes, Ms. Okafor will be interviewing you, along with a member of the design team.",
+      "translation": "- W1: Anh Chen, tôi gọi để xác nhận buổi phỏng vấn vị trí marketing của anh. Lịch hẹn là thứ Năm lúc hai giờ.\n- M1: Thứ Năm sao? Tôi tưởng là thứ Tư. Chờ chút, để tôi xem lịch. Ồ, cô nói đúng, thứ Năm. Xin lỗi nhé.\n- W1: Không sao. Xin hãy đến sớm mười lăm phút và mang theo một bản hồ sơ năng lực.\n- M1: Tôi sẽ gặp trưởng phòng chứ?\n- W1: Vâng, cô Okafor sẽ phỏng vấn anh, cùng một thành viên của nhóm thiết kế.",
+      "explanation": "`bring a copy of your portfolio`.",
+      "wrongReasons": {
+        "A": "A, C, D không được nhắc.",
+        "C": "A, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "part3_request"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q04",
+      "groupId": "CH03-L03-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "How many boxes of paper are left?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Ten",
+        "B": "Fifteen",
+        "C": "Twenty",
+        "D": "Two"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Hi, Sandra. I'm ordering supplies for the office. Do we still need to buy printer paper? / W1: Yes. We have only two boxes left, and we use about ten a month. / M1: Okay. The supplier has a sale. If we order twenty boxes, we get a discount. / W1: Twenty is too many for our storage closet. How about fifteen? / M1: Fifteen should be enough. I'll place the order this afternoon and ask them to deliver it on Monday.",
+      "translation": "- M1: Chào Sandra. Tôi đang đặt vật tư cho văn phòng. Chúng ta còn cần mua giấy in không?\n- W1: Có. Chúng ta chỉ còn hai hộp, và dùng khoảng mười hộp một tháng.\n- M1: Được. Nhà cung cấp đang giảm giá. Nếu đặt hai mươi hộp, chúng ta được chiết khấu.\n- W1: Hai mươi hộp là quá nhiều cho tủ chứa của chúng ta. Mười lăm hộp thì sao?\n- M1: Mười lăm hộp chắc đủ. Chiều nay tôi sẽ đặt hàng và nhờ họ giao vào thứ Hai.",
+      "explanation": "`We have only two boxes left`.",
+      "wrongReasons": {
+        "A": "A à lượng dùng mỗi tháng",
+        "B": "B à số sẽ đặt",
+        "C": "C à số người nam đề xuất lúc đầu."
+      },
+      "skillTags": [
+        "part3_detail_number",
+        "number_recognition"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q05",
+      "groupId": "CH03-L03-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Why does the woman reject the man's first number?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "The price is too high",
+        "B": "There isn't enough storage space",
+        "C": "The supplier is out of stock",
+        "D": "The paper is low quality"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Hi, Sandra. I'm ordering supplies for the office. Do we still need to buy printer paper? / W1: Yes. We have only two boxes left, and we use about ten a month. / M1: Okay. The supplier has a sale. If we order twenty boxes, we get a discount. / W1: Twenty is too many for our storage closet. How about fifteen? / M1: Fifteen should be enough. I'll place the order this afternoon and ask them to deliver it on Monday.",
+      "translation": "- M1: Chào Sandra. Tôi đang đặt vật tư cho văn phòng. Chúng ta còn cần mua giấy in không?\n- W1: Có. Chúng ta chỉ còn hai hộp, và dùng khoảng mười hộp một tháng.\n- M1: Được. Nhà cung cấp đang giảm giá. Nếu đặt hai mươi hộp, chúng ta được chiết khấu.\n- W1: Hai mươi hộp là quá nhiều cho tủ chứa của chúng ta. Mười lăm hộp thì sao?\n- M1: Mười lăm hộp chắc đủ. Chiều nay tôi sẽ đặt hàng và nhờ họ giao vào thứ Hai.",
+      "explanation": "`Twenty is too many for our storage closet`.",
+      "wrongReasons": {
+        "A": "A giá không được phàn nàn",
+        "C": "C nhà cung cấp đang giảm giá chứ không hết hàng",
+        "D": "D không nói chất lượng."
+      },
+      "skillTags": [
+        "part3_reason",
+        "part3_corrected_info"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L03-Q06",
+      "groupId": "CH03-L03-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L03",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man say he will do this afternoon?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Place an order",
+        "B": "Visit the supplier",
+        "C": "Clean the storage closet",
+        "D": "Count the boxes"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Hi, Sandra. I'm ordering supplies for the office. Do we still need to buy printer paper? / W1: Yes. We have only two boxes left, and we use about ten a month. / M1: Okay. The supplier has a sale. If we order twenty boxes, we get a discount. / W1: Twenty is too many for our storage closet. How about fifteen? / M1: Fifteen should be enough. I'll place the order this afternoon and ask them to deliver it on Monday.",
+      "translation": "- M1: Chào Sandra. Tôi đang đặt vật tư cho văn phòng. Chúng ta còn cần mua giấy in không?\n- W1: Có. Chúng ta chỉ còn hai hộp, và dùng khoảng mười hộp một tháng.\n- M1: Được. Nhà cung cấp đang giảm giá. Nếu đặt hai mươi hộp, chúng ta được chiết khấu.\n- W1: Hai mươi hộp là quá nhiều cho tủ chứa của chúng ta. Mười lăm hộp thì sao?\n- M1: Mười lăm hộp chắc đủ. Chiều nay tôi sẽ đặt hàng và nhờ họ giao vào thứ Hai.",
+      "explanation": "`I'll place the order this afternoon`.",
+      "wrongReasons": {
+        "B": "B không đến nhà cung cấp",
+        "C": "C và",
+        "D": "D không được nói."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "time_expression"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q01",
+      "groupId": "CH03-L04-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What problem does the man mention?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A client is late",
+        "B": "His laptop is missing",
+        "C": "A meeting was canceled",
+        "D": "A projector isn't working"
+      },
+      "correctAnswer": "D",
+      "transcript": "W1: Hi, Tom. Are you ready for the client presentation at ten? / M1: Not quite. The projector in Conference Room B isn't turning on, and the client will arrive in twenty minutes. / W1: Let me call the IT department. If they can't fix it, we can use the larger room on the fourth floor. / M1: Good idea. Meanwhile, I'll move my laptop and handouts there just in case.",
+      "translation": "- W1: Chào Tom. Anh đã sẵn sàng cho buổi thuyết trình với khách hàng lúc mười giờ chưa?\n- M1: Chưa hẳn. Máy chiếu ở Phòng họp B không bật lên, mà khách sẽ đến trong hai mươi phút nữa.\n- W1: Để tôi gọi phòng IT. Nếu họ không sửa được, chúng ta có thể dùng phòng lớn hơn ở tầng bốn.\n- M1: Ý hay. Trong lúc đó, tôi sẽ chuyển máy tính xách tay và tài liệu sang đó phòng khi cần.",
+      "explanation": "`The projector ... isn't turning on`.",
+      "wrongReasons": {
+        "A": "A khách chưa đến nhưng không bị trễ",
+        "B": "B máy tính vẫn còn, anh sẽ mang đi",
+        "C": "C cuộc họp không bị hủy."
+      },
+      "skillTags": [
+        "part3_problem",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q02",
+      "groupId": "CH03-L04-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman offer to do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Reschedule the presentation",
+        "B": "Contact the IT department",
+        "C": "Print additional handouts",
+        "D": "Welcome the client"
+      },
+      "correctAnswer": "B",
+      "transcript": "W1: Hi, Tom. Are you ready for the client presentation at ten? / M1: Not quite. The projector in Conference Room B isn't turning on, and the client will arrive in twenty minutes. / W1: Let me call the IT department. If they can't fix it, we can use the larger room on the fourth floor. / M1: Good idea. Meanwhile, I'll move my laptop and handouts there just in case.",
+      "translation": "- W1: Chào Tom. Anh đã sẵn sàng cho buổi thuyết trình với khách hàng lúc mười giờ chưa?\n- M1: Chưa hẳn. Máy chiếu ở Phòng họp B không bật lên, mà khách sẽ đến trong hai mươi phút nữa.\n- W1: Để tôi gọi phòng IT. Nếu họ không sửa được, chúng ta có thể dùng phòng lớn hơn ở tầng bốn.\n- M1: Ý hay. Trong lúc đó, tôi sẽ chuyển máy tính xách tay và tài liệu sang đó phòng khi cần.",
+      "explanation": "`Let me call the IT department` là lời đề nghị của người nữ.",
+      "wrongReasons": {
+        "A": "A, C, D không được nhắc.",
+        "C": "A, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_offer",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q03",
+      "groupId": "CH03-L04-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What will the man do next?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Call the client",
+        "B": "Repair the projector",
+        "C": "Take his materials to another room",
+        "D": "Present his slides"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Hi, Tom. Are you ready for the client presentation at ten? / M1: Not quite. The projector in Conference Room B isn't turning on, and the client will arrive in twenty minutes. / W1: Let me call the IT department. If they can't fix it, we can use the larger room on the fourth floor. / M1: Good idea. Meanwhile, I'll move my laptop and handouts there just in case.",
+      "translation": "- W1: Chào Tom. Anh đã sẵn sàng cho buổi thuyết trình với khách hàng lúc mười giờ chưa?\n- M1: Chưa hẳn. Máy chiếu ở Phòng họp B không bật lên, mà khách sẽ đến trong hai mươi phút nữa.\n- W1: Để tôi gọi phòng IT. Nếu họ không sửa được, chúng ta có thể dùng phòng lớn hơn ở tầng bốn.\n- M1: Ý hay. Trong lúc đó, tôi sẽ chuyển máy tính xách tay và tài liệu sang đó phòng khi cần.",
+      "explanation": "`I'll move my laptop and handouts there` (phòng lớn hơn ở tầng bốn).",
+      "wrongReasons": {
+        "A": "A không gọi khách",
+        "B": "B anh không tự sửa",
+        "D": "D buổi thuyết trình chưa bắt đầu."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q04",
+      "groupId": "CH03-L04-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman want to do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Exchange an item",
+        "B": "Buy a gift",
+        "C": "Get a refund",
+        "D": "Return a coupon"
+      },
+      "correctAnswer": "A",
+      "transcript": "W1: Hi, I bought these running shoes yesterday, but they're a little tight. Can I exchange them for a larger size? / M1: Certainly. Unfortunately, we're out of that size in black. We have it in gray, though, or we can order black for you. / W1: I really wanted black. How long would it take? / M1: About three days. I can have it shipped to your home so you don't have to come back. / W1: That would be great. Here's my address.",
+      "translation": "- W1: Chào anh, hôm qua tôi mua đôi giày chạy bộ này nhưng hơi chật. Tôi đổi sang cỡ lớn hơn được không?\n- M1: Được chứ. Rất tiếc, chúng tôi hết cỡ đó màu đen. Có màu xám, hoặc chúng tôi có thể đặt màu đen cho chị.\n- W1: Tôi thật sự muốn màu đen. Mất bao lâu?\n- M1: Khoảng ba ngày. Tôi có thể cho gửi về nhà chị để chị không phải quay lại.\n- W1: Vậy thì tuyệt. Đây là địa chỉ của tôi.",
+      "explanation": "`Can I exchange them for a larger size?`.",
+      "wrongReasons": {
+        "B": "B không mua quà",
+        "C": "C chị muốn đổi cỡ chứ không đòi hoàn tiền",
+        "D": "D không nói phiếu giảm giá."
+      },
+      "skillTags": [
+        "part3_purpose",
+        "part3_request"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q05",
+      "groupId": "CH03-L04-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What problem does the man mention?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A store is closing early",
+        "B": "A price has changed",
+        "C": "A size is unavailable in the desired color",
+        "D": "A payment system is down"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Hi, I bought these running shoes yesterday, but they're a little tight. Can I exchange them for a larger size? / M1: Certainly. Unfortunately, we're out of that size in black. We have it in gray, though, or we can order black for you. / W1: I really wanted black. How long would it take? / M1: About three days. I can have it shipped to your home so you don't have to come back. / W1: That would be great. Here's my address.",
+      "translation": "- W1: Chào anh, hôm qua tôi mua đôi giày chạy bộ này nhưng hơi chật. Tôi đổi sang cỡ lớn hơn được không?\n- M1: Được chứ. Rất tiếc, chúng tôi hết cỡ đó màu đen. Có màu xám, hoặc chúng tôi có thể đặt màu đen cho chị.\n- W1: Tôi thật sự muốn màu đen. Mất bao lâu?\n- M1: Khoảng ba ngày. Tôi có thể cho gửi về nhà chị để chị không phải quay lại.\n- W1: Vậy thì tuyệt. Đây là địa chỉ của tôi.",
+      "explanation": "`we're out of that size in black` = hết cỡ đó ở màu đen.",
+      "wrongReasons": {
+        "A": "A, B, D không được nhắc.",
+        "B": "A, B, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_problem",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L04-Q06",
+      "groupId": "CH03-L04-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L04",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man say he can do so the woman doesn't have to return to the store?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Provide a discount",
+        "B": "Refund her payment",
+        "C": "Hold the shoes for a week",
+        "D": "Deliver the order to her home"
+      },
+      "correctAnswer": "D",
+      "transcript": "W1: Hi, I bought these running shoes yesterday, but they're a little tight. Can I exchange them for a larger size? / M1: Certainly. Unfortunately, we're out of that size in black. We have it in gray, though, or we can order black for you. / W1: I really wanted black. How long would it take? / M1: About three days. I can have it shipped to your home so you don't have to come back. / W1: That would be great. Here's my address.",
+      "translation": "- W1: Chào anh, hôm qua tôi mua đôi giày chạy bộ này nhưng hơi chật. Tôi đổi sang cỡ lớn hơn được không?\n- M1: Được chứ. Rất tiếc, chúng tôi hết cỡ đó màu đen. Có màu xám, hoặc chúng tôi có thể đặt màu đen cho chị.\n- W1: Tôi thật sự muốn màu đen. Mất bao lâu?\n- M1: Khoảng ba ngày. Tôi có thể cho gửi về nhà chị để chị không phải quay lại.\n- W1: Vậy thì tuyệt. Đây là địa chỉ của tôi.",
+      "explanation": "`I can have it shipped to your home so you don't have to come back`. Câu hỏi nêu rõ mục đích `không phải quay lại cửa hàng`.",
+      "wrongReasons": {
+        "A": "A không giảm giá",
+        "B": "B không hoàn tiền",
+        "C": "C không giữ giày."
+      },
+      "skillTags": [
+        "part3_offer",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q01",
+      "groupId": "CH03-L05-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What are the speakers discussing?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A new hiring policy",
+        "B": "An office relocation",
+        "C": "A train delay",
+        "D": "A shuttle bus schedule"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Did you see the email about our office? We're moving to the Harbor Building next month. / W1: I did. I'm happy about it, but I'm worried about the commute. It's much farther from my apartment. / M1: Me too. I heard the company may offer a shuttle bus from the train station. / W1: That would help a lot. I'll ask Human Resources whether it's confirmed.",
+      "translation": "- M1: Cô thấy email về văn phòng của chúng ta chưa? Tháng sau chúng ta chuyển đến Tòa nhà Harbor.\n- W1: Tôi thấy rồi. Tôi vui, nhưng lo về quãng đường đi làm. Nó xa nhà tôi hơn nhiều.\n- M1: Tôi cũng vậy. Tôi nghe nói công ty có thể sẽ có xe đưa đón từ ga tàu.\n- W1: Vậy thì giúp ích nhiều lắm. Tôi sẽ hỏi phòng Nhân sự xem đã chắc chắn chưa.",
+      "explanation": "`We're moving to the Harbor Building` được diễn đạt lại thành `An office relocation`.",
+      "wrongReasons": {
+        "A": "A không nói tuyển dụng",
+        "C": "C ga tàu chỉ là điểm đón",
+        "D": "D xe đưa đón chỉ là chi tiết phụ và còn chưa chắc chắn."
+      },
+      "skillTags": [
+        "part3_topic",
+        "part3_paraphrase",
+        "part3_keyword_trap"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q02",
+      "groupId": "CH03-L05-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What concern does the woman have?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "The distance to the new location",
+        "B": "The cost of rent",
+        "C": "The size of her desk",
+        "D": "A lack of parking"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Did you see the email about our office? We're moving to the Harbor Building next month. / W1: I did. I'm happy about it, but I'm worried about the commute. It's much farther from my apartment. / M1: Me too. I heard the company may offer a shuttle bus from the train station. / W1: That would help a lot. I'll ask Human Resources whether it's confirmed.",
+      "translation": "- M1: Cô thấy email về văn phòng của chúng ta chưa? Tháng sau chúng ta chuyển đến Tòa nhà Harbor.\n- W1: Tôi thấy rồi. Tôi vui, nhưng lo về quãng đường đi làm. Nó xa nhà tôi hơn nhiều.\n- M1: Tôi cũng vậy. Tôi nghe nói công ty có thể sẽ có xe đưa đón từ ga tàu.\n- W1: Vậy thì giúp ích nhiều lắm. Tôi sẽ hỏi phòng Nhân sự xem đã chắc chắn chưa.",
+      "explanation": "`worried about the commute. It's much farther from my apartment` diễn đạt lại thành khoảng cách đến nơi mới.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc.",
+        "C": "B, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_problem",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q03",
+      "groupId": "CH03-L05-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What will the woman ask Human Resources?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "When the move will take place",
+        "B": "Who will pay for the train ticket",
+        "C": "Whether she can work from home",
+        "D": "If a shuttle service will be provided"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Did you see the email about our office? We're moving to the Harbor Building next month. / W1: I did. I'm happy about it, but I'm worried about the commute. It's much farther from my apartment. / M1: Me too. I heard the company may offer a shuttle bus from the train station. / W1: That would help a lot. I'll ask Human Resources whether it's confirmed.",
+      "translation": "- M1: Cô thấy email về văn phòng của chúng ta chưa? Tháng sau chúng ta chuyển đến Tòa nhà Harbor.\n- W1: Tôi thấy rồi. Tôi vui, nhưng lo về quãng đường đi làm. Nó xa nhà tôi hơn nhiều.\n- M1: Tôi cũng vậy. Tôi nghe nói công ty có thể sẽ có xe đưa đón từ ga tàu.\n- W1: Vậy thì giúp ích nhiều lắm. Tôi sẽ hỏi phòng Nhân sự xem đã chắc chắn chưa.",
+      "explanation": "Người nữ sẽ hỏi `whether it's confirmed` (xe đưa đón đã chắc chắn chưa), tức là liệu có cung cấp xe đưa đón hay không.",
+      "wrongReasons": {
+        "A": "A thời điểm chuyển đã biết là tháng sau",
+        "B": "B và",
+        "C": "C không được nhắc."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q04",
+      "groupId": "CH03-L05-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man still need to complete the report?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Approval from the directors",
+        "B": "A new template",
+        "C": "Figures from the sales team",
+        "D": "Priya's signature"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Marcus, did you finish the budget report? The directors want it by Friday. / M1: Almost. I only need the figures from the sales team, but Priya said they won't be ready until Thursday. / W1: That's cutting it close. Could you ask Priya whether she can send them earlier? / M1: I already did, and she said she'd try for Wednesday evening. I'll review everything on Thursday morning, then submit it. / W1: Perfect. Just let me know if anything changes.",
+      "translation": "- W1: Marcus, anh hoàn thành báo cáo ngân sách chưa? Các giám đốc muốn có trước thứ Sáu.\n- M1: Gần xong. Tôi chỉ cần số liệu từ nhóm bán hàng, nhưng Priya nói chúng sẽ chưa sẵn sàng cho đến thứ Năm.\n- W1: Vậy là sát hạn. Anh có thể hỏi Priya xem cô ấy gửi sớm hơn được không?\n- M1: Tôi hỏi rồi, và cô ấy nói sẽ cố gắng cho tối thứ Tư. Tôi sẽ xem lại mọi thứ vào sáng thứ Năm, rồi nộp.\n- W1: Tuyệt. Có gì thay đổi thì cứ báo tôi biết.",
+      "explanation": "`I only need the figures from the sales team`.",
+      "wrongReasons": {
+        "A": "A các giám đốc là người nhận báo cáo",
+        "B": "B và",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q05",
+      "groupId": "CH03-L05-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman ask the man to do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Request the information sooner",
+        "B": "Work over the weekend",
+        "C": "Meet the directors",
+        "D": "Hire an assistant"
+      },
+      "correctAnswer": "A",
+      "transcript": "W1: Marcus, did you finish the budget report? The directors want it by Friday. / M1: Almost. I only need the figures from the sales team, but Priya said they won't be ready until Thursday. / W1: That's cutting it close. Could you ask Priya whether she can send them earlier? / M1: I already did, and she said she'd try for Wednesday evening. I'll review everything on Thursday morning, then submit it. / W1: Perfect. Just let me know if anything changes.",
+      "translation": "- W1: Marcus, anh hoàn thành báo cáo ngân sách chưa? Các giám đốc muốn có trước thứ Sáu.\n- M1: Gần xong. Tôi chỉ cần số liệu từ nhóm bán hàng, nhưng Priya nói chúng sẽ chưa sẵn sàng cho đến thứ Năm.\n- W1: Vậy là sát hạn. Anh có thể hỏi Priya xem cô ấy gửi sớm hơn được không?\n- M1: Tôi hỏi rồi, và cô ấy nói sẽ cố gắng cho tối thứ Tư. Tôi sẽ xem lại mọi thứ vào sáng thứ Năm, rồi nộp.\n- W1: Tuyệt. Có gì thay đổi thì cứ báo tôi biết.",
+      "explanation": "`Could you ask Priya whether she can send them earlier?` diễn đạt lại thành yêu cầu cung cấp thông tin sớm hơn.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc.",
+        "C": "B, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_request",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-L05-Q06",
+      "groupId": "CH03-L05-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-L05",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "When will the man review the report?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Tuesday morning",
+        "B": "Wednesday evening",
+        "C": "Friday morning",
+        "D": "Thursday morning"
+      },
+      "correctAnswer": "D",
+      "transcript": "W1: Marcus, did you finish the budget report? The directors want it by Friday. / M1: Almost. I only need the figures from the sales team, but Priya said they won't be ready until Thursday. / W1: That's cutting it close. Could you ask Priya whether she can send them earlier? / M1: I already did, and she said she'd try for Wednesday evening. I'll review everything on Thursday morning, then submit it. / W1: Perfect. Just let me know if anything changes.",
+      "translation": "- W1: Marcus, anh hoàn thành báo cáo ngân sách chưa? Các giám đốc muốn có trước thứ Sáu.\n- M1: Gần xong. Tôi chỉ cần số liệu từ nhóm bán hàng, nhưng Priya nói chúng sẽ chưa sẵn sàng cho đến thứ Năm.\n- W1: Vậy là sát hạn. Anh có thể hỏi Priya xem cô ấy gửi sớm hơn được không?\n- M1: Tôi hỏi rồi, và cô ấy nói sẽ cố gắng cho tối thứ Tư. Tôi sẽ xem lại mọi thứ vào sáng thứ Năm, rồi nộp.\n- W1: Tuyệt. Có gì thay đổi thì cứ báo tôi biết.",
+      "explanation": "`I'll review everything on Thursday morning`.",
+      "wrongReasons": {
+        "A": "A không được nhắc",
+        "B": "B à lúc Priya cố gắng gửi số liệu",
+        "C": "C thứ Sáu là hạn nộp của các giám đốc."
+      },
+      "skillTags": [
+        "part3_detail_time",
+        "part3_speaker_trap",
+        "time_expression"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q01",
+      "groupId": "CH03-FINAL-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "Why is the woman calling?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "To change a reservation",
+        "B": "To report a late delivery",
+        "C": "To apply for a job",
+        "D": "To arrange food for an event"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Good morning, Lakeside Catering. How can I help you? / W1: Hi, I'm organizing a retirement party for our accounting department next Saturday. We expect about forty guests, and I'd like to see your menu. / M1: Certainly. We have buffet and sit-down options. For forty people, the buffet is usually more affordable. / W1: Then the buffet sounds right. Could you email me the menu and prices today? / M1: Of course. I just need your email address.",
+      "translation": "- M1: Chào buổi sáng, Lakeside Catering xin nghe. Tôi giúp gì được cho chị?\n- W1: Chào anh, tôi đang tổ chức tiệc nghỉ hưu cho phòng kế toán vào thứ Bảy tuần sau. Chúng tôi dự kiến khoảng bốn mươi khách, và tôi muốn xem thực đơn của anh.\n- M1: Được ạ. Chúng tôi có lựa chọn tiệc buffet và tiệc ngồi. Với bốn mươi người, buffet thường tiết kiệm hơn.\n- W1: Vậy buffet nghe hợp lý. Anh gửi email thực đơn và giá cho tôi hôm nay được không?\n- M1: Tất nhiên. Tôi chỉ cần địa chỉ email của chị.",
+      "explanation": "Người nữ nói đang tổ chức tiệc nghỉ hưu và muốn xem thực đơn, tức là sắp xếp đồ ăn cho một sự kiện.",
+      "wrongReasons": {
+        "A": "A không đổi đặt chỗ",
+        "B": "B không có giao hàng trễ",
+        "C": "C không xin việc."
+      },
+      "skillTags": [
+        "part3_purpose",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q02",
+      "groupId": "CH03-FINAL-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What is the occasion?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A retirement party",
+        "B": "A product launch",
+        "C": "A birthday",
+        "D": "A graduation"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Good morning, Lakeside Catering. How can I help you? / W1: Hi, I'm organizing a retirement party for our accounting department next Saturday. We expect about forty guests, and I'd like to see your menu. / M1: Certainly. We have buffet and sit-down options. For forty people, the buffet is usually more affordable. / W1: Then the buffet sounds right. Could you email me the menu and prices today? / M1: Of course. I just need your email address.",
+      "translation": "- M1: Chào buổi sáng, Lakeside Catering xin nghe. Tôi giúp gì được cho chị?\n- W1: Chào anh, tôi đang tổ chức tiệc nghỉ hưu cho phòng kế toán vào thứ Bảy tuần sau. Chúng tôi dự kiến khoảng bốn mươi khách, và tôi muốn xem thực đơn của anh.\n- M1: Được ạ. Chúng tôi có lựa chọn tiệc buffet và tiệc ngồi. Với bốn mươi người, buffet thường tiết kiệm hơn.\n- W1: Vậy buffet nghe hợp lý. Anh gửi email thực đơn và giá cho tôi hôm nay được không?\n- M1: Tất nhiên. Tôi chỉ cần địa chỉ email của chị.",
+      "explanation": "`a retirement party for our accounting department`.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc.",
+        "C": "B, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q03",
+      "groupId": "CH03-FINAL-G01",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman ask the man to do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Visit her office",
+        "B": "Lower the price",
+        "C": "Email a menu",
+        "D": "Hold a table"
+      },
+      "correctAnswer": "C",
+      "transcript": "M1: Good morning, Lakeside Catering. How can I help you? / W1: Hi, I'm organizing a retirement party for our accounting department next Saturday. We expect about forty guests, and I'd like to see your menu. / M1: Certainly. We have buffet and sit-down options. For forty people, the buffet is usually more affordable. / W1: Then the buffet sounds right. Could you email me the menu and prices today? / M1: Of course. I just need your email address.",
+      "translation": "- M1: Chào buổi sáng, Lakeside Catering xin nghe. Tôi giúp gì được cho chị?\n- W1: Chào anh, tôi đang tổ chức tiệc nghỉ hưu cho phòng kế toán vào thứ Bảy tuần sau. Chúng tôi dự kiến khoảng bốn mươi khách, và tôi muốn xem thực đơn của anh.\n- M1: Được ạ. Chúng tôi có lựa chọn tiệc buffet và tiệc ngồi. Với bốn mươi người, buffet thường tiết kiệm hơn.\n- W1: Vậy buffet nghe hợp lý. Anh gửi email thực đơn và giá cho tôi hôm nay được không?\n- M1: Tất nhiên. Tôi chỉ cần địa chỉ email của chị.",
+      "explanation": "`Could you email me the menu and prices today?`",
+      "wrongReasons": {
+        "A": "A, B, D không được yêu cầu.",
+        "B": "A, B, D không được yêu cầu.",
+        "D": "D không được yêu cầu."
+      },
+      "skillTags": [
+        "part3_request",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q04",
+      "groupId": "CH03-FINAL-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What did the man recently attend?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A product demonstration",
+        "B": "A conference",
+        "C": "A training workshop",
+        "D": "A client dinner"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Hi, Yuki. I'm back from the conference in Denver. Where should I submit my travel receipts? / W1: You can upload them to the finance portal, but the deadline for reimbursement is this Friday. / M1: This Friday? Oh, I thought I had until the end of the month. I'd better do it now. / W1: Good idea. If you have trouble with the portal, ask Mr. Hayes in the finance office. He can help you. / M1: Thanks. I'll go to his office after lunch.",
+      "translation": "- M1: Chào Yuki. Tôi vừa đi hội nghị ở Denver về. Tôi nên nộp biên lai đi lại ở đâu?\n- W1: Anh có thể tải lên cổng thông tin tài chính, nhưng hạn hoàn chi phí là thứ Sáu này.\n- M1: Thứ Sáu này sao? Ồ, tôi tưởng mình có đến cuối tháng. Tốt hơn là làm ngay bây giờ.\n- W1: Ý hay. Nếu anh gặp khó với cổng thông tin, hãy hỏi ông Hayes ở phòng tài chính. Ông ấy có thể giúp anh.\n- M1: Cảm ơn. Tôi sẽ đến văn phòng của ông ấy sau bữa trưa.",
+      "explanation": "`I'm back from the conference in Denver`.",
+      "wrongReasons": {
+        "A": "A, C, D không được nhắc.",
+        "C": "A, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "keyword_listening"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q05",
+      "groupId": "CH03-FINAL-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What is the man surprised to learn?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A flight was canceled",
+        "B": "A deadline is earlier than he expected",
+        "C": "A policy has been removed",
+        "D": "A colleague has left"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Hi, Yuki. I'm back from the conference in Denver. Where should I submit my travel receipts? / W1: You can upload them to the finance portal, but the deadline for reimbursement is this Friday. / M1: This Friday? Oh, I thought I had until the end of the month. I'd better do it now. / W1: Good idea. If you have trouble with the portal, ask Mr. Hayes in the finance office. He can help you. / M1: Thanks. I'll go to his office after lunch.",
+      "translation": "- M1: Chào Yuki. Tôi vừa đi hội nghị ở Denver về. Tôi nên nộp biên lai đi lại ở đâu?\n- W1: Anh có thể tải lên cổng thông tin tài chính, nhưng hạn hoàn chi phí là thứ Sáu này.\n- M1: Thứ Sáu này sao? Ồ, tôi tưởng mình có đến cuối tháng. Tốt hơn là làm ngay bây giờ.\n- W1: Ý hay. Nếu anh gặp khó với cổng thông tin, hãy hỏi ông Hayes ở phòng tài chính. Ông ấy có thể giúp anh.\n- M1: Cảm ơn. Tôi sẽ đến văn phòng của ông ấy sau bữa trưa.",
+      "explanation": "Người nam tưởng hạn là cuối tháng nhưng hạn thật là thứ Sáu này, sớm hơn anh dự kiến.",
+      "wrongReasons": {
+        "A": "A, C, D không được nhắc.",
+        "C": "A, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_time",
+        "part3_corrected_info",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q06",
+      "groupId": "CH03-FINAL-G02",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What will the man do after lunch?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Book another flight",
+        "B": "Upload some photos",
+        "C": "Call the conference organizer",
+        "D": "Visit the finance office"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Hi, Yuki. I'm back from the conference in Denver. Where should I submit my travel receipts? / W1: You can upload them to the finance portal, but the deadline for reimbursement is this Friday. / M1: This Friday? Oh, I thought I had until the end of the month. I'd better do it now. / W1: Good idea. If you have trouble with the portal, ask Mr. Hayes in the finance office. He can help you. / M1: Thanks. I'll go to his office after lunch.",
+      "translation": "- M1: Chào Yuki. Tôi vừa đi hội nghị ở Denver về. Tôi nên nộp biên lai đi lại ở đâu?\n- W1: Anh có thể tải lên cổng thông tin tài chính, nhưng hạn hoàn chi phí là thứ Sáu này.\n- M1: Thứ Sáu này sao? Ồ, tôi tưởng mình có đến cuối tháng. Tốt hơn là làm ngay bây giờ.\n- W1: Ý hay. Nếu anh gặp khó với cổng thông tin, hãy hỏi ông Hayes ở phòng tài chính. Ông ấy có thể giúp anh.\n- M1: Cảm ơn. Tôi sẽ đến văn phòng của ông ấy sau bữa trưa.",
+      "explanation": "`I'll go to his office after lunch`; ông Hayes làm ở phòng tài chính.",
+      "wrongReasons": {
+        "A": "A, B, C không được nhắc; người nam sẽ đến văn phòng của ông Hayes ở phòng tài chính.",
+        "B": "A, B, C không được nhắc; người nam sẽ đến văn phòng của ông Hayes ở phòng tài chính.",
+        "C": "C không được nhắc"
+      },
+      "skillTags": [
+        "part3_next_action",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q07",
+      "groupId": "CH03-FINAL-G03",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What problem does the man have?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "He cannot access a shared drive",
+        "B": "His computer won't turn on",
+        "C": "He lost a document",
+        "D": "His phone is broken"
+      },
+      "correctAnswer": "A",
+      "transcript": "W1: Hello, IT help desk. This is Rosa. / M1: Hi, Rosa. I can't log in to the shared drive. It keeps saying my password has expired. / W1: That happens every ninety days. You can reset it through the company website. Do you have the link? / M1: No, I don't. Could you send it to me? / W1: Sure. I'll send it right now. Once you reset it, wait a few minutes before you try again.",
+      "translation": "- W1: Xin chào, bộ phận hỗ trợ IT đây. Tôi là Rosa.\n- M1: Chào Rosa. Tôi không đăng nhập được vào ổ đĩa chung. Nó cứ báo mật khẩu của tôi đã hết hạn.\n- W1: Việc đó xảy ra cứ mỗi chín mươi ngày. Anh có thể đặt lại qua trang web công ty. Anh có đường dẫn không?\n- M1: Không, tôi không có. Cô gửi cho tôi được không?\n- W1: Được. Tôi sẽ gửi ngay bây giờ. Sau khi anh đặt lại, hãy chờ vài phút rồi hãy thử lại.",
+      "explanation": "`I can't log in to the shared drive`.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc.",
+        "C": "B, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_problem",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q08",
+      "groupId": "CH03-FINAL-G03",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "How often must passwords be changed?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Every nine days",
+        "B": "Every nineteen days",
+        "C": "Every ninety days",
+        "D": "Every nine months"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Hello, IT help desk. This is Rosa. / M1: Hi, Rosa. I can't log in to the shared drive. It keeps saying my password has expired. / W1: That happens every ninety days. You can reset it through the company website. Do you have the link? / M1: No, I don't. Could you send it to me? / W1: Sure. I'll send it right now. Once you reset it, wait a few minutes before you try again.",
+      "translation": "- W1: Xin chào, bộ phận hỗ trợ IT đây. Tôi là Rosa.\n- M1: Chào Rosa. Tôi không đăng nhập được vào ổ đĩa chung. Nó cứ báo mật khẩu của tôi đã hết hạn.\n- W1: Việc đó xảy ra cứ mỗi chín mươi ngày. Anh có thể đặt lại qua trang web công ty. Anh có đường dẫn không?\n- M1: Không, tôi không có. Cô gửi cho tôi được không?\n- W1: Được. Tôi sẽ gửi ngay bây giờ. Sau khi anh đặt lại, hãy chờ vài phút rồi hãy thử lại.",
+      "explanation": "`That happens every ninety days`.",
+      "wrongReasons": {
+        "A": "A, B và D là các số/đơn vị dễ nhầm với `ninety days`.",
+        "B": "B và",
+        "D": "D à các số/đơn vị dễ nhầm với `ninety days`."
+      },
+      "skillTags": [
+        "part3_detail_number",
+        "number_recognition",
+        "teen_ty_numbers"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q09",
+      "groupId": "CH03-FINAL-G03",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the woman say she will do?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Visit his desk",
+        "B": "Replace his computer",
+        "C": "Send a link",
+        "D": "Install new software"
+      },
+      "correctAnswer": "C",
+      "transcript": "W1: Hello, IT help desk. This is Rosa. / M1: Hi, Rosa. I can't log in to the shared drive. It keeps saying my password has expired. / W1: That happens every ninety days. You can reset it through the company website. Do you have the link? / M1: No, I don't. Could you send it to me? / W1: Sure. I'll send it right now. Once you reset it, wait a few minutes before you try again.",
+      "translation": "- W1: Xin chào, bộ phận hỗ trợ IT đây. Tôi là Rosa.\n- M1: Chào Rosa. Tôi không đăng nhập được vào ổ đĩa chung. Nó cứ báo mật khẩu của tôi đã hết hạn.\n- W1: Việc đó xảy ra cứ mỗi chín mươi ngày. Anh có thể đặt lại qua trang web công ty. Anh có đường dẫn không?\n- M1: Không, tôi không có. Cô gửi cho tôi được không?\n- W1: Được. Tôi sẽ gửi ngay bây giờ. Sau khi anh đặt lại, hãy chờ vài phút rồi hãy thử lại.",
+      "explanation": "`I'll send it right now` — gửi đường dẫn mà người nam đã nhờ.",
+      "wrongReasons": {
+        "A": "A, B, D không được nói.",
+        "B": "A, B, D không được nói.",
+        "D": "D không được nói."
+      },
+      "skillTags": [
+        "part3_next_action",
+        "part3_offer"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q10",
+      "groupId": "CH03-FINAL-G04",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "When does the woman want to use the gym?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "Before work",
+        "B": "During lunch",
+        "C": "After work",
+        "D": "On weekends"
+      },
+      "correctAnswer": "A",
+      "transcript": "M1: Welcome to Greenfield Fitness. Are you interested in a membership? / W1: Yes. I work nearby, so I'd like to come before work. What time do you open? / M1: We open at five thirty on weekdays. Our monthly plan is forty dollars, or you can pay for a full year and get two months free. / W1: The yearly plan sounds good, but I'd like to try the gym first. / M1: No problem. I can give you a free three-day pass. You just need to fill out this form.",
+      "translation": "- M1: Chào mừng đến Greenfield Fitness. Chị có quan tâm đến gói thành viên không?\n- W1: Có. Tôi làm việc gần đây nên muốn đến tập trước giờ làm. Anh mở cửa lúc mấy giờ?\n- M1: Chúng tôi mở lúc năm giờ ba mươi vào các ngày trong tuần. Gói hằng tháng là bốn mươi đô la, hoặc chị có thể trả cả năm và được miễn phí hai tháng.\n- W1: Gói năm nghe hay đấy, nhưng tôi muốn tập thử trước.\n- M1: Không vấn đề gì. Tôi có thể tặng chị một vé tập miễn phí ba ngày. Chị chỉ cần điền vào mẫu này.",
+      "explanation": "`I'd like to come before work`.",
+      "wrongReasons": {
+        "B": "B, C, D không được nhắc.",
+        "C": "B, C, D không được nhắc.",
+        "D": "D không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_time",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q11",
+      "groupId": "CH03-FINAL-G04",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What is offered for a yearly payment?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A free towel service",
+        "B": "A personal trainer",
+        "C": "A larger locker",
+        "D": "Two months of free membership"
+      },
+      "correctAnswer": "D",
+      "transcript": "M1: Welcome to Greenfield Fitness. Are you interested in a membership? / W1: Yes. I work nearby, so I'd like to come before work. What time do you open? / M1: We open at five thirty on weekdays. Our monthly plan is forty dollars, or you can pay for a full year and get two months free. / W1: The yearly plan sounds good, but I'd like to try the gym first. / M1: No problem. I can give you a free three-day pass. You just need to fill out this form.",
+      "translation": "- M1: Chào mừng đến Greenfield Fitness. Chị có quan tâm đến gói thành viên không?\n- W1: Có. Tôi làm việc gần đây nên muốn đến tập trước giờ làm. Anh mở cửa lúc mấy giờ?\n- M1: Chúng tôi mở lúc năm giờ ba mươi vào các ngày trong tuần. Gói hằng tháng là bốn mươi đô la, hoặc chị có thể trả cả năm và được miễn phí hai tháng.\n- W1: Gói năm nghe hay đấy, nhưng tôi muốn tập thử trước.\n- M1: Không vấn đề gì. Tôi có thể tặng chị một vé tập miễn phí ba ngày. Chị chỉ cần điền vào mẫu này.",
+      "explanation": "`pay for a full year and get two months free`.",
+      "wrongReasons": {
+        "A": "A, B, C không được nhắc.",
+        "B": "A, B, C không được nhắc.",
+        "C": "C không được nhắc."
+      },
+      "skillTags": [
+        "part3_detail_item",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH03-FINAL-Q12",
+      "groupId": "CH03-FINAL-G04",
+      "chapterId": "CH03",
+      "lessonId": "CH03-FINAL",
+      "part": 3,
+      "taskType": "conversation_question",
+      "prompt": "What does the man offer the woman?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": null,
+      "options": {
+        "A": "A fitness class schedule",
+        "B": "A short-term free pass",
+        "C": "A refund on membership",
+        "D": "A parking permit"
+      },
+      "correctAnswer": "B",
+      "transcript": "M1: Welcome to Greenfield Fitness. Are you interested in a membership? / W1: Yes. I work nearby, so I'd like to come before work. What time do you open? / M1: We open at five thirty on weekdays. Our monthly plan is forty dollars, or you can pay for a full year and get two months free. / W1: The yearly plan sounds good, but I'd like to try the gym first. / M1: No problem. I can give you a free three-day pass. You just need to fill out this form.",
+      "translation": "- M1: Chào mừng đến Greenfield Fitness. Chị có quan tâm đến gói thành viên không?\n- W1: Có. Tôi làm việc gần đây nên muốn đến tập trước giờ làm. Anh mở cửa lúc mấy giờ?\n- M1: Chúng tôi mở lúc năm giờ ba mươi vào các ngày trong tuần. Gói hằng tháng là bốn mươi đô la, hoặc chị có thể trả cả năm và được miễn phí hai tháng.\n- W1: Gói năm nghe hay đấy, nhưng tôi muốn tập thử trước.\n- M1: Không vấn đề gì. Tôi có thể tặng chị một vé tập miễn phí ba ngày. Chị chỉ cần điền vào mẫu này.",
+      "explanation": "`a free three-day pass` được diễn đạt lại thành `a short-term free pass`.",
+      "wrongReasons": {
+        "A": "A, C, D không được nhắc; biểu mẫu chỉ là việc chị phải điền.",
+        "C": "A, C, D không được nhắc; biểu mẫu chỉ là việc chị phải điền.",
+        "D": "D không được nhắc"
+      },
+      "skillTags": [
+        "part3_offer",
+        "part3_paraphrase"
+      ],
+      "skillGroup": "part3_conversations",
+      "difficulty": 2,
+      "revision": 1
+    }
+  ],
+  "finalTest": {
+    "id": "CH03-FINAL",
+    "title": "Kiểm tra cuối chương 3",
+    "questionIds": [
+      "CH03-FINAL-Q01",
+      "CH03-FINAL-Q02",
+      "CH03-FINAL-Q03",
+      "CH03-FINAL-Q04",
+      "CH03-FINAL-Q05",
+      "CH03-FINAL-Q06",
+      "CH03-FINAL-Q07",
+      "CH03-FINAL-Q08",
+      "CH03-FINAL-Q09",
+      "CH03-FINAL-Q10",
+      "CH03-FINAL-Q11",
+      "CH03-FINAL-Q12"
+    ],
+    "passRule": {
+      "minCorrect": 10,
+      "total": 12,
+      "percentage": 83.3
+    }
+  }
+}

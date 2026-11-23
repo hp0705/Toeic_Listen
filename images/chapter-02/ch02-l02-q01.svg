@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f1f5f9"/>
+  <!-- Airport window -->
+  <rect x="40" y="30" width="520" height="180" fill="#bae6fd" stroke="#94a3b8" stroke-width="4"/>
+  <!-- Runway & plane in distance -->
+  <rect x="40" y="160" width="520" height="50" fill="#64748b"/>
+  <polygon points="280,110 330,110 350,130 250,130" fill="#ffffff"/>
+  <!-- Long Airport Bench -->
+  <rect x="80" y="230" width="300" height="15" rx="3" fill="#334155"/>
+  <rect x="100" y="245" width="12" height="75" fill="#475569"/>
+  <rect x="350" y="245" width="12" height="75" fill="#475569"/>
+  <!-- Suitcase beside bench -->
+  <rect x="420" y="210" width="70" height="100" rx="8" fill="#0284c7" stroke="#0369a1" stroke-width="3"/>
+  <!-- Suitcase handle & wheels -->
+  <rect x="445" y="180" width="20" height="30" fill="none" stroke="#0369a1" stroke-width="4"/>
+  <circle cx="435" cy="315" r="7" fill="#0f172a"/>
+  <circle cx="475" cy="315" r="7" fill="#0f172a"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L02-Q01: Suitcase beside airport bench near window</text>
+</svg>

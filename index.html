@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TOEIC Listening 300 — Luyện nghe phản xạ</title>
+  <link rel="stylesheet" href="css/app.css">
+  <meta name="description" content="Web app luyện TOEIC Listening 300/495 miễn phí, chạy hoàn toàn offline trên trình duyệt.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎧</text></svg>">
+</head>
+<body>
+  <div id="app">
+    <!-- Top Navigation Bar -->
+    <header class="app-header">
+      <div class="header-inner">
+        <a href="#/dashboard" class="brand">
+          <span class="brand-logo">🎧</span>
+          <div class="brand-text">
+            <span class="brand-title">TOEIC Listening 300</span>
+            <span class="brand-badge">Free / Local</span>
+          </div>
+        </a>
+
+        <nav class="main-nav">
+          <a href="#/dashboard" class="nav-link active">🏠 Tổng quan</a>
+          <a href="#/path" class="nav-link">🗺️ Lộ trình</a>
+          <a href="#/mistakes" class="nav-link">📕 Sổ lỗi</a>
+          <a href="#/history" class="nav-link">💾 Lịch sử & Sao lưu</a>
+          <a href="#/about" class="nav-link">ℹ️ Giới thiệu</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Periodic Backup Reminder Banner -->
+    <div id="backup-reminder-banner" class="backup-banner" style="display: none;">
+      <div class="banner-content">
+        <span class="banner-icon">⚠️</span>
+        <span class="banner-text">Bạn đã thực hiện nhiều bài học mà chưa xuất sao lưu. Hãy lưu tiến độ để bảo vệ lịch sử học tập!</span>
+      </div>
+      <div class="banner-actions">
+        <button class="btn-banner-backup">Xuất sao lưu ngay</button>
+        <button class="btn-banner-close" aria-label="Đóng banner">×</button>
+      </div>
+    </div>
+
+    <!-- Main Container Mount Point -->
+    <main id="main-content" class="main-container">
+      <div class="loading">Đang tải ứng dụng...</div>
+    </main>
+
+    <!-- Bottom Footer -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <p>TOEIC Listening 300 • Mã nguồn tĩnh 100% • Tương thích mọi thiết bị • Lưu trữ trình duyệt</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

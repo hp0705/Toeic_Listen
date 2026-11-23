@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f1f5f9"/>
+  <rect y="290" width="600" height="110" fill="#cbd5e1"/>
+  <!-- Rows of chairs -->
+  <rect x="60" y="210" width="60" height="50" fill="#3b82f6" rx="4"/>
+  <rect x="140" y="210" width="60" height="50" fill="#3b82f6" rx="4"/>
+  <rect x="220" y="210" width="60" height="50" fill="#3b82f6" rx="4"/>
+  <!-- Staff arranging a chair -->
+  <rect x="430" y="215" width="60" height="50" fill="#60a5fa" rx="4"/>
+  <!-- Person -->
+  <rect x="360" y="220" width="16" height="90" fill="#1e293b"/>
+  <rect x="385" y="220" width="16" height="90" fill="#1e293b"/>
+  <polygon points="350,150 405,150 400,220 355,220" fill="#d97706"/>
+  <circle cx="375" cy="120" r="20" fill="#fed7aa"/>
+  <!-- Hands holding chair -->
+  <path d="M 375 160 L 430 215" stroke="#fed7aa" stroke-width="8" stroke-linecap="round"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L03-Q01: Staff member arranging chairs in meeting hall</text>
+</svg>

@@ -1,0 +1,2452 @@
+{
+  "chapterId": "CH01",
+  "title": "Nền tảng nghe",
+  "description": "Bắt từ khóa, âm cuối, số giờ và ý câu hỏi",
+  "specVersion": "2.3",
+  "contentVersion": "1.0.0",
+  "lessons": [
+    {
+      "lessonId": "CH01-L01",
+      "title": "Nghe từ mang thông tin chính",
+      "objectives": [
+        "Không cố dịch toàn bộ câu trong đầu.",
+        "Nghe ra danh từ, động từ, tính từ, số và thời gian quan trọng.",
+        "Trả lời được câu hỏi ai, làm gì, ở đâu, khi nào từ một câu ngắn."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Từ mang nội dung và từ chức năng",
+          "content": "Trong tiếng Anh nói tự nhiên, từ mang nội dung thường được nhấn rõ hơn. Chúng thường là:\n\n- Danh từ: manager, report, meeting, station.\n- Động từ: send, prepare, cancel, arrive.\n- Tính từ: available, delayed, crowded.\n- Trạng từ/thông tin thời gian: tomorrow, recently, carefully.\n- Số và tên riêng.\n\nCác từ chức năng như `a`, `the`, `to`, `of`, `and`, `can` thường nhẹ hơn. Bạn vẫn cần hiểu chúng, nhưng khi nghe lần đầu hãy ưu tiên bắt từ mang nội dung.\n\nVí dụ:\n\n**The manager will send the report tomorrow.**  \nNgười quản lý sẽ gửi báo cáo vào ngày mai.\n\nHãy bắt bốn ý:\n\n- Ai? `the manager`\n- Làm gì? `send`\n- Cái gì? `the report`\n- Khi nào? `tomorrow`\n\nBỏ lỡ `the` không làm bạn mất ý chính. Bỏ lỡ `tomorrow` có thể khiến bạn trả lời sai câu hỏi thời gian."
+        },
+        {
+          "title": "Kỹ thuật nghe 3 điểm",
+          "content": "Sau khi nghe một câu, tự hỏi:\n\n1. **Who/What?** Ai hoặc vật nào được nói đến?\n2. **Action?** Hành động hoặc trạng thái là gì?\n3. **Key detail?** Thời gian, địa điểm, số lượng hoặc lý do nào quan trọng?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "manager",
+          "meaning": "quản lý",
+          "example": "the branch manager"
+        },
+        {
+          "word": "report",
+          "meaning": "báo cáo",
+          "example": "submit a report"
+        },
+        {
+          "word": "document",
+          "meaning": "tài liệu",
+          "example": "sign a document"
+        },
+        {
+          "word": "front desk",
+          "meaning": "quầy lễ tân",
+          "example": "leave it at the front desk"
+        },
+        {
+          "word": "delayed",
+          "meaning": "bị trễ",
+          "example": "the train is delayed"
+        },
+        {
+          "word": "schedule",
+          "meaning": "lịch trình",
+          "example": "check the schedule"
+        },
+        {
+          "word": "available",
+          "meaning": "rảnh/có sẵn",
+          "example": "Is the room available?"
+        },
+        {
+          "word": "shipment",
+          "meaning": "lô hàng",
+          "example": "the shipment arrives"
+        },
+        {
+          "word": "department",
+          "meaning": "phòng ban",
+          "example": "the sales department"
+        },
+        {
+          "word": "repair",
+          "meaning": "sửa chữa",
+          "example": "schedule a repair"
+        }
+      ],
+      "examples": [
+        {
+          "id": "CH01-L01-E01",
+          "text": "The manager will send the report tomorrow.",
+          "translation": "Quản lý sẽ gửi báo cáo ngày mai.",
+          "audioFile": "audio/chapter-01/ch01-l01-e01.mp3"
+        },
+        {
+          "id": "CH01-L01-E02",
+          "text": "Please leave the documents at the front desk.",
+          "translation": "Hãy để tài liệu ở quầy lễ tân.",
+          "audioFile": "audio/chapter-01/ch01-l01-e02.mp3"
+        },
+        {
+          "id": "CH01-L01-E03",
+          "text": "The train is delayed because of the weather.",
+          "translation": "Tàu bị trễ vì thời tiết.",
+          "audioFile": "audio/chapter-01/ch01-l01-e03.mp3"
+        },
+        {
+          "id": "CH01-L01-E04",
+          "text": "The sales department is preparing a new schedule.",
+          "translation": "Phòng kinh doanh đang chuẩn bị lịch mới.",
+          "audioFile": "audio/chapter-01/ch01-l01-e04.mp3"
+        }
+      ],
+      "questionIds": [
+        "CH01-L01-Q01",
+        "CH01-L01-Q02",
+        "CH01-L01-Q03",
+        "CH01-L01-Q04"
+      ],
+      "passRule": {
+        "minCorrect": 3,
+        "total": 4,
+        "percentage": 75
+      }
+    },
+    {
+      "lessonId": "CH01-L02",
+      "title": "Âm cuối và dạng rút gọn",
+      "objectives": [
+        "Nhận ra âm cuối có thể đổi nghĩa hoặc số lượng.",
+        "Phân biệt sơ bộ âm cuối /s/, /z/, /t/, /d/ và /ɪd/.",
+        "Hiểu các dạng rút gọn thông dụng trong hội thoại."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Âm cuối -s/-es",
+          "content": "Âm cuối số nhiều có thể được phát âm /s/, /z/ hoặc /ɪz/. Ở mức đầu, hãy chú ý rằng `report` và `reports` không giống nhau; `work` và `works` không giống nhau.\n\nVí dụ:\n\n- one book / two books\n- one report / three reports\n- she work**s** in accounting\n- he need**s** a copy\n\nĐừng cố phát âm từng ký hiệu IPA khi đang làm bài. Trước tiên, hãy tập nhận ra khác biệt khi nghe."
+        },
+        {
+          "title": "Đuôi -ed",
+          "content": "| Nhóm âm trước -ed | Cách đọc đuôi | Ví dụ |\n|---|---|---|\n| Âm vô thanh như /k/, /p/, /f/ | /t/ | worked, stopped |\n| Âm hữu thanh hoặc nguyên âm | /d/ | called, opened |\n| Từ kết thúc bằng /t/ hoặc /d/ | /ɪd/ | wanted, needed |\n\n`worked` thường có một âm tiết; `wanted` có thêm một âm tiết."
+        },
+        {
+          "title": "Dạng rút gọn thường gặp",
+          "content": "| Dạng rút gọn | Dạng đầy đủ | Nghĩa |\n|---|---|---|\n| I'm | I am | tôi là/đang |\n| we're | we are | chúng tôi là/đang |\n| they're | they are | họ là/đang |\n| don't | do not | không |\n| doesn't | does not | không |\n| can't | cannot | không thể |\n| won't | will not | sẽ không |\n| we've | we have | chúng tôi đã/có |\n| I'll | I will | tôi sẽ |\n\n`I'd` có thể là `I would` hoặc `I had`; phải dựa vào phần còn lại của câu."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [
+        {
+          "id": "CH01-L02-E01",
+          "text": "She works in the accounting department.",
+          "translation": "`works`, bộ phận accounting",
+          "audioFile": "audio/chapter-01/ch01-l02-e01.mp3"
+        },
+        {
+          "id": "CH01-L02-E02",
+          "text": "The team finished the project yesterday.",
+          "translation": "`finished`, yesterday",
+          "audioFile": "audio/chapter-01/ch01-l02-e02.mp3"
+        },
+        {
+          "id": "CH01-L02-E03",
+          "text": "We've received your order.",
+          "translation": "`We've` = We have",
+          "audioFile": "audio/chapter-01/ch01-l02-e03.mp3"
+        },
+        {
+          "id": "CH01-L02-E04",
+          "text": "Two reports are on the manager's desk.",
+          "translation": "`two reports`, số nhiều",
+          "audioFile": "audio/chapter-01/ch01-l02-e04.mp3"
+        }
+      ],
+      "questionIds": [
+        "CH01-L02-Q01",
+        "CH01-L02-Q02",
+        "CH01-L02-Q03",
+        "CH01-L02-Q04"
+      ],
+      "passRule": {
+        "minCorrect": 3,
+        "total": 4,
+        "percentage": 75
+      }
+    },
+    {
+      "lessonId": "CH01-L03",
+      "title": "Số, giờ, ngày tháng và giá tiền",
+      "objectives": [
+        "Phân biệt các cặp số `-teen` và `-ty`.",
+        "Nghe giờ theo cách nói số và cách nói tự nhiên.",
+        "Nhận ra ngày trong tuần, giá và số lượng."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Cặp số dễ nhầm",
+          "content": "| -teen | -ty |\n|---|---|\n| thirteen (13) | thirty (30) |\n| fourteen (14) | forty (40) |\n| fifteen (15) | fifty (50) |\n| sixteen (16) | sixty (60) |\n| seventeen (17) | seventy (70) |\n| eighteen (18) | eighty (80) |\n| nineteen (19) | ninety (90) |\n\nGợi ý nghe:\n\n- `-teen` thường có trọng âm ở phần cuối.\n- `-ty` thường có trọng âm ở phần đầu.\n- Đừng chỉ dựa vào trọng âm; nghe cả ngữ cảnh và đơn vị đi cùng."
+        },
+        {
+          "title": "Cách nói giờ",
+          "content": "| Cách nói | Giờ |\n|---|---|\n| nine fifteen | 9:15 |\n| nine fifty | 9:50 |\n| half past nine | 9:30 |\n| a quarter past nine | 9:15 |\n| a quarter to ten | 9:45 |\n| ten to six | 5:50 |"
+        },
+        {
+          "title": "Giá tiền và số lượng",
+          "content": "- fifteen dollars = $15\n- fifty dollars = $50\n- one hundred fifty dollars = $150\n- twenty-five copies = 25 bản\n- fourteen chairs = 14 ghế\n\nNghe cả số và đơn vị: dollars, cents, copies, people, each, per person."
+        },
+        {
+          "title": "Ngày trong tuần",
+          "content": "Monday (Thứ Hai), Tuesday (Thứ Ba), Wednesday (Thứ Tư), Thursday (Thứ Năm), Friday (Thứ Sáu), Saturday (Thứ Bảy), Sunday (Chủ Nhật).\n\n`Tuesday` và `Thursday` dễ bị nhầm nếu chỉ nghe thoáng qua. Hãy nghe cả từ và ngữ cảnh lịch trình."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [
+        {
+          "id": "CH01-L03-E01",
+          "text": "The meeting starts at nine fifteen.",
+          "translation": "9:15",
+          "audioFile": "audio/chapter-01/ch01-l03-e01.mp3"
+        },
+        {
+          "id": "CH01-L03-E02",
+          "text": "The printer costs fifty dollars.",
+          "translation": "$50",
+          "audioFile": "audio/chapter-01/ch01-l03-e02.mp3"
+        },
+        {
+          "id": "CH01-L03-E03",
+          "text": "The delivery will arrive on Thursday.",
+          "translation": "Thursday",
+          "audioFile": "audio/chapter-01/ch01-l03-e03.mp3"
+        },
+        {
+          "id": "CH01-L03-E04",
+          "text": "We need fourteen chairs for the training room.",
+          "translation": "14",
+          "audioFile": "audio/chapter-01/ch01-l03-e04.mp3"
+        }
+      ],
+      "questionIds": [
+        "CH01-L03-Q01",
+        "CH01-L03-Q02",
+        "CH01-L03-Q03",
+        "CH01-L03-Q04",
+        "CH01-L03-Q05"
+      ],
+      "passRule": {
+        "minCorrect": 4,
+        "total": 5,
+        "percentage": 80
+      }
+    },
+    {
+      "lessonId": "CH01-L04",
+      "title": "Nhận diện từ để hỏi",
+      "objectives": [],
+      "teachingBlocks": [
+        {
+          "title": "Bảng từ hỏi",
+          "content": "| Từ hỏi | Cần tìm | Ví dụ |\n|---|---|---|\n| Who | người | Who is leading the meeting? |\n| Where | địa điểm | Where is the new office? |\n| When | thời gian | When does the store open? |\n| What | sự việc/vật/thông tin | What should I bring? |\n| Why | lý do | Why was the flight delayed? |\n| How | cách thức/tình trạng | How can I contact the manager? |\n| How much | giá/khối lượng | How much is the ticket? |\n| How many | số lượng | How many copies do we need? |\n| How long | khoảng thời gian | How long will the repair take? |\n| Which | lựa chọn nào | Which train goes downtown? |"
+        },
+        {
+          "title": "Dự đoán trước khi nghe hết",
+          "content": "Khi nghe `When`, hãy chờ một mốc thời gian. Khi nghe `Where`, chờ một nơi chốn. Khi nghe `Who`, chờ tên người hoặc chức danh. Đây là dự đoán để tập trung, không phải quy tắc tuyệt đối: một câu trả lời tự nhiên đôi khi có thể gián tiếp."
+        },
+        {
+          "title": "Câu trả lời tự nhiên không cần lặp từ",
+          "content": "**Q:** Where is the conference room?  \n**A:** Down the hall, next to the elevators.\n\nCâu trả lời không lặp `conference room`, nhưng cho biết vị trí.\n\n**Q:** When will the technician arrive?  \n**A:** In about twenty minutes.\n\nCâu trả lời đưa ra khoảng thời gian."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [
+        {
+          "id": "CH01-L04-E01",
+          "text": "Where should I put these boxes?",
+          "translation": "Where → location",
+          "audioFile": "audio/chapter-01/ch01-l04-e01.mp3"
+        },
+        {
+          "id": "CH01-L04-E02",
+          "text": "When does the new employee start?",
+          "translation": "When → time",
+          "audioFile": "audio/chapter-01/ch01-l04-e02.mp3"
+        },
+        {
+          "id": "CH01-L04-E03",
+          "text": "Why is the manager absent today?",
+          "translation": "Why → reason",
+          "audioFile": "audio/chapter-01/ch01-l04-e03.mp3"
+        },
+        {
+          "id": "CH01-L04-E04",
+          "text": "Who will lead the training session?",
+          "translation": "Who → person",
+          "audioFile": "audio/chapter-01/ch01-l04-e04.mp3"
+        }
+      ],
+      "questionIds": [
+        "CH01-L04-Q01",
+        "CH01-L04-Q02",
+        "CH01-L04-Q03",
+        "CH01-L04-Q04",
+        "CH01-L04-Q05"
+      ],
+      "passRule": {
+        "minCorrect": 4,
+        "total": 5,
+        "percentage": 80
+      }
+    },
+    {
+      "lessonId": "CH01-L05",
+      "title": "Part 2 cơ bản: Chọn phản hồi phù hợp",
+      "objectives": [
+        "Nhận ra loại câu hỏi và ý định giao tiếp.",
+        "Không chọn đáp án chỉ vì nó lặp lại một từ trong câu hỏi.",
+        "Xử lý câu hỏi Yes/No, đề nghị, yêu cầu và câu hỏi gián tiếp đơn giản."
+      ],
+      "teachingBlocks": [
+        {
+          "title": "Bốn kiểu bẫy thường gặp",
+          "content": "1. **Sai loại thông tin:** hỏi When nhưng đáp án là địa điểm.\n2. **Lặp từ khóa:** đáp án lặp một từ trong câu hỏi nhưng không trả lời đúng ý.\n3. **Phản hồi máy móc:** câu hỏi là lời đề nghị nhưng đáp án chỉ nói một thông tin không liên quan.\n4. **Thông tin nghe có vẻ hợp lý:** đáp án có thể đúng trong đời thực nhưng không trả lời câu hỏi đang được hỏi."
+        },
+        {
+          "title": "Cách xử lý nhanh",
+          "content": "- Nghe từ đầu câu.\n- Xác định loại câu: hỏi thông tin, hỏi Yes/No, đề nghị, nhờ vả hay câu trần thuật.\n- Dự đoán câu trả lời.\n- Loại đáp án sai loại thông tin.\n- Chọn phản hồi đúng ý, không cần lặp lại từ trong câu hỏi."
+        }
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "questionIds": [
+        "CH01-L05-Q01",
+        "CH01-L05-Q02",
+        "CH01-L05-Q03",
+        "CH01-L05-Q04",
+        "CH01-L05-Q05",
+        "CH01-L05-Q06",
+        "CH01-L05-Q07",
+        "CH01-L05-Q08",
+        "CH01-L05-Q09",
+        "CH01-L05-Q10",
+        "CH01-L05-Q11",
+        "CH01-L05-Q12"
+      ],
+      "passRule": {
+        "minCorrect": 10,
+        "total": 12,
+        "percentage": 83.3
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "CH01-L01-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L01",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Khi nào người quản lý gửi báo cáo?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The manager will send the report tomorrow.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l01-q01.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "This afternoon",
+        "B": "Tomorrow",
+        "C": "Next week"
+      },
+      "correctAnswer": "B",
+      "transcript": "The manager will send the report tomorrow.",
+      "translation": "Người quản lý sẽ gửi báo cáo vào ngày mai.",
+      "explanation": "`tomorrow` là mốc thời gian được nói trực tiếp.",
+      "wrongReasons": {
+        "A": "A à chiều nay",
+        "C": "C à tuần sau."
+      },
+      "skillTags": [
+        "time_expression",
+        "keyword_listening"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L01-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L01",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Nên để tài liệu ở đâu?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Please leave the documents at the front desk.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l01-q02.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "At the front desk",
+        "B": "In the meeting room",
+        "C": "On the train"
+      },
+      "correctAnswer": "A",
+      "transcript": "Please leave the documents at the front desk.",
+      "translation": "Vui lòng để tài liệu ở quầy lễ tân.",
+      "explanation": "`at the front desk` là địa điểm.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C à các địa điểm không được nhắc đến."
+      },
+      "skillTags": [
+        "location_expression",
+        "keyword_listening"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L01-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L01",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Vì sao tàu bị trễ?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The train is delayed because of the weather.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l01-q03.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Because of a meeting",
+        "B": "Because of the weather",
+        "C": "Because of a schedule change"
+      },
+      "correctAnswer": "B",
+      "transcript": "The train is delayed because of the weather.",
+      "translation": "Tàu bị trễ do thời tiết.",
+      "explanation": "`because of the weather` nêu nguyên nhân.",
+      "wrongReasons": {
+        "A": "A và",
+        "C": "C à lý do có thể xảy ra trong thực tế nhưng không được nói trong audio."
+      },
+      "skillTags": [
+        "reason_expression",
+        "keyword_listening"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L01-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L01",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Bộ phận kinh doanh đang làm gì?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The sales department is preparing a new schedule.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l01-q04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Preparing a new schedule",
+        "B": "Hiring a new manager",
+        "C": "Moving to another office"
+      },
+      "correctAnswer": "A",
+      "transcript": "The sales department is preparing a new schedule.",
+      "translation": "Phòng kinh doanh đang chuẩn bị một lịch trình mới.",
+      "explanation": "Cụm động từ trọng tâm là `is preparing`; vật được chuẩn bị là `a new schedule`.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C không xuất hiện trong câu."
+      },
+      "skillTags": [
+        "main_action",
+        "keyword_listening"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L02-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L02",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Cô ấy làm việc ở bộ phận nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "She works in the accounting department.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l02-q01.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Accounting",
+        "B": "Marketing",
+        "C": "Reception"
+      },
+      "correctAnswer": "A",
+      "transcript": "She works in the accounting department.",
+      "translation": "",
+      "explanation": "Cụm `accounting department` chỉ bộ phận kế toán.",
+      "wrongReasons": {
+        "B": "B và",
+        "C": "C à những phòng ban khác không được nhắc đến."
+      },
+      "skillTags": [
+        "final_sound_s",
+        "department_vocabulary"
+      ],
+      "skillGroup": "contractions_and_endings",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L02-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L02",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Nhóm hoàn thành dự án khi nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The team finished the project yesterday.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l02-q02.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Today",
+        "B": "Yesterday",
+        "C": "Tomorrow"
+      },
+      "correctAnswer": "B",
+      "transcript": "The team finished the project yesterday.",
+      "translation": "",
+      "explanation": "`yesterday` là ngày hôm qua. `finished` cho biết việc đã hoàn tất.",
+      "wrongReasons": {
+        "A": "A và",
+        "C": "C trái với mốc thời gian trong audio."
+      },
+      "skillTags": [
+        "ed_ending",
+        "time_expression"
+      ],
+      "skillGroup": "contractions_and_endings",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L02-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L02",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Câu này có nghĩa gần nhất là gì?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "We've received your order.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l02-q03.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Chúng tôi đã nhận được đơn hàng của bạn.",
+        "B": "Chúng tôi sẽ hủy đơn hàng của bạn.",
+        "C": "Chúng tôi chưa gửi đơn hàng."
+      },
+      "correctAnswer": "A",
+      "transcript": "We've received your order.",
+      "translation": "",
+      "explanation": "`We've` là dạng rút gọn của `We have`; `received` là đã nhận.",
+      "wrongReasons": {
+        "B": "B nói về hủy đơn",
+        "C": "C nói về chưa gửi, đều không đúng nội dung."
+      },
+      "skillTags": [
+        "contraction_weve",
+        "past_participle"
+      ],
+      "skillGroup": "contractions_and_endings",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L02-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L02",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Có bao nhiêu báo cáo trên bàn?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Two reports are on the manager's desk.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l02-q04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three"
+      },
+      "correctAnswer": "B",
+      "transcript": "Two reports are on the manager's desk.",
+      "translation": "",
+      "explanation": "Nghe từ chỉ số lượng `two`; `reports` là danh từ số nhiều.",
+      "wrongReasons": {
+        "A": "A và",
+        "C": "C không khớp con số trong audio."
+      },
+      "skillTags": [
+        "plural_s",
+        "number_recognition"
+      ],
+      "skillGroup": "contractions_and_endings",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L03-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L03",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Cuộc họp bắt đầu lúc nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The meeting starts at nine fifteen.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l03-q01.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "9:15",
+        "B": "9:50",
+        "C": "9:30"
+      },
+      "correctAnswer": "A",
+      "transcript": "The meeting starts at nine fifteen.",
+      "translation": "",
+      "explanation": "`nine fifteen` = 9:15.",
+      "wrongReasons": {
+        "B": "`nine fifty` = 9:50; `half past nine` = 9:30.",
+        "C": "`nine fifty` = 9:50; `half past nine` = 9:30."
+      },
+      "skillTags": [
+        "time_recognition",
+        "teen_ty_time"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L03-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L03",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Máy in có giá bao nhiêu?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The printer costs fifty dollars.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l03-q02.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "$15",
+        "B": "$50",
+        "C": "$60"
+      },
+      "correctAnswer": "B",
+      "transcript": "The printer costs fifty dollars.",
+      "translation": "",
+      "explanation": "`fifty dollars` = 50 đô la.",
+      "wrongReasons": {
+        "A": "A à fifteen",
+        "C": "C à sixty."
+      },
+      "skillTags": [
+        "teen_ty_numbers",
+        "money"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L03-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L03",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Hàng sẽ đến vào ngày nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The delivery will arrive on Thursday.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l03-q03.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Tuesday",
+        "B": "Thursday",
+        "C": "Saturday"
+      },
+      "correctAnswer": "B",
+      "transcript": "The delivery will arrive on Thursday.",
+      "translation": "",
+      "explanation": "Từ được nói là `Thursday`.",
+      "wrongReasons": {
+        "A": "Tuesday và Saturday là hai ngày khác.",
+        "C": "Tuesday và Saturday là hai ngày khác."
+      },
+      "skillTags": [
+        "days_of_week",
+        "date_recognition"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L03-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L03",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Cần bao nhiêu chiếc ghế?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "We need fourteen chairs for the training room.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l03-q04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "14",
+        "B": "40",
+        "C": "50"
+      },
+      "correctAnswer": "A",
+      "transcript": "We need fourteen chairs for the training room.",
+      "translation": "",
+      "explanation": "`fourteen` = 14; `forty` = 40.",
+      "wrongReasons": {
+        "B": "B nhầm cặp fourteen/forty",
+        "C": "C à fifty."
+      },
+      "skillTags": [
+        "teen_ty_numbers",
+        "quantity"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L03-Q05",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L03",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chuyến tham quan bắt đầu lúc nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The tour begins at a quarter to ten.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l03-q05.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "9:15",
+        "B": "9:30",
+        "C": "9:45"
+      },
+      "correctAnswer": "C",
+      "transcript": "The tour begins at a quarter to ten.",
+      "translation": "",
+      "explanation": "`a quarter to ten` là 15 phút trước 10 giờ, tức 9:45.",
+      "wrongReasons": {
+        "A": "A à a quarter past nine",
+        "B": "B à half past nine."
+      },
+      "skillTags": [
+        "time_expression",
+        "quarter_to"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L04-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L04",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Where should I put these boxes?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l04-q01.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "In the storage room.",
+        "B": "At three o'clock.",
+        "C": "The boxes are new."
+      },
+      "correctAnswer": "A",
+      "transcript": "Where should I put these boxes?",
+      "translation": "",
+      "explanation": "Where hỏi địa điểm.",
+      "wrongReasons": {
+        "B": "B à thời gian",
+        "C": "C mô tả chiếc hộp nhưng không nói nơi đặt."
+      },
+      "skillTags": [
+        "question_word_where",
+        "location_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L04-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L04",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "When does the new employee start?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l04-q02.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "In the accounting department.",
+        "B": "Next Monday.",
+        "C": "Her supervisor is Mr. Lee."
+      },
+      "correctAnswer": "B",
+      "transcript": "When does the new employee start?",
+      "translation": "",
+      "explanation": "When hỏi thời gian.",
+      "wrongReasons": {
+        "A": "A à phòng ban",
+        "C": "C à người quản lý."
+      },
+      "skillTags": [
+        "question_word_when",
+        "time_expression"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L04-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L04",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Why is the manager absent today?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l04-q03.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Because he is visiting a client.",
+        "B": "In the main office.",
+        "C": "At eleven thirty."
+      },
+      "correctAnswer": "A",
+      "transcript": "Why is the manager absent today?",
+      "translation": "",
+      "explanation": "Why hỏi lý do; `because` giới thiệu nguyên nhân.",
+      "wrongReasons": {
+        "B": "B à địa điểm",
+        "C": "C à thời gian."
+      },
+      "skillTags": [
+        "question_word_why",
+        "reason_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L04-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L04",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Who will lead the training session?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l04-q04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "In Conference Room A.",
+        "B": "Ms. Garcia will.",
+        "C": "For two hours."
+      },
+      "correctAnswer": "B",
+      "transcript": "Who will lead the training session?",
+      "translation": "",
+      "explanation": "Who cần người thực hiện.",
+      "wrongReasons": {
+        "A": "A à nơi chốn",
+        "C": "C à thời lượng."
+      },
+      "skillTags": [
+        "question_word_who",
+        "person_response"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L04-Q05",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L04",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Could you print these documents for me?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l04-q05.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Certainly. I'll do that now.",
+        "B": "They're in the cabinet.",
+        "C": "The printer is new."
+      },
+      "correctAnswer": "A",
+      "transcript": "Could you print these documents for me?",
+      "translation": "",
+      "explanation": "Đây là lời nhờ/yêu cầu. A thể hiện đồng ý thực hiện.",
+      "wrongReasons": {
+        "B": "B nói vị trí tài liệu",
+        "C": "C mô tả máy in, không phản hồi yêu cầu."
+      },
+      "skillTags": [
+        "request_response",
+        "polite_response"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "When will the shipment arrive?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q01-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the loading dock.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q01-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It should arrive tomorrow morning.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q01-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The shipment is heavy.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q01-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "At the loading dock.",
+        "B": "It should arrive tomorrow morning.",
+        "C": "The shipment is heavy."
+      },
+      "correctAnswer": "B",
+      "transcript": "When will the shipment arrive? / (A) At the loading dock. / (B) It should arrive tomorrow morning. / (C) The shipment is heavy.",
+      "translation": "",
+      "explanation": "When hỏi thời gian; tomorrow morning là mốc thời gian.",
+      "wrongReasons": {
+        "A": "A à địa điểm",
+        "C": "C mô tả lô hàng, không trả lời lúc nào."
+      },
+      "skillTags": [
+        "question_word_when",
+        "time_expression",
+        "part2"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Where can I find the registration form?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q02-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "On the company website.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q02-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "By Friday afternoon.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q02-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The registration fee is low.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q02-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "On the company website.",
+        "B": "By Friday afternoon.",
+        "C": "The registration fee is low."
+      },
+      "correctAnswer": "A",
+      "transcript": "Where can I find the registration form? / (A) On the company website. / (B) By Friday afternoon. / (C) The registration fee is low.",
+      "translation": "",
+      "explanation": "Where hỏi nơi tìm biểu mẫu.",
+      "wrongReasons": {
+        "B": "B à thời gian",
+        "C": "C nói về phí đăng ký."
+      },
+      "skillTags": [
+        "question_word_where",
+        "location_response",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Has the client confirmed the appointment?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q03-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, she called this morning.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q03-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the downtown branch.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q03-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The appointment book is blue.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q03-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, she called this morning.",
+        "B": "At the downtown branch.",
+        "C": "The appointment book is blue."
+      },
+      "correctAnswer": "A",
+      "transcript": "Has the client confirmed the appointment? / (A) Yes, she called this morning. / (B) At the downtown branch. / (C) The appointment book is blue.",
+      "translation": "",
+      "explanation": "Đây là câu hỏi Yes/No về việc khách đã xác nhận chưa; A trả lời Yes và bổ sung thông tin liên quan.",
+      "wrongReasons": {
+        "B": "B à địa điểm",
+        "C": "C mô tả quyển sổ, không xác nhận lịch hẹn."
+      },
+      "skillTags": [
+        "yes_no_question",
+        "appointment_vocabulary",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Why don't we move the meeting to Friday?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q04-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "That's a good idea.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q04-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "In the conference room.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q04-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At two thirty.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q04-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "That's a good idea.",
+        "B": "In the conference room.",
+        "C": "At two thirty."
+      },
+      "correctAnswer": "A",
+      "transcript": "Why don't we move the meeting to Friday? / (A) That's a good idea. / (B) In the conference room. / (C) At two thirty.",
+      "translation": "",
+      "explanation": "`Why don't we... ?` ở đây là lời đề xuất. A chấp nhận đề xuất.",
+      "wrongReasons": {
+        "B": "B à địa điểm",
+        "C": "C à thời gian, không phản hồi đề xuất."
+      },
+      "skillTags": [
+        "suggestion_response",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q05",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "How long will the repair take?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q05-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "About two hours.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q05-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "On the second floor.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q05-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The repair technician.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q05-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "About two hours.",
+        "B": "On the second floor.",
+        "C": "The repair technician."
+      },
+      "correctAnswer": "A",
+      "transcript": "How long will the repair take? / (A) About two hours. / (B) On the second floor. / (C) The repair technician.",
+      "translation": "",
+      "explanation": "How long hỏi khoảng thời gian.",
+      "wrongReasons": {
+        "B": "B à nơi chốn",
+        "C": "C à người."
+      },
+      "skillTags": [
+        "question_word_how_long",
+        "duration",
+        "part2"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q06",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Could you tell me who is responsible for the schedule?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q06-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Ms. Patel is handling it.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q06-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It starts at nine.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q06-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "In the main lobby.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q06-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Ms. Patel is handling it.",
+        "B": "It starts at nine.",
+        "C": "In the main lobby."
+      },
+      "correctAnswer": "A",
+      "transcript": "Could you tell me who is responsible for the schedule? / (A) Ms. Patel is handling it. / (B) It starts at nine. / (C) In the main lobby.",
+      "translation": "",
+      "explanation": "Câu hỏi gián tiếp vẫn hỏi Who, nên cần người phụ trách.",
+      "wrongReasons": {
+        "B": "B à giờ bắt đầu",
+        "C": "C à địa điểm."
+      },
+      "skillTags": [
+        "indirect_question",
+        "question_word_who",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q07",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Do you know if the cafeteria is open today?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q07-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It closes at three on Sundays.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q07-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The cafeteria is on the first floor.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q07-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, I know the manager.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q07-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "It closes at three on Sundays.",
+        "B": "The cafeteria is on the first floor.",
+        "C": "Yes, I know the manager."
+      },
+      "correctAnswer": "A",
+      "transcript": "Do you know if the cafeteria is open today? / (A) It closes at three on Sundays. / (B) The cafeteria is on the first floor. / (C) Yes, I know the manager.",
+      "translation": "",
+      "explanation": "Đây là câu hỏi gián tiếp về giờ mở cửa. A cung cấp thông tin giờ hoạt động có liên quan.",
+      "wrongReasons": {
+        "B": "B à vị trí",
+        "C": "C hiểu nhầm `"
+      },
+      "skillTags": [
+        "indirect_yes_no",
+        "business_hours",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q08",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Which train goes to the airport?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q08-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The express train on platform four.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q08-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It takes about thirty minutes.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q08-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The airport is very busy.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q08-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The express train on platform four.",
+        "B": "It takes about thirty minutes.",
+        "C": "The airport is very busy."
+      },
+      "correctAnswer": "A",
+      "transcript": "Which train goes to the airport? / (A) The express train on platform four. / (B) It takes about thirty minutes. / (C) The airport is very busy.",
+      "translation": "",
+      "explanation": "Which hỏi lựa chọn cụ thể; A xác định chuyến tàu.",
+      "wrongReasons": {
+        "B": "B à thời lượng",
+        "C": "C không xác định chuyến tàu."
+      },
+      "skillTags": [
+        "which_question",
+        "transport_vocabulary",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q09",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The printer isn't working. Could you take a look at it?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q09-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Of course. I'll check it now.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q09-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The report is on your desk.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q09-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "It was printed yesterday.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q09-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Of course. I'll check it now.",
+        "B": "The report is on your desk.",
+        "C": "It was printed yesterday."
+      },
+      "correctAnswer": "A",
+      "transcript": "The printer isn't working. Could you take a look at it? / (A) Of course. I'll check it now. / (B) The report is on your desk. / (C) It was printed yesterday.",
+      "translation": "",
+      "explanation": "Đây là lời nhờ kiểm tra máy in; A đồng ý thực hiện.",
+      "wrongReasons": {
+        "B": "B nói về báo cáo",
+        "C": "C nói về một lần in trước đó."
+      },
+      "skillTags": [
+        "request_response",
+        "problem_response",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q10",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "How many copies should I prepare?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q10-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The copy machine is broken.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q10-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Please make twenty-five.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q10-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Before the meeting.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q10-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The copy machine is broken.",
+        "B": "Please make twenty-five.",
+        "C": "Before the meeting."
+      },
+      "correctAnswer": "B",
+      "transcript": "How many copies should I prepare? / (A) The copy machine is broken. / (B) Please make twenty-five. / (C) Before the meeting.",
+      "translation": "",
+      "explanation": "How many hỏi số lượng; twenty-five là số lượng bản cần chuẩn bị.",
+      "wrongReasons": {
+        "A": "A nói tình trạng máy photocopy",
+        "C": "C à thời điểm."
+      },
+      "skillTags": [
+        "question_word_how_many",
+        "quantity",
+        "part2"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q11",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Has the new schedule been posted yet?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q11-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, it's on the bulletin board.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q11-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At half past eight.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q11-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The schedule is quite busy.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q11-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, it's on the bulletin board.",
+        "B": "At half past eight.",
+        "C": "The schedule is quite busy."
+      },
+      "correctAnswer": "A",
+      "transcript": "Has the new schedule been posted yet? / (A) Yes, it's on the bulletin board. / (B) At half past eight. / (C) The schedule is quite busy.",
+      "translation": "",
+      "explanation": "Hỏi lịch mới đã được đăng chưa; A trả lời Yes và cho biết vị trí.",
+      "wrongReasons": {
+        "B": "B chỉ có thời gian",
+        "C": "C không trả lời đã đăng hay chưa."
+      },
+      "skillTags": [
+        "yes_no_question",
+        "passive_voice",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-L05-Q12",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-L05",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Would you prefer the morning or afternoon appointment?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q12-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The morning would be better.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q12-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The appointment is with a dentist.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q12-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the reception desk.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-l05-q12-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The morning would be better.",
+        "B": "The appointment is with a dentist.",
+        "C": "At the reception desk."
+      },
+      "correctAnswer": "A",
+      "transcript": "Would you prefer the morning or afternoon appointment? / (A) The morning would be better. / (B) The appointment is with a dentist. / (C) At the reception desk.",
+      "translation": "",
+      "explanation": "Người nói yêu cầu chọn giữa hai thời điểm; A nêu lựa chọn.",
+      "wrongReasons": {
+        "B": "B nói loại cuộc hẹn",
+        "C": "C nói địa điểm."
+      },
+      "skillTags": [
+        "preference_question",
+        "time_choice",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 1,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q01",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Các biểu mẫu đã ký được đặt ở đâu?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The assistant placed the signed forms beside the computer.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q01.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Beside the computer",
+        "B": "In the storage room",
+        "C": "At the front entrance"
+      },
+      "correctAnswer": "A",
+      "transcript": "The assistant placed the signed forms beside the computer.",
+      "translation": "",
+      "explanation": "`beside the computer` là vị trí.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "location_expression",
+        "keyword_listening"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q02",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Kỹ thuật viên đã sửa bao nhiêu thang máy?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The technician repaired both elevators last night.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q02.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three"
+      },
+      "correctAnswer": "B",
+      "transcript": "The technician repaired both elevators last night.",
+      "translation": "",
+      "explanation": "`both` cho biết cả hai.",
+      "wrongReasons": {
+        "A": "Lựa chọn A không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "quantity",
+        "keyword_listening"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q03",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Bộ phận cần thêm bao nhiêu bản?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Our department needs three additional copies.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q03.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Thirteen"
+      },
+      "correctAnswer": "B",
+      "transcript": "Our department needs three additional copies.",
+      "translation": "",
+      "explanation": "`three additional copies`.",
+      "wrongReasons": {
+        "A": "Lựa chọn A không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "number_recognition",
+        "quantity"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q04",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Khách đến khi nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The visitors arrived shortly after noon.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Shortly after noon",
+        "B": "Before sunrise",
+        "C": "Late in the evening"
+      },
+      "correctAnswer": "A",
+      "transcript": "The visitors arrived shortly after noon.",
+      "translation": "",
+      "explanation": "`shortly after noon` là ngay sau buổi trưa.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "time_expression"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q05",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Cửa hàng đóng cửa lúc nào?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The store closes at a quarter past six.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q05.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "6:15",
+        "B": "6:45",
+        "C": "5:45"
+      },
+      "correctAnswer": "A",
+      "transcript": "The store closes at a quarter past six.",
+      "translation": "",
+      "explanation": "`a quarter past six` = 6:15.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "time_recognition"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q06",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Ai đã phê duyệt ngân sách mới?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "The director has approved the new budget.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q06.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The director",
+        "B": "The accountant",
+        "C": "The customer"
+      },
+      "correctAnswer": "A",
+      "transcript": "The director has approved the new budget.",
+      "translation": "",
+      "explanation": "`the director` là chủ thể.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "main_subject",
+        "keyword_listening"
+      ],
+      "skillGroup": "part1_photographs",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q07",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Ý nào đúng?",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "We haven't received the updated invoice.",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q07.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Họ đã nhận hóa đơn cập nhật.",
+        "B": "Họ chưa nhận hóa đơn cập nhật.",
+        "C": "Họ đã thanh toán hóa đơn."
+      },
+      "correctAnswer": "B",
+      "transcript": "We haven't received the updated invoice.",
+      "translation": "",
+      "explanation": "`haven't received` là chưa nhận được.",
+      "wrongReasons": {
+        "A": "Lựa chọn A không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "contraction",
+        "negative_meaning"
+      ],
+      "skillGroup": "contractions_and_endings",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q08",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chọn đáp án đúng nhất:",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q08.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Mr. Adams from the maintenance team.",
+        "B": "In the west building.",
+        "C": "At the end of the month."
+      },
+      "correctAnswer": "A",
+      "transcript": "",
+      "translation": "",
+      "explanation": "Who hỏi người.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "question_word_who",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q09",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chọn đáp án đúng nhất:",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q09.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "By the end of the week.",
+        "B": "To the human resources office.",
+        "C": "About twenty applications."
+      },
+      "correctAnswer": "B",
+      "transcript": "",
+      "translation": "",
+      "explanation": "Where hỏi nơi gửi.",
+      "wrongReasons": {
+        "A": "Lựa chọn A không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "question_word_where",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q10",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chọn đáp án đúng nhất:",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q10.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Because of heavy rain.",
+        "B": "At the city park.",
+        "C": "On Saturday morning."
+      },
+      "correctAnswer": "A",
+      "transcript": "",
+      "translation": "",
+      "explanation": "Why hỏi lý do.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "question_word_why",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q11",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chọn đáp án đúng nhất:",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q11.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Certainly. What time would you like?",
+        "B": "The table is made of wood.",
+        "C": "Six people work in that office."
+      },
+      "correctAnswer": "A",
+      "transcript": "",
+      "translation": "",
+      "explanation": "Đây là yêu cầu đặt bàn; A đồng ý và hỏi tiếp thông tin cần thiết.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "request_response",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q12",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 0,
+      "taskType": "foundation_listening",
+      "prompt": "Chọn đáp án đúng nhất:",
+      "optionsVisibleBeforeAnswer": true,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q12.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Every twenty minutes.",
+        "B": "At the north entrance.",
+        "C": "The bus is blue."
+      },
+      "correctAnswer": "A",
+      "transcript": "",
+      "translation": "",
+      "explanation": "How often hỏi tần suất.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "frequency_question",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q13",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Do you know whether the library is open on Saturdays?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q13-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "Yes, until noon.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q13-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The library is across the street.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q13-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "I borrowed two books.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q13-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "Yes, until noon.",
+        "B": "The library is across the street.",
+        "C": "I borrowed two books."
+      },
+      "correctAnswer": "A",
+      "transcript": "Do you know whether the library is open on Saturdays? / (A) Yes, until noon. / (B) The library is across the street. / (C) I borrowed two books.",
+      "translation": "",
+      "explanation": "Câu hỏi gián tiếp về giờ mở cửa; A trả lời phù hợp.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "indirect_yes_no",
+        "business_hours",
+        "part2"
+      ],
+      "skillGroup": "part2_responses",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q14",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "Which entrance should the delivery driver use?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q14-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The entrance near the parking lot.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q14-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At approximately ten.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q14-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "The driver has a package.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q14-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "The entrance near the parking lot.",
+        "B": "At approximately ten.",
+        "C": "The driver has a package."
+      },
+      "correctAnswer": "A",
+      "transcript": "Which entrance should the delivery driver use? / (A) The entrance near the parking lot. / (B) At approximately ten. / (C) The driver has a package.",
+      "translation": "",
+      "explanation": "Which yêu cầu lựa chọn cụ thể.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "which_question",
+        "location_response",
+        "part2"
+      ],
+      "skillGroup": "question_words_and_types",
+      "difficulty": 2,
+      "revision": 1
+    },
+    {
+      "id": "CH01-FINAL-Q15",
+      "groupId": null,
+      "chapterId": "CH01",
+      "lessonId": "CH01-FINAL",
+      "part": 2,
+      "taskType": "question_response",
+      "prompt": "Nghe câu hỏi và chọn phản hồi phù hợp.",
+      "optionsVisibleBeforeAnswer": false,
+      "image": null,
+      "audioSegments": [
+        {
+          "text": "How much does the annual membership cost?",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q15-01.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "One hundred twenty dollars.",
+          "choiceId": "A",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q15-02.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "For twelve months.",
+          "choiceId": "B",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q15-03.mp3",
+          "pauseAfterMs": 500
+        },
+        {
+          "text": "At the front counter.",
+          "choiceId": "C",
+          "voice": "us-female-01",
+          "file": "audio/chapter-01/ch01-final-q15-04.mp3",
+          "pauseAfterMs": 0
+        }
+      ],
+      "options": {
+        "A": "One hundred twenty dollars.",
+        "B": "For twelve months.",
+        "C": "At the front counter."
+      },
+      "correctAnswer": "A",
+      "transcript": "How much does the annual membership cost? / (A) One hundred twenty dollars. / (B) For twelve months. / (C) At the front counter.",
+      "translation": "",
+      "explanation": "How much hỏi giá tiền.",
+      "wrongReasons": {
+        "B": "Lựa chọn B không phù hợp với thông tin trong đoạn audio.",
+        "C": "Lựa chọn C không phù hợp với thông tin trong đoạn audio."
+      },
+      "skillTags": [
+        "money",
+        "question_word_how_much",
+        "part2"
+      ],
+      "skillGroup": "numbers_and_time",
+      "difficulty": 2,
+      "revision": 1
+    }
+  ],
+  "finalTest": {
+    "id": "CH01-FINAL",
+    "title": "Kiểm tra cuối chương 1",
+    "questionIds": [
+      "CH01-FINAL-Q01",
+      "CH01-FINAL-Q02",
+      "CH01-FINAL-Q03",
+      "CH01-FINAL-Q04",
+      "CH01-FINAL-Q05",
+      "CH01-FINAL-Q06",
+      "CH01-FINAL-Q07",
+      "CH01-FINAL-Q08",
+      "CH01-FINAL-Q09",
+      "CH01-FINAL-Q10",
+      "CH01-FINAL-Q11",
+      "CH01-FINAL-Q12",
+      "CH01-FINAL-Q13",
+      "CH01-FINAL-Q14",
+      "CH01-FINAL-Q15"
+    ],
+    "passRule": {
+      "minCorrect": 12,
+      "total": 15,
+      "percentage": 80
+    }
+  }
+}

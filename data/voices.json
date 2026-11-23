@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "engine": "piper-tts",
+  "language": "en-US",
+  "profiles": [
+    {
+      "id": "us-female-01",
+      "gender": "female",
+      "accent": "en-US",
+      "name": "en_US-lessac-medium",
+      "engineVoiceId": "en_US-lessac-medium",
+      "license": "BSD-3-Clause",
+      "credit": "Trained on Lessac corpus, BSD-3-Clause license",
+      "redistributionAllowed": true,
+      "approved": true
+    },
+    {
+      "id": "us-male-01",
+      "gender": "male",
+      "accent": "en-US",
+      "name": "en_US-ryan-medium",
+      "engineVoiceId": "en_US-ryan-medium",
+      "license": "Public Domain / CC0",
+      "credit": "Trained on Ryan voice corpus, Public Domain",
+      "redistributionAllowed": true,
+      "approved": true
+    }
+  ]
+}

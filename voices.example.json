@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "engine": "loudness-tts",
+  "language": "en-US",
+  "profiles": [
+    {
+      "id": "us-female-01",
+      "gender": "female",
+      "accent": "en-US",
+      "engineVoiceId": null,
+      "license": null,
+      "credit": null,
+      "approved": false
+    },
+    {
+      "id": "us-male-01",
+      "gender": "male",
+      "accent": "en-US",
+      "engineVoiceId": null,
+      "license": null,
+      "credit": null,
+      "approved": false
+    }
+  ],
+  "notes": "Run scripts/voice_audition.py, listen to samples, then fill real engineVoiceId/license/credit and set approved=true only after manual approval."
+}

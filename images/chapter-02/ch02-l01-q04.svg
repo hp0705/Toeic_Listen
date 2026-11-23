@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect y="310" width="600" height="90" fill="#e2e8f0"/>
+  <!-- Conference Table -->
+  <ellipse cx="300" cy="270" rx="220" ry="45" fill="#64748b"/>
+  <ellipse cx="300" cy="265" rx="215" ry="40" fill="#94a3b8"/>
+  <!-- Table items -->
+  <rect x="230" y="245" width="30" height="22" rx="2" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="340" y="245" width="30" height="22" rx="2" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="290" y="235" width="8" height="20" rx="3" fill="#38bdf8"/>
+  <!-- Person 1 (Speaker on left) -->
+  <ellipse cx="170" cy="220" rx="25" ry="35" fill="#2563eb"/>
+  <circle cx="170" cy="155" r="22" fill="#fed7aa"/>
+  <path d="M 180 185 Q 210 190 220 210" stroke="#fed7aa" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Person 2 (Center listening) -->
+  <ellipse cx="300" cy="190" rx="25" ry="35" fill="#059669"/>
+  <circle cx="300" cy="130" r="22" fill="#fed7aa"/>
+  <!-- Person 3 (Right listening) -->
+  <ellipse cx="430" cy="220" rx="25" ry="35" fill="#475569"/>
+  <circle cx="430" cy="155" r="22" fill="#fed7aa"/>
+  <rect x="20" y="340" width="560" height="45" rx="6" fill="#0f172a" opacity="0.9"/>
+  <text x="300" y="367" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">CH02-L01-Q04: Three people around conference table in meeting</text>
+</svg>
